@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><site>
+        <description url="http://test">
+                This site contains the packages for Novell Identity Manager
+        </description>        
+<feature id="NOVLCOMSETa.feature" url="features/NOVLCOMSETa.feature_0.0.1.20190305142129.jar" version="0.0.1.20190305142129"/>
+</site>
