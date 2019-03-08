@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet extension-element-prefixes="nxsl" version="1.0" xmlns:nxsl="http://www.novell.com/nxsl" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:variable name="association-field-name" select="'~driver.association.attribute~'"/>
+	<xsl:template match="/">
+		<xsl:choose>
+			<!-- if document element is delimited-text, then we need to do the transformation -->
+			<xsl:when test="delimited-text">
+				<nds dtdversion="1.1" ndsversion="8.6" xml:space="default">
+					<input>
+						<!-- for each record, do an add -->
+						<xsl:for-each select="delimited-text/record">
+							<!-- see NDSDTD doc on web for Add verb syntax & details -->
+							<xsl:variable name="srcdn" select="translate(field[@name=$association-field-name],'+=,.\','-----')"/>
+							<!-- generate the add event -->
+							<add class-name="User" src-dn="{$srcdn}">
+								<!-- generate the association -->
+								<association>
+									<xsl:value-of select="field[@name=$association-field-name]"/>
+								</association>
+								<!-- handle each field -->
+								<xsl:for-each select="field[string()]">
+									<xsl:variable name="attrName" select="@name"/>
+									<!-- do not translate fields without a 'name' attribute -->
+									<xsl:if test="string-length($attrName)>0">
+										<xsl:variable name="fieldValue" select="normalize-space(.)"/>
+										<!-- only add field value if longer than 1 character -->
+										<xsl:if test="string-length($fieldValue)>0 and @name != ''">
+											<!-- generate the add-attr -->
+											<add-attr attr-name="{@name}">
+												<!-- generate the value element using string syntax -->
+												<!-- note that attributes that require a structured or octet syntax -->
+												<!-- may require special handling here -->
+												<value type="string">
+													<xsl:value-of select="$fieldValue"/>
+												</value>
+											</add-attr>
+										</xsl:if>
+									</xsl:if>
+								</xsl:for-each>
+							</add>
+						</xsl:for-each>
+					</input>
+				</nds>
+			</xsl:when>
+			<xsl:otherwise>
+				<!-- if the document element is not <delimited-text> copy as is-->
+				<xsl:copy-of select="."/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+</xsl:stylesheet>

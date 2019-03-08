@@ -18,6 +18,7 @@
   <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:FiguredApp" value="true"/>
   <relations name="Idm:Application" type="BackReference" key="#BM0VZVPO.Application_"/>
   <relations name="Idm:Filter" type="Child" key="#MMQIBPBC.Filter_"/>
+  <relations name="Idm:Policies" type="Child" key="#OYVWH2PZ.ScriptPolicy_"/>
   <relations name="Idm:Publisher" type="Child" key="#WDXMM80V.Publisher_"/>
   <relations name="Idm:Schema" type="Child" key="#74VK092F.SchemaDef_"/>
   <relations name="Idm:Subscriber" type="Child" key="#N6JTWR6M.Subscriber_"/>

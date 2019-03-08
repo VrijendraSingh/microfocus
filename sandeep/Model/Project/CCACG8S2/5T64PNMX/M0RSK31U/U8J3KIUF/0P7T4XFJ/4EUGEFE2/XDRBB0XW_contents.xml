@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLDT1.idmresource.NOVLDT1InitSettingsPrompts.gcv.header.InputandOutputFileLocations)Input and Output File Locations"/>
+		<definition display-name="xlfid(NOVLDT1.idmresource.NOVLDT1InitSettingsPrompts.gcv.input-dir)Input File Path:" name="input-dir" type="string">
+			<value>/var/novell/idm/users/input</value>
+			<description>xlfid(NOVLDT1.idmresource.NOVLDT1InitSettingsPrompts.gcv.dscr.input-dir)Specify the path for the input file.</description>
+		</definition>
+		<definition display-name="xlfid(NOVLDT1.idmresource.NOVLDT1InitSettingsPrompts.gcv.output-dir)Output File Path:" name="output-dir" type="string">
+			<value>/var/novell/idm/users/output</value>
+			<description>xlfid(NOVLDT1.idmresource.NOVLDT1InitSettingsPrompts.gcv.dscr.output-dir)Specify the path for the output file.</description>
+		</definition>
+		<definition display-name="xlfid(NOVLDT1.idmresource.NOVLDT1InitSettingsPrompts.gcv.shim-auth-server)Authentication Context" hide="true" name="shim-auth-server" type="string">
+			<value/>
+			<description/>
+		</definition>
+	</definitions>
+</configuration-values>

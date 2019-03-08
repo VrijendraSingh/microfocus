@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><attr-name-map>
+	<class-name>
+		<nds-name>User</nds-name>
+		<app-name>User</app-name>
+	</class-name>
+	<attr-name class-name="User">
+		<nds-name>Description</nds-name>
+		<app-name>Description</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>Facsimile Telephone Number</nds-name>
+		<app-name>Fax</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>Given Name</nds-name>
+		<app-name>FirstName</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>Internet EMail Address</nds-name>
+		<app-name>Email</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>mobile</nds-name>
+		<app-name>WirelessPhone</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>Surname</nds-name>
+		<app-name>LastName</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>Telephone Number</nds-name>
+		<app-name>WorkPhone</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>Title</nds-name>
+		<app-name>Title</app-name>
+	</attr-name>
+	<attr-name class-name="User">
+		<nds-name>workforceID</nds-name>
+		<app-name>WorkforceID</app-name>
+	</attr-name>
+</attr-name-map>

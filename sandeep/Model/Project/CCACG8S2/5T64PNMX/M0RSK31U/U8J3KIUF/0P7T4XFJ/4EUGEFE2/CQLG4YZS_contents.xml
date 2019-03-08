@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<definition display-name="xlfid(NOVLDT1.idmresource.NOVLDT1DriverNamePrompt.gcv.name)Driver Name" driver-name="true" mandatory="true" name="name" type="string">
+			<description>xlfid(NOVLDT1.idmresource.NOVLDT1DriverNamePrompt.gcv.dscr.name)Enter the driver name.</description>
+			<value>Delimited Text Driver</value>
+		</definition>
+	</definitions>
+</configuration-values>
