@@ -5,4 +5,5 @@
   <relations name="Idm:DomainItems" type="Child" key="#GVS856OB.Application_"/>
   <relations name="Idm:DomainItems" type="Child" key="#74BL28BW.Application_"/>
   <relations name="Idm:DomainItems" type="Child" key="#DLKSIAUX.Application_"/>
+  <relations name="Idm:DomainItems" type="Child" key="#BM0VZVPO.Application_"/>
 </com.novell.designer.model:CObject>

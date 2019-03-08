@@ -14,6 +14,7 @@
   <relations name="Idm:Drivers" type="Child" key="#656HFQT7.Driver_"/>
   <relations name="Idm:Drivers" type="Child" key="#87NW8P9M.Driver_"/>
   <relations name="Idm:Drivers" type="Child" key="#KB5A18IA.Driver_"/>
+  <relations name="Idm:Drivers" type="Child" key="#X2MQ6HOL.Driver_"/>
   <relations name="Idm:GlobalConfigs" type="Child" key="#SSHR5QGJ.GlobalConfig_"/>
   <relations name="Idm:IdentityVaults" type="BackReference" key="#XZ6ON3YK.IdentityVault_"/>
   <relations name="Idm:InstalledPackages" type="Reference" key="#W2AJDRPB.IdmPackage_"/>
