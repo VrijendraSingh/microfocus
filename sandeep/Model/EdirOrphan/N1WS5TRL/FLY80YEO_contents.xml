@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Last name of submitter" item-name="submitterLastName"/>
+		<form:token-description description="First name of submitter" item-name="submitterFirstName"/>
+		<form:token-description description="Last name of a delegatee" item-name="userLastName"/>
+		<form:token-description description="First name of a delegatee" item-name="userFirstName"/>
+		<form:token-description description="List of users defined as delegators" item-name="fromUsers"/>
+		<form:token-description description="List of groups defined as delegators" item-name="fromGroups"/>
+		<form:token-description description="List of containers defined as delegators" item-name="fromContainers"/>
+		<form:token-description description="Assignment expiration time" item-name="expirationTime"/>
+		<form:token-description description="List of provisioning definition resources this assignment applies to" item-name="resources"/>
+		<form:token-description description="The protocol to the provisioning user application.  Typically 'http'." item-name="PROTOCOL"/>
+		<form:token-description description="The secure protocol to the provisioning user application.  Typically 'https'." item-name="SECURE_PROTOCOL"/>
+		<form:token-description description="The host name of the provisioning user application." item-name="HOST"/>
+		<form:token-description description="The port to the provisioning user application." item-name="PORT"/>
+		<form:token-description description="The secure port to the provisioning user application." item-name="SECURE_PORT"/>
+		<form:token-description description="The context/path of the URL to the provisioning user application to get a list of availability assignments." item-name="ASSIGNMENT_LIST_CONTEXT"/>
+	</form:token-descriptions>
+您好：授权用户充当一个或多个用户、组或容器代理的代理指派的$operation$者是：$submitterFirstName$ $submitterLastName$。与委托指派不同，代理指派与资源请求无关，因此适用于所有工作和设置操作。选择为代理的用户是：$userFirstName$  $userLastName$ 指派的代理授权处理这些用户、组和容器的所有工作：用户：$fromUsers$组：$fromGroups$容器：$fromContainers$此代理指派失效时间为：$expirationTime$可以在 $PROTOCOL$://$HOST$:$PORT$/$PROXY_CONTEXT$ 下查看代理指派列表。  
+</form:text>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="4ogTmvQEpUu6jeKIE5r0BA==" type="Idm:deploydata">
+  <attributes xsi:type="com.novell.designer.model:CStructure" attrName="DeletedChildMap">
+    <attributes xsi:type="com.novell.designer.model:CStructure" attrName="SKYA20E4">
+      <attributes xsi:type="com.novell.designer.model:CString" attrName="DeployedURI" value="cn=User Application Driver,cn=driverset1,o=system"/>
+      <attributes xsi:type="com.novell.designer.model:CString" attrName="DeployedGuid" value="CpeW4tHSEU66MAqXluLR0g=="/>
+    </attributes>
+    <attributes xsi:type="com.novell.designer.model:CStructure" attrName="045QK5ZK">
+      <attributes xsi:type="com.novell.designer.model:CString" attrName="DeployedURI" value="cn=User Application Driver,cn=driverset1,o=system"/>
+      <attributes xsi:type="com.novell.designer.model:CString" attrName="DeployedGuid" value="CpeW4tHSEU66MAqXluLR0g=="/>
+    </attributes>
+  </attributes>
+</com.novell.designer.model:CObject>

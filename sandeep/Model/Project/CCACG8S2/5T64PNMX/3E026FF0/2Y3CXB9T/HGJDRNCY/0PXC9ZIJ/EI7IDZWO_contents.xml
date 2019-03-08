@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEDriverNamePrompt.gcv.header.DriverInformation)Driver Information" driver-name="true"/>
+		<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEDriverNamePrompt.gcv.name)Driver Name" driver-name="true" mandatory="true" name="name" type="string">
+			<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEDriverNamePrompt.gcv.dscr.name)Enter the driver name.</description>
+			<value>LDAP Driver</value>
+		</definition>
+	</definitions>
+</configuration-values>

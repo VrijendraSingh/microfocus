@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<definition display-name="Entitlement Result Purge Type" name="dirxml.engine.entitl-rs-purge-type" type="enum">
+			<description>The Config value used to take actions on purging entitlement results in an object.</description>
+			<enum-choice display-name="current">current</enum-choice>
+			<enum-choice display-name="none">none</enum-choice>
+			<enum-choice display-name="previous">previous</enum-choice>
+			<enum-choice display-name="notnewer">notnewer</enum-choice>
+			<value>current</value>
+		</definition>
+		<definition display-name="Allow Named Password to be retrieved over LDAP" name="allow-fetch-named-passwords" type="boolean">
+			<value>false</value>
+			<description>Allow Named Password to be retrieved over LDAP. If the
+value is true, then the named password value can be fetched.</description>
+		</definition>
+	</definitions>
+</configuration-values>

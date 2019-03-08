@@ -1,0 +1,165 @@
+<list-items protected="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <display
+        xml:lang="fr">
+    <label>Catégorie de rôles</label>
+  </display>
+  <display
+        xml:lang="es">
+    <label>Categoría de funciones</label>
+  </display>
+  <display
+        xml:lang="nl">
+    <label>Categorie Rollen</label>
+  </display>
+  <display
+        xml:lang="en">
+    <label>Roles Category</label>
+  </display>
+  <display
+        xml:lang="sv">
+    <label>Rollkategori</label>
+  </display>
+  <display
+        xml:lang="de">
+    <label>Rollenkategorie</label>
+  </display>
+  <display
+        xml:lang="ja">
+    <label>役割のカテゴリ</label>
+  </display>
+  <display
+        xml:lang="zh-CN">
+    <label>角色类别</label>
+  </display>
+  <display
+        xml:lang="ru">
+    <label>Категории ролей</label>
+  </display>
+  <display
+        xml:lang="it">
+    <label>Categoria ruoli</label>
+  </display>
+  <display
+        xml:lang="pt">
+    <label>Categoria de Funções</label>
+  </display>
+  <display
+        xml:lang="da">
+    <label>Rollekategori</label>
+  </display>
+  <display
+            xml:lang="zh-TW">
+    <label>角色類別</label>
+  </display>
+  <list-item>
+    <key>default</key>
+    <display
+            xml:lang="fr">
+      <label>Par défaut</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Por defecto</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Standaardwaarde</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>Default</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Standard</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Standard</label>
+    </display>
+    <display
+            xml:lang="ja">
+      <label>デフォルト</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>默认值</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>По умолчанию</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Default</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Padrão</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Standard</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>預設值</label>
+    </display>
+  </list-item>
+  <list-item>
+    <key>system</key>
+    <display
+            xml:lang="fr">
+      <label>Rôles système</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Funciones del sistema</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Systeemrollen</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>System Roles</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Systemroller</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Systemrollen</label>
+    </display>
+    <display
+            xml:lang="ja">
+      <label>システム役割</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>系统角色</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Системные роли</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Ruoli sistema</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Funções do Sistema</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Systemroller</label>
+    </display>
+    <display xml:lang="zh-TW">
+      <label>系統角色</label>
+    </display>
+  </list-item>
+</list-items>

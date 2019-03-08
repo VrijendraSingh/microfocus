@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Resource Provisioning" filename="ResourceProvisioning.prd"
+    hasContainment="false" modstamp="0" protected="true" readonly="true"
+    type="srvprvRequest"
+        visible="true">
+    <guid>52TVV5UH</guid>
+    <display
+        xml:lang="de">Workflow für Bereitstellung der Ressource/Aufheben der Bereitstellung</display>
+    <display
+        xml:lang="ru">Рабочий процесс обеспечения или отзыва доступа к ресурсам</display>
+    <display
+        xml:lang="sv">Arbetsflöde för aktivering/inaktivering av resurs</display>
+    <display
+        xml:lang="pt">Workflow de Aprovisionamento/Desaprovisionamento de Recurso</display>
+    <display
+        xml:lang="zh-TW">資源佈建/取消佈建工作流程</display>
+    <display
+        xml:lang="en">Resource Provisioning/Deprovisioning workflow</display>
+    <display
+        xml:lang="it">Workflow provisioning/deprovisioning delle risorse</display>
+    <display
+        xml:lang="fr">Workflow de provisioning/déprovisioning de la ressource</display>
+    <display
+        xml:lang="zh-CN">资源供应/取回工作流程</display>
+    <display
+        xml:lang="es">Flujo de trabajo de provisión o desaprovisionamiento de recursos</display>
+    <display
+        xml:lang="ja">リソースプロビジョニングまたはリソースプロビジョニング解除のワークフロー</display>
+    <display
+        xml:lang="da">Workflow til klargøring/fjernelse af klargøring af ressource</display>
+    <display
+        xml:lang="nl">Resource van provisioning/werkstroom van deprovisioning</display>
+    <descr
+        xml:lang="de">Workflow für Bereitstellung der Ressource/Aufheben der Bereitstellung</descr>
+    <descr
+        xml:lang="ru">Рабочий процесс обеспечения или отзыва доступа к ресурсам</descr>
+    <descr
+        xml:lang="sv">Arbetsflöde för aktivering/inaktivering av resurs</descr>
+    <descr
+        xml:lang="pt">Workflow de Aprovisionamento/Desaprovisionamento de Recurso</descr>
+    <descr
+        xml:lang="zh-TW">資源佈建/取消佈建工作流程</descr>
+    <descr
+        xml:lang="en">Resource Provisioning/Deprovisioning workflow</descr>
+    <descr
+        xml:lang="it">Workflow provisioning/deprovisioning delle risorse</descr>
+    <descr
+        xml:lang="fr">Workflow de provisioning/déprovisioning de la ressource</descr>
+    <descr
+        xml:lang="zh-CN">资源供应/取回工作流程</descr>
+    <descr
+        xml:lang="es">Flujo de trabajo de provisión o desaprovisionamiento de recursos</descr>
+    <descr
+        xml:lang="ja">リソースプロビジョニングまたはリソースプロビジョニング解除のワークフロー</descr>
+    <descr
+        xml:lang="da">Workflow til klargøring/fjernelse af klargøring af ressource</descr>
+    <descr xml:lang="nl">Resource van provisioning/werkstroom van deprovisioning</descr>
+    <dirguid>1E6EB2B47BE08C469AD51E6EB2B47BE0</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>nrf</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>3P1J48HO_201407241736560465</pkg-assoc-id>
+    <pkg-checksum>1072884798</pkg-checksum></item>

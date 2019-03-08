@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=WorkflowForms" protected="false" readonly="false"
+    type="srvprvJSONForms"
+        visible="true">
+    <guid>3FZG4D3E</guid>
+    <display xml:lang="en">WorkflowForms</display>
+    <modstamp>0</modstamp></container>

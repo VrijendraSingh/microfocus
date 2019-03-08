@@ -1,0 +1,330 @@
+<list-items protected="true" system="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <display
+        xml:lang="ja">
+    <label>電子メール通知タイプ</label>
+  </display>
+  <display
+        xml:lang="sv">
+    <label>Typer av meddelande via e-post</label>
+  </display>
+  <display
+        xml:lang="pt">
+    <label>Tipos de notificação por e-mail</label>
+  </display>
+  <display
+        xml:lang="zh-TW">
+    <label>電子郵件通知類型</label>
+  </display>
+  <display
+        xml:lang="nl">
+    <label>Typen e-mailmeldingen</label>
+  </display>
+  <display
+        xml:lang="de">
+    <label>Email-Benachrichtigungstypen</label>
+  </display>
+  <display
+        xml:lang="it">
+    <label>Tipi di notifica e-mail</label>
+  </display>
+  <display
+        xml:lang="da">
+    <label>Typer af e-mail-notifikationer</label>
+  </display>
+  <display
+        xml:lang="es">
+    <label>Tipos de notificación por correo electrónico</label>
+  </display>
+  <display
+        xml:lang="ru">
+    <label>Типы оповещений по электронной почте</label>
+  </display>
+  <display
+        xml:lang="fr">
+    <label>Types de notification par message électronique</label>
+  </display>
+  <display
+        xml:lang="en">
+    <label>Email notification types</label>
+  </display>
+  <display
+            xml:lang="zh-CN">
+    <label>电子邮件通知类型</label>
+  </display>
+  <list-item>
+    <key>newtask</key>
+    <display
+            xml:lang="ja">
+      <label>新規タスク</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Nya aktiviteter</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Novas Tarefas</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>新任務</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Nieuwe taken</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Neue Aufgaben</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Nuovi compiti</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Nye opgaver</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Nuevas tareas</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Новые задачи</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Nouvelles tâches</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>New Tasks</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>新任务</label>
+    </display>
+  </list-item>
+  <list-item>
+    <key>newreq</key>
+    <display
+            xml:lang="ja">
+      <label>新規要求</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Ny beställning</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Nova Solicitação</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>新申請</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Nieuwe aanvraag</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Neue Anforderung</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Nuova richiesta</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Ny anmodning</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Nueva petición</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Новый запрос</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Nouvelle requête</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>New Request</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>新请求</label>
+    </display>
+  </list-item>
+  <list-item>
+    <key>reqcomp</key>
+    <display
+            xml:lang="ja">
+      <label>要求が完了しました</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Beställning har slutförts</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Solicitação Concluída</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>申請完成</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Aanvraag voltooid</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Anforderung abgeschlossen</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Richiesta completata</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Anmodning gennemført</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Petición completa</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Выполнение запроса</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Requête terminée</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>Request Complete</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>请求完成</label>
+    </display>
+  </list-item>
+  <list-item>
+    <key>delassign</key>
+    <display
+            xml:lang="ja">
+      <label>委任割り当て</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Delegeringstilldelning</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Configuração de delegação</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>委託指定</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Delegatietoewijzing</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Delegierungszuordnung</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Assegnazione delega</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Delegeringstildeling</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Asignación de delegación</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Назначение делегирования</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Assignation de délégation</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>Delegation assignment</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>委托指派</label>
+    </display>
+  </list-item>
+  <list-item>
+    <key>proxy</key>
+    <display
+            xml:lang="ja">
+      <label>代理人</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Fullmakt</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Proxy</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>代理</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Gemachtigde</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Vertretung</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Utente incaricato</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Fuldmægtig</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Apoderado (proxy)</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Доверенные лица</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Mandataire</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>Proxy</label>
+    </display>
+    <display xml:lang="zh-CN">
+      <label>代理</label>
+    </display>
+  </list-item>
+</list-items>

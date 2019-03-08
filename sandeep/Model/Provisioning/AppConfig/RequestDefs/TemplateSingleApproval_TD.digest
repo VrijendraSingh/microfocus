@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=TemplateSingleApproval_TD"
+    filename="TemplateSingleApproval_TD.prd" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>923KGP59</guid>
+    <display
+        xml:lang="en">TemplateSingleApproval_TD</display>
+    <descr
+        xml:lang="de">Genehmigung in einem Schritt (Ablehnung bei Zeitüberschreitung)</descr>
+    <descr
+        xml:lang="sv">Godkännande i ett steg (avslås vid timeout)</descr>
+    <descr
+        xml:lang="ru">Одноэтапное подтверждение (истечение срока означает запрещение)</descr>
+    <descr
+        xml:lang="pt">Aprovação de Etapa Única (Tempo de Espera Recusa)</descr>
+    <descr
+        xml:lang="zh-TW">一段式核准 (逾時拒絕)</descr>
+    <descr
+        xml:lang="en">One Step Approval (Timeout Denies)</descr>
+    <descr
+        xml:lang="it">Approvazione in un passaggio (rifiuto in caso di timeout)</descr>
+    <descr
+        xml:lang="fr">Approbation en une étape (timeout refusé)</descr>
+    <descr
+        xml:lang="zh-CN">一步批准（超时拒绝）</descr>
+    <descr
+        xml:lang="es">Aprobación en un paso (denegación al alcanzar el tiempo límite)</descr>
+    <descr
+        xml:lang="ja">1ステップ承認(タイムアウト時に否認)</descr>
+    <descr
+        xml:lang="da">Godkendelse i ét trin (afvisning ved timeout)</descr>
+    <descr xml:lang="nl">Goedkeuring in één stap (afgewezen na time-out)</descr>
+    <dirguid>4BDDD4E93B899E4F9A214BDDD4E93B89</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>entitlements</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>N2F3FB6L_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1629732827</pkg-checksum></item>

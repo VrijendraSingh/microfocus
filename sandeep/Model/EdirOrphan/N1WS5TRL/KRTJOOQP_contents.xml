@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Days before password expires." item-name="Days"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>Ablauf des Passworts</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Sehr geehrte(r) $UserFullName$,</p>
+		<p>Ihr Passwort läuft in $Days$ Tagen ab.</p>
+		<p>Falls Sie Hilfe benötigen, wenden Sie sich telefonisch an den Helpdesk unter (012) 345-6789 oder per Email unter
+     <a href="mailto:help.desk@meineFirma.com">help.desk@meineFirma.com</a>
+		</p>
+		<p> - Automatisierte Sicherheit</p>
+		<p>
+			<img ALT="Powered by NetIQ" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

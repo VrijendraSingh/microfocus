@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=provManager" filename="provManager.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>7MEG7QUK</guid>
+    <display
+        xml:lang="de">Bereitstellungsmanager</display>
+    <display
+        xml:lang="sv">Logistikhanterare</display>
+    <display
+        xml:lang="ru">Менеджер обеспечения правами доступа</display>
+    <display
+        xml:lang="pt">Gerenciador de Aprovisionamento</display>
+    <display
+        xml:lang="zh-TW">佈建主管</display>
+    <display
+        xml:lang="en">Provisioning Manager</display>
+    <display
+        xml:lang="it">Manager di provisioning</display>
+    <display
+        xml:lang="fr">Gestionnaire du provisioning</display>
+    <display
+        xml:lang="zh-CN">供应管理者</display>
+    <display
+        xml:lang="es">Supervisor de provisión</display>
+    <display
+        xml:lang="ja">プロビジョニングマネージャ</display>
+    <display
+        xml:lang="da">Klargøringsstyring</display>
+    <display
+        xml:lang="nl">Provisioning manager</display>
+    <descr
+        xml:lang="de">Ein beauftragter Administrator, der nur zugelassene Aktionen für eine Teilmenge der Objekte innerhalb der Bereitstellungsdomäne durchführen kann.</descr>
+    <descr
+        xml:lang="sv">En delegerad administratör som bara kan utföra tillåtna åtgärder för en deluppsättning av objekt i logistikdomänen.</descr>
+    <descr
+        xml:lang="ru">Делегированный администратор, который может выполнять только разрешенные действия для подмножества объектов в рамках домена обеспечения правами доступа.</descr>
+    <descr
+        xml:lang="pt">Um administrador indicado, capaz de executar apenas ações permitidas para um subconjunto de objetos no domínio de Aprovisionamento.</descr>
+    <descr
+        xml:lang="zh-TW">僅可為佈建網域內的部分物件執行允許的動作的委託管理員。</descr>
+    <descr
+        xml:lang="en">A delegated administrator who can perform only allowed actions for a subset of objects within the Provisioning domain.</descr>
+    <descr
+        xml:lang="it">Un amministratore delegato che può eseguire solo le azioni consentite per un sottoinsieme di oggetti all'interno del dominio di provisioning.</descr>
+    <descr
+        xml:lang="fr">Administrateur délégué qui ne peut effectuer que les opérations autorisées sur un sous-ensemble d'objets au sein du domaine de provisioning.</descr>
+    <descr
+        xml:lang="zh-CN">仅可以对供应域内的对象子集执行已允许操作的委托管理员。</descr>
+    <descr
+        xml:lang="es">Administrador delegado que sólo puede realizar las acciones permitidas para un subconjunto de objetos del dominio de provisión.</descr>
+    <descr
+        xml:lang="ja">プロビジョニングドメイン内でオブジェクトのサブセットに対して許可されたアクションのみを実行できる委任管理者。</descr>
+    <descr
+        xml:lang="da">En delegeret administrator, som kun kan udføre tilladte handlinger for et undersæt af objekter i klargøringsdomænet.</descr>
+    <descr
+        xml:lang="nl">Een gedelegeerde beheerder die alleen toegestane acties kan uitvoeren voor een subset van objecten in het provisioningdomein.</descr>
+    <dirguid>F3C94CF158000A439FFBF3C94CF15800</dirguid>
+    <dirrev>5</dirrev>
+    <digest-dependency
+        digest-managed="true" double-pointer="nrfChildRoles"
+        force-deploy="true" new-digest-dependency="false"
+        object-cn="cn=role1"
+        object-dn="cn=role1,cn=Level30,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        object-mapkey="cn=role1" object-type="nrfRoleDefsLevel10" type="nrfParentRoles"/>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>WIJG0H99_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2829080223</pkg-checksum></item>

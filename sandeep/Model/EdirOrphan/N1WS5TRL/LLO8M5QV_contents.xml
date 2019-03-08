@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+	</form:token-descriptions>
+	<body>
+		<p>Здравствуйте!<br/>
+			<br/>
+Пользователь $initiatorFullName$ отправил запрос для пользователя $recipientFullName$. Этот запрос требует Вашего утверждения.<br/>
+			<br/>
+Ниже приведены подробные сведения о нем.<br/>
+			<br/>
+Имя запроса: $requestTitle$<br/>
+ИД запроса: $requestId$<br/>
+Отправитель: $initiatorFullName$<br/>
+Получатель: $recipientFullName$<br/>
+Доверенное лицо от имени: $PROXY_AS$<br/>
+			<br/>
+Чтобы ответить на запрос непосредственно из электронного письма, щелкните <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Добавьте комментарий}">УТВЕРДИТЬ</a> или <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Добавьте комментарий}">ОТКЛОНИТЬ</a>,
+					<br/>
+ЛИБО<br/>
+отправьте ответ по адресу $REPLY_EMAIL$, добавив в тему строку $APPROVE_PHRASE$ или $DENY_PHRASE$, а в тело письма - соответствующий комментарий.<br/>
+			<br/>
+Вы также можете просмотреть список всех запросов, ожидающих Вашего утверждения, на странице $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$.<br/>
+		</p>
+	</body>
+</html>

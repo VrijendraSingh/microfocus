@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=user-lookup" filename="user-lookup.entity"
+    hasContainment="false" modstamp="0" protected="true"
+    readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>Y2ZCIDKK</guid>
+    <display
+        xml:lang="de">Benutzer nachschlagen</display>
+    <display
+        xml:lang="ru">Коды поиска пользователя</display>
+    <display
+        xml:lang="sv">Uppslagning av användare</display>
+    <display
+        xml:lang="pt">Pesquisa de Usuário</display>
+    <display
+        xml:lang="zh-TW">使用者查閱</display>
+    <display
+        xml:lang="en">User Lookup</display>
+    <display
+        xml:lang="it">Ricerca utente</display>
+    <display
+        xml:lang="fr">Recherche d'utilisateur</display>
+    <display
+        xml:lang="zh-CN">用户查找</display>
+    <display
+        xml:lang="es">Búsqueda de usuarios</display>
+    <display
+        xml:lang="ja">ユーザのルックアップ</display>
+    <display
+        xml:lang="da">Brugeropslag</display>
+    <display
+        xml:lang="nl">Gebruiker zoeken</display>
+    <descr xml:lang="en">User Lookup</descr>
+    <dirguid>3FC4FE5D8DC54E4787683FC4FE5D8DC5</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>H0NG9NAS_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2233979610</pkg-checksum></item>

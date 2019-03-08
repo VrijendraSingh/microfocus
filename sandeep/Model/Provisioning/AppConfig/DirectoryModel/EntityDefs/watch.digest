@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=watch" filename="watch.entity" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>VCT0YEDL</guid>
+    <display
+        xml:lang="en">Watch</display>
+    <descr xml:lang="en">watch</descr>
+    <dirguid>29429B82E5EDAC4CA02629429B82E5ED</dirguid>
+    <dirrev>16</dirrev></item>

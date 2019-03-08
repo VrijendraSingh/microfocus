@@ -1,0 +1,26 @@
+<job-aggregation>
+	<job-definition auto-delete="false" disabled="false" display-name="Statistics Job" schedule="0 0 * * 6" scope-required="false" type="java">
+		<description>xlfid(job-description)This job collects Identity Manager installation information including association statistics.</description>
+		<containment>DirXML-DriverSet</containment>
+		<java-class>com.novell.nds.dirxml.job.statistics.StatisticsJob</java-class>
+		<configuration-values>
+			<definitions>
+				<definition display-name="xlfid(count-noref-assoc)Count no-reference associations" name="count-noref-assoc" type="boolean">
+					<value xml:space="preserve">false</value>
+					<description xml:space="preserve">xlfid(count-noref-assoc-desc)Include no-reference association when computing association statistics. To obtain the no-reference associations, add the StatisticsJob object as a Trustee of the data container.</description>
+				</definition>
+				<definition display-name="xlfid(persist-result-dns)Persist Result DN's" name="persist-result-dns" type="boolean">
+					<value xml:space="preserve">true</value>
+					<description xml:space="preserve">xlfid(persist-result-dns-desc)Persist the object dn's that are part of computation result.</description>
+				</definition>
+				<definition display-name="xlfid(system-object-list)Specify System Objects" item-separator=";" name="system-object-list" type="list">
+				<description xml:space="preserve">xlfid(system-object-list-desc)List of System Objects in the System. These objects are not considered for active/inactive configuration.</description>
+					<value>
+						<item>Group</item>
+						<item>Organizational Unit</item>
+					</value>
+				</definition>
+			</definitions>
+		</configuration-values>
+	</job-definition>
+</job-aggregation>

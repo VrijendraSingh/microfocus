@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Password Management Notification Templates">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="de" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="fr" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_CN" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_TW" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="ja" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="BJKMHMCN_201007271216350594"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="2.2.0.20180206112704"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="4"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="1892304779"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="678584498"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="Notification templates for Password Management."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NOVLPMANNOTF"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20180206112704"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="IND-SDHAVAL"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="SDhaval"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201802061125530118"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="Netiq, Corp."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="10"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;supported-drivers/>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:InstalledPackageIVRefs" type="BackReference" key="#XZ6ON3YK.IdentityVault_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#3XHDA3GI.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#OJMQUVK9.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#Q99K35EG.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#XLLJ0757.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#5YXLH9FU.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#78JCDDWJ.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#N433O8G3.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#1T46YU1M.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#RM2XKBF3.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

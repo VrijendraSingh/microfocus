@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="Synchronization Settings"/>
+		<definition display-name="Subscriber Channel Placement Type" name="drv.subPlacementType" type="enum">
+			<description>Specify the desired form of placement for the Subscriber channel. Select Flat to place objects strictly within the base container. Select Mirrored to place objects hierarchically within the base container.  This is used to determine the Subscriber channel Placement policies.</description>
+			<enum-choice display-name="mirrored">mirrored</enum-choice>
+			<enum-choice display-name="flat">flat</enum-choice>
+			<value>mirrored</value>
+		</definition>
+		<definition critical-change="true" display-name="LDAP Directory Base Container" mandatory="true" name="driver.ldap.base.container" type="string">
+			<description>Specify the container where user objects reside in the LDAP Directory.  If you are using a flat Placement rule, this is the container where the users are placed. If you are using a mirrored Placement rule, this is the root container.
+
+E.g.: OU=People,DC=example,DC=com</description>
+			<value/>
+		</definition>
+		<definition display-name="Publisher Channel Placement Type" name="drv.pubPlacementType" type="enum">
+			<description>Specify the desired form of placement for the Publisher channel. Select Flat to place objects strictly within the base container. Select Mirrored to place objects hierarchically within the base container.  This is used to determine the Publisher channel Placement policies.</description>
+			<enum-choice display-name="mirrored">mirrored</enum-choice>
+			<enum-choice display-name="flat">flat</enum-choice>
+			<value>mirrored</value>
+		</definition>
+	</definitions>
+</configuration-values>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+	</form:token-descriptions>
+	<body>
+		<p>Hola:,<br/>
+			<br/>
+Se ha enviado una petición de $initiatorFullName$ para $recipientFullName$ que requiere su aprobación.<br/>
+			<br/>
+Los detalles de la petición son:<br/>
+			<br/>
+Nombre de la petición: $requestTitle$<br/>
+ID de petición: $requestId$<br/>
+Enviada por: $initiatorFullName$<br/>
+Destinatario: $recipientFullName$<br/>
+Apoderado como: $PROXY_AS$<br/>
+			<br/>
+Para procesarla directamente desde el correo electrónico, haga clic en <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Enter a comment}">APROBAR</a> o en <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Enter a comment}">DENEGAR</a>
+			<br/>
+O bien <br/>
+responda a $REPLY_EMAIL$ añadiendo $APPROVE_PHRASE$ o $DENY_PHRASE$ en el asunto con el comentario oportuno en el cuerpo del mensaje.<br/>
+			<br/>
+También puede consultar la lista de todas las peticiones que tiene pendientes para aprobar en $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$.<br/>
+		</p>
+	</body>
+</html>

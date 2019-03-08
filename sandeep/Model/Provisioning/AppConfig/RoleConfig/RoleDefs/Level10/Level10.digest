@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=Level10" protected="false" readonly="false"
+    type="nrfRoleDefsLevel10"
+        visible="true">
+    <guid>AMCVSVIK</guid>
+    <display
+        xml:lang="en">Permission Role</display>
+    <modstamp>0</modstamp>
+    <display
+        xml:lang="de">Berechtigungsrolle</display>
+    <display
+        xml:lang="ru">Роль разрешения</display>
+    <display
+        xml:lang="sv">Behörighetsroll</display>
+    <display
+        xml:lang="pt">Função de Permissão</display>
+    <display
+        xml:lang="zh-TW">許可權角色</display>
+    <display
+        xml:lang="it">Ruolo permesso</display>
+    <display
+        xml:lang="fr">Rôle d'autorisation</display>
+    <display
+        xml:lang="zh-CN">许可权限角色</display>
+    <display
+        xml:lang="es">Función de permiso</display>
+    <display
+        xml:lang="ja">許可役割</display>
+    <display
+        xml:lang="da">Tilladelsesrolle</display>
+    <display xml:lang="nl">Toestemmingsrol</display></container>

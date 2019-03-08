@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><ds-object ds-object-class="DirXML-Rule" ds-object-name="NOVLUABASE-sub-ctp-StripEntitlementReference" name="NOVLUABASE-sub-ctp-StripEntitlementReference">
+	<ds-attributes>
+		<ds-attribute ds-attr-name="XmlData">
+			<ds-value>
+				<policy>
+					<rule>
+						<description>Strip Entitlement Ref from permission change event</description>
+						<comment xml:space="preserve">Strip Entitlement Ref from permission change event</comment>
+						<conditions>
+							<or>
+								<if-class-name op="equal">nrfRole</if-class-name>
+								<if-class-name op="equal">nrfResource</if-class-name>
+							</or>
+						</conditions>
+						<actions>
+							<do-strip-op-attr name="nrfEntitlementRef"/>
+						</actions>
+					</rule>
+				</policy>
+			</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-installationdirective">
+			<ds-value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48aW5zdGFsbGF0aW9uLWRpcmVjdGl2ZT4KCTxwbGFjZW1lbnQgbG9jYXRpb249InN1YnNjcmliZXIiLz4KCTxkcy1hdHRyaWJ1dGVzLz4KCTxwb2xpY3ktbGlua2FnZT4KCQk8cG9saWN5LXNldCBjaGFubmVsPSJzdWJzY3JpYmVyIiBuYW1lPSJjb21tYW5kIiBvcmRlcj0iV2VpZ2h0IiB2YWx1ZT0iNTAwIi8+Cgk8L3BvbGljeS1saW5rYWdlPgo8L2luc3RhbGxhdGlvbi1kaXJlY3RpdmU+</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-directivechecksum">
+			<ds-value>3491948463</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageassocguid">
+			<ds-value>6KWCCG8H_201409191603360834</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageguid">
+			<ds-value>B5PAGQ5E_201005261601510810</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-contentchecksum">
+			<ds-value>1988768136</ds-value>
+		</ds-attribute>
+	</ds-attributes>
+</ds-object>

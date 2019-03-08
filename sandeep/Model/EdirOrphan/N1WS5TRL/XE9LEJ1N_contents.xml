@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Days before password expires." item-name="Days"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>密碼過期通知電子郵件</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>$UserFullName$，您好</p>
+		<p>您的密碼將於 $Days$ 天後過期。</p>
+		<p>如果需要協助，請聯絡服務台，電話是 (012) 345-6789，或請寄送電子郵件至
+     <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> - 自動化安全性</p>
+		<p>
+			<img ALT="由 NetIQ 提供技術" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

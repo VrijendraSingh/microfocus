@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Template3ParallelApproval_TD"
+    filename="Template3ParallelApproval_TD.prd" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>N6ZR32P1</guid>
+    <display
+        xml:lang="en">Template3ParallelApproval_TD</display>
+    <descr
+        xml:lang="de">Parallele Genehmigung in drei Stufen (Ablehnung bei Zeitüberschreitung)</descr>
+    <descr
+        xml:lang="sv">Parallellt godkännande i tre steg (avslås vid timeout)</descr>
+    <descr
+        xml:lang="ru">Параллельное подтверждение, состоящее из трех шагов (истекший срок означает запрещение)</descr>
+    <descr
+        xml:lang="pt">Aprovação Paralela de Três Etapas (Tempo de Espera Recusa)</descr>
+    <descr
+        xml:lang="zh-TW">三段式平行核准 (逾時拒絕)</descr>
+    <descr
+        xml:lang="en">Three Step Parallel Approval (Timeout Denies)</descr>
+    <descr
+        xml:lang="it">Approvazione parallela in tre passaggi (rifiuto in caso di timeout)</descr>
+    <descr
+        xml:lang="fr">Approbation parallèle en trois étapes (timeout refusé)</descr>
+    <descr
+        xml:lang="zh-CN">三步平行批准（拒绝超时）</descr>
+    <descr
+        xml:lang="es">Aprobación paralela en tres pasos (denegación al alcanzar el tiempo límite)</descr>
+    <descr
+        xml:lang="ja">3ステップ並行承認(タイムアウト時に否認)</descr>
+    <descr
+        xml:lang="da">Parallel godkendelse i tre trin (afvisning ved timeout)</descr>
+    <descr xml:lang="nl">Parallelle goedkeuring in drie stappen (afgewezen na timeout)</descr>
+    <dirguid>1B6BBC1FA2FB414C83EA1B6BBC1FA2FB</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>entitlements</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>RVBH0FAR_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2881750193</pkg-checksum></item>

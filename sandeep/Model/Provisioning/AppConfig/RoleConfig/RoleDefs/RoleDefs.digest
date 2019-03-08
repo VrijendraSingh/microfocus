@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=RoleDefs" protected="false" readonly="false"
+    type="nrfRoleDefs"
+        visible="true">
+    <guid>NN1IBPJM</guid>
+    <display xml:lang="en">Roles</display>
+    <modstamp>0</modstamp></container>

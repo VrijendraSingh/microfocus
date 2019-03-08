@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions display-name="Account Status">
+		<header display-name="Account Status Support"/>
+		<group>
+			<definition display-name="LDAP Server Type:" item-separator="|" name="drv.acctTrk.statusAttr" type="enum">
+				<description>Select the LDAP server type this driver is connecting to. Base on the type, the appropriate attribute is modified in the LDAP directory to disable the account.</description>
+				<value>nsaccountlock</value>
+				<enum-choice display-name="eDirectory">loginDisabled</enum-choice>
+				<enum-choice display-name="openLDAP">pwdAccountLockedTime</enum-choice>
+				<enum-choice display-name="iPlanet | SunOne | OID">nsaccountlock</enum-choice>
+			</definition>
+			<subordinates active-value="nsaccountlock">
+				<definition display-name="nsManagedDisabledRole DN:" name="driver.ldap.disabledRole" type="string">
+					<value>CN=nsManagedDisabledRole,DC=example,DC=com</value>
+					<description>This is the DN of the role used to disable users in the connected ldap system.  If a user is 'enabled' in the IDVault, this role must first be removed from the inetOrgPerson object before the attribute 'nsAccountLock' can be cleared.  By default, the role should be named "cn=nsManagedDisabledRole," plus the name of your directory server's root dn. (i.e. CN=nsManagedDisabledRole,DC=example,DC=com)</description>
+				</definition>
+			</subordinates>
+		</group>
+	</definitions>
+</configuration-values>

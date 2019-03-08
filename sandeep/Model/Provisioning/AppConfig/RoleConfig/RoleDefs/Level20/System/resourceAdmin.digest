@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=resourceAdmin" filename="resourceAdmin.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>2OV66X7T</guid>
+    <display
+        xml:lang="de">Ressourcenadministrator</display>
+    <display
+        xml:lang="sv">Resursadministratör</display>
+    <display
+        xml:lang="ru">Администратор ресурса</display>
+    <display
+        xml:lang="pt">Administrador de Recurso</display>
+    <display
+        xml:lang="zh-TW">資源管理員</display>
+    <display
+        xml:lang="en">Resource Administrator</display>
+    <display
+        xml:lang="it">Amministratore risorse</display>
+    <display
+        xml:lang="fr">Administrateur de ressources</display>
+    <display
+        xml:lang="zh-CN">资源管理员</display>
+    <display
+        xml:lang="es">Administrador de recursos</display>
+    <display
+        xml:lang="ja">リソース管理者</display>
+    <display
+        xml:lang="da">Ressourceadministrator</display>
+    <display
+        xml:lang="nl">Resourcebeheerder</display>
+    <descr
+        xml:lang="de">Ein Domänenadministrator, der innerhalb der Ressourcendomäne über die ganze Palette an Funktionen verfügt. Der Ressourcenadministrator kann alle möglichen Aktionen für alle Objekte innerhalb der Ressourcendomäne durchführen.</descr>
+    <descr
+        xml:lang="sv">En domänadministratör som har tillgång till alla funktioner i resursdomänen. Resursadministratören kan utföra alla åtgärder för alla objekt i domänen Resurs</descr>
+    <descr
+        xml:lang="ru">Администратор домена, имеющий полный спектр возможностей в рамках домена ресурса. Администратор ресурса может выполнять все возможные действия для всех объектов в рамках домена ресурса</descr>
+    <descr
+        xml:lang="pt">Um administrador de domínio com quase todos os recursos no domínio de Recurso. O Administrador de Recurso é capaz de executar todas as ações possíveis para todos os objetos no domínio de Recurso.</descr>
+    <descr
+        xml:lang="zh-TW">擁有資源網域內所有功能的網域管理員。資源管理員可為資源網域內的所有物件執行所有可能的動作</descr>
+    <descr
+        xml:lang="en">A domain administrator who has the full range of capabilities within the Resource domain. The Resource Administrator can perform all possible actions for all objects within the Resource domain</descr>
+    <descr
+        xml:lang="it">Un amministratore di dominio che dispone dell'intera gamma di funzionalità all'interno del dominio della risorsa. L'amministratore delle risorse può eseguire tutte le azioni disponibili per tutti gli oggetti all'interno del dominio della risorsa</descr>
+    <descr
+        xml:lang="fr">Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de ressources. L'administrateur de ressources peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de ressources.</descr>
+    <descr
+        xml:lang="zh-CN">具有资源域内所有功能的域管理员。资源管理员可以对资源域内的所有对象执行所有可能的操作</descr>
+    <descr
+        xml:lang="es">Administrador de dominio que cuenta con todas las funciones en el dominio de recursos. El administrador de recursos puede realizar todas las acciones posibles para todos los objetos dentro del dominio de recursos.</descr>
+    <descr
+        xml:lang="ja">リソースドメイン内でほぼ全種類の機能を持つドメイン管理者。リソース管理者は、リソースドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。</descr>
+    <descr
+        xml:lang="da">En domæneadministrator, som har alle rettigheder og tilladelser i ressourcedomænet. Ressourceadministratoren kan udføre alle mulige handlinger for alle objekter i ressourcedomænet</descr>
+    <descr xml:lang="nl">Een domeinbeheerder met vrijwel alle mogelijkheden in het resourcedomein. De resourcebeheerder kan alle mogelijke acties uitvoeren voor alle objecten in het resourcedomein.</descr>
+    <dirguid>22F92290FA11E3449E7422F92290FA11</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>ZCOLPJ7Q_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>774358533</pkg-checksum></item>

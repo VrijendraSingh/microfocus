@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Request Mobile Approval App"
+    filename="RequestMobileApprovalApp.prd" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>UQOZIYJD</guid>
+    <display
+        xml:lang="de">Mobile Genehmigungsanwendung anfordern</display>
+    <display
+        xml:lang="ru">Приложение запроса мобильного утверждения</display>
+    <display
+        xml:lang="sv">Begär mobilt godkännandeprogram</display>
+    <display
+        xml:lang="pt">Solicitar Aplicativo de Aprovação Móvel</display>
+    <display
+        xml:lang="zh-TW">申請行動核准應用程式</display>
+    <display
+        xml:lang="en">Request Mobile Approval App</display>
+    <display
+        xml:lang="it">Richiedi applicazione di approvazione mobile</display>
+    <display
+        xml:lang="fr">Application d'approbation mobile de requêtes</display>
+    <display
+        xml:lang="zh-CN">请求移动批准应用程序</display>
+    <display
+        xml:lang="es">Pedir aplicación de aprobación móvil</display>
+    <display
+        xml:lang="ja">モバイル承認アプリケーションの要求</display>
+    <display
+        xml:lang="da">Anmod om mobil godkendelsesapplikation</display>
+    <display
+        xml:lang="nl">App Mobiele goedkeuring aanvragen</display>
+    <descr
+        xml:lang="de">Der Benutzer kann diese Bereitstellungsanforderung verwenden, um Zugriff auf die mobile IDM-Genehmigungsanwendung anzufordern</descr>
+    <descr
+        xml:lang="ru">Пользователь может использовать этот запрос обеспечения правами доступа для запроса приложения мобильного утверждения IDM</descr>
+    <descr
+        xml:lang="sv">Användaren kan använda denna logistikbegäran för att begära åtkomst till det mobila IDM-godkännandeprogrammet</descr>
+    <descr
+        xml:lang="pt">O usuário deve utilizar esta Solicitação de Aprovisionamento para solicitar acesso ao aplicativo de aprovação móvel</descr>
+    <descr
+        xml:lang="zh-TW">使用者可以使用此佈建申請來申請存取該 idm 行動核准應用程式的權限</descr>
+    <descr
+        xml:lang="en">User may use this Provisioning Request to request access to the idm mobile approval app</descr>
+    <descr
+        xml:lang="it">È possibile utilizzare questa richiesta di provisioning per richiedere l'accesso all applicazione di approvazione mobile di IDM</descr>
+    <descr
+        xml:lang="fr">L'utilisateur peut utiliser cette requête de provisioning pour demander l'accès à l'application d'approbation mobile IDM.</descr>
+    <descr
+        xml:lang="zh-CN">用户可以使用此供应请求来请求获取访问 idm 移动批准应用程序的权限</descr>
+    <descr
+        xml:lang="es">El usuario puede usar esta petición de aprovisionamiento para pedir acceso a la aplicación de aprobación móvil de IDM</descr>
+    <descr
+        xml:lang="ja">ユーザはこのプロビジョニングリクエストを使用してIDMモバイル承認アプリケーションへのアクセスを要求できます</descr>
+    <descr
+        xml:lang="da">Brugeren kan anvende denne provisioning-anmodning til at anmode om adgang til idm-mobilgodkendelsesapplikationen</descr>
+    <descr xml:lang="nl">Gebruiker kan deze aanvraag voor provisioning gebruiken om toegang aan te vragen voor de app voor mobiele goedkeuring van idm</descr>
+    <dirguid>71FC4329653C664FAC4671FC4329653C</dirguid>
+    <dirrev>21</dirrev>
+    <keys>
+        <key>accounts</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>AZX6EP25_201407241728410119</pkg-assoc-id>
+    <pkg-checksum>3407666752</pkg-checksum></item>

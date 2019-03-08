@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><mapping-table>
+	<col-def name="Problem-Set" type="nocase"/>
+	<row>
+		<col/>
+		<col/>
+	</row>
+	<col-def name="Target" type="nocase"/>
+</mapping-table>

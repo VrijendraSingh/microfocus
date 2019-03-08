@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=ResourceAssociations" protected="false"
+    readonly="false" type="nrfResourceAssociations"
+        visible="false">
+    <guid>8LWBEJ72</guid>
+    <display xml:lang="en">Associations</display>
+    <modstamp>0</modstamp></container>

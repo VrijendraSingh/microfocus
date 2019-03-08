@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+	</form:token-descriptions>
+	<body>
+		<p>こんにちは、<br/>
+			<br/>
+$initiatorFullName$から$recipientFullName$に対して、承認と必要とする要求が送信されました。<br/>
+			<br/>
+要求の詳細:<br/>
+			<br/>
+要求名: $requestTitle$<br/>
+要求ID: $requestId$<br/>
+送信者: $initiatorFullName$<br/>
+受信者: $recipientFullName$<br/>
+このユーザの代理人: $PROXY_AS$<br/>
+			<br/>
+電子メールから直接処理するには、<a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Enter a comment}">［承認］</a>または<a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Enter a comment}">［拒否］</a>をクリックするか、<br/>
+あるいは <br/>
+本文の適切なコメントとともに件名に$APPROVE_PHRASE$または$DENY_PHRASE$を追加することによって$REPLY_EMAIL$に返信します。<br/>
+			<br/>
+$PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$で承認を保留しているすべての要求のリストを確認することもできます。<br/>
+		</p>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><policy>
+	<rule>
+		<description>Set Class Name</description>
+		<conditions>
+			<and>
+				<if-op-attr name="DirXML-EntitlementResult" op="changing"/>
+			</and>
+		</conditions>
+		<actions>
+			<do-set-op-class-name>
+				<arg-string>
+					<token-text xml:space="preserve">DirXML-EntitlementRecipient</token-text>
+				</arg-string>
+			</do-set-op-class-name>
+			<do-set-op-association>
+				<arg-association>
+					<token-text xml:space="preserve">"AnAssociation"</token-text>
+				</arg-association>
+			</do-set-op-association>
+		</actions>
+	</rule>
+	<rule>
+		<description>Set Association</description>
+		<conditions>
+			<or>
+				<if-class-name op="equal">User</if-class-name>
+				<if-class-name op="equal">srvprvRequest</if-class-name>
+				<if-class-name op="equal">nrfRole</if-class-name>
+				<if-class-name op="equal">nrfResource</if-class-name>
+			</or>
+		</conditions>
+		<actions>
+			<do-set-op-association>
+				<arg-association>
+					<token-text xml:space="preserve">"AnAssociation"</token-text>
+				</arg-association>
+			</do-set-op-association>
+		</actions>
+	</rule>
+	<rule>
+		<description>Set Entitlement Purge Type</description>
+		<conditions>
+			<and>
+				<if-op-attr name="DirXML-EntitlementResult" op="changing"/>
+			</and>
+		</conditions>
+		<actions>
+			<do-append-xml-element expression="." name="PurgeType"/>
+			<do-append-xml-text expression="./PurgeType">
+				<arg-string>
+					<token-global-variable name="dirxml.engine.entitl-rs-purge-type"/>
+				</arg-string>
+			</do-append-xml-text>
+		</actions>
+	</rule>
+</policy>

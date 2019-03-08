@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=roleAdmin" roleLevel="Level20" xmi:version="2.0"
+    xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><localizedDescription
+        label="几乎具有角色域内所有功能的域管理员。角色管理员可以对角色域内的所有对象（除系统角色外）执行所有可能的操作。"
+        locale="zh-CN"/><localizedDescription
+        label="Um administrador de domínio com quase todos os recursos no domínio de Função. O Administrador de Função é capaz de executar todas as ações possíveis para todos os objetos (exceto as Funções de Sistema) no domínio de Função."
+        locale="pt"/><localizedDescription
+        label="Administrateur de domaine qui a accès à la quasi-totalité des fonctions au sein du domaine de rôles. L'administrateur de rôles peut effectuer toutes les opérations possibles sur l'ensemble des objets (à l'exception des rôles système) au sein du domaine de rôles."
+        locale="fr"/><localizedDescription
+        label="Администратор домена, имеющий полный спектр возможностей в рамках домена роли. Администратор роли может выполнять все возможные действия для всех объектов (кроме системных ролей) в рамках домена роли."
+        locale="ru"/><localizedDescription
+        label="役割ドメイン内でほぼ全種類の機能を持つドメイン管理者。役割管理者は、役割ドメイン内のすべてのオブジェクト(システム役割を除く)の可能なアクションをすべて実行できます。"
+        locale="ja"/><localizedDescription
+        label="幾乎擁有角色網域內所有功能的網域管理員。角色管理員可為角色網域內的所有物件 (系統角色除外) 執行所有可能的動作。"
+        locale="zh-TW"/><localizedDescription
+        label="Un amministratore di dominio che dispone quasi dell'intera gamma di funzionalità all'interno del dominio del ruolo. L'amministratore dei ruoli può eseguire tutte le azioni disponibili per tutti gli oggetti (ad eccezione dei ruoli di sistema) all'interno del dominio del ruolo."
+        locale="it"/><localizedDescription
+        label="En domæneadministrator, som næsten har alle rettigheder og tilladelser i rolledomænet. Rolleadministratoren kan udføre alle mulige handlinger for alle objekter (bortset fra systemroller) i rolledomænet."
+        locale="da"/><localizedDescription
+        label="Ein Domänenadministrator, der innerhalb der Rollendomäne über nahezu die ganze Palette an Funktionen verfügt. Der Rollenadministrator kann alle möglichen Aktionen für alle Objekte (außer für Systemrollen) innerhalb der Rollendomäne durchführen."
+        locale="de"/><localizedDescription
+        label="Administrador de dominio que cuenta con casi todas las funciones en el dominio de funciones. El administrador de funciones puede realizar todas las acciones posibles para todos los objetos (excepto para las funciones del sistema) dentro del dominio de funciones."
+        locale="es"/><localizedDescription
+        label="A domain administrator who has nearly the full range of capabilities within the Role domain. The Role Administrator can perform all possible actions for all objects (except for the System Roles) within the Role domain."
+        locale="en"/><localizedDescription
+        label="En domänadministratör som har tillgång till nästan alla funktioner i rolldomänen. Rolladministratören kan utföra alla åtgärder för alla objekt (förutom för systemrollerna) i domänen Roll."
+        locale="sv"/><localizedDescription
+        label="Een domeinbeheerder met vrijwel alle mogelijkheden in het roldomein. De rolbeheerder kan alle mogelijke acties uitvoeren voor alle objecten (behalve systeemrollen) in het roldomein."
+        locale="nl"/><localizedName label="角色管理员"
+        locale="zh-CN"/><localizedName label="Administrador de Função"
+        locale="pt"/><localizedName label="Administrateur de rôles"
+        locale="fr"/><localizedName label="Администратор роли"
+        locale="ru"/><localizedName label="役割管理者"
+        locale="ja"/><localizedName label="角色管理員"
+        locale="zh-TW"/><localizedName label="Amministratore ruoli"
+        locale="it"/><localizedName label="Rolleadministrator"
+        locale="da"/><localizedName label="Rollenadministrator"
+        locale="de"/><localizedName label="Administrador de funciones"
+        locale="es"/><localizedName label="Role Administrator"
+        locale="en"/><localizedName label="Rolladministratör"
+        locale="sv"/><localizedName label="Rolbeheerder"
+        locale="nl"/><owner dn="cn=uaadmin,ou=sa,o=data"/><owner dn="o=data"/><categoryKey>system</categoryKey></role:Role>

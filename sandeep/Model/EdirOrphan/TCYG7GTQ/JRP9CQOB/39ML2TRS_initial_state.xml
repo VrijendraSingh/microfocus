@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><ds-object ds-object-class="DirXML-StyleSheet" ds-object-name="NOVLUABASE-its-PurgeEntitlements" name="NOVLUABASE-its-PurgeEntitlements">
+	<ds-attributes>
+		<ds-attribute ds-attr-name="XmlData">
+			<ds-value>
+				<xsl:transform version="1.0" xmlns:cmd="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.XdsCommandProcessor" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+					<xsl:param name="destCommandProcessor"/>
+					<xsl:template match="output/submit-command">
+						<xsl:variable name="command">
+							<xsl:copy-of select="./nds"/>
+						</xsl:variable>
+						<xsl:variable name="dummy" select="cmd:execute($destCommandProcessor, $command)"/>
+					</xsl:template>
+					<xsl:template match="node()|@*">
+						<xsl:copy>
+							<xsl:apply-templates select="@*|node()"/>
+						</xsl:copy>
+					</xsl:template>
+				</xsl:transform>
+			</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-installationdirective">
+			<ds-value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48aW5zdGFsbGF0aW9uLWRpcmVjdGl2ZT4KCTxwbGFjZW1lbnQgbG9jYXRpb249ImRlZmF1bHQiLz4KCTxkcy1hdHRyaWJ1dGVzLz4KCTxwb2xpY3ktbGlua2FnZT4KCQk8cG9saWN5LXNldCBuYW1lPSJpbnB1dCIgb3JkZXI9IldlaWdodCIgdmFsdWU9IjUwMCIvPgoJPC9wb2xpY3ktbGlua2FnZT4KPC9pbnN0YWxsYXRpb24tZGlyZWN0aXZlPg==</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-directivechecksum">
+			<ds-value>1068468006</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageassocguid">
+			<ds-value>PQ2O6AVW_201006281545190400</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageguid">
+			<ds-value>B5PAGQ5E_201005261601510810</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-contentchecksum">
+			<ds-value>376295972</ds-value>
+		</ds-attribute>
+	</ds-attributes>
+</ds-object>

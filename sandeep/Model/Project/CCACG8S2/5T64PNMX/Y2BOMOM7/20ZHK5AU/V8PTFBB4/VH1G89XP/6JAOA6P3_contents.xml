@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLCOMSET.idmresource.NOVLCOMSETPrompts.gcv.header.CommonSettings)Common Settings"/>
+		<definition display-name="xlfid(NOVLCOMSET.idmresource.NOVLCOMSETPrompts.gcv.idv.dit.data.users)User Container" dn-space="dirxml" dn-type="slash" name="idv.dit.data.users" type="dn">
+			<description>xlfid(NOVLCOMSET.idmresource.NOVLCOMSETPrompts.gcv.dscr.idv.dit.data.users)This GCV is used to get a reference to the container where users are stored. This value is used for all drivers. If you want separate containers for each driver, use the GCV on the Driver Object.
+The DN is expected in slash-format.</description>
+			<value>data\users</value>
+		</definition>
+		<definition display-name="xlfid(NOVLCOMSET.idmresource.NOVLCOMSETPrompts.gcv.idv.dit.data.groups)Group Container" dn-space="dirxml" dn-type="slash" name="idv.dit.data.groups" type="dn">
+			<description>xlfid(NOVLCOMSET.idmresource.NOVLCOMSETPrompts.gcv.dscr.idv.dit.data.groups)This GCV is used to get a reference to the container where groups are stored. This value is used for all drivers. If you want separate containers for each driver, use the GCV on the Driver Object.
+The DN is expected in slash-format.</description>
+			<value>data\groups</value>
+		</definition>
+	</definitions>
+</configuration-values>

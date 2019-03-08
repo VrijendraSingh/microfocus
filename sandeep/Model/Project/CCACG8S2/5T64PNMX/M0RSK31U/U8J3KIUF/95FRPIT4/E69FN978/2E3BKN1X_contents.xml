@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLDTXTBASE.idmresource.NOVLDTXTBASEUpgradeDesigner.gcv.header.ImportantNote:)Important Note:"/>
+		<header display-name="xlfid(NOVLDTXTBASE.idmresource.NOVLDTXTBASEUpgradeDesigner.gcv.header.*PleaseupgradetoDesigner4.5.5orlaterbeforeinstallingthispackage.)* Please upgrade to Designer 4.5.5 or later before installing this package. "/>
+	</definitions>
+	<definition display-name="dummy" hide="true" name="dummy" type="string"/>
+</configuration-values>

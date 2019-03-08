@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="User current password" item-name="CurrentPassword"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>口令请求</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>亲爱的 $UserFullName$：</p>
+		<p>您已请求将当前的口令通过电子邮件方式发送给您。口令显示如下：</p>
+		<p>口令：$CurrentPassword$</p>
+		<p>如果您未请求将口令通过电子邮件方式发送给您，请致电 (012) 345-6789 联系服务台，或发电子邮件至<a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> － 自动安全保护</p>
+		<p>
+			<img ALT="Powered by Novell" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Days before password expires." item-name="Days"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>口令失效提示电子邮件</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>尊敬的 $UserFullName$：</p>
+		<p>您的口令将在 $Days$ 天后失效。</p>
+		<p>如果需要帮助，请致电 (012) 345-6789 联系咨询台，或发电子邮件至
+     <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> － 自动安全保护</p>
+		<p>
+			<img ALT="Powered by NetIQ" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

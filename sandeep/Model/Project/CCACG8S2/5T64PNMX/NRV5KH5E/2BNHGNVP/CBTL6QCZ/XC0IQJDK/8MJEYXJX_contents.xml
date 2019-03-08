@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet exclude-result-prefixes="query cmd dncv" version="1.0" xmlns:cmd="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.XdsCommandProcessor" xmlns:dncv="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.DNConverter" xmlns:query="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.XdsQueryProcessor" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<!-- parameters passed in from the DirXML engine -->
+	<xsl:param name="srcQueryProcessor"/>
+	<xsl:param name="destQueryProcessor"/>
+	<xsl:param name="srcCommandProcessor"/>
+	<xsl:param name="destCommandProcessor"/>
+	<xsl:param name="dnConverter"/>
+	<xsl:param name="fromNds"/>
+	<!-- identity transformation template -->
+	<!-- in the absence of any other templates this will cause -->
+	<!-- the stylesheet to copy the input through unchanged to the output -->
+	<xsl:template match="node()|@*">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+	<!-- add your custom templates here -->
+</xsl:stylesheet>

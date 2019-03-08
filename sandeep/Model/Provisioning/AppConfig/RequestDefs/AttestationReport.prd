@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov-req-defn flow-strategy="SingleFlow" grant="true"
+    prov-category="attestation" prov-id="Attestation Report"
+    revoke="false" status="Active"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ApprovalXmlData.xsd">
+    <display-name
+        xml:lang="ru">Отчет о подтверждении</display-name>
+    <display-name
+        xml:lang="pt">Relatório de Atestado</display-name>
+    <display-name
+        xml:lang="zh-TW">證明報告</display-name>
+    <display-name
+        xml:lang="de">Beglaubigungsbericht</display-name>
+    <display-name
+        xml:lang="en">Attestation Report</display-name>
+    <display-name
+        xml:lang="da">Attestationsrapport</display-name>
+    <display-name
+        xml:lang="sv">Verifieringsrapport</display-name>
+    <display-name
+        xml:lang="es">Informe de certificación</display-name>
+    <display-name
+        xml:lang="zh-CN">证明报告</display-name>
+    <display-name
+        xml:lang="it">Rapporto attestazioni</display-name>
+    <display-name
+        xml:lang="ja">検証レポート</display-name>
+    <display-name
+        xml:lang="nl">Attestrapport</display-name>
+    <display-name
+        xml:lang="fr">Rapport d'attestation</display-name>
+    <description
+        xml:lang="ru">Отчет о подтверждении</description>
+    <description
+        xml:lang="pt">Relatório de Atestado</description>
+    <description
+        xml:lang="zh-TW">證明報告</description>
+    <description
+        xml:lang="de">Beglaubigungsbericht</description>
+    <description
+        xml:lang="en">Attestation Report</description>
+    <description
+        xml:lang="da">Attestationsrapport</description>
+    <description
+        xml:lang="sv">Verifieringsrapport</description>
+    <description
+        xml:lang="es">Informe de certificación</description>
+    <description
+        xml:lang="zh-CN">证明报告</description>
+    <description
+        xml:lang="it">Rapporto attestazioni</description>
+    <description
+        xml:lang="ja">検証レポート</description>
+    <description
+        xml:lang="nl">Attestrapport</description>
+    <description
+        xml:lang="fr">Rapport d'attestation</description>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <prov-resource-ref>None</prov-resource-ref>
+  <workflow-ref/>
+  <xml-data>
+    <design-params>
+      <links/>
+    </design-params>
+    <resource-data-binding/>
+  </xml-data>
+    <trustees>
+        <trustee>cn=complianceAdmin,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system#nrfAccessMgrInitiatePRD</trustee>
+        <trustee>cn=complianceAdmin,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system#nrfAccessMgrRetractPRD</trustee>
+    </trustees>
+    <provision-request
+        version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalRequest3_5_1.xsd">
+        <form
+                    form-id="request_form">
+            <content>
+                <field
+                    data-type="string" name="AttestationRequestID"
+                        visible="true">
+                    <control
+                        control-type="Text" editable="true"
+                        required="true"/>
+                    <display-label
+                        xml:lang="it">ID richiesta attestazione</display-label>
+                    <display-label
+                        xml:lang="fr">ID de la requête d'attestation</display-label>
+                    <display-label
+                        xml:lang="ja">検証要求ID</display-label>
+                    <display-label
+                        xml:lang="es">ID de petición de certificación</display-label>
+                    <display-label
+                        xml:lang="sv">ID för verifieringsbeställning</display-label>
+                    <display-label
+                        xml:lang="de">Beglaubigungsanforderungs-ID</display-label>
+                    <display-label
+                        xml:lang="zh-TW">證明申請 ID</display-label>
+                    <display-label
+                        xml:lang="da">Attestationsanmodnings-id</display-label>
+                    <display-label
+                        xml:lang="pt">ID de Solicitação de Atestado</display-label>
+                    <display-label
+                        xml:lang="nl">Attestaanvraag-id</display-label>
+                    <display-label
+                        xml:lang="en">Attestation Request ID</display-label>
+                    <display-label
+                        xml:lang="zh-CN">证明请求 ID</display-label>
+                    <display-label
+                        xml:lang="ru">ID запроса подтверждения</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <actions
+                        location="bottom">
+                    <action
+                            name="SubmitAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="fr">Soumettre</display-label>
+                        <display-label
+                            xml:lang="nl">Indienen</display-label>
+                        <display-label
+                            xml:lang="pt">Submeter</display-label>
+                        <display-label
+                            xml:lang="ru">Передать</display-label>
+                        <display-label
+                            xml:lang="zh-TW">提交</display-label>
+                        <display-label
+                            xml:lang="zh-CN">提交</display-label>
+                        <display-label
+                            xml:lang="en">Submit</display-label>
+                        <display-label
+                            xml:lang="es">Enviar</display-label>
+                        <display-label
+                            xml:lang="it">Invia</display-label>
+                        <display-label
+                            xml:lang="sv">Skicka</display-label>
+                        <display-label
+                            xml:lang="de">Senden</display-label>
+                        <display-label
+                        xml:lang="ja">送信</display-label>
+                    </action>
+                    <action
+                        block-on-error="false"
+                            name="CancelAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="fr">Annuler</display-label>
+                        <display-label
+                            xml:lang="nl">Annuleren</display-label>
+                        <display-label
+                            xml:lang="pt">Cancelar</display-label>
+                        <display-label
+                            xml:lang="ru">Отмена</display-label>
+                        <display-label
+                            xml:lang="zh-TW">取消</display-label>
+                        <display-label
+                            xml:lang="zh-CN">取消</display-label>
+                        <display-label
+                            xml:lang="en">Cancel</display-label>
+                        <display-label
+                            xml:lang="es">Cancelar</display-label>
+                        <display-label
+                            xml:lang="it">Annulla</display-label>
+                        <display-label
+                            xml:lang="sv">Avbryt</display-label>
+                        <display-label
+                            xml:lang="de">Abbrechen</display-label>
+                        <display-label
+                xml:lang="ja">キャンセル</display-label>
+                    </action>
+                </actions>
+            </content>
+        </form>
+        <request-data-items>
+            <data-item
+                data-type="string" name="AttestationRequestID"
+                target="flowdata.AttestationRequest/ID"
+        target-type="single-value"/>
+        </request-data-items>
+    </provision-request>
+    <process
+        default-completed-approval-status="denied"
+        id="cn=Attestation Report,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        process-type="Attestation" setnotify="true" version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalProcess3_6_1.xsd">
+  <display-name
+            expr="true"
+            xml:lang="de">flowdata.get('AttestationRequest/displayName/de')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="zh-CN">flowdata.get('AttestationRequest/displayName/zh-CN')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="ja">flowdata.get('AttestationRequest/displayName/ja')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="en">flowdata.get('AttestationRequest/displayName/en')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="da">flowdata.get('AttestationRequest/displayName/da')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="es">flowdata.get('AttestationRequest/displayName/es')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="ru">flowdata.get('AttestationRequest/displayName/ru')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="sv">flowdata.get('AttestationRequest/displayName/sv')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="nl">flowdata.get('AttestationRequest/displayName/nl')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="it">flowdata.get('AttestationRequest/displayName/it')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="zh-TW">flowdata.get('AttestationRequest/displayName/zh-TW')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="pt">flowdata.get('AttestationRequest/displayName/pt')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="fr">flowdata.get('AttestationRequest/displayName/fr')</display-name>
+  <form
+                    form-id="withoutSurvey_form">
+    <content>
+      <field
+                    data-type="string"
+                        name="ReportLabel">
+        <control
+                        control-type="Title"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="de">Bericht</display-label>
+        <display-label
+                        xml:lang="zh-CN">报告</display-label>
+        <display-label
+                        xml:lang="ja">レポート</display-label>
+        <display-label
+                        xml:lang="en">Report</display-label>
+        <display-label
+                        xml:lang="da">Rapport</display-label>
+        <display-label
+                        xml:lang="es">Informe</display-label>
+        <display-label
+                        xml:lang="ru">Отчет</display-label>
+        <display-label
+                        xml:lang="sv">Rapport</display-label>
+        <display-label
+                        xml:lang="nl">Rapport</display-label>
+        <display-label
+                        xml:lang="it">Rapporto</display-label>
+        <display-label
+                        xml:lang="zh-TW">報告</display-label>
+        <display-label
+                        xml:lang="pt">Relatório</display-label>
+        <display-label
+                        xml:lang="fr">Rapport</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="Report">
+        <control
+                        control-type="attestation.ReportDisplay"
+                                editable="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>true</value>
+            </prop>
+            <prop
+                        name="label-style">
+              <value/>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="de">Bericht</display-label>
+        <display-label
+                        xml:lang="zh-CN">报告</display-label>
+        <display-label
+                        xml:lang="ja">レポート</display-label>
+        <display-label
+                        xml:lang="en">Report</display-label>
+        <display-label
+                        xml:lang="da">Rapport</display-label>
+        <display-label
+                        xml:lang="es">Informe</display-label>
+        <display-label
+                        xml:lang="ru">Отчет</display-label>
+        <display-label
+                        xml:lang="sv">Rapport</display-label>
+        <display-label
+                        xml:lang="nl">Rapport</display-label>
+        <display-label
+                        xml:lang="it">Rapporto</display-label>
+        <display-label
+                        xml:lang="zh-TW">報告</display-label>
+        <display-label
+                        xml:lang="pt">Relatório</display-label>
+        <display-label
+                        xml:lang="fr">Rapport</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="line2">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                        name="html">
+              <value>&lt;hr&gt;&lt;/hr&gt;</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="en">line2</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="AttestationQuestionLabel">
+        <control
+                        control-type="Title"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="de">Beglaubigungsfrage</display-label>
+        <display-label
+                        xml:lang="zh-CN">证明问题</display-label>
+        <display-label
+                        xml:lang="ja">検証の質問</display-label>
+        <display-label
+                        xml:lang="en">Attestation Question</display-label>
+        <display-label
+                        xml:lang="da">Attestationsspørgsmål</display-label>
+        <display-label
+                        xml:lang="es">Pregunta de certificación</display-label>
+        <display-label
+                        xml:lang="ru">Вопрос подтверждения</display-label>
+        <display-label
+                        xml:lang="sv">Verifieringsfråga</display-label>
+        <display-label
+                        xml:lang="nl">Attestvraag</display-label>
+        <display-label
+                        xml:lang="it">Domanda di attestazione</display-label>
+        <display-label
+                        xml:lang="zh-TW">證明問題</display-label>
+        <display-label
+                        xml:lang="pt">Pergunta do Atestado</display-label>
+        <display-label
+                        xml:lang="fr">Question d'attestation</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="AttestationQuestion">
+        <control
+                        control-type="ATTAttestationQuestion"
+                        editable="true"
+                                required="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>true</value>
+            </prop>
+            <prop
+                        name="label-style">
+              <value/>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="de">Beglaubigungsfrage</display-label>
+        <display-label
+                        xml:lang="zh-CN">证明问题</display-label>
+        <display-label
+                        xml:lang="ja">検証の質問</display-label>
+        <display-label
+                        xml:lang="en">Attestation Question</display-label>
+        <display-label
+                        xml:lang="da">Attestationsspørgsmål</display-label>
+        <display-label
+                        xml:lang="es">Pregunta de certificación</display-label>
+        <display-label
+                        xml:lang="ru">Вопрос подтверждения</display-label>
+        <display-label
+                        xml:lang="sv">Verifieringsfråga</display-label>
+        <display-label
+                        xml:lang="nl">Attestvraag</display-label>
+        <display-label
+                        xml:lang="it">Domanda di attestazione</display-label>
+        <display-label
+                        xml:lang="zh-TW">證明問題</display-label>
+        <display-label
+                        xml:lang="pt">Pergunta do Atestado</display-label>
+        <display-label
+                        xml:lang="fr">Question d'attestation</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="line3">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                        name="html">
+              <value>&lt;hr&gt;&lt;/hr&gt;</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="en">line3</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <actions
+                        location="bottom">
+        <action
+                        hide-if-readonly="true"
+                            name="ApprovalAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="de">Beglaubigung senden</display-label>
+          <display-label
+                            xml:lang="zh-CN">提交证明</display-label>
+          <display-label
+                            xml:lang="ja">検証の送信</display-label>
+          <display-label
+                            xml:lang="en">Submit Attestation</display-label>
+          <display-label
+                            xml:lang="da">Send attestation</display-label>
+          <display-label
+                            xml:lang="es">Enviar certificación</display-label>
+          <display-label
+                            xml:lang="ru">Передать подтверждение</display-label>
+          <display-label
+                            xml:lang="sv">Skicka verifiering</display-label>
+          <display-label
+                            xml:lang="nl">Attest indienen</display-label>
+          <display-label
+                            xml:lang="it">Invia attestazione</display-label>
+          <display-label
+                            xml:lang="zh-TW">提交證明</display-label>
+          <display-label
+                            xml:lang="pt">Enviar Atestado</display-label>
+          <display-label
+            xml:lang="fr">Soumettre l'attestation</display-label>
+        </action>
+      </actions>
+    </content>
+  </form>
+  <form
+                    form-id="withSurvey_form">
+    <content>
+      <field
+                    data-type="string"
+                        name="ReportLabel">
+        <control
+                        control-type="Title"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="de">Bericht</display-label>
+        <display-label
+                        xml:lang="zh-CN">报告</display-label>
+        <display-label
+                        xml:lang="ja">レポート</display-label>
+        <display-label
+                        xml:lang="en">Report</display-label>
+        <display-label
+                        xml:lang="da">Rapport</display-label>
+        <display-label
+                        xml:lang="es">Informe</display-label>
+        <display-label
+                        xml:lang="ru">Отчет</display-label>
+        <display-label
+                        xml:lang="sv">Rapport</display-label>
+        <display-label
+                        xml:lang="nl">Rapport</display-label>
+        <display-label
+                        xml:lang="it">Rapporto</display-label>
+        <display-label
+                        xml:lang="zh-TW">報告</display-label>
+        <display-label
+                        xml:lang="pt">Relatório</display-label>
+        <display-label
+                        xml:lang="fr">Rapport</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="Report">
+        <control
+                        control-type="attestation.ReportDisplay"
+                                editable="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>true</value>
+            </prop>
+            <prop
+                        name="label-style">
+              <value/>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="de">Bericht</display-label>
+        <display-label
+                        xml:lang="zh-CN">报告</display-label>
+        <display-label
+                        xml:lang="ja">レポート</display-label>
+        <display-label
+                        xml:lang="en">Report</display-label>
+        <display-label
+                        xml:lang="da">Rapport</display-label>
+        <display-label
+                        xml:lang="es">Informe</display-label>
+        <display-label
+                        xml:lang="ru">Отчет</display-label>
+        <display-label
+                        xml:lang="sv">Rapport</display-label>
+        <display-label
+                        xml:lang="nl">Rapport</display-label>
+        <display-label
+                        xml:lang="it">Rapporto</display-label>
+        <display-label
+                        xml:lang="zh-TW">報告</display-label>
+        <display-label
+                        xml:lang="pt">Relatório</display-label>
+        <display-label
+                        xml:lang="fr">Rapport</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="line1">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                        name="html">
+              <value>&lt;hr&gt;&lt;/hr&gt;</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="en">line1</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="SurveyQuestionsLabel">
+        <control
+                        control-type="Title"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="de">Erfassungsfragen</display-label>
+        <display-label
+                        xml:lang="zh-CN">调查问题</display-label>
+        <display-label
+                        xml:lang="ja">調査の質問</display-label>
+        <display-label
+                        xml:lang="en">Survey Questions</display-label>
+        <display-label
+                        xml:lang="da">Undersøgelsesspørgsmål</display-label>
+        <display-label
+                        xml:lang="es">Preguntas de encuesta</display-label>
+        <display-label
+                        xml:lang="ru">Вопросы обзора</display-label>
+        <display-label
+                        xml:lang="sv">Enkätfrågor</display-label>
+        <display-label
+                        xml:lang="nl">Enquêtevragen</display-label>
+        <display-label
+                        xml:lang="it">Domande del sondaggio</display-label>
+        <display-label
+                        xml:lang="zh-TW">問卷問題</display-label>
+        <display-label
+                        xml:lang="pt">Perguntas da Pesquisa</display-label>
+        <display-label
+                        xml:lang="fr">Questions d'étude</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="SurveyQuestionsList">
+        <control
+                        control-type="ATTSurveyQuestions"
+                                editable="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>true</value>
+            </prop>
+            <prop
+                        name="label-style">
+              <value/>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="de">Erfassungsfragen</display-label>
+        <display-label
+                        xml:lang="zh-CN">调查问题</display-label>
+        <display-label
+                        xml:lang="ja">調査の質問</display-label>
+        <display-label
+                        xml:lang="en">Survey Questions</display-label>
+        <display-label
+                        xml:lang="da">Undersøgelsesspørgsmål</display-label>
+        <display-label
+                        xml:lang="es">Preguntas de encuesta</display-label>
+        <display-label
+                        xml:lang="ru">Вопросы обзора</display-label>
+        <display-label
+                        xml:lang="sv">Enkätfrågor</display-label>
+        <display-label
+                        xml:lang="nl">Enquêtevragen</display-label>
+        <display-label
+                        xml:lang="it">Domande del sondaggio</display-label>
+        <display-label
+                        xml:lang="zh-TW">問卷問題</display-label>
+        <display-label
+                        xml:lang="pt">Perguntas da Pesquisa</display-label>
+        <display-label
+                        xml:lang="fr">Questions d'étude</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="line2">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                        name="html">
+              <value>&lt;hr&gt;&lt;/hr&gt;</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="en">line2</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="AttestationQuestionLabel">
+        <control
+                        control-type="Title"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="de">Beglaubigungsfrage</display-label>
+        <display-label
+                        xml:lang="zh-CN">证明问题</display-label>
+        <display-label
+                        xml:lang="ja">検証の質問</display-label>
+        <display-label
+                        xml:lang="en">Attestation Question</display-label>
+        <display-label
+                        xml:lang="da">Attestationsspørgsmål</display-label>
+        <display-label
+                        xml:lang="es">Pregunta de certificación</display-label>
+        <display-label
+                        xml:lang="ru">Вопрос подтверждения</display-label>
+        <display-label
+                        xml:lang="sv">Verifieringsfråga</display-label>
+        <display-label
+                        xml:lang="nl">Attestvraag</display-label>
+        <display-label
+                        xml:lang="it">Domanda di attestazione</display-label>
+        <display-label
+                        xml:lang="zh-TW">證明問題</display-label>
+        <display-label
+                        xml:lang="pt">Pergunta do Atestado</display-label>
+        <display-label
+                        xml:lang="fr">Question d'attestation</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="AttestationQuestion">
+        <control
+                        control-type="ATTAttestationQuestion"
+                        editable="true"
+                                required="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>true</value>
+            </prop>
+            <prop
+                        name="label-style">
+              <value/>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="de">Beglaubigungsfrage</display-label>
+        <display-label
+                        xml:lang="zh-CN">证明问题</display-label>
+        <display-label
+                        xml:lang="ja">検証の質問</display-label>
+        <display-label
+                        xml:lang="en">Attestation Question</display-label>
+        <display-label
+                        xml:lang="da">Attestationsspørgsmål</display-label>
+        <display-label
+                        xml:lang="es">Pregunta de certificación</display-label>
+        <display-label
+                        xml:lang="ru">Вопрос подтверждения</display-label>
+        <display-label
+                        xml:lang="sv">Verifieringsfråga</display-label>
+        <display-label
+                        xml:lang="nl">Attestvraag</display-label>
+        <display-label
+                        xml:lang="it">Domanda di attestazione</display-label>
+        <display-label
+                        xml:lang="zh-TW">證明問題</display-label>
+        <display-label
+                        xml:lang="pt">Pergunta do Atestado</display-label>
+        <display-label
+                        xml:lang="fr">Question d'attestation</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="line3">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                        name="html">
+              <value>&lt;hr&gt;&lt;/hr&gt;</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="en">line3</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <actions
+                        location="bottom">
+        <action
+                        hide-if-readonly="true"
+                            name="ApprovalAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="de">Beglaubigung senden</display-label>
+          <display-label
+                            xml:lang="zh-CN">提交证明</display-label>
+          <display-label
+                            xml:lang="ja">検証の送信</display-label>
+          <display-label
+                            xml:lang="en">Submit Attestation</display-label>
+          <display-label
+                            xml:lang="da">Send attestation</display-label>
+          <display-label
+                            xml:lang="es">Enviar certificación</display-label>
+          <display-label
+                            xml:lang="ru">Передать подтверждение</display-label>
+          <display-label
+                            xml:lang="sv">Skicka verifiering</display-label>
+          <display-label
+                            xml:lang="nl">Attest indienen</display-label>
+          <display-label
+                            xml:lang="it">Invia attestazione</display-label>
+          <display-label
+                            xml:lang="zh-TW">提交證明</display-label>
+          <display-label
+                            xml:lang="pt">Enviar Atestado</display-label>
+          <display-label
+            xml:lang="fr">Soumettre l'attestation</display-label>
+        </action>
+      </actions>
+    </content>
+  </form>
+  <form-binding
+            activity-id="Activity"
+            form-id="withSurvey_form"/>
+  <form-binding
+            activity-id="Activity5"
+            form-id="withoutSurvey_form"/>
+  <data-items
+                activity-id="Activity">
+    <data-item
+                data-type="string" name="Report"
+                source="flowdata.get('AttestationRequest/ID')"/>
+    <data-item
+                data-type="string" name="SurveyQuestionsList"
+                source="flowdata.get('AttestationRequest/ID')"
+                target="flowdata.AttestationRequest/SurveyResponse"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="AttestationQuestion"
+                source="flowdata.get('AttestationRequest/ID')"
+                target="flowdata.AttestationRequest/Result"
+            target-type="multi-value-list"/>
+  </data-items>
+  <data-items
+                activity-id="Activity5">
+    <data-item
+                data-type="string" name="Report"
+                source="flowdata.get('AttestationRequest/ID')"/>
+    <data-item
+                data-type="string" name="AttestationQuestion"
+                source="flowdata.get('AttestationRequest/ID')"
+                target="flowdata.AttestationRequest/Result"
+            target-type="multi-value-list"/>
+  </data-items>
+  <data-items
+                activity-id="Activity3">
+    <data-item
+                data-type="string" name="MAP0"
+                source="function getDate() {  return (new java.text.SimpleDateFormat(' (yyyy-MM-dd)')).format(new java.util.Date()); }; getDate();"
+                target="flowdata.AttestationRequest/Date"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP1"
+                source="AttestationRequest.getName(new java.util.Locale('en')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/en"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP2"
+                source="AttestationRequest.getName(new java.util.Locale('fr')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/fr"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP3"
+                source="AttestationRequest.getName(new java.util.Locale('de')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/de"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP4"
+                source="AttestationRequest.getName(new java.util.Locale('zh','TW')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/zh-TW"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP5"
+                source="AttestationRequest.getName(new java.util.Locale('it')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/it"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP6"
+                source="AttestationRequest.getName(new java.util.Locale('pt')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/pt"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP7"
+                source="AttestationRequest.getName(new java.util.Locale('sv')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/sv"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP8"
+                source="AttestationRequest.getName(new java.util.Locale('ru')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/ru"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP9"
+                source="AttestationRequest.getName(new java.util.Locale('zh','CN')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/zh-CN"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP10"
+                source="AttestationRequest.getName(new java.util.Locale('es')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/es"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP11"
+                source="AttestationRequest.getName(new java.util.Locale('ja')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/ja"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP12"
+                source="AttestationRequest.getName(new java.util.Locale('nl')) + getDate()"
+                target="flowdata.AttestationRequest/displayName/nl"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP13" source="&quot;-1&quot;"
+                target="flowdata.AttestationRequest/Result"
+            target-type="multi-value-list"/>
+  </data-items>
+  <data-items
+                activity-id="Activity1">
+    <data-item
+                data-type="string" name="approvalstatus"
+                source="function getApprovalStatus(anAttestationResult) {  if (anAttestationResult == '-1') {   return &quot;No Answer&quot;;  }  if (anAttestationResult == '0') {   return &quot;denied&quot;;  }  if (anAttestationResult == '1') {   return &quot;approved&quot;;  }   return &quot;No Answer&quot;; }; getApprovalStatus(flowdata.get('AttestationRequest/Result[1]'));"
+            target="flowdata.IDM_COMPLETED_APPROVAL_STATUS"/>
+  </data-items>
+  <data-items
+                activity-id="Activity2">
+    <data-item
+                data-type="string" name="approvalstatus"
+                source="'No Answer'"
+            target="flowdata.IDM_COMPLETED_APPROVAL_STATUS"/>
+  </data-items>
+  <start-activity
+                activity-id="Start">
+    <display-name
+                xml:lang="de">Beglaubigungsbericht starten</display-name>
+    <display-name
+                xml:lang="zh-CN">开始证明报告</display-name>
+    <display-name
+                xml:lang="ja">検証レポートの開始</display-name>
+    <display-name
+                xml:lang="en">Start Attestation Report</display-name>
+    <display-name
+                xml:lang="da">Start attestationsrapport</display-name>
+    <display-name
+                xml:lang="es">Iniciar informe de certificación</display-name>
+    <display-name
+                xml:lang="ru">Отчет о начале подтверждения</display-name>
+    <display-name
+                xml:lang="sv">Starta verifieringsrapport</display-name>
+    <display-name
+                xml:lang="nl">Attestrapport starten</display-name>
+    <display-name
+                xml:lang="it">Avvia rapporto attestazioni</display-name>
+    <display-name
+                xml:lang="zh-TW">開始證明報告</display-name>
+    <display-name
+                xml:lang="pt">Iniciar Relatório de Atestado</display-name>
+    <display-name
+            xml:lang="fr">Démarrer le rapport d'attestation</display-name>
+  </start-activity>
+  <user-activity
+            activity-id="Activity" ontimeout="timedout"
+                timeout="AttestationRequest.getTimeoutInMilliseconds()">
+    <display-name
+                xml:lang="de">Beglaubigungsgenehmigung</display-name>
+    <display-name
+                xml:lang="zh-CN">证明批准</display-name>
+    <display-name
+                xml:lang="ja">検証承認</display-name>
+    <display-name
+                xml:lang="en">Attestation Approval</display-name>
+    <display-name
+                xml:lang="da">Attestationsgodkendelse</display-name>
+    <display-name
+                xml:lang="es">Aprobación de certificación</display-name>
+    <display-name
+                xml:lang="ru">Утверждение подтверждения</display-name>
+    <display-name
+                xml:lang="sv">Verifieringsgodkännande</display-name>
+    <display-name
+                xml:lang="nl">Attestgoedkeuring</display-name>
+    <display-name
+                xml:lang="it">Approvazione attestazione</display-name>
+    <display-name
+                xml:lang="zh-TW">證明核准</display-name>
+    <display-name
+                xml:lang="pt">Aprovação de Atestado</display-name>
+    <display-name
+                xml:lang="fr">Approbation d'attestation</display-name>
+    <addressee>recipient</addressee>
+    <notify
+                    template="cn=Attestation Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="AttestationRequest.getName(locale)"
+                target="requestTitle"/>
+    </notify>
+    <retry
+                attempts=""
+            interval="">
+      <addressee/>
+    </retry>
+  </user-activity>
+  <mapping-activity
+                activity-id="Activity3">
+    <display-name
+                xml:lang="de">Anzeigenamen lokalisieren</display-name>
+    <display-name
+                xml:lang="zh-CN">本地化显示名称</display-name>
+    <display-name
+                xml:lang="ja">表示名のローカライズ</display-name>
+    <display-name
+                xml:lang="en">Localize Display Name</display-name>
+    <display-name
+                xml:lang="da">Lokaliser visningsnavn</display-name>
+    <display-name
+                xml:lang="es">Localizar nombre de visualización</display-name>
+    <display-name
+                xml:lang="ru">Локализовать отображаемое имя</display-name>
+    <display-name
+                xml:lang="sv">Lokalisera visningsnamn</display-name>
+    <display-name
+                xml:lang="nl">Weergavenaam lokaliseren</display-name>
+    <display-name
+                xml:lang="it">Localizza nome visualizzato</display-name>
+    <display-name
+                xml:lang="zh-TW">當地語系化顯示名稱</display-name>
+    <display-name
+                xml:lang="pt">Localizar Nome de Exibição</display-name>
+    <display-name
+            xml:lang="fr">Localiser le nom d'affichage</display-name>
+  </mapping-activity>
+  <mapping-activity
+                activity-id="Activity1">
+    <display-name
+                xml:lang="de">Genehmigungsstatus festlegen</display-name>
+    <display-name
+                xml:lang="zh-CN">设置批准状态</display-name>
+    <display-name
+                xml:lang="ja">承認ステータスの設定</display-name>
+    <display-name
+                xml:lang="en">Set Approval Status</display-name>
+    <display-name
+                xml:lang="da">Indstil godkendelsesstatus</display-name>
+    <display-name
+                xml:lang="es">Establecer estado de aprobación</display-name>
+    <display-name
+                xml:lang="ru">Задать состояние утверждения</display-name>
+    <display-name
+                xml:lang="sv">Ange godkännandestatus</display-name>
+    <display-name
+                xml:lang="nl">Goedkeuringsstatus instellen</display-name>
+    <display-name
+                xml:lang="it">Imposta stato di approvazione</display-name>
+    <display-name
+                xml:lang="zh-TW">設定核准狀態</display-name>
+    <display-name
+                xml:lang="pt">Definir Status de Aprovação</display-name>
+    <display-name
+            xml:lang="fr">Définir l'état d'approbation</display-name>
+  </mapping-activity>
+  <mapping-activity
+                activity-id="Activity2">
+    <display-name
+                xml:lang="de">Workflow-Status initialisieren</display-name>
+    <display-name
+                xml:lang="zh-CN">初始化工作流程状态</display-name>
+    <display-name
+                xml:lang="ja">ワークフローステータスの初期化</display-name>
+    <display-name
+                xml:lang="en">Initialize Workflow Status</display-name>
+    <display-name
+                xml:lang="da">Initialiser workflowstatus</display-name>
+    <display-name
+                xml:lang="es">Inicializar estado de flujo de trabajo</display-name>
+    <display-name
+                xml:lang="ru">Инициализировать состояние последовательности</display-name>
+    <display-name
+                xml:lang="sv">Initiera arbetsgångsstatus</display-name>
+    <display-name
+                xml:lang="nl">Werkstroomstatus initialiseren</display-name>
+    <display-name
+                xml:lang="it">Inizializza stato workflow</display-name>
+    <display-name
+                xml:lang="zh-TW">初始化工作流程狀態</display-name>
+    <display-name
+                xml:lang="pt">Inicializar Status de Workflow</display-name>
+    <display-name
+            xml:lang="fr">Initialiser l'état du workflow</display-name>
+  </mapping-activity>
+  <condition-activity
+                activity-id="Activity4">
+    <display-name
+                xml:lang="de">Auf Erfassungsfragen prüfen</display-name>
+    <display-name
+                xml:lang="zh-CN">检查调查问题</display-name>
+    <display-name
+                xml:lang="ja">調査の質問のチェック</display-name>
+    <display-name
+                xml:lang="en">Check For Survey Questions</display-name>
+    <display-name
+                xml:lang="da">Kontroller undersøgelsesspørgsmål</display-name>
+    <display-name
+                xml:lang="es">Comprobar preguntas de la encuesta</display-name>
+    <display-name
+                xml:lang="ru">Проверять вопросы обзора</display-name>
+    <display-name
+                xml:lang="sv">Kontrollera enkätfrågor</display-name>
+    <display-name
+                xml:lang="nl">Enquêtevragen controleren</display-name>
+    <display-name
+                xml:lang="it">Verifica domande sondaggi</display-name>
+    <display-name
+                xml:lang="zh-TW">檢查問卷問題</display-name>
+    <display-name
+                xml:lang="pt">Verificar Perguntas de Pesquisa</display-name>
+    <display-name
+            xml:lang="fr">Vérifier les questions d'étude</display-name>
+    <expression>AttestationRequest.getLocalizedSurveyQuestions() != null &amp;&amp; !AttestationRequest.getLocalizedSurveyQuestions().isEmpty()</expression>
+  </condition-activity>
+  <user-activity
+            activity-id="Activity5" ontimeout="timedout"
+                timeout="AttestationRequest.getTimeoutInMilliseconds()">
+    <display-name
+                xml:lang="de">Beglaubigungsgenehmigung</display-name>
+    <display-name
+                xml:lang="zh-CN">证明批准</display-name>
+    <display-name
+                xml:lang="ja">検証承認</display-name>
+    <display-name
+                xml:lang="en">Attestation Approval</display-name>
+    <display-name
+                xml:lang="da">Attestationsgodkendelse</display-name>
+    <display-name
+                xml:lang="es">Aprobación de certificación</display-name>
+    <display-name
+                xml:lang="ru">Утверждение подтверждения</display-name>
+    <display-name
+                xml:lang="sv">Verifieringsgodkännande</display-name>
+    <display-name
+                xml:lang="nl">Attestgoedkeuring</display-name>
+    <display-name
+                xml:lang="it">Approvazione attestazione</display-name>
+    <display-name
+                xml:lang="zh-TW">證明核准</display-name>
+    <display-name
+                xml:lang="pt">Aprovação de Atestado</display-name>
+    <display-name
+                xml:lang="fr">Approbation d'attestation</display-name>
+    <addressee>recipient</addressee>
+    <notify
+                    template="cn=Attestation Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="AttestationRequest.getName(locale)"
+                target="requestTitle"/>
+    </notify>
+    <retry
+                attempts=""
+            interval="">
+      <addressee/>
+    </retry>
+  </user-activity>
+  <finish-activity
+            activity-id="Finish" setnotify="true">
+    <display-name
+                xml:lang="de">Beglaubigungsbericht abschließen</display-name>
+    <display-name
+                xml:lang="zh-CN">完成证明报告</display-name>
+    <display-name
+                xml:lang="ja">検証レポートの終了</display-name>
+    <display-name
+                xml:lang="en">Finish Attestation Report</display-name>
+    <display-name
+                xml:lang="da">Afslut attestationsrapport</display-name>
+    <display-name
+                xml:lang="es">Finalizar informe de certificación</display-name>
+    <display-name
+                xml:lang="ru">Отчет о завершении подтверждения</display-name>
+    <display-name
+                xml:lang="sv">Slutför verifieringsrapport</display-name>
+    <display-name
+                xml:lang="nl">Attestrapport voltooien</display-name>
+    <display-name
+                xml:lang="it">Concludi rapporto attestazione</display-name>
+    <display-name
+                xml:lang="zh-TW">完成證明報告</display-name>
+    <display-name
+                xml:lang="pt">Terminar Relatório de Atestado</display-name>
+    <display-name
+                xml:lang="fr">Terminer le rapport d'attestation</display-name>
+    <notify
+                    template="cn=Attestation Completed Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="AttestationRequest.getStartDate()"
+                    target="requestSubmissionTime"/>
+      <map
+                    source="AttestationRequest.getAttestationRequestId()"
+                    target="requestId"/>
+      <map
+                    source="AttestationRequest.getName(locale)"
+            target="requestTitle"/>
+    </notify>
+  </finish-activity>
+  <link
+            source="Activity" target="Activity1"
+            type="approved"/>
+  <link source="Activity"
+            target="Activity1" type="timedout"/>
+  <link
+            source="Activity1" target="Finish" type="forward"/>
+  <link
+            source="Start" target="Activity2" type="forward"/>
+  <link
+            source="Activity2" target="Activity3"
+            type="forward"/>
+  <link source="Activity3"
+            target="Activity4" type="forward"/>
+  <link
+            source="Activity4" target="Activity" type="true"/>
+  <link
+            source="Activity4" target="Activity5" type="false"/>
+  <link
+            source="Activity5" target="Activity1"
+            type="timedout"/>
+  <link source="Activity5"
+            target="Activity1" type="approved"/>
+</process>
+</prov-req-defn>

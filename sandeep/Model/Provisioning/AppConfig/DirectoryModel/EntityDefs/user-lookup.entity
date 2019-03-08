@@ -1,0 +1,188 @@
+<entity-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <entity
+        creatable="false" editable="false" protected="true"
+        removable="false" system="false" viewable="false">
+    <display
+            xml:lang="nl">
+      <label>Gebruiker zoeken</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Benutzer nachschlagen</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Recherche d'utilisateur</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Búsqueda de usuarios</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>使用者查閱</label>
+    </display>
+    <display
+            xml:lang="ja">
+      <label>ユーザのルックアップ</label>
+    </display>
+    <display
+            xml:lang="it">
+      <label>Ricerca utente</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Brugeropslag</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Pesquisa de Usuário</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>User Lookup</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>用户查找</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Коды поиска пользователя</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Uppslagning av användare</label>
+    </display>
+    <search-root>%user-root%</search-root>
+    <object-class
+            search="true">
+      <ldap-name>inetOrgPerson</ldap-name>
+      <nds-name>User</nds-name>
+    </object-class>
+  </entity>
+  <attributes>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" readable="true" searchable="true"
+                viewable="true">
+      <key>FirstName</key>
+      <ldap-name>givenName</ldap-name>
+      <nds-name>Given Name</nds-name>
+      <display
+                xml:lang="nl">
+        <label>Voornaam</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Vorname</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Prénom</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Nombre de pila</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>名</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>名</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Nome</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Fornavn</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Nome</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>First Name</label>
+      </display>
+      <display
+                xml:lang="zh-CN">
+        <label>名</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Имя</label>
+      </display>
+      <display
+            xml:lang="sv">
+        <label>Förnamn</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" readable="true" searchable="true"
+                viewable="true">
+      <key>LastName</key>
+      <ldap-name>sn</ldap-name>
+      <nds-name>Surname</nds-name>
+      <display
+                xml:lang="nl">
+        <label>Achternaam</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Nachname</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Nom</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Apellido</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>姓</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>姓</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Cognome</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Efternavn</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Sobrenome</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Last Name</label>
+      </display>
+      <display
+                xml:lang="zh-CN">
+        <label>姓</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Фамилия</label>
+      </display>
+      <display xml:lang="sv">
+        <label>Efternamn</label>
+      </display>
+      <type>String</type>
+    </attribute>
+  </attributes>
+</entity-definition>

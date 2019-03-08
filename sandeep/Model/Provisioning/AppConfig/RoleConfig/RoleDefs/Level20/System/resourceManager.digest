@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=resourceManager" filename="resourceManager.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>GC22SBTK</guid>
+    <display
+        xml:lang="de">Ressourcenmanager</display>
+    <display
+        xml:lang="sv">Resurshanterare</display>
+    <display
+        xml:lang="ru">Менеджер ресурса</display>
+    <display
+        xml:lang="pt">Gerenciador de Recursos</display>
+    <display
+        xml:lang="zh-TW">資源主管</display>
+    <display
+        xml:lang="en">Resource Manager</display>
+    <display
+        xml:lang="it">Manager risorse</display>
+    <display
+        xml:lang="fr">Gestionnaire de ressources</display>
+    <display
+        xml:lang="zh-CN">资源管理者</display>
+    <display
+        xml:lang="es">Supervisor de recursos</display>
+    <display
+        xml:lang="ja">リソースマネージャ</display>
+    <display
+        xml:lang="da">Ressourcestyring</display>
+    <display
+        xml:lang="nl">Resourcemanager</display>
+    <descr
+        xml:lang="de">Ein beauftragter Administrator, der nur zugelassene Aktionen für eine Teilmenge der Objekte innerhalb der Ressourcendomäne durchführen kann.</descr>
+    <descr
+        xml:lang="sv">En delegerad administratör som bara kan utföra tillåtna åtgärder för en deluppsättning av objekt i resursdomänen.</descr>
+    <descr
+        xml:lang="ru">Делегированный администратор, который может выполнять только разрешенные действия для подмножества объектов в домене ресурса.</descr>
+    <descr
+        xml:lang="pt">Um administrador indicado, capaz de executar apenas ações permitidas para um subconjunto de objetos no domínio de Recurso.</descr>
+    <descr
+        xml:lang="zh-TW">僅可為資源網域內的部分物件執行允許的動作的委託管理員。</descr>
+    <descr
+        xml:lang="en">A delegated administrator who can perform only allowed actions for a subset of objects within the Resource domain.</descr>
+    <descr
+        xml:lang="it">Un amministratore delegato che può eseguire solo le azioni consentite per un sottoinsieme di oggetti all'interno del dominio della risorsa.</descr>
+    <descr
+        xml:lang="fr">Administrateur délégué qui ne peut effectuer que les opérations autorisées sur un sous-ensemble d'objets au sein du domaine de ressources.</descr>
+    <descr
+        xml:lang="zh-CN">仅可以对资源域内的对象子集执行已允许操作的委托管理员。</descr>
+    <descr
+        xml:lang="es">Administrador delegado que sólo puede realizar las acciones permitidas para un subconjunto de objetos del dominio de recursos.</descr>
+    <descr
+        xml:lang="ja">リソースドメイン内でオブジェクトのサブセットに対して許可されたアクションのみを実行できる委任管理者。</descr>
+    <descr
+        xml:lang="da">En delegeret administrator, som kun kan udføre tilladte handlinger for et undersæt af objekter i ressourcedomænet.</descr>
+    <descr xml:lang="nl">Een gedelegeerde beheerder die alleen toegestane acties kan uitvoeren voor een subset van objecten in het resourcedomein.</descr>
+    <dirguid>BEF0D6CABF448D4AB86EBEF0D6CABF44</dirguid>
+    <dirrev>3</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>AWXTIIH5_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2205124703</pkg-checksum></item>

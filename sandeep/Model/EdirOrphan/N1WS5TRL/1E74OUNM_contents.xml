@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="User current password" item-name="CurrentPassword"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>Votre demande de mot de passe</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Cher $UserFullName$,</p>
+		<p>Vous avez demandé que votre mot de passe actuel vous soit adressé par e-mail. Votre mot de passe apparaît ci-dessous :</p>
+		<p>Mot de passe : $CurrentPassword$</p>
+		<p>Si vous n''avez pas demandé que votre mot de passe vous soit envoyé par e-mail, contactez le service d'assistance par téléphone au (012) 345-6789 ou par e-mail à l'adresse <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> - Sécurité automatique</p>
+		<p>
+			<img ALT="Powered by Novell" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

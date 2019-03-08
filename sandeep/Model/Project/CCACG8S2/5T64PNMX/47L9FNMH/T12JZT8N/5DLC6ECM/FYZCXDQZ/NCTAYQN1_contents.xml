@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions/>
+	<body>
+		<p>Bonjour,<br/>
+			<br/>
+Votre action pour $TASK_ACTION$ s'est bien terminée.<br/>
+			<br/>
+Voici les détails de la demande :<br/>
+			<br/>
+Nom de la demande : $REQUEST_TITLE$<br/>
+ID de la demande : $REQUEST_ID$<br/>
+Envoyée par : $SUBMITTED_BY$<br/>
+Envoyée le : $SUBMITTED_ON$<br/>
+Destinataire : $RECIPIENT$<br/>
+		</p>
+	</body>
+</html>

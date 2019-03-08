@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=HelpdeskTicket" filename="HelpdeskTicket.prd"
+    hasContainment="false" modstamp="0" protected="true" readonly="true"
+    type="srvprvRequest"
+        visible="true">
+    <guid>RD8B3V5D</guid>
+    <display
+        xml:lang="de">Helpdesk-Bericht</display>
+    <display
+        xml:lang="ru">Сообщение о проблеме</display>
+    <display
+        xml:lang="sv">Helpdesk-ärende</display>
+    <display
+        xml:lang="pt">Ticket de Suporte Técnico</display>
+    <display
+        xml:lang="zh-TW">服務台票證</display>
+    <display
+        xml:lang="en">HelpDesk Ticket</display>
+    <display
+        xml:lang="it">Ticket per help desk</display>
+    <display
+        xml:lang="fr">Ticket de service dassistance</display>
+    <display
+        xml:lang="zh-CN">咨询台凭单</display>
+    <display
+        xml:lang="es">Ticket de servicio de ayuda técnica</display>
+    <display
+        xml:lang="ja">ヘルプデスクチケット</display>
+    <display
+        xml:lang="da">HelpDesk-anmodning</display>
+    <display
+        xml:lang="nl">HelpDesk-ticket</display>
+    <descr
+        xml:lang="de">Formular zum Erstellen von Helpdesk-Berichten</descr>
+    <descr
+        xml:lang="ru">Форма создания сообщения о проблеме</descr>
+    <descr
+        xml:lang="sv">Formulär för att skapa helpdesk-ärende</descr>
+    <descr
+        xml:lang="pt">Formulário de Criação de Ticket de Suporte Técnico</descr>
+    <descr
+        xml:lang="zh-TW">服務台票證建立表單</descr>
+    <descr
+        xml:lang="en">Helpdesk Ticket Creation Form</descr>
+    <descr
+        xml:lang="it">Modulo di creazione ticket per help desk</descr>
+    <descr
+        xml:lang="fr">Formulaire de création dun ticket de service dassistance</descr>
+    <descr
+        xml:lang="zh-CN">咨询台凭单创建表单</descr>
+    <descr
+        xml:lang="es">Formulario de creación de tickets de servicio de ayuda técnica</descr>
+    <descr
+        xml:lang="ja">ヘルプデスクチケットの作成フォーム</descr>
+    <descr
+        xml:lang="da">Formular til oprettelse af Helpdesk-anmodning</descr>
+    <descr xml:lang="nl">Formulier voor het maken van een Helpdesk-ticket</descr>
+    <dirguid>2EB7508A6E151A4CB5A32EB7508A6E15</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>accounts</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>S6ADU2XU_201709101920120715</pkg-assoc-id>
+    <pkg-checksum>1631616812</pkg-checksum></item>

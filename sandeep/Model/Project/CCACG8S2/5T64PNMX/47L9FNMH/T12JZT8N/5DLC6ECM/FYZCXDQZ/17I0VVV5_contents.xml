@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions/>
+	<body>
+		<p>Hej!<br/>
+			<br/>
+Din åtgärd för $TASK_ACTION$ har genomförts utan problem.<br/>
+			<br/>
+Uppgifterna om förfrågan är:<br/>
+			<br/>
+Förfrågans namn: $REQUEST_TITLE$<br/>
+Begärande-ID: $REQUEST_ID$<br/>
+Skickad av: $SUBMITTED_BY$<br/>
+Skickad den: $SUBMITTED_ON$<br/>
+Mottagare: $RECIPIENT$<br/>
+		</p>
+	</body>
+</html>

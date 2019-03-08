@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.header.ApplicationAuthentication)Application Authentication"/>
+		<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.shim-auth-id)Authentication ID" name="shim-auth-id" type="string">
+			<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.dscr.shim-auth-id)Enter the Authentication Id for the driver.</description>
+			<value>cn=Directory Manager</value>
+		</definition>
+		<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.shim-auth-server)Connection Information" name="shim-auth-server" type="string">
+			<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.dscr.shim-auth-server)Enter the Connection Information used by the driver to connect to the application.</description>
+			<value>127.0.0.1:389</value>
+		</definition>
+		<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.shim-auth-password)Password" name="shim-auth-password" type="password-ref">
+			<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASEInitSettingsPrompts.gcv.dscr.shim-auth-password)Specify the password used by the driver to connect to the application.</description>
+			<value>shim-auth-password</value>
+		</definition>
+	</definitions>
+</configuration-values>

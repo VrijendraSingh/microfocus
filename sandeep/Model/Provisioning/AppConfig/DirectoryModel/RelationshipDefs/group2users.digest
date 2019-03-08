@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=group2users" filename="group2users.relation"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="srvprvRelationship"
+        visible="true">
+    <guid>OCKHEV06</guid>
+    <display
+        xml:lang="de">Mitgliedschaft der Gruppe</display>
+    <display
+        xml:lang="sv">Gruppens medlemskap</display>
+    <display
+        xml:lang="ru">Членство в группах</display>
+    <display
+        xml:lang="pt">Participação no grupo</display>
+    <display
+        xml:lang="zh-TW">群組成員</display>
+    <display
+        xml:lang="en">Group's membership</display>
+    <display
+        xml:lang="it">Appartenenza a gruppi</display>
+    <display
+        xml:lang="fr">Appartenance au groupe</display>
+    <display
+        xml:lang="zh-CN">组成员资格</display>
+    <display
+        xml:lang="es">Miembros del grupo</display>
+    <display
+        xml:lang="ja">グループのメンバーシップ</display>
+    <display
+        xml:lang="da">Gruppes medlemskab</display>
+    <display
+        xml:lang="nl">Lidmaatschap groep</display>
+    <descr xml:lang="en">Group to users</descr>
+    <dirguid>A66C79F20CF3134DB1F1A66C79F20CF3</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>RSL5MBFY_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>612497986</pkg-checksum></item>

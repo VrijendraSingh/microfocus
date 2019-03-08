@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=provAdmin" filename="provAdmin.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>4UU0AD1N</guid>
+    <display
+        xml:lang="de">Bereitstellungsadministrator</display>
+    <display
+        xml:lang="sv">Logistikadministratör</display>
+    <display
+        xml:lang="ru">Администратор обеспечения правами доступа</display>
+    <display
+        xml:lang="pt">Administrador de Aprovisionamento</display>
+    <display
+        xml:lang="zh-TW">佈建管理員</display>
+    <display
+        xml:lang="en">Provisioning Administrator</display>
+    <display
+        xml:lang="it">Amministratore provisioning</display>
+    <display
+        xml:lang="fr">Administrateur du provisioning</display>
+    <display
+        xml:lang="zh-CN">供应管理员</display>
+    <display
+        xml:lang="es">Administrador de provisión</display>
+    <display
+        xml:lang="ja">プロビジョニング管理者</display>
+    <display
+        xml:lang="da">Klargøringsadministrator</display>
+    <display
+        xml:lang="nl">Provisioningbeheerder</display>
+    <descr
+        xml:lang="de">Ein Domänenadministrator, der innerhalb der Bereitstellungsdomäne über die ganze Palette an Funktionen verfügt. Der Bereitstellungsadministrator kann alle möglichen Aktionen für alle Objekte innerhalb der Bereitstellungsdomäne durchführen.</descr>
+    <descr
+        xml:lang="sv">En domänadministratör som har tillgång till alla funktioner i logistikdomänen. Logistikadministratören kan utföra alla åtgärder för alla objekt i domänen Logistik</descr>
+    <descr
+        xml:lang="ru">Администратор домена, имеющий полный спектр возможностей в рамках домена обеспечения правами доступа. Администратор обеспечения может выполнять все возможные действия для всех объектов в рамках домена обеспечения правами доступа</descr>
+    <descr
+        xml:lang="pt">Um administrador de domínio com quase todos os recursos no domínio de Aprovisionamento. O Administrador de Aprovisionamento é capaz de executar todas as ações possíveis para todos os objetos no domínio de Aprovisionamento.</descr>
+    <descr
+        xml:lang="zh-TW">擁有佈建網域內所有功能的網域管理員。佈建管理員可為佈建網域內的所有物件執行所有可能的動作</descr>
+    <descr
+        xml:lang="en">A domain administrator who has the full range of capabilities within the Provisioning domain. The Provisioning Administrator can perform all possible actions for all objects within the Provisioning domain</descr>
+    <descr
+        xml:lang="it">Un amministratore di dominio che dispone dell'intera gamma di funzionalità all'interno del dominio di provisioning. L'amministratore di provisioning può eseguire tutte le azioni disponibili per tutti gli oggetti all'interno del dominio di provisioning</descr>
+    <descr
+        xml:lang="fr">Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de provisioning. L'administrateur du provisioning peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de provisioning.</descr>
+    <descr
+        xml:lang="zh-CN">具有供应域内所有功能的域管理员。供应管理员可以对供应域内的所有对象执行所有可能的操作</descr>
+    <descr
+        xml:lang="es">Administrador de dominio que cuenta con todas las funciones en el dominio de provisión. El administrador de provisión puede realizar todas las acciones posibles para todos los objetos dentro del dominio de provisión.</descr>
+    <descr
+        xml:lang="ja">プロビジョニングドメイン内でほぼ全種類の機能を持つドメイン管理者。プロビジョニング管理者は、プロビジョニングドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。</descr>
+    <descr
+        xml:lang="da">En domæneadministrator, som har alle rettigheder og tilladelser i klargøringsdomænet. Klargøringsadministratoren kan udføre alle mulige handlinger for alle objekter i klargøringsdomænet</descr>
+    <descr xml:lang="nl">Een domeinbeheerder met vrijwel alle mogelijkheden in het provisioningdomein. De provisioningbeheerder kan alle mogelijke acties uitvoeren voor alle objecten in het provisioningdomein.</descr>
+    <dirguid>D510B85C4AE55D419E16D510B85C4AE5</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>ZRPFPWXB_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3532453470</pkg-checksum></item>

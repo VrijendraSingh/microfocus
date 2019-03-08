@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Role Approval" filename="RoleApproval.prd"
+    hasContainment="false" modstamp="0" protected="true" readonly="true"
+    type="srvprvRequest"
+        visible="true">
+    <guid>5HGDI6VL</guid>
+    <display
+        xml:lang="de">Rollengenehmigung</display>
+    <display
+        xml:lang="ru">Подтверждение роли</display>
+    <display
+        xml:lang="sv">Rollgodkännande</display>
+    <display
+        xml:lang="pt">Aprovação de Função</display>
+    <display
+        xml:lang="zh-TW">角色核准</display>
+    <display
+        xml:lang="en">Role Approval</display>
+    <display
+        xml:lang="it">Approvazione ruolo</display>
+    <display
+        xml:lang="fr">Approbation du rôle</display>
+    <display
+        xml:lang="zh-CN">角色批准</display>
+    <display
+        xml:lang="es">Aprobación de funciones</display>
+    <display
+        xml:lang="ja">役割の承認</display>
+    <display
+        xml:lang="da">Rollegodkendelse</display>
+    <display
+        xml:lang="nl">Goedkeuring van rol</display>
+    <descr
+        xml:lang="de">Rollengenehmigung</descr>
+    <descr
+        xml:lang="ru">Подтверждение роли</descr>
+    <descr
+        xml:lang="sv">Rollgodkännande</descr>
+    <descr
+        xml:lang="pt">Aprovação de Função</descr>
+    <descr
+        xml:lang="zh-TW">角色核准</descr>
+    <descr
+        xml:lang="en">Role Approval</descr>
+    <descr
+        xml:lang="it">Approvazione ruolo</descr>
+    <descr
+        xml:lang="fr">Approbation du rôle</descr>
+    <descr
+        xml:lang="zh-CN">角色批准</descr>
+    <descr
+        xml:lang="es">Aprobación de funciones</descr>
+    <descr
+        xml:lang="ja">役割の承認</descr>
+    <descr
+        xml:lang="da">Rollegodkendelse</descr>
+    <descr xml:lang="nl">Goedkeuring van rol</descr>
+    <dirguid>16D56BDEDD0A9D45990A16D56BDEDD0A</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>nrf</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>EKTXBZPQ_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>105797513</pkg-checksum></item>

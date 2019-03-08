@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions/>
+	<body>
+		<p>您好，<br/>
+			<br/>
+您对 $TASK_ACTION$ 的操作已成功完成。<br/>
+			<br/>
+该请求细节如下：<br/>
+			<br/>
+请求名称：$REQUEST_TITLE$<br/>
+请求 ID：$REQUEST_ID$<br/>
+提交人：$SUBMITTED_BY$<br/>
+提交日期：$SUBMITTED_ON$<br/>
+接收人：$RECIPIENT$<br/>
+		</p>
+	</body>
+</html>

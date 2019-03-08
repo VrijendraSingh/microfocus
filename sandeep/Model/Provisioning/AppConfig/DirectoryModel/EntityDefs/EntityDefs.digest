@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=EntityDefs" protected="false" readonly="false"
+    type="srvprvEntityDefs"
+        visible="true">
+    <guid>7E0WMRKZ</guid>
+    <display xml:lang="en">Entities</display>
+    <modstamp>0</modstamp></container>

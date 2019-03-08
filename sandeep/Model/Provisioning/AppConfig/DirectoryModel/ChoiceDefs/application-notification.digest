@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=application-notification"
+    filename="application-notification.choice" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvChoice"
+        visible="true">
+    <guid>VSWES1IS</guid>
+    <display
+        xml:lang="de">Email-Benachrichtigungstypen</display>
+    <display
+        xml:lang="sv">Typer av meddelande via e-post</display>
+    <display
+        xml:lang="ru">Типы оповещений по электронной почте</display>
+    <display
+        xml:lang="pt">Tipos de notificação por e-mail</display>
+    <display
+        xml:lang="zh-TW">電子郵件通知類型</display>
+    <display
+        xml:lang="en">Email notification types</display>
+    <display
+        xml:lang="it">Tipi di notifica e-mail</display>
+    <display
+        xml:lang="fr">Types de notification par message électronique</display>
+    <display
+        xml:lang="zh-CN">电子邮件通知类型</display>
+    <display
+        xml:lang="es">Tipos de notificación por correo electrónico</display>
+    <display
+        xml:lang="ja">電子メール通知タイプ</display>
+    <display
+        xml:lang="da">Typer af e-mail-notifikationer</display>
+    <display
+        xml:lang="nl">Typen e-mailmeldingen</display>
+    <descr xml:lang="en">User application email notifications types</descr>
+    <dirguid>931C0913EF6EF145A78C931C0913EF6E</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>P6AQNS1M_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2568852487</pkg-checksum></item>

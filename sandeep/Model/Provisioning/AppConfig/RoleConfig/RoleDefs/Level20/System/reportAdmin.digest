@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=reportAdmin" filename="reportAdmin.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>6OLTSQ59</guid>
+    <display
+        xml:lang="de">Berichtsadministrator</display>
+    <display
+        xml:lang="sv">Rapportadministratör</display>
+    <display
+        xml:lang="ru">Администратор отчета</display>
+    <display
+        xml:lang="pt">Administrador de Relatório</display>
+    <display
+        xml:lang="zh-TW">報告管理員</display>
+    <display
+        xml:lang="en">Report Administrator</display>
+    <display
+        xml:lang="it">Amministratore rapporti</display>
+    <display
+        xml:lang="fr">Administration de rapports</display>
+    <display
+        xml:lang="zh-CN">报告管理员</display>
+    <display
+        xml:lang="es">Administrador de informes</display>
+    <display
+        xml:lang="ja">レポート管理者</display>
+    <display
+        xml:lang="da">Rapportadministrator</display>
+    <display
+        xml:lang="nl">Rapportbeheerder</display>
+    <descr
+        xml:lang="de">Ein Domänenadministrator, der innerhalb der Berichtsdomäne über die ganze Palette an Funktionen verfügt. Der Berichtsadministrator kann alle möglichen Aktionen für alle Objekte innerhalb der Berichtsdomäne durchführen.</descr>
+    <descr
+        xml:lang="sv">En domänadministratör som har tillgång till alla funktioner i rapportdomänen. Rapportadministratören kan utföra alla åtgärder för alla objekt i domänen Rapporter.</descr>
+    <descr
+        xml:lang="ru">Администратор домена, имеющий полный спектр возможностей в рамках домена отчета. Администратор отчета может выполнять все возможные действия для всех объектов в рамках домена отчета.</descr>
+    <descr
+        xml:lang="pt">Um administrador de domínio com quase todos os recursos no domínio de Relatório. O Administrador de Relatório é capaz de executar todas as ações possíveis para todos os objetos no domínio de Relatório.</descr>
+    <descr
+        xml:lang="zh-TW">擁有報告網域內所有功能的網域管理員。報告管理員可為報告網域內的所有物件執行所有可能的動作。</descr>
+    <descr
+        xml:lang="en">A domain administrator who has the full range of capabilities within the Report domain. The Report Administrator can perform all possible actions for all objects within the Reports domain.</descr>
+    <descr
+        xml:lang="it">Un amministratore di dominio che dispone dell'intera gamma di funzionalità all'interno del dominio dei rapporti. L'amministratore dei rapporti può eseguire tutte le azioni disponibili per tutti gli oggetti all'interno del dominio dei rapporti.</descr>
+    <descr
+        xml:lang="fr">Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de rapports. L'administrateur de rapports peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de rapports.</descr>
+    <descr
+        xml:lang="zh-CN">具有报告域内所有功能的域管理员。报告管理员可以对报告域内的所有对象执行所有可能的操作。</descr>
+    <descr
+        xml:lang="es">Administrador de dominio que cuenta con todas las funciones en el dominio de informes. El administrador de informes puede realizar todas las acciones posibles para todos los objetos dentro del dominio de informes.</descr>
+    <descr
+        xml:lang="ja">レポートドメイン内でほぼ全種類の機能を持つドメイン管理者。レポート管理者は、レポートドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。</descr>
+    <descr
+        xml:lang="da">En domæneadministrator, som har alle rettigheder og tilladelser i rapportdomænet. Rapportadministratoren kan udføre alle mulige handlinger for alle objekter i rapportdomænet.</descr>
+    <descr
+        xml:lang="nl">Een domeinbeheerder met vrijwel alle mogelijkheden in het rapportdomein. De rapportbeheerder kan alle mogelijke acties uitvoeren voor alle objecten in het rapportdomein.</descr>
+    <dirguid>64FAC5DF06A17E48BE3C64FAC5DF06A1</dirguid>
+    <dirrev>5</dirrev>
+    <digest-dependency
+        digest-managed="true" double-pointer="nrfChildRoles"
+        force-deploy="true" new-digest-dependency="false"
+        object-cn="cn=role1"
+        object-dn="cn=role1,cn=Level30,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        object-mapkey="cn=role1" object-type="nrfRoleDefsLevel10" type="nrfParentRoles"/>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>5MSBP36H_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2884131911</pkg-checksum></item>

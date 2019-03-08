@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="request initiator name" item-name="initiatorFullName"/>
+		<form:token-description description="request instance id" item-name="requestId"/>
+		<form:token-description description="submission time" item-name="requestSubmissionTime"/>
+		<form:token-description description="request title" item-name="requestTitle"/>
+	</form:token-descriptions>
+您好：
+
+您證明申請的工作流程程序已完成。
+
+申請名稱：$requestTitle$
+確認編號：$requestId$
+提交者：$initiatorFullName$
+提交日期：$requestSubmissionTime$
+
+在「檢視證明申請狀態」頁面上輸入您的確認編號，即可檢閱證明結果。
+
+</form:text>

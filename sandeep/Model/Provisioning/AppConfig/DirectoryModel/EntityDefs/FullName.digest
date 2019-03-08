@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=FullName" filename="FullName.entity" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>X48BOT6Z</guid>
+    <display
+        xml:lang="de">Vollständiger Name</display>
+    <display
+        xml:lang="ru">Полное имя</display>
+    <display
+        xml:lang="sv">Fullständigt namn</display>
+    <display
+        xml:lang="pt">Nome Completo</display>
+    <display
+        xml:lang="zh-TW">全名</display>
+    <display
+        xml:lang="en">Full Name</display>
+    <display
+        xml:lang="it">Nome completo</display>
+    <display
+        xml:lang="fr">Nom complet</display>
+    <display
+        xml:lang="zh-CN">全名</display>
+    <display
+        xml:lang="es">Nombre completo</display>
+    <display
+        xml:lang="ja">完全名</display>
+    <display
+        xml:lang="da">Fuldt navn</display>
+    <display
+        xml:lang="nl">Volledige naam</display>
+    <descr xml:lang="en">Full Name resolution</descr>
+    <dirguid>44C818D3390C92498C6244C818D3390C</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>LCUODVKJ_201305161800360016</pkg-assoc-id>
+    <pkg-checksum>2450191198</pkg-checksum></item>

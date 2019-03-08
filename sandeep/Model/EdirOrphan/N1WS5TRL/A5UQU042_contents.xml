@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="request initiator name" item-name="initiatorFullName"/>
+		<form:token-description description="request instance id" item-name="requestId"/>
+		<form:token-description description="submission time" item-name="requestSubmissionTime"/>
+		<form:token-description description="request title" item-name="requestTitle"/>
+	</form:token-descriptions>
+Hi,
+
+The workflow process for your attestation request has completed.
+
+Request name: $requestTitle$
+Confirmation #: $requestId$
+Submitted by: $initiatorFullName$
+Submitted on: $requestSubmissionTime$
+
+You can review the Attestation Results by entering your confirmation # on the View Attestation Request Status page.
+
+</form:text>

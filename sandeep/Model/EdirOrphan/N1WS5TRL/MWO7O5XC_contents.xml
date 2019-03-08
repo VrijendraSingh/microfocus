@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="request initiator name" item-name="initiatorFullName"/>
+		<form:token-description description="request instance id" item-name="requestId"/>
+		<form:token-description description="submission time" item-name="requestSubmissionTime"/>
+		<form:token-description description="request title" item-name="requestTitle"/>
+	</form:token-descriptions>
+お知らせ
+
+検証要求のワークフロープロセスが完了しました。
+
+要求名: $requestTitle$
+確認番号: $requestId$
+送信元: $initiatorFullName$
+送信時刻: $requestSubmissionTime$
+
+［検証要求ステータスの表示］ページで確認番号を入力して、検証結果を確認できます。
+
+</form:text>

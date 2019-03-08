@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Template5SerialApproval_TD"
+    filename="Template5SerialApproval_TD.prd" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>TVVH0IXT</guid>
+    <display
+        xml:lang="en">Template5SerialApproval_TD</display>
+    <descr
+        xml:lang="de">Sequenzielle Genehmigung in fünf Stufen (Ablehnung bei Zeitüberschreitung)</descr>
+    <descr
+        xml:lang="sv">Sekventiellt godkännande i fem steg (avslås vid timeout)</descr>
+    <descr
+        xml:lang="ru">Пятиэтапное последовательное подтверждение (истечение срока означает запрещение)</descr>
+    <descr
+        xml:lang="pt">Aprovação Seqüencial de Cinco Etapas (Tempo de Espera Recusa)</descr>
+    <descr
+        xml:lang="zh-TW">五段式連續核准 (逾時拒絕)</descr>
+    <descr
+        xml:lang="en">Five Step Sequential Approval (Timeout Denies)</descr>
+    <descr
+        xml:lang="it">Approvazione sequenziale in cinque passaggi (rifiuto in caso di timeout)</descr>
+    <descr
+        xml:lang="fr">Approbation séquentielle en cinq étapes (timeout refusé)</descr>
+    <descr
+        xml:lang="zh-CN">五步顺序批准（超时拒绝）</descr>
+    <descr
+        xml:lang="es">Aprobación secuencial en cinco pasos (denegación al alcanzar el tiempo límite)</descr>
+    <descr
+        xml:lang="ja">5ステップ順次承認(タイムアウト時に否認)</descr>
+    <descr
+        xml:lang="da">Sekventiel godkendelse i fem trin (afvisning ved timeout)</descr>
+    <descr xml:lang="nl">Opeenvolgende goedkeuring in vijf stappen (afgewezen na time-out)</descr>
+    <dirguid>7D3F28602B340C48BAF57D3F28602B34</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>entitlements</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>7FLA31W7_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3322880549</pkg-checksum></item>

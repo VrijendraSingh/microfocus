@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions display-name="Advanced Settings">
+		<header display-name="Common Settings Advanced Edition"/>
+		<definition display-name="User Application Provisioning Services URL" dn-space="dirxml" dn-type="slash" name="UAProvURL" type="string">
+			<value>http://localhost:8180/IDMProv</value>
+		</definition>
+		<definition display-name="User Application Provisioning Services Administrator" dn-space="dirxml" dn-type="qualified-dot" name="UAProvAdmin" type="dn">
+			<value>CN=uaadmin.OU=sa.O=data</value>
+		</definition>
+		<definition display-name="User Application Provisioning Service Account DN" dn-space="dirxml" dn-type="ldap" id="108" name="service-account-dn" type="dn">
+			<description>If a Role or Resource provisioning request is initiated by this service account, then any approvals or provisioning workflows associated with this role or resource are bypassed.</description>
+			<value/>
+		</definition>
+	</definitions>
+</configuration-values>

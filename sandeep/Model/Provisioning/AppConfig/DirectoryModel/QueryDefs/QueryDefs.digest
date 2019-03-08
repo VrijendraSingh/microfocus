@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=QueryDefs" protected="false" readonly="false"
+    type="srvprvQueryDefs"
+        visible="true">
+    <guid>Y49DSHVI</guid>
+    <display xml:lang="en">Queries</display>
+    <modstamp>0</modstamp></container>

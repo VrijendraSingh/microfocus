@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=TemplateNoApproval" filename="TemplateNoApproval.prd"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>H1U3M2K1</guid>
+    <display
+        xml:lang="en">TemplateNoApproval</display>
+    <descr
+        xml:lang="de">Selbstbereitstellungsgenehmigung</descr>
+    <descr
+        xml:lang="ru">Подтверждение самостоятельного обеспечения</descr>
+    <descr
+        xml:lang="sv">Godkänn självlogistik</descr>
+    <descr
+        xml:lang="pt">Aprovação de Auto-Aprovisionamento</descr>
+    <descr
+        xml:lang="zh-TW">自行佈建的核准</descr>
+    <descr
+        xml:lang="en">Self Provision Approval</descr>
+    <descr
+        xml:lang="it">Approvazione automatica self-provisioning</descr>
+    <descr
+        xml:lang="fr">Approbation d'auto-provisioning</descr>
+    <descr
+        xml:lang="zh-CN">自我供应批准</descr>
+    <descr
+        xml:lang="es">Aprobación de autoprovisión</descr>
+    <descr
+        xml:lang="ja">自己プロビジョニング承認</descr>
+    <descr
+        xml:lang="da">Godkendelse af selvklargøring</descr>
+    <descr xml:lang="nl">Goedkeuring van eigen toegang</descr>
+    <dirguid>649A0DBE1EE2CA4BA159649A0DBE1EE2</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>entitlements</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>JSE3XO5D_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3986839042</pkg-checksum></item>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=ReportDefs" protected="false" readonly="false"
+    type="nrfReportDefs"
+        visible="false">
+    <guid>G1QAXH04</guid>
+    <display xml:lang="en">Reports</display>
+    <modstamp>0</modstamp></container>

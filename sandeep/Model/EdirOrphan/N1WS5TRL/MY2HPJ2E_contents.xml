@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="User current password" item-name="CurrentPassword"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>Ihre Passworttippanforderung</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Sehr geehrte(r) $UserFullName$,</p>
+		<p>Sie haben die Anforderung gestellt, dass Ihnen Ihr Passworttipp per Email zugesendet wird.
+     Dies ist Ihr Passworttipp:</p>
+		<p>Passwort: $CurrentPassword$</p>
+		<p>Falls Sie keine Anforderung nach Zusendung Ihres Passworttipps per Email gestellt haben, 
+     setzen Sie sich bitte unter der Telefonnummer 
+     (012) 345-6789 oder per Email an <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com </a> mit dem Helpdesk in Verbindung</p>
+		<p> - Automatisierte Sicherheit</p>
+		<p>
+			<img ALT="Powered by Novell" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

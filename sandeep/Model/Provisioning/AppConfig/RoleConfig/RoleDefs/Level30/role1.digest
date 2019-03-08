@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=role1" filename="role1.role30" hasContainment="false"
+    modstamp="0" protected="false" readonly="false"
+    type="nrfRoleLevel30"
+        visible="true">
+    <guid>KCA8UJ40</guid>
+    <display
+        xml:lang="en">role1</display>
+    <descr
+        xml:lang="en">role1Description</descr>
+    <dirguid>18E82B528BE94241938B18E82B528BE9</dirguid>
+    <dirrev>5</dirrev>
+    <digest-dependency
+        digest-managed="false" double-pointer="nrfParentRoles"
+        force-deploy="true" new-digest-dependency="false"
+        object-cn="cn=provManager"
+        object-dn="cn=provManager,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        object-mapkey="cn=provManager" object-type="nrfRoleDefsLevel10"
+        type="nrfChildRoles"/>
+    <digest-dependency
+        digest-managed="false" double-pointer="nrfParentRoles"
+        force-deploy="true" new-digest-dependency="false"
+        object-cn="cn=reportAdmin"
+        object-dn="cn=reportAdmin,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        object-mapkey="cn=reportAdmin" object-type="nrfRoleDefsLevel10"
+        type="nrfChildRoles"/>
+    <digest-dependency
+        digest-managed="false" double-pointer="nrfParentRoles"
+        force-deploy="true" new-digest-dependency="false"
+        object-cn="cn=rbpmAdmin"
+        object-dn="cn=rbpmAdmin,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        object-mapkey="cn=rbpmAdmin" object-type="nrfRoleDefsLevel10" type="nrfChildRoles"/></item>

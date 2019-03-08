@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request Name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+		<form:token-description description="Request Id of the process" item-name="requestId"/>
+	</form:token-descriptions>
+	<body>
+		<p>您好，<br/>
+			<br/>
+$initiatorFullName$ 为 $recipientFullName$ 提交了一个请求，需要您进行审批。<br/>
+			<br/>
+请求细节如下：
+				<br/>
+			<br/>
+请求名称：$requestTitle$<br/>
+请求 ID：$requestId$<br/>
+提交人：$initiatorFullName$<br/>
+接收人：$recipientFullName$<br/>
+代理身份：$PROXY_AS$<br/>
+				
+原因：$REQ_REASON$<br/>
+			<br/>
+要直接从电子邮件中处理，请单击<a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Enter a comment}">批准</a>或<a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Enter a comment}">拒绝</a>
+			<br/>
+或者<br/>
+在主题中添加 $APPROVE_PHRASE$ 或 $DENY_PHRASE$，并在正文中添加相应的注释来答复 $REPLY_EMAIL$。<br/>
+			<br/>
+您也可以在 $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$ 中审阅所有等待您审批的请求列表。<br/>
+		</p>
+	</body>
+</html>

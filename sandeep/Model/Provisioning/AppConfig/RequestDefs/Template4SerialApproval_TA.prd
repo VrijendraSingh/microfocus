@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov-req-defn flow-strategy="SingleFlow" grant="true"
+    prov-category="entitlements" prov-id="Template4SerialApproval_TA"
+    revoke="false" status="Template"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ApprovalXmlData.xsd">
+    <display-name
+        xml:lang="en-US">Template4SerialApproval_TA</display-name>
+    <description
+        xml:lang="it">Approvazione sequenziale in quattro passaggi (approvazione in caso di timeout)</description>
+    <description
+        xml:lang="ru">Четырехэтапное последовательное подтверждение (истечение срока означает подтверждение)</description>
+    <description
+        xml:lang="pt">Aprovação Seqüencial de Quatro Etapas (Tempo de Espera Aprova)</description>
+    <description
+        xml:lang="ja">4ステップ順次承認(タイムアウト時に承認)</description>
+    <description
+        xml:lang="fr">Approbation séquentielle en quatre étapes (timeout approuvé)</description>
+    <description
+        xml:lang="es">Aprobación secuencial en cuatro pasos (aprobación al alcanzar el tiempo límite)</description>
+    <description
+        xml:lang="zh-CN">四步顺序批准（超时批准）</description>
+    <description
+        xml:lang="zh-TW">四段式連續核准 (逾時核准)</description>
+    <description
+        xml:lang="sv">Sekventiellt godkännande i fyra steg (godkänns vid timeout)</description>
+    <description
+        xml:lang="da">Sekventiel godkendelse i fire trin (godkendelse ved timeout)</description>
+    <description
+        xml:lang="de">Sequenzielle Genehmigung in vier Stufen (Genehmigung bei Zeitüberschreitung)</description>
+    <description
+        xml:lang="nl">Opeenvolgende goedkeuring in vier stappen (goedgekeurd na time-out)</description>
+    <description
+                xml:lang="en">Four Step Sequential Approval (Timeout Approves)</description>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <prov-resource-ref>cn=Template4SerialApproval_TA_PROVRES_</prov-resource-ref>
+  <workflow-ref/>
+  <xml-data>
+    <design-params/>
+    <!-- This is internal data that just happens to live in this chunk of XML. Not relevant to iManager -->
+    <resource-data-binding>
+      <data-items
+                    activity-id="prov">
+        <data-item
+                    data-type="string" name="dn"
+                    source="recipient"/>
+        <data-item
+                    data-type="string" name="DirXML-Entitlement-DN"
+                    source="'placeholder'"/>
+        <data-item
+                    data-type="string" name="DirXML-Entitlement-Action"
+                    source="'1'"/>
+        <!-- we assume that the initial request form obtained this parameter -->
+        <data-item
+                    data-type="string"
+                    name="DirXML-Entitlement-Parameter"
+                    source="flowdata.entitlement-param"/>
+        <data-item
+                    data-type="boolean"
+                    name="DirXML-Entitlement-MultiValueAllowed"
+                source="'true'"/>
+      </data-items>
+      <provision-activity
+                activity-id="prov" category="entitlement"
+                entity-type="sys-entitlement-request"
+                    operation="grant">
+        <display-name
+                    xml:lang="fr">Activité de provisioning de droits</display-name>
+        <display-name
+                    xml:lang="nl">Activiteit voor toegangsbeheerrechten</display-name>
+        <display-name
+                    xml:lang="sv">Rättighetstilldelningsaktivitet</display-name>
+        <display-name
+                    xml:lang="zh-CN">权利供应活动</display-name>
+        <display-name
+                    xml:lang="pt">Atividade de Aprovisionamento de Direito</display-name>
+        <display-name
+                    xml:lang="de">Berechtigungsbereitstellungsaktivität</display-name>
+        <display-name
+                    xml:lang="ja">エンタイトルメントプロビジョニングアクティビティ</display-name>
+        <display-name
+                    xml:lang="es">Actividad de provisión de derechos</display-name>
+        <display-name
+                    xml:lang="zh-TW">授權佈建活動</display-name>
+        <display-name
+                    xml:lang="ru">Операция обеспечения полномочий</display-name>
+        <display-name
+                    xml:lang="en">Entitlement Provisioning Activity</display-name>
+        <display-name
+                    xml:lang="da">Aktivitet med rettighedsklargøring</display-name>
+        <display-name
+        xml:lang="it">Attività di provisioning autorizzazione</display-name>
+      </provision-activity>
+    </resource-data-binding>
+  </xml-data>
+    <provision-request
+        version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalRequest3_5_1.xsd">
+        <form
+                    form-id="request_form">
+            <content>
+      <!-- title -->
+                <field
+                    name="title"
+                        visible="true">
+                    <control
+                        control-type="Title"
+                        editable="false"/>
+                    <display-label
+                        xml:lang="ja">4ステップ順次承認(タイムアウト時に承認)</display-label>
+                    <display-label
+                        xml:lang="es">Aprobación secuencial en cuatro pasos (aprobación al alcanzar el tiempo límite)</display-label>
+                    <display-label
+                        xml:lang="da">Sekventiel godkendelse i fire trin (godkendelse ved timeout)</display-label>
+                    <display-label
+                        xml:lang="pt">Aprovação Seqüencial de Quatro Etapas (Tempo de Espera Aprova)</display-label>
+                    <display-label
+                        xml:lang="ru">Четырехэтапное последовательное подтверждение (истечение срока означает подтверждение)</display-label>
+                    <display-label
+                        xml:lang="fr">Approbation séquentielle en quatre étapes (timeout approuvé)</display-label>
+                    <display-label
+                        xml:lang="sv">Sekventiellt godkännande i fyra steg (godkänns vid timeout)</display-label>
+                    <display-label
+                        xml:lang="de">Sequenzielle Genehmigung in vier Stufen (Genehmigung bei Zeitüberschreitung)</display-label>
+                    <display-label
+                        xml:lang="zh-CN">四步顺序批准（超时批准）</display-label>
+                    <display-label
+                        xml:lang="it">Approvazione sequenziale in quattro passaggi (approvazione in caso di timeout)</display-label>
+                    <display-label
+                        xml:lang="nl">Opeenvolgende goedkeuring in vier stappen (goedgekeurd na time-out)</display-label>
+                    <display-label
+                        xml:lang="zh-TW">四段式連續核准 (逾時核准)</display-label>
+                    <display-label
+                        xml:lang="en">Four Step Sequential Approval (Timeout Approves)</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+      <!-- instruction/comment -->
+                <field
+                    name="subheading"
+                        visible="true">
+                    <control
+                        control-type="Title"
+                                editable="false">
+                        <props>
+                            <prop
+                        name="font-size">
+                                <value>medium</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ja">エンタイトルメントを要求するには［送信］を押します。</display-label>
+                    <display-label
+                        xml:lang="es">Pulse Enviar para solicitar el derecho.</display-label>
+                    <display-label
+                        xml:lang="da">Tryk på 'Send' for at anmode om rettigheden.</display-label>
+                    <display-label
+                        xml:lang="pt">Pressione 'Submeter' para solicitar o direito.</display-label>
+                    <display-label
+                        xml:lang="ru">Нажмите кнопку "Передать" для запроса полномочий.</display-label>
+                    <display-label
+                        xml:lang="fr">Cliquez sur 'Soumettre' pour demander le droit.</display-label>
+                    <display-label
+                        xml:lang="sv">Tryck på Skicka när du vill skicka rättighetsbeställningen.</display-label>
+                    <display-label
+                        xml:lang="de">Wählen Sie 'Senden' zum Anfordern der Berechtigung.</display-label>
+                    <display-label
+                        xml:lang="zh-CN">按“提交”以请求权利。</display-label>
+                    <display-label
+                        xml:lang="it">Fare clic su 'Invia' per richiedere l'autorizzazione.</display-label>
+                    <display-label
+                        xml:lang="nl">Kies 'Indienen' om de rechten aan te vragen.</display-label>
+                    <display-label
+                        xml:lang="zh-TW">請按「提交」申請授權。</display-label>
+                    <display-label
+                        xml:lang="en">Press 'Submit' to request the entitlement.</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+      <!-- recipient: uneditable data field -->
+                <field
+                    data-type="dn" name="recipient"
+                        visible="true">
+                    <control
+                        control-type="DNDisplay"
+                                editable="false">
+                        <props>
+                            <prop
+                                name="display-exp">
+                                <value>%LocaleFormattedFullName%</value>
+                            </prop>
+                            <prop
+                        name="display-entitydef">
+                                <value>user</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ja">受信者:</display-label>
+                    <display-label
+                        xml:lang="es">Destinatario:</display-label>
+                    <display-label
+                        xml:lang="da">Modtager:</display-label>
+                    <display-label
+                        xml:lang="pt">Destinatário:</display-label>
+                    <display-label
+                        xml:lang="ru">Получатель:</display-label>
+                    <display-label
+                        xml:lang="fr">Destinataire :</display-label>
+                    <display-label
+                        xml:lang="sv">Mottagare:</display-label>
+                    <display-label
+                        xml:lang="de">Empfänger:</display-label>
+                    <display-label
+                        xml:lang="zh-CN">收件人:</display-label>
+                    <display-label
+                        xml:lang="it">Destinatario:</display-label>
+                    <display-label
+                        xml:lang="nl">Ontvanger:</display-label>
+                    <display-label
+                        xml:lang="zh-TW">接收者︰</display-label>
+                    <display-label
+                        xml:lang="en">Recipient:</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+      <!-- reason data field -->
+                <field
+                    data-type="string" name="reason"
+                        visible="true">
+                    <control
+                        control-type="Text" editable="true"
+                        required="true"/>
+                    <display-label
+                        xml:lang="ja">要求の理由:</display-label>
+                    <display-label
+                        xml:lang="es">Motivo de la petición:</display-label>
+                    <display-label
+                        xml:lang="da">Årsag til anmodning:</display-label>
+                    <display-label
+                        xml:lang="pt">Motivo da solicitação:</display-label>
+                    <display-label
+                        xml:lang="ru">Основание для запроса:</display-label>
+                    <display-label
+                        xml:lang="fr">Raison de la requête :</display-label>
+                    <display-label
+                        xml:lang="sv">Skäl till beställning:</display-label>
+                    <display-label
+                        xml:lang="de">Grund für Anforderung:</display-label>
+                    <display-label
+                        xml:lang="zh-CN">请求原因:</display-label>
+                    <display-label
+                        xml:lang="it">Motivo della richiesta:</display-label>
+                    <display-label
+                        xml:lang="nl">Reden voor aanvraag:</display-label>
+                    <display-label
+                        xml:lang="zh-TW">申請原因:</display-label>
+                    <display-label
+                        xml:lang="en">Reason for request:</display-label>
+                </field>
+                <field>
+                    <control
+                        control-type="LineBreak"/>
+                </field>
+      <!-- buttons for performing actions: will be below all the preceding controls -->
+                <actions>
+                    <action
+                            name="SubmitAction">
+                        <control
+                            control-type="Button"
+                            visible="true">
+                        </control>
+                        <display-label
+                            xml:lang="ja">送信</display-label>
+                        <display-label
+                            xml:lang="es">Enviar</display-label>
+                        <display-label
+                            xml:lang="da">Send</display-label>
+                        <display-label
+                            xml:lang="pt">Submeter</display-label>
+                        <display-label
+                            xml:lang="ru">Передать</display-label>
+                        <display-label
+                            xml:lang="fr">Soumettre</display-label>
+                        <display-label
+                            xml:lang="sv">Spara</display-label>
+                        <display-label
+                            xml:lang="de">Senden</display-label>
+                        <display-label
+                            xml:lang="zh-CN">提交</display-label>
+                        <display-label
+                            xml:lang="it">Invia</display-label>
+                        <display-label
+                            xml:lang="nl">Indienen</display-label>
+                        <display-label
+                            xml:lang="zh-TW">提交</display-label>
+                        <display-label
+                        xml:lang="en">Submit</display-label>
+                    </action>
+                    <action
+                        block-on-error="false"
+                            name="CancelAction">
+                        <control
+                            control-type="Button"
+                            visible="true">
+                        </control>
+                        <display-label
+                            xml:lang="ja">キャンセル</display-label>
+                        <display-label
+                            xml:lang="es">Cancelar</display-label>
+                        <display-label
+                            xml:lang="da">Annuller</display-label>
+                        <display-label
+                            xml:lang="pt">Cancelar</display-label>
+                        <display-label
+                            xml:lang="ru">Отмена</display-label>
+                        <display-label
+                            xml:lang="fr">Annuler</display-label>
+                        <display-label
+                            xml:lang="sv">Avbryt</display-label>
+                        <display-label
+                            xml:lang="de">Abbrechen</display-label>
+                        <display-label
+                            xml:lang="zh-CN">取消</display-label>
+                        <display-label
+                            xml:lang="it">Annulla</display-label>
+                        <display-label
+                            xml:lang="nl">Annuleren</display-label>
+                        <display-label
+                            xml:lang="zh-TW">取消</display-label>
+                        <display-label
+                xml:lang="en">Cancel</display-label>
+                    </action>
+                </actions>
+            </content>
+        </form>
+        <request-data-items>
+            <data-item
+                data-type="string" designer-id="recipient"
+                name="recipient"
+                source="recipient"/>
+            <data-item
+                data-type="string" name="reason"
+        target="flowdata.reason"/>
+        </request-data-items>
+    </provision-request>
+    <process
+        id="cn=Template4SerialApproval_TA,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalProcess3_6_1.xsd">
+  <display-name
+            xml:lang="fr">Approbation séquentielle en quatre étapes (timeout approuvé)</display-name>
+  <display-name
+            xml:lang="zh-CN">四步顺序批准（超时批准）</display-name>
+  <display-name
+            xml:lang="de">Sequenzielle Genehmigung in vier Stufen (Genehmigung bei Zeitüberschreitung)</display-name>
+  <display-name
+            xml:lang="pt">Aprovação Seqüencial de Quatro Etapas (Tempo de Espera Aprova)</display-name>
+  <display-name
+            xml:lang="zh-TW">四段式連續核准 (逾時核准)</display-name>
+  <display-name
+            xml:lang="ja">4ステップ順次承認(タイムアウト時に承認)</display-name>
+  <display-name
+            xml:lang="ru">Четырехэтапное последовательное подтверждение (истечение срока означает подтверждение)</display-name>
+  <display-name
+            xml:lang="sv">Sekventiellt godkännande i fyra steg (godkänns vid timeout)</display-name>
+  <display-name
+            xml:lang="en">Four Step Sequential Approval (Timeout Approves)</display-name>
+  <display-name
+            xml:lang="nl">Opeenvolgende goedkeuring in vier stappen (goedgekeurd na time-out)</display-name>
+  <display-name
+            xml:lang="da">Sekventiel godkendelse i fire trin (godkendelse ved timeout)</display-name>
+  <display-name
+            xml:lang="es">Aprobación secuencial en cuatro pasos (aprobación al alcanzar el tiempo límite)</display-name>
+  <display-name
+            xml:lang="it">Approvazione sequenziale in quattro passaggi (approvazione in caso di timeout)</display-name>
+  <form
+                    form-id="approval_form">
+    <content>
+      <!-- title -->
+      <field
+                    name="title" visible="true">
+        <control
+                        control-type="Title"
+                        editable="false"/>
+        <!-- the text for the title comes from the data-item -->
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"
+                    editable="false"/>
+      </field>
+      <!-- instruction/comment -->
+      <field
+                    name="subheading" visible="true">
+        <control
+                        control-type="Title"
+                                editable="false">
+          <props>
+            <prop
+                        name="font-size">
+              <value>medium</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="fr">Sélectionnez le bouton approprié pour approuver ou refuser la requête.</display-label>
+        <display-label
+                        xml:lang="zh-CN">请选择相应的按钮以批准或拒绝请求。</display-label>
+        <display-label
+                        xml:lang="de">Bitte wählen Sie die entsprechende Schaltfläche zum Genehmigen oder Ablehnen der Anforderung.</display-label>
+        <display-label
+                        xml:lang="pt">Selecione o botão apropriado para aprovar ou rejeitar a solicitação.</display-label>
+        <display-label
+                        xml:lang="zh-TW">請選取適當的按鈕核准或拒絕申請。</display-label>
+        <display-label
+                        xml:lang="ja">該当するボタンを選択して要求を承認または却下してください。</display-label>
+        <display-label
+                        xml:lang="ru">Нажмите соответствующую кнопку для подтверждения или отклонения запроса.</display-label>
+        <display-label
+                        xml:lang="sv">Godkänn eller avslå beställningen med hjälp av motsvarande knapp.</display-label>
+        <display-label
+                        xml:lang="en">Please select the appropriate button to approve or reject the request.</display-label>
+        <display-label
+                        xml:lang="nl">Selecteer de betreffende knop om de aanvraag goed te keuren of af te wijzen.</display-label>
+        <display-label
+                        xml:lang="da">Vælg den relevante knap for at godkende eller afvise anmodningen.</display-label>
+        <display-label
+                        xml:lang="es">Seleccione el botón adecuado para aprobar o rechazar la petición.</display-label>
+        <display-label
+                        xml:lang="it">Selezionare il pulsante appropriato per approvare o rifiutare la richiesta.</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"
+                    editable="false"/>
+      </field>
+      <!-- uneditable data field for initiator -->
+      <field
+                    data-type="dn" name="initiator"
+                        visible="true">
+        <control
+                        control-type="DNDisplay"
+                                editable="false">
+          <props>
+            <prop
+                                name="display-exp">
+              <value>%LocaleFormattedFullName%</value>
+            </prop>
+            <prop
+                        name="display-entitydef">
+              <value>user</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="fr">Demandée par :</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求人：</display-label>
+        <display-label
+                        xml:lang="de">Angefordert von:</display-label>
+        <display-label
+                        xml:lang="pt">Solicitado por:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請者︰</display-label>
+        <display-label
+                        xml:lang="ja">要求元:</display-label>
+        <display-label
+                        xml:lang="ru">Запрашивающий:</display-label>
+        <display-label
+                        xml:lang="sv">Beställningen skickad av:</display-label>
+        <display-label
+                        xml:lang="en">Requested by:</display-label>
+        <display-label
+                        xml:lang="nl">Aangevraagd door:</display-label>
+        <display-label
+                        xml:lang="da">Anmodet af:</display-label>
+        <display-label
+                        xml:lang="es">Petición de:</display-label>
+        <display-label
+                    xml:lang="it">Richiesta da:</display-label>
+      </field>
+      <!-- uneditable data field for recipient -->
+      <field
+                    data-type="dn" name="recipient"
+                        visible="true">
+        <control
+                        control-type="DNDisplay"
+                                editable="false">
+          <props>
+            <prop
+                                name="display-exp">
+              <value>%LocaleFormattedFullName%</value>
+            </prop>
+            <prop
+                        name="display-entitydef">
+              <value>user</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="fr">Destinataire :</display-label>
+        <display-label
+                        xml:lang="zh-CN">收件人：</display-label>
+        <display-label
+                        xml:lang="de">Empfänger:</display-label>
+        <display-label
+                        xml:lang="pt">Destinatário:</display-label>
+        <display-label
+                        xml:lang="zh-TW">接收者︰</display-label>
+        <display-label
+                        xml:lang="ja">受信者:</display-label>
+        <display-label
+                        xml:lang="ru">Получатель:</display-label>
+        <display-label
+                        xml:lang="sv">Mottagare:</display-label>
+        <display-label
+                        xml:lang="en">Recipient:</display-label>
+        <display-label
+                        xml:lang="nl">Ontvanger:</display-label>
+        <display-label
+                        xml:lang="da">Modtager:</display-label>
+        <display-label
+                        xml:lang="es">Destinatario:</display-label>
+        <display-label
+                        xml:lang="it">Destinatario:</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"
+                    editable="false"/>
+      </field>
+      <!-- initiated request date entry -->
+      <field
+                    data-type="date" name="initiatedTime"
+                        visible="true">
+        <control
+                        control-type="DatePicker"
+                                editable="false">
+          <props>
+            <prop
+                                    name="dayHeaders">
+              <value
+                                    xml:lang="fr">'D','L','M','M','J','V','S'</value>
+              <value
+                                    xml:lang="zh-CN">'日','一','二','三','四','五','六'</value>
+              <value
+                                    xml:lang="de">'S','M','D','M','D','F','S'</value>
+              <value
+                                    xml:lang="pt">'D','S','T','Q','Q','S','S'</value>
+              <value
+                                    xml:lang="zh-TW">'日','一','二','三','四','五','六'</value>
+              <value
+                                    xml:lang="ja">'日','月','火','水','木','金','土'</value>
+              <value
+                                    xml:lang="ru">'В','П','В','С','Ч','П','С'</value>
+              <value
+                                    xml:lang="sv">'S','M','T','O','T','F','L'</value>
+              <value
+                                    xml:lang="en">'S','M','T','W','T','F','S'</value>
+              <value
+                                    xml:lang="nl">'z','m','d','w','d','v','z'</value>
+              <value
+                                    xml:lang="da">'S','M','T','O','T','F','L'</value>
+              <value
+                                    xml:lang="es">'D','L','M','M','J','V','S'</value>
+              <value
+                                xml:lang="it">'D','L','M','M','G','V','S'</value>
+            </prop>
+            <prop
+                                    name="monthNames">
+              <value
+                                    xml:lang="fr">'Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'</value>
+              <value
+                                    xml:lang="zh-CN">'一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'</value>
+              <value
+                                    xml:lang="de">'Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'</value>
+              <value
+                                    xml:lang="pt">'Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'</value>
+              <value
+                                    xml:lang="zh-TW">'1 月','2 月','3 月','4 月','5 月','6 月','7 月','8 月','9 月','10 月','11 月','12 月'</value>
+              <value
+                                    xml:lang="ja">'1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'</value>
+              <value
+                                    xml:lang="ru">'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'</value>
+              <value
+                                    xml:lang="sv">'Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'</value>
+              <value
+                                    xml:lang="en">'January','February','March','April','May','June','July','August','September','October','November','December'</value>
+              <value
+                                    xml:lang="nl">'januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'</value>
+              <value
+                                    xml:lang="da">'Januar','Februar','Marts','April','Maj','Juni','Juli','August','September','Oktober','November','December'</value>
+              <value
+                                    xml:lang="es">'Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'</value>
+              <value
+                        xml:lang="it">'gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="fr">Date de la requête :</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求日期:</display-label>
+        <display-label
+                        xml:lang="de">Anforderungsdatum</display-label>
+        <display-label
+                        xml:lang="pt">Data de Solicitação:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請日期 :</display-label>
+        <display-label
+                        xml:lang="ja">要求日:</display-label>
+        <display-label
+                        xml:lang="ru">Дата запроса:</display-label>
+        <display-label
+                        xml:lang="sv">Beställning skickad den:</display-label>
+        <display-label
+                        xml:lang="en">Request Date:</display-label>
+        <display-label
+                        xml:lang="nl">Datum van aanvraag:</display-label>
+        <display-label
+                        xml:lang="da">Anmodningsdato:</display-label>
+        <display-label
+                        xml:lang="es">Fecha de la petición:</display-label>
+        <display-label
+                        xml:lang="it">Data della richiesta:</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"
+                    editable="false"/>
+      </field>
+      <!-- uneditable data field for reason -->
+      <field
+                    data-type="string" name="reason"
+                        visible="true">
+        <control
+                        control-type="Text"
+                        editable="false"/>
+        <display-label
+                        xml:lang="fr">Raison :</display-label>
+        <display-label
+                        xml:lang="zh-CN">原因：</display-label>
+        <display-label
+                        xml:lang="de">Ursache:</display-label>
+        <display-label
+                        xml:lang="pt">Razão:</display-label>
+        <display-label
+                        xml:lang="zh-TW">原因：</display-label>
+        <display-label
+                        xml:lang="ja">理由:</display-label>
+        <display-label
+                        xml:lang="ru">Причина:</display-label>
+        <display-label
+                        xml:lang="sv">Orsak:</display-label>
+        <display-label
+                        xml:lang="en">Reason:</display-label>
+        <display-label
+                        xml:lang="nl">Reden:</display-label>
+        <display-label
+                        xml:lang="da">Årsag:</display-label>
+        <display-label
+                        xml:lang="es">Razón:</display-label>
+        <display-label
+                        xml:lang="it">Motivo:</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"
+                    editable="false"/>
+      </field>
+      <!-- field where the user will enter the comment  -->
+      <field
+                    data-type="string" name="apwaComment"
+                        visible="true">
+        <control
+                        control-type="TextArea" editable="true"
+                        required="false"/>
+        <display-label
+                        xml:lang="fr">Commentaire :</display-label>
+        <display-label
+                        xml:lang="zh-CN">注释:</display-label>
+        <display-label
+                        xml:lang="de">Kommentar:</display-label>
+        <display-label
+                        xml:lang="pt">Comentário:</display-label>
+        <display-label
+                        xml:lang="zh-TW">備註 :</display-label>
+        <display-label
+                        xml:lang="ja">コメント:</display-label>
+        <display-label
+                        xml:lang="ru">Комментарий:</display-label>
+        <display-label
+                        xml:lang="sv">Kommentar:</display-label>
+        <display-label
+                        xml:lang="en">Comment:</display-label>
+        <display-label
+                        xml:lang="nl">Opmerking:</display-label>
+        <display-label
+                        xml:lang="da">Kommentar:</display-label>
+        <display-label
+                        xml:lang="es">Comentario:</display-label>
+        <display-label
+                        xml:lang="it">Commento:</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"/>
+      </field>
+      <!-- buttons for performing actions -->
+      <actions>
+        <action
+                        block-on-error="false"
+                            name="CommentAction">
+          <control
+                            control-type="Button">
+            </control>
+          <display-label
+                            xml:lang="fr">Afficher l'historique des commentaires</display-label>
+          <display-label
+                            xml:lang="zh-CN">查看注释历史</display-label>
+          <display-label
+                            xml:lang="de">Kommentarverlauf anzeigen</display-label>
+          <display-label
+                            xml:lang="pt">Ver Histórico de Comentários</display-label>
+          <display-label
+                            xml:lang="zh-TW">檢視備註歷程</display-label>
+          <display-label
+                            xml:lang="ja">コメント履歴の表示</display-label>
+          <display-label
+                            xml:lang="ru">Просмотр протокола комментариев</display-label>
+          <display-label
+                            xml:lang="sv">Visa kommentarshistorik</display-label>
+          <display-label
+                            xml:lang="en">View Comment History</display-label>
+          <display-label
+                            xml:lang="nl">Opmerkingshistorie weergeven</display-label>
+          <display-label
+                            xml:lang="da">Vis kommentarhistorik</display-label>
+          <display-label
+                            xml:lang="es">Ver historial de comentarios</display-label>
+          <display-label
+                            xml:lang="it">Visualizza cronologia commenti</display-label>
+        </action>
+        <field>
+          <control
+                            control-type="LineBreak"
+                        editable="false"/>
+        </field>
+        <action
+                        hide-if-readonly="true"
+                            name="DenyAction">
+          <control
+                            control-type="Button">
+            </control>
+          <display-label
+                            xml:lang="fr">Refuser</display-label>
+          <display-label
+                            xml:lang="zh-CN">拒绝</display-label>
+          <display-label
+                            xml:lang="de">Verweigern</display-label>
+          <display-label
+                            xml:lang="pt">Negar</display-label>
+          <display-label
+                            xml:lang="zh-TW">拒絕</display-label>
+          <display-label
+                            xml:lang="ja">却下</display-label>
+          <display-label
+                            xml:lang="ru">Запретить</display-label>
+          <display-label
+                            xml:lang="sv">Avslå</display-label>
+          <display-label
+                            xml:lang="en">Deny</display-label>
+          <display-label
+                            xml:lang="nl">Afwijzen</display-label>
+          <display-label
+                            xml:lang="da">Afvis</display-label>
+          <display-label
+                            xml:lang="es">Denegar</display-label>
+          <display-label
+                        xml:lang="it">Rifiuta</display-label>
+        </action>
+        <action
+                        hide-if-readonly="true"
+                            name="ApprovalAction">
+          <control
+                            control-type="Button">
+            </control>
+          <display-label
+                            xml:lang="fr">Approuver</display-label>
+          <display-label
+                            xml:lang="zh-CN">批准</display-label>
+          <display-label
+                            xml:lang="de">Genehmigen</display-label>
+          <display-label
+                            xml:lang="pt">Aprovar</display-label>
+          <display-label
+                            xml:lang="zh-TW">核准</display-label>
+          <display-label
+                            xml:lang="ja">承認</display-label>
+          <display-label
+                            xml:lang="ru">Подтвердить</display-label>
+          <display-label
+                            xml:lang="sv">Godkänn</display-label>
+          <display-label
+                            xml:lang="en">Approve</display-label>
+          <display-label
+                            xml:lang="nl">Goedkeuren</display-label>
+          <display-label
+                            xml:lang="da">Godkend</display-label>
+          <display-label
+                            xml:lang="es">Aprobar</display-label>
+          <display-label
+            xml:lang="it">Approva</display-label>
+        </action>
+      </actions>
+    </content>
+  </form>
+  <form-binding
+            activity-id="approval_1"
+            form-id="approval_form"/>
+  <form-binding
+            activity-id="approval_2"
+            form-id="approval_form"/>
+  <form-binding
+            activity-id="approval_3"
+            form-id="approval_form"/>
+  <form-binding
+            activity-id="approval_4"
+            form-id="approval_form"/>
+  <data-items
+                activity-id="approval_1">
+    <data-item
+                data-type="string" name="title"
+                source="approval_1.getName(locale)"/>
+    <data-item
+                data-type="string" name="apwaComment"/>
+    <data-item
+                data-type="string" name="recipient"
+                source="recipient"/>
+    <data-item data-type="string"
+                name="initiator" source="initiator"/>
+    <data-item
+                data-type="string" name="reason"
+                source="flowdata.get('reason')"/>
+    <data-item
+                data-type="date" name="initiatedTime"
+            source="process.getTimestamp()"/>
+  </data-items>
+  <data-items
+                activity-id="approval_2">
+    <data-item
+                data-type="string" name="title"
+                source="approval_2.getName(locale)"/>
+    <data-item
+                data-type="string" name="apwaComment"/>
+    <data-item
+                data-type="string" name="recipient"
+                source="recipient"/>
+    <data-item data-type="string"
+                name="initiator" source="initiator"/>
+    <data-item
+                data-type="string" name="reason"
+                source="flowdata.get('reason')"/>
+    <data-item
+                data-type="date" name="initiatedTime"
+            source="process.getTimestamp()"/>
+  </data-items>
+  <data-items
+                activity-id="approval_3">
+    <data-item
+                data-type="string" name="title"
+                source="approval_3.getName(locale)"/>
+    <data-item
+                data-type="string" name="apwaComment"/>
+    <data-item
+                data-type="string" name="recipient"
+                source="recipient"/>
+    <data-item data-type="string"
+                name="initiator" source="initiator"/>
+    <data-item
+                data-type="string" name="reason"
+                source="flowdata.get('reason')"/>
+    <data-item
+                data-type="date" name="initiatedTime"
+            source="process.getTimestamp()"/>
+  </data-items>
+  <data-items
+                activity-id="approval_4">
+    <data-item
+                data-type="string" name="title"
+                source="approval_4.getName(locale)"/>
+    <data-item
+                data-type="string" name="apwaComment"/>
+    <data-item
+                data-type="string" name="recipient"
+                source="recipient"/>
+    <data-item data-type="string"
+                name="initiator" source="initiator"/>
+    <data-item
+                data-type="string" name="reason"
+                source="flowdata.get('reason')"/>
+    <data-item
+                data-type="date" name="initiatedTime"
+            source="process.getTimestamp()"/>
+  </data-items>
+  <data-items
+                activity-id="prov">
+    <data-item data-type="string"
+                name="dn" source="recipient"/>
+    <data-item
+                data-type="string" name="DirXML-Entitlement-DN"
+                source="'placeholder'"/>
+    <data-item
+                data-type="string" name="DirXML-Entitlement-Action"
+                source="'1'"/>
+    <data-item data-type="string"
+                name="DirXML-Entitlement-Parameter"
+                source="'placeholder'"/>
+    <data-item
+                data-type="boolean"
+                name="DirXML-Entitlement-MultiValueAllowed"
+            source="'true'"/>
+  </data-items>
+  <start-activity
+                activity-id="start">
+    <display-name
+                xml:lang="fr">Démarrer</display-name>
+    <display-name
+                xml:lang="zh-CN">启动</display-name>
+    <display-name
+                xml:lang="de">Start</display-name>
+    <display-name
+                xml:lang="pt">Iniciar</display-name>
+    <display-name
+                xml:lang="zh-TW">開始</display-name>
+    <display-name
+                xml:lang="ja">開始</display-name>
+    <display-name
+                xml:lang="ru">Запустить</display-name>
+    <display-name
+                xml:lang="sv">Starta</display-name>
+    <display-name
+                xml:lang="en">Start</display-name>
+    <display-name
+                xml:lang="nl">Starten</display-name>
+    <display-name
+                xml:lang="da">Start</display-name>
+    <display-name
+                xml:lang="es">Iniciar</display-name>
+    <display-name
+            xml:lang="it">Avvia</display-name>
+  </start-activity>
+  <user-activity
+            activity-id="approval_1" ontimeout="approved"
+                timeout="691200000">
+    <display-name
+                xml:lang="fr">Première approbation</display-name>
+    <display-name
+                xml:lang="zh-CN">第一步批准</display-name>
+    <display-name
+                xml:lang="de">1. Genehmigung</display-name>
+    <display-name
+                xml:lang="pt">Primeira aprovação</display-name>
+    <display-name
+                xml:lang="zh-TW">第一次核准</display-name>
+    <display-name
+                xml:lang="ja">1次承認</display-name>
+    <display-name
+                xml:lang="ru">Первое подтверждение</display-name>
+    <display-name
+                xml:lang="sv">Första godkännande</display-name>
+    <display-name
+                xml:lang="en">First approval</display-name>
+    <display-name
+                xml:lang="nl">Eerste goedkeuring</display-name>
+    <display-name
+                xml:lang="da">Første godkendelse</display-name>
+    <display-name
+                xml:lang="es">Primera aprobación</display-name>
+    <display-name
+                xml:lang="it">Prima approvazione</display-name>
+    <addressee>IDVault.get(recipient,'user','manager')</addressee>
+    <notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="_default_"
+                    target="TO"/>
+      <!-- Parameters for body of email template -->
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="IDVault.get(approval_1.getAddressee(), 'user', 'FirstName')"
+                    target="userFirstName"/>
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                target="recipientFullName"/>
+    </notify>
+    <retry
+                attempts="3"
+            interval="172800000">
+      <addressee>IDVault.get(approval_1.getAddressee(),'user','manager')</addressee>
+    </retry>
+  </user-activity>
+  <log-activity
+            activity-id="log_approval_1"
+                audit="false">
+    <display-name
+                xml:lang="fr">Journal des activités d''approbation_1</display-name>
+    <display-name
+                xml:lang="zh-CN">approval_1 活动的日志</display-name>
+    <display-name
+                xml:lang="de">Protokoll für Genehmigungsaktivität 1</display-name>
+    <display-name
+                xml:lang="pt">Registro para a atividade approval_1</display-name>
+    <display-name
+                xml:lang="zh-TW">approval_1 的活動記錄</display-name>
+    <display-name
+                xml:lang="ja">approval_1アクティビティ用のログ</display-name>
+    <display-name
+                xml:lang="ru">Протоколирование операции подтверждения_1</display-name>
+    <display-name
+                xml:lang="sv">Logg för godkännande_1-aktivitet</display-name>
+    <display-name
+                xml:lang="en">Log for approval_1 activity</display-name>
+    <display-name
+                xml:lang="nl">Logboek voor activiteit van approval_1</display-name>
+    <display-name
+                xml:lang="da">Logfil til approval_1-aktivitet</display-name>
+    <display-name
+                xml:lang="es">Registro de la actividad approval_1</display-name>
+    <display-name
+            xml:lang="it">Log per attività approvazione_1</display-name>
+    <author>initiator</author>
+    <message>'Log approval_1'</message>
+  </log-activity>
+  <user-activity
+            activity-id="approval_2" ontimeout="approved"
+                timeout="691200000">
+    <display-name
+                xml:lang="fr">Deuxième approbation</display-name>
+    <display-name
+                xml:lang="zh-CN">第二步批准</display-name>
+    <display-name
+                xml:lang="de">2. Genehmigung</display-name>
+    <display-name
+                xml:lang="pt">Segunda aprovação</display-name>
+    <display-name
+                xml:lang="zh-TW">第二次核准</display-name>
+    <display-name
+                xml:lang="ja">2次承認</display-name>
+    <display-name
+                xml:lang="ru">Второе подтверждение</display-name>
+    <display-name
+                xml:lang="sv">Andra godkännande</display-name>
+    <display-name
+                xml:lang="en">Second approval</display-name>
+    <display-name
+                xml:lang="nl">Tweede goedkeuring</display-name>
+    <display-name
+                xml:lang="da">Anden godkendelse</display-name>
+    <display-name
+                xml:lang="es">Segunda aprobación</display-name>
+    <display-name
+                xml:lang="it">Seconda approvazione</display-name>
+    <addressee>IDVault.get(approval_1.getAddressee(),'user','manager')</addressee>
+    <notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="_default_"
+                    target="TO"/>
+      <!-- Parameters for body of email template -->
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="IDVault.get(approval_2.getAddressee(), 'user', 'FirstName')"
+                    target="userFirstName"/>
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                target="recipientFullName"/>
+    </notify>
+    <retry
+                attempts="3"
+            interval="172800000">
+      <addressee>IDVault.get(approval_2.getAddressee(),'user','manager')</addressee>
+    </retry>
+  </user-activity>
+  <log-activity
+            activity-id="log_approval_2"
+                audit="false">
+    <display-name
+                xml:lang="fr">Journal des activités d''approbation_2</display-name>
+    <display-name
+                xml:lang="zh-CN">approval_2 活动的日志</display-name>
+    <display-name
+                xml:lang="de">Protokoll für Genehmigungsaktivität 2</display-name>
+    <display-name
+                xml:lang="pt">Registro para a atividade approval_2</display-name>
+    <display-name
+                xml:lang="zh-TW">approval_2 的活動記錄</display-name>
+    <display-name
+                xml:lang="ja">approval_2アクティビティ用のログ</display-name>
+    <display-name
+                xml:lang="ru">Протоколирование операции подтверждения_2</display-name>
+    <display-name
+                xml:lang="sv">Logg för godkännande_2-aktivitet</display-name>
+    <display-name
+                xml:lang="en">Log for approval_2 activity</display-name>
+    <display-name
+                xml:lang="nl">Logboek voor activiteit van approval_2</display-name>
+    <display-name
+                xml:lang="da">Logfil til approval_2-aktivitet</display-name>
+    <display-name
+                xml:lang="es">Registro de la actividad approval_2</display-name>
+    <display-name
+            xml:lang="it">Log per attività approvazione_2</display-name>
+    <author>initiator</author>
+    <message>'Log approval_2'</message>
+  </log-activity>
+  <user-activity
+            activity-id="approval_3" ontimeout="approved"
+                timeout="691200000">
+    <display-name
+                xml:lang="fr">Troisième approbation</display-name>
+    <display-name
+                xml:lang="zh-CN">第三步批准</display-name>
+    <display-name
+                xml:lang="de">3. Genehmigung</display-name>
+    <display-name
+                xml:lang="pt">Terceira aprovação</display-name>
+    <display-name
+                xml:lang="zh-TW">第三次核准</display-name>
+    <display-name
+                xml:lang="ja">3次承認</display-name>
+    <display-name
+                xml:lang="ru">Третье подтверждение</display-name>
+    <display-name
+                xml:lang="sv">Tredje godkännande</display-name>
+    <display-name
+                xml:lang="en">Third approval</display-name>
+    <display-name
+                xml:lang="nl">Derde goedkeuring</display-name>
+    <display-name
+                xml:lang="da">Tredje godkendelse</display-name>
+    <display-name
+                xml:lang="es">Tercera aprobación</display-name>
+    <display-name
+                xml:lang="it">Terza approvazione</display-name>
+    <addressee>IDVault.get(approval_2.getAddressee(),'user','manager')</addressee>
+    <notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="_default_"
+                    target="TO"/>
+      <!-- Parameters for body of email template -->
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="IDVault.get(approval_3.getAddressee(), 'user', 'FirstName')"
+                    target="userFirstName"/>
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                target="recipientFullName"/>
+    </notify>
+    <retry
+                attempts="3"
+            interval="172800000">
+      <addressee>IDVault.get(approval_3.getAddressee(),'user','manager')</addressee>
+    </retry>
+  </user-activity>
+  <log-activity
+            activity-id="log_approval_3"
+                audit="false">
+    <display-name
+                xml:lang="fr">Journal des activités d''approbation_3</display-name>
+    <display-name
+                xml:lang="zh-CN">approval_3 活动的日志</display-name>
+    <display-name
+                xml:lang="de">Protokoll für Genehmigungsaktivität 3</display-name>
+    <display-name
+                xml:lang="pt">Registro para a atividade approval_3</display-name>
+    <display-name
+                xml:lang="zh-TW">approval_3 的活動記錄</display-name>
+    <display-name
+                xml:lang="ja">approval_3アクティビティ用のログ</display-name>
+    <display-name
+                xml:lang="ru">Протоколирование операции подтверждения_3</display-name>
+    <display-name
+                xml:lang="sv">Logg för godkännande_3-aktivitet</display-name>
+    <display-name
+                xml:lang="en">Log for approval_3 activity</display-name>
+    <display-name
+                xml:lang="nl">Logboek voor activiteit van approval_3</display-name>
+    <display-name
+                xml:lang="da">Logfil til approval_3-aktivitet</display-name>
+    <display-name
+                xml:lang="es">Registro de la actividad approval_3</display-name>
+    <display-name
+            xml:lang="it">Log per attività approvazione_3</display-name>
+    <author>initiator</author>
+    <message>'Log approval_3'</message>
+  </log-activity>
+  <user-activity
+            activity-id="approval_4" ontimeout="approved"
+                timeout="691200000">
+    <display-name
+                xml:lang="fr">Quatrième approbation</display-name>
+    <display-name
+                xml:lang="zh-CN">第四步批准</display-name>
+    <display-name
+                xml:lang="de">4. Genehmigung</display-name>
+    <display-name
+                xml:lang="pt">Quarta aprovação</display-name>
+    <display-name
+                xml:lang="zh-TW">第四次核准</display-name>
+    <display-name
+                xml:lang="ja">4次承認</display-name>
+    <display-name
+                xml:lang="ru">Четвертое подтверждение</display-name>
+    <display-name
+                xml:lang="sv">Fjärde godkännande</display-name>
+    <display-name
+                xml:lang="en">Fourth approval</display-name>
+    <display-name
+                xml:lang="nl">Vierde goedkeuring</display-name>
+    <display-name
+                xml:lang="da">Fjerde godkendelse</display-name>
+    <display-name
+                xml:lang="es">Cuarta aprobación</display-name>
+    <display-name
+                xml:lang="it">Quarta approvazione</display-name>
+    <addressee>IDVault.get(approval_3.getAddressee(),'user','manager')</addressee>
+    <notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="_default_"
+                    target="TO"/>
+      <!-- Parameters for body of email template -->
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="IDVault.get(approval_4.getAddressee(), 'user', 'FirstName')"
+                    target="userFirstName"/>
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                target="recipientFullName"/>
+    </notify>
+    <retry
+                attempts="3"
+            interval="172800000">
+      <addressee>IDVault.get(approval_4.getAddressee(),'user','manager')</addressee>
+    </retry>
+  </user-activity>
+  <log-activity
+            activity-id="log_approval_4"
+                audit="false">
+    <display-name
+                xml:lang="fr">Journal des activités d''approbation_4</display-name>
+    <display-name
+                xml:lang="zh-CN">approval_4 活动的日志</display-name>
+    <display-name
+                xml:lang="de">Protokoll für Genehmigungsaktivität 4</display-name>
+    <display-name
+                xml:lang="pt">Registro para a atividade approval_4</display-name>
+    <display-name
+                xml:lang="zh-TW">approval_4 的活動記錄</display-name>
+    <display-name
+                xml:lang="ja">approval_4アクティビティ用のログ</display-name>
+    <display-name
+                xml:lang="ru">Протоколирование операции подтверждения_4</display-name>
+    <display-name
+                xml:lang="sv">Logg för godkännande_4-aktivitet</display-name>
+    <display-name
+                xml:lang="en">Log for approval_4 activity</display-name>
+    <display-name
+                xml:lang="nl">Logboek voor activiteit van approval_4</display-name>
+    <display-name
+                xml:lang="da">Logfil til approval_4-aktivitet</display-name>
+    <display-name
+                xml:lang="es">Registro de la actividad approval_4</display-name>
+    <display-name
+            xml:lang="it">Log per attività approvazione_4</display-name>
+    <author>initiator</author>
+    <message>'Log approval_4'</message>
+  </log-activity>
+  <log-activity
+            activity-id="log_finishDenied"
+                audit="false">
+    <display-name
+                xml:lang="fr">Journal de toutes les activités refusées</display-name>
+    <display-name
+                xml:lang="zh-CN">所有被拒绝的活动的日志</display-name>
+    <display-name
+                xml:lang="de">Protokoll für alle abgelehnten Aktivitäten</display-name>
+    <display-name
+                xml:lang="pt">Registro para todas as atividades negadas</display-name>
+    <display-name
+                xml:lang="zh-TW">所有被拒的活動記錄</display-name>
+    <display-name
+                xml:lang="ja">拒否されたすべてのアクティビティ用のログ</display-name>
+    <display-name
+                xml:lang="ru">Протоколирование всех запрещенных операций</display-name>
+    <display-name
+                xml:lang="sv">Logg för alla avslagna aktiviteter</display-name>
+    <display-name
+                xml:lang="en">Log for all denied activities</display-name>
+    <display-name
+                xml:lang="nl">Logboek voor alle afgewezen activiteiten</display-name>
+    <display-name
+                xml:lang="da">Logfil til alle afviste aktiviteter</display-name>
+    <display-name
+                xml:lang="es">Registro de todas las actividades denegadas</display-name>
+    <display-name
+            xml:lang="it">Log per tutte le attività rifiutate</display-name>
+    <author>initiator</author>
+    <message>'Log finish denied'</message>
+  </log-activity>
+  <provision-activity
+            activity-id="prov" category="entitlement"
+            entity-type="sys-entitlement-request"
+                operation="grant">
+    <display-name
+                xml:lang="fr">Activité de provisioning de droits</display-name>
+    <display-name
+                xml:lang="zh-CN">权利供应活动</display-name>
+    <display-name
+                xml:lang="de">Berechtigungsbereitstellungsaktivität</display-name>
+    <display-name
+                xml:lang="pt">Atividade de Aprovisionamento de Direito</display-name>
+    <display-name
+                xml:lang="zh-TW">授權佈建活動</display-name>
+    <display-name
+                xml:lang="ja">エンタイトルメントプロビジョニングアクティビティ</display-name>
+    <display-name
+                xml:lang="ru">Операция обеспечения наименования</display-name>
+    <display-name
+                xml:lang="sv">Rättighetstilldelningsaktivitet</display-name>
+    <display-name
+                xml:lang="en">Entitlement Provisioning Activity</display-name>
+    <display-name
+                xml:lang="nl">Activiteit voor toegangsbeheerrechten</display-name>
+    <display-name
+                xml:lang="da">Aktivitet med rettighedsklargøring</display-name>
+    <display-name
+                xml:lang="es">Actividad de provisión de derechos</display-name>
+    <display-name
+            xml:lang="it">Attività di provisioning autorizzazione</display-name>
+  </provision-activity>
+  <finish-activity
+                activity-id="finish">
+    <display-name
+                xml:lang="fr">Terminer</display-name>
+    <display-name
+                xml:lang="zh-CN">完成</display-name>
+    <display-name
+                xml:lang="de">Fertig stellen</display-name>
+    <display-name
+                xml:lang="pt">Concluir</display-name>
+    <display-name
+                xml:lang="zh-TW">完成</display-name>
+    <display-name
+                xml:lang="ja">完了</display-name>
+    <display-name
+                xml:lang="ru">Готово</display-name>
+    <display-name
+                xml:lang="sv">Slutför</display-name>
+    <display-name
+                xml:lang="en">Finish</display-name>
+    <display-name
+                xml:lang="nl">Voltooien</display-name>
+    <display-name
+                xml:lang="da">Afslut</display-name>
+    <display-name
+                xml:lang="es">Finalizar</display-name>
+    <display-name
+                xml:lang="it">Fine</display-name>
+    <notify
+                    template="cn=Provisioning Approval Completed Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="_default_"
+                    target="TO"/>
+      <!-- Parameters for body of email template -->
+      <map
+                    source="process.getName()"
+                    target="requestTitle"/>
+      <map
+                    source="process.getRequestId()"
+                    target="requestId"/>
+      <map
+                    source="process.getTimestamp().toString()"
+                    target="requestSubmissionTime"/>
+      <map
+                    source="process.getApprovalStatus()"
+                    target="requestStatus"/>
+      <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+            target="recipientFullName"/>
+    </notify>
+  </finish-activity>
+  <link
+            source="start" target="approval_1" type="forward"/>
+  <link
+            source="approval_1" target="log_approval_1"
+            type="approved"/>
+  <link source="log_approval_1"
+            target="approval_2" type="forward"/>
+  <link
+            source="approval_1" target="log_finishDenied"
+            type="denied"/>
+  <link source="approval_2"
+            target="log_approval_2" type="approved"/>
+  <link
+            source="log_approval_2" target="approval_3"
+            type="forward"/>
+  <link source="approval_2"
+            target="log_finishDenied" type="denied"/>
+  <link
+            source="approval_3" target="log_approval_3"
+            type="approved"/>
+  <link source="log_approval_3"
+            target="approval_4" type="forward"/>
+  <link
+            source="approval_3" target="log_finishDenied"
+            type="denied"/>
+  <link source="approval_4"
+            target="log_approval_4" type="approved"/>
+  <link
+            source="log_approval_4" target="prov"
+            type="forward"/>
+  <link source="approval_4"
+            target="log_finishDenied" type="denied"/>
+  <link
+            source="prov" target="finish" type="forward"/>
+  <link
+            source="log_finishDenied" target="finish" type="forward"/>
+</process>
+</prov-req-defn>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov-req-defn flow-strategy="SingleFlow" grant="true"
+    prov-category="accounts" prov-id="prdNewForm" revoke="false"
+    status="Active"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation=""><prov-resource-ref>None</prov-resource-ref><workflow-ref></workflow-ref><display-name
+        xml:lang="en">prdNewForm</display-name><description
+            xml:lang="en">prdNewForm</description><trustees/><xml-data><design-params
+            digital-signature-type="not-required" grant="true"
+            notify-addressee="false"
+                    prov-id="prdNewForm"><form-title><display-label
+                    xml:lang="en">prdNewForm</display-label><description
+                xml:lang="en">prdNewForm</description></form-title><prov-resource
+                    name="None"></prov-resource><workflow></workflow><legal-disclaimers/><links><link
+                    source="Start" target="Activity"
+                    type="forward"/><link source="Activity"
+                    target="Finish"
+                type="approved"/></links><user-activity
+                activity-id="Activity"
+                digital-signature-type="not-required"
+                ontimeout="approved" timeout=""
+                    timeout-units="milliseconds"><display-label
+                    xml:lang="en">Approval</display-label><addressee
+                    value="IDVault.get(recipient,'user','manager')"/><notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=security"/><retry
+                    attempts="" interval=""><addressee
+        value=""/></retry></user-activity></design-params><resource-data-binding/></xml-data><process
+        formSrc="1"
+        id="cn=prdNewForm,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        setnotify="false" version="3.6.1"><display-name
+            xml:lang="en">prdNewForm</display-name><form
+            form-id="formIdNew"/><form-binding activity-id="Activity"
+            form-id="formIdNew"/><start-activity
+                activity-id="Start"><display-name
+                xml:lang="en">Start</display-name><display-name
+            xml:lang="en">Start</display-name></start-activity><user-activity
+            activity-id="Activity" ontimeout="approved"><display-name
+                xml:lang="en">Approval</display-name><addressee>IDVault.get(recipient,'user','manager')</addressee><notify
+                template="cn=Provisioning Notification,cn=Default Notification Collection,cn=security"/><retry
+                attempts=""
+            interval=""><addressee></addressee></retry></user-activity><finish-activity
+                activity-id="Finish"><display-name
+                xml:lang="en">Finish</display-name><display-name
+                xml:lang="en">Finish</display-name><notify
+                    template="cn=Provisioning Approval Completed Notification,cn=Default Notification Collection,cn=security"><map
+                    source="_default_"
+            target="TO"/></notify></finish-activity><link source="Start"
+            target="Activity" type="forward"/><link source="Activity"
+            target="Finish"
+        type="approved"/></process><provision-request formSrc="1"
+            version="3.6.1"><form-binding form-id="formIdNew"/><request-data-items/></provision-request></prov-req-defn>

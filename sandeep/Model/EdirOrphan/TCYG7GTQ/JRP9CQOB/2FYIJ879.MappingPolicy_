@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="NOVLUABASE-smp" type="MappingPolicy">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="contents"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="initial_state"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageAssocGuid" value="NCN1D884_201006281545180574"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="B5PAGQ5E_201005261601510810"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="3812923875"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstalledLinkages" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;policy-linkage>&#xA;&#x9;&lt;policy-set Driver=&quot;JRC4JPE0&quot; channel=&quot;publisher&quot; name=&quot;schema&quot; order=&quot;Weight&quot; package-id=&quot;B5PAGQ5E_201005261601510810&quot; value=&quot;500&quot;/>&#xA;&lt;/policy-linkage>"/>
+  <relations name="Idm:MappingPolicyRefs" type="BackReference" key="#JRP9CQOB.Driver_"/>
+</com.novell.designer.model:CObject>

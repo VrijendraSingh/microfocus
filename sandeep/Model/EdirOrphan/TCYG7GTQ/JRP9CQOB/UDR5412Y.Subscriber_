@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Subscriber" type="Subscriber">
+  <relations name="Idm:CommandPolicies" type="Reference" key="#AZUBIMNH.ScriptPolicy_"/>
+  <relations name="Idm:EventPolicies" type="Reference" key="#GOABHK27.ScriptPolicy_"/>
+  <relations name="Idm:Policies" type="Child" key="#AZUBIMNH.ScriptPolicy_"/>
+  <relations name="Idm:Policies" type="Child" key="#GOABHK27.ScriptPolicy_"/>
+</com.novell.designer.model:CObject>

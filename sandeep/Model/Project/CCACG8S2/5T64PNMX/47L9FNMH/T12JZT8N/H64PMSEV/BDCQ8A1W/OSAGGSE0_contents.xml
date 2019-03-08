@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="helpdesk ticket title" item-name="helpdeskTitle"/>
+		<form:token-description description="Description" item-name="description"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+		<form:token-description description="Time the helpdesk ticket is cretaed" item-name="requestSubmissionTime"/>
+		<form:token-description description="Status of the request" item-name="requestStatus"/>
+		<form:token-description description="comment provided in the apporval form" item-name="comment"/>
+		<form:token-description description="Ticket number " item-name="ticketNumber"/>
+	</form:token-descriptions> 
+Olá,
+
+O ticket de suporte técnico que você criou foi fechado.
+
+Título: $helpdeskTitle$
+Descrição: $description$
+Número do ticket: $ticketNumber$
+Criado por: $recipientFullName$
+Enviado em: $requestSubmissionTime$
+Status: $requestStatus$
+Comentário: $comment$
+
+Obrigado.
+
+</form:text>

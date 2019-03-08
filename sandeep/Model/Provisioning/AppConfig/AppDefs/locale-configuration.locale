@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration
+    xmlns="http://www.novell.com/products/identitymanager/schema/i18n-config"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.novell.com/products/identitymanager/schema/i18n-config/locale-config.xsd http://www.novell.com/products/identitymanager/schema/locale-config.xsd">
+  <locale-display>
+    <!--
+            Here we have a display name for every language we support
+             *in* every language we support.
+        -->
+    <locale
+                code="en">
+      <display-name
+                xml:lang="da">Engelsk</display-name>
+      <display-name
+                xml:lang="de">Englisch</display-name>
+      <display-name
+                xml:lang="en">English</display-name>
+      <display-name
+                xml:lang="es">Inglés</display-name>
+      <display-name
+                xml:lang="fr">Anglais</display-name>
+      <display-name
+                xml:lang="it">Inglese</display-name>
+      <display-name
+                xml:lang="ja">英語</display-name>
+      <display-name
+                xml:lang="nl">Engels</display-name>
+      <display-name
+                xml:lang="pt">Inglês</display-name>
+      <display-name
+                xml:lang="ru">Английский</display-name>
+      <display-name
+                xml:lang="sv">Engelska</display-name>
+      <display-name
+                xml:lang="zh-CN">英语</display-name>
+      <display-name
+            xml:lang="zh-TW">英文</display-name>
+    </locale>
+    <locale
+                code="da">
+      <display-name
+                xml:lang="da">Dansk</display-name>
+      <display-name
+                xml:lang="de">Dänisch</display-name>
+      <display-name
+                xml:lang="en">Danish</display-name>
+      <display-name
+                xml:lang="es">Danés</display-name>
+      <display-name
+                xml:lang="fr">Danois</display-name>
+      <display-name
+                xml:lang="it">Danese</display-name>
+      <display-name
+                xml:lang="ja">デンマーク語</display-name>
+      <display-name
+                xml:lang="nl">Deens</display-name>
+      <display-name
+                xml:lang="pt">Dinamarquês</display-name>
+      <display-name
+                xml:lang="ru">Датский</display-name>
+      <display-name
+                xml:lang="sv">Danska</display-name>
+      <display-name
+                xml:lang="zh-CN">丹麦语</display-name>
+      <display-name
+            xml:lang="zh-TW">丹麥語</display-name>
+    </locale>
+    <locale
+                code="de">
+      <display-name
+                xml:lang="da">Tysk</display-name>
+      <display-name
+                xml:lang="de">Deutsch</display-name>
+      <display-name
+                xml:lang="en">German</display-name>
+      <display-name
+                xml:lang="es">Alemán</display-name>
+      <display-name
+                xml:lang="fr">Allemand</display-name>
+      <display-name
+                xml:lang="it">Tedesco</display-name>
+      <display-name
+                xml:lang="ja">ドイツ語</display-name>
+      <display-name
+                xml:lang="nl">Duits</display-name>
+      <display-name
+                xml:lang="pt">Alemão</display-name>
+      <display-name
+                xml:lang="ru">Немецкий</display-name>
+      <display-name
+                xml:lang="sv">Tyska</display-name>
+      <display-name
+                xml:lang="zh-CN">德语</display-name>
+      <display-name
+            xml:lang="zh-TW">德文</display-name>
+    </locale>
+    <locale
+                code="es">
+      <display-name
+                xml:lang="da">Spansk</display-name>
+      <display-name
+                xml:lang="de">Spanisch</display-name>
+      <display-name
+                xml:lang="en">Spanish</display-name>
+      <display-name
+                xml:lang="es">Español</display-name>
+      <display-name
+                xml:lang="fr">Espagnol</display-name>
+      <display-name
+                xml:lang="it">Spagnolo</display-name>
+      <display-name
+                xml:lang="ja">スペイン語</display-name>
+      <display-name
+                xml:lang="nl">Spaans</display-name>
+      <display-name
+                xml:lang="pt">Espanhol</display-name>
+      <display-name
+                xml:lang="ru">Испанский</display-name>
+      <display-name
+                xml:lang="sv">Spanska</display-name>
+      <display-name
+                xml:lang="zh-CN">西班牙语</display-name>
+      <display-name
+            xml:lang="zh-TW">西班牙文</display-name>
+    </locale>
+    <locale
+                code="fr">
+      <display-name
+                xml:lang="da">Fransk</display-name>
+      <display-name
+                xml:lang="de">Französisch</display-name>
+      <display-name
+                xml:lang="en">French</display-name>
+      <display-name
+                xml:lang="es">Francés</display-name>
+      <display-name
+                xml:lang="fr">Français</display-name>
+      <display-name
+                xml:lang="it">Francese</display-name>
+      <display-name
+                xml:lang="ja">フランス語</display-name>
+      <display-name
+                xml:lang="nl">Frans</display-name>
+      <display-name
+                xml:lang="pt">Francês</display-name>
+      <display-name
+                xml:lang="ru">Французский</display-name>
+      <display-name
+                xml:lang="sv">Franska</display-name>
+      <display-name
+                xml:lang="zh-CN">法语</display-name>
+      <display-name
+            xml:lang="zh-TW">法文</display-name>
+    </locale>
+    <locale
+                code="it">
+      <display-name
+                xml:lang="da">Italiensk</display-name>
+      <display-name
+                xml:lang="de">Italienisch</display-name>
+      <display-name
+                xml:lang="en">Italian</display-name>
+      <display-name
+                xml:lang="es">Italiano</display-name>
+      <display-name
+                xml:lang="fr">Italien</display-name>
+      <display-name
+                xml:lang="it">Italiano</display-name>
+      <display-name
+                xml:lang="ja">イタリア語</display-name>
+      <display-name
+                xml:lang="nl">Italiaans</display-name>
+      <display-name
+                xml:lang="pt">Italiano</display-name>
+      <display-name
+                xml:lang="ru">Итальянский</display-name>
+      <display-name
+                xml:lang="sv">Italienska</display-name>
+      <display-name
+                xml:lang="zh-CN">意大利语</display-name>
+      <display-name
+            xml:lang="zh-TW">義大利文</display-name>
+    </locale>
+    <locale
+                code="ja">
+      <display-name
+                xml:lang="da">Japansk</display-name>
+      <display-name
+                xml:lang="de">Japanisch</display-name>
+      <display-name
+                xml:lang="en">Japanese</display-name>
+      <display-name
+                xml:lang="es">Japonés</display-name>
+      <display-name
+                xml:lang="fr">Japonais</display-name>
+      <display-name
+                xml:lang="it">Giapponese</display-name>
+      <display-name
+                xml:lang="ja">日本語</display-name>
+      <display-name
+                xml:lang="nl">Japans</display-name>
+      <display-name
+                xml:lang="pt">Japonês</display-name>
+      <display-name
+                xml:lang="ru">Японский</display-name>
+      <display-name
+                xml:lang="sv">Japanska</display-name>
+      <display-name
+                xml:lang="zh-CN">日语</display-name>
+      <display-name
+            xml:lang="zh-TW">日文</display-name>
+    </locale>
+    <locale
+                code="nl">
+      <display-name
+                xml:lang="da">Hollandsk</display-name>
+      <display-name
+                xml:lang="de">Niederländisch</display-name>
+      <display-name
+                xml:lang="en">Dutch</display-name>
+      <display-name
+                xml:lang="es">Neerlandés</display-name>
+      <display-name
+                xml:lang="fr">Néerlandais</display-name>
+      <display-name
+                xml:lang="it">Olandese</display-name>
+      <display-name
+                xml:lang="ja">オランダ語</display-name>
+      <display-name
+                xml:lang="nl">Nederlands</display-name>
+      <display-name
+                xml:lang="pt">Holandês</display-name>
+      <display-name
+                xml:lang="ru">Голландский</display-name>
+      <display-name
+                xml:lang="sv">Nederländska</display-name>
+      <display-name
+                xml:lang="zh-CN">荷兰语</display-name>
+      <display-name
+            xml:lang="zh-TW">荷蘭語</display-name>
+    </locale>
+    <locale
+                code="pt">
+      <display-name
+                xml:lang="da">Portugisisk</display-name>
+      <display-name
+                xml:lang="de">Portugiesisch</display-name>
+      <display-name
+                xml:lang="en">Portuguese</display-name>
+      <display-name
+                xml:lang="es">Portugués</display-name>
+      <display-name
+                xml:lang="fr">Portugais</display-name>
+      <display-name
+                xml:lang="it">Portoghese</display-name>
+      <display-name
+                xml:lang="ja">ポルトガル語</display-name>
+      <display-name
+                xml:lang="nl">Portugees</display-name>
+      <display-name
+                xml:lang="pt">Português</display-name>
+      <display-name
+                xml:lang="ru">Португальский</display-name>
+      <display-name
+                xml:lang="sv">Portugisiska</display-name>
+      <display-name
+                xml:lang="zh-CN">葡萄牙语</display-name>
+      <display-name
+            xml:lang="zh-TW">葡萄牙語</display-name>
+    </locale>
+    <locale
+                code="ru">
+      <display-name
+                xml:lang="da">Russisk</display-name>
+      <display-name
+                xml:lang="de">Russisch</display-name>
+      <display-name
+                xml:lang="en">Russian</display-name>
+      <display-name
+                xml:lang="es">Ruso</display-name>
+      <display-name
+                xml:lang="fr">Russe</display-name>
+      <display-name
+                xml:lang="it">Russo</display-name>
+      <display-name
+                xml:lang="ja">ロシア語</display-name>
+      <display-name
+                xml:lang="nl">Russisch</display-name>
+      <display-name
+                xml:lang="pt">Russo</display-name>
+      <display-name
+                xml:lang="ru">Русский</display-name>
+      <display-name
+                xml:lang="sv">Ryska</display-name>
+      <display-name
+                xml:lang="zh-CN">俄语</display-name>
+      <display-name
+            xml:lang="zh-TW">俄文</display-name>
+    </locale>
+    <locale
+                code="sv">
+      <display-name
+                xml:lang="da">Svensk</display-name>
+      <display-name
+                xml:lang="de">Schwedisch</display-name>
+      <display-name
+                xml:lang="en">Swedish</display-name>
+      <display-name
+                xml:lang="es">Sueco</display-name>
+      <display-name
+                xml:lang="fr">Suédois</display-name>
+      <display-name
+                xml:lang="it">Svedese</display-name>
+      <display-name
+                xml:lang="ja">スウェーデン語</display-name>
+      <display-name
+                xml:lang="nl">Zweeds</display-name>
+      <display-name
+                xml:lang="pt">Sueco</display-name>
+      <display-name
+                xml:lang="ru">Шведский</display-name>
+      <display-name
+                xml:lang="sv">Svenska</display-name>
+      <display-name
+                xml:lang="zh-CN">瑞典语</display-name>
+      <display-name
+            xml:lang="zh-TW">瑞典語</display-name>
+    </locale>
+    <locale
+                code="zh-CN">
+      <display-name
+                xml:lang="da">Kinesisk (Kina)</display-name>
+      <display-name
+                xml:lang="de">Chinesisch (China)</display-name>
+      <display-name
+                xml:lang="en">Chinese (China)</display-name>
+      <display-name
+                xml:lang="es">Chino (China)</display-name>
+      <display-name
+                xml:lang="fr">Chinois (Chine)</display-name>
+      <display-name
+                xml:lang="it">Cinese (Cina)</display-name>
+      <display-name
+                xml:lang="ja">中国語(中国)</display-name>
+      <display-name
+                xml:lang="nl">Chinees (China)</display-name>
+      <display-name
+                xml:lang="pt">Chinês (China)</display-name>
+      <display-name
+                xml:lang="ru">Китайский (Китай)</display-name>
+      <display-name
+                xml:lang="sv">Kinesiska (Kina)</display-name>
+      <display-name
+                xml:lang="zh-CN">中文（中国）</display-name>
+      <display-name
+            xml:lang="zh-TW">中文 (中國)</display-name>
+    </locale>
+    <locale
+                code="zh-TW">
+      <display-name
+                xml:lang="da">Kinesisk (Taiwan)</display-name>
+      <display-name
+                xml:lang="de">Chinesisch (Taiwan)</display-name>
+      <display-name
+                xml:lang="en">Chinese (Taiwan)</display-name>
+      <display-name
+                xml:lang="es">Chino (Taiwán)</display-name>
+      <display-name
+                xml:lang="fr">Chinois (Taiwan)</display-name>
+      <display-name
+                xml:lang="it">Cinese (Taiwan)</display-name>
+      <display-name
+                xml:lang="ja">中国語(台湾)</display-name>
+      <display-name
+                xml:lang="nl">Chinees (Taiwan)</display-name>
+      <display-name
+                xml:lang="pt">Chinês (Taiwan)</display-name>
+      <display-name
+                xml:lang="ru">Китайский (Тайвань)</display-name>
+      <display-name
+                xml:lang="sv">Kinesiska (Taiwan)</display-name>
+      <display-name
+                xml:lang="zh-CN">中文（中国台湾）</display-name>
+      <display-name
+            xml:lang="zh-TW">中文 (台灣)</display-name>
+    </locale>
+  </locale-display>
+  <default-locale>en</default-locale>
+  <!-- 'root-resgrp' Main Configuration -->
+  <root-resource-group>
+    <description
+            xml:lang="da">Rodressourcegruppe - alle OTB-grupper arver fra denne gruppe.</description>
+    <description
+            xml:lang="de">Root-Ressourcengruppe - Alle OTB-Gruppen erben von dieser Gruppe.</description>
+    <description
+            xml:lang="en">Root Resource Group - All OTB groups inherit from this group.</description>
+    <description
+            xml:lang="es">Grupo de recursos raíz: todos los grupos OTB heredan de este grupo.</description>
+    <description
+            xml:lang="fr">Groupe de ressource racine - Tous les groupes OTB héritent de ce groupe.</description>
+    <description
+            xml:lang="it">Gruppo risorse radice - Tutti i gruppi OTB ereditano da questo gruppo.</description>
+    <description
+            xml:lang="ja">ルートリソースグループ - すべてのOTBグループは、このグループから継承されます。</description>
+    <description
+            xml:lang="nl">Hoofdresourcegroep - Alle OTB-groepen nemen over van deze groep.</description>
+    <description
+            xml:lang="pt">Grupo de Recursos Raiz - Todos os grupos OTB são herdados deste grupo.</description>
+    <description
+            xml:lang="ru">Группа корневых ресурсов - все группы OTB наследуют от этой группы.</description>
+    <description
+            xml:lang="sv">Rotresursgrupp - Alla OTB-grupper ärver från den här gruppen.</description>
+    <description
+            xml:lang="zh-CN">根资源组 － 所有 OTB 组都继承自此组。</description>
+    <description
+        xml:lang="zh-TW">根部資源群組 - 所有繼承此群組的 OTB 群組</description>
+    <supported-locale>en</supported-locale>
+    <supported-locale>da</supported-locale>
+    <supported-locale>de</supported-locale>
+    <supported-locale>es</supported-locale>
+    <supported-locale>fr</supported-locale>
+    <supported-locale>it</supported-locale>
+    <supported-locale>ja</supported-locale>
+    <supported-locale>nl</supported-locale>
+    <supported-locale>pt</supported-locale>
+    <supported-locale>ru</supported-locale>
+    <supported-locale>sv</supported-locale>
+    <supported-locale>zh-CN</supported-locale>
+    <supported-locale>zh-TW</supported-locale>
+  </root-resource-group>
+  <resource-group
+        name="common-resgrp" otb="true">
+    <display-name
+            xml:lang="da">Almindelig</display-name>
+    <display-name
+            xml:lang="de">Gemeinsam</display-name>
+    <display-name
+            xml:lang="en">Common</display-name>
+    <display-name
+            xml:lang="es">Común</display-name>
+    <display-name
+            xml:lang="fr">Commun</display-name>
+    <display-name
+            xml:lang="it">Comune</display-name>
+    <display-name
+            xml:lang="ja">共通</display-name>
+    <display-name
+            xml:lang="nl">Algemeen</display-name>
+    <display-name
+            xml:lang="pt">Comum</display-name>
+    <display-name
+            xml:lang="ru">Общий</display-name>
+    <display-name
+            xml:lang="sv">Allmän</display-name>
+    <display-name
+            xml:lang="zh-CN">共同</display-name>
+    <display-name
+            xml:lang="zh-TW">通用</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for elementer, der altid skal lokaliseres, når en anden ressourcegruppe lokaliseres.</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für alle Elemente, die immer lokalisiert werden müssen, wenn eine der anderen Ressourcengruppen lokalisiert wird.</description>
+    <description
+            xml:lang="en">Resource Grouping for any items that will always need to be localized when any other resource group is localized.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos para todos los elementos que siempre deben localizarse cuando se localice cualquier otro grupo de recursos.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les éléments qui devront toujours être localisés lorsqu'un autre groupe de ressources est localisé.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per tutti gli elementi che devono essere localizzati quando si localizza un altro gruppo di risorse.</description>
+    <description
+            xml:lang="ja">他のリソースグループがローカライズされたときには、常にローカライズされる必要があるアイテムのリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep voor items die altijd moeten worden gelokaliseerd wanneer een andere resourcegroep wordt gelokaliseerd.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para quaisquer itens que precisarão ser sempre localizados quando qualquer outro grupo de recursos for localizado.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов для любых элементов, которые всегда должны быть локализованы, если локализована любая другая группа ресурсов.</description>
+    <description
+            xml:lang="sv">Resursgruppering för alla objekt som alltid måste lokaliseras när någon annan resursgrupp har lokaliserats.</description>
+    <description
+            xml:lang="zh-CN">当本地化其他资源组时也总是需要本地化的任何项目的资源分组。</description>
+    <description
+        xml:lang="zh-TW">在其他資源群組進行當地語系化後也必須進行當地語系化之所有項目的「資源群組」。</description>
+  </resource-group>
+  <resource-group
+        name="base-resgrp" otb="true"
+            requires="common-resgrp">
+    <display-name
+            xml:lang="da">Base</display-name>
+    <display-name
+            xml:lang="de">Basis</display-name>
+    <display-name
+            xml:lang="en">Base</display-name>
+    <display-name
+            xml:lang="es">Base</display-name>
+    <display-name
+            xml:lang="fr">Base</display-name>
+    <display-name
+            xml:lang="it">Di base</display-name>
+    <display-name
+            xml:lang="ja">ベース</display-name>
+    <display-name
+            xml:lang="nl">Basis</display-name>
+    <display-name
+            xml:lang="pt">Base</display-name>
+    <display-name
+            xml:lang="ru">Базовый</display-name>
+    <display-name
+            xml:lang="sv">Grund</display-name>
+    <display-name
+            xml:lang="zh-CN">基本</display-name>
+    <display-name
+            xml:lang="zh-TW">基礎</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering, der fungerer som en almindelig gruppering til adskillige andre grupper.</description>
+    <description
+            xml:lang="de">Ressourcengruppierung, die als gemeinsame Gruppierung für verschiedene andere Gruppen dient.</description>
+    <description
+            xml:lang="en">Resource Grouping that serves as common grouping for several other groups.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos que funciona como agrupamiento común para varios grupos.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources servant de groupement commun pour plusieurs autres groupes.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse utilizzate come raggruppamento comune per molti altri gruppi.</description>
+    <description
+            xml:lang="ja">他の複数グループの共通グループとして機能するリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep die fungeert als algemene groep voor verschillende andere groepen.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos que serve como agrupamento comum de vários outros grupos.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов, являющееся общим для нескольких других групп.</description>
+    <description
+            xml:lang="sv">Resursgruppering som fungerar som en allmän gruppering för flera andra grupper.</description>
+    <description
+            xml:lang="zh-CN">用作若干个其他组的共同分组的资源分组。</description>
+    <description
+        xml:lang="zh-TW">可同時做為數個群組之通用群組的「資源群組」。</description>
+  </resource-group>
+  <resource-group
+        name="accessory-resgrp" otb="true"
+            requires="common-resgrp">
+    <display-name
+            xml:lang="da">Ekstra portletter</display-name>
+    <display-name
+            xml:lang="de">Zubehör-Portlets</display-name>
+    <display-name
+            xml:lang="en">Accessory Portlets</display-name>
+    <display-name
+            xml:lang="es">Portlets de accesorios</display-name>
+    <display-name
+            xml:lang="fr">Portlets d'accessoires</display-name>
+    <display-name
+            xml:lang="it">Portlet supplementari</display-name>
+    <display-name
+            xml:lang="ja">アクセサリポートレット</display-name>
+    <display-name
+            xml:lang="nl">Accessoire-portlets</display-name>
+    <display-name
+            xml:lang="pt">Portlets de Acessório</display-name>
+    <display-name
+            xml:lang="ru">Вспомогательные портлеты</display-name>
+    <display-name
+            xml:lang="sv">Tillbehörsportletar</display-name>
+    <display-name
+            xml:lang="zh-CN">附属 Portlet</display-name>
+    <display-name
+            xml:lang="zh-TW">附屬入口網站應用程式</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for komponenter til tilbehørsportletter</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für die Zubehör-Portlet-Komponenten.</description>
+    <description
+            xml:lang="en">Resource Grouping for the Accessory Portlet components.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos para los componentes de portlet de accesorios.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les composants du portlet d'accessoires.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per i componenti Portlet supplementari.</description>
+    <description
+            xml:lang="ja">アクセサリポートレットコンポーネントのリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep voor de onderdelen van Accessoire-portlets</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para os componentes do Portlet de Acessório.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов для компонентов вспомогательного портлета.</description>
+    <description
+            xml:lang="sv">Resursgruppering för komponenterna för tillbehörsportletar.</description>
+    <description
+            xml:lang="zh-CN">附属 Portlet 组件的资源分组。</description>
+    <description
+        xml:lang="zh-TW">「附屬入口網站應用程式」元件的「資源群組」。</description>
+  </resource-group>
+  <resource-group
+        name="admin-resgrp" otb="true"
+            requires="base-resgrp">
+    <display-name
+            xml:lang="da">Administrativ</display-name>
+    <display-name
+            xml:lang="de">Administrativ</display-name>
+    <display-name
+            xml:lang="en">Administrative</display-name>
+    <display-name
+            xml:lang="es">Administrativo</display-name>
+    <display-name
+            xml:lang="fr">Administration</display-name>
+    <display-name
+            xml:lang="it">Amministrazione</display-name>
+    <display-name
+            xml:lang="ja">管理者</display-name>
+    <display-name
+            xml:lang="nl">Beheer</display-name>
+    <display-name
+            xml:lang="pt">Administrativo</display-name>
+    <display-name
+            xml:lang="ru">Административный</display-name>
+    <display-name
+            xml:lang="sv">Administration</display-name>
+    <display-name
+            xml:lang="zh-CN">管理</display-name>
+    <display-name
+            xml:lang="zh-TW">管理</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for administrative komponenter.</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für administrative Komponenten.</description>
+    <description
+            xml:lang="en">Resource Grouping for Administrative components.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos para los componentes administrativos.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les composants d'administration.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per i componenti Amministrazione.</description>
+    <description
+            xml:lang="ja">管理者コンポーネントのリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep voor beheeronderdelen.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para componentes Administrativos.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов для компонентов администрирования.</description>
+    <description
+            xml:lang="sv">Resursgruppering för administrativa komponenter.</description>
+    <description
+            xml:lang="zh-CN">管理组件的资源分组。</description>
+    <description
+        xml:lang="zh-TW">「管理」元件的「資源群組」</description>
+  </resource-group>
+  <resource-group
+        name="identity-resgrp" otb="true"
+            requires="base-resgrp">
+    <display-name
+            xml:lang="da">Identitet</display-name>
+    <display-name
+            xml:lang="de">Identität</display-name>
+    <display-name
+            xml:lang="en">Identity</display-name>
+    <display-name
+            xml:lang="es">Identidad</display-name>
+    <display-name
+            xml:lang="fr">Identité</display-name>
+    <display-name
+            xml:lang="it">Identità</display-name>
+    <display-name
+            xml:lang="ja">識別子</display-name>
+    <display-name
+            xml:lang="nl">Identiteit</display-name>
+    <display-name
+            xml:lang="pt">Identidade</display-name>
+    <display-name
+            xml:lang="ru">Учетная запись</display-name>
+    <display-name
+            xml:lang="sv">Användare</display-name>
+    <display-name
+            xml:lang="zh-CN">身份</display-name>
+    <display-name
+            xml:lang="zh-TW">身分</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for komponenter, der er relateret til Identity Management.</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für Komponenten, die sich auf Identity Management beziehen.</description>
+    <description
+            xml:lang="en">Resource Grouping for Identity Management related components.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos para los componentes relacionados con la gestión de identidades.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les composants liés à Identity Management.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per i componenti correlati a Identity Management.</description>
+    <description
+            xml:lang="ja">Identity Management関連コンポーネントのリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep voor aan Identity Management gerelateerde onderdelen.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para componentes relacionados ao Gerenciamento de Identidade.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов для компонентов, связанных с управлением учетными записями.</description>
+    <description
+            xml:lang="sv">Resursgruppering för Identity Manager-relaterade komponenter.</description>
+    <description
+            xml:lang="zh-CN">Identity Management 相关组件的资源分组。</description>
+    <description
+        xml:lang="zh-TW">「身分管理」相關元件的「資源群組」</description>
+  </resource-group>
+  <resource-group
+        name="pwdmgt-resgrp" otb="true"
+            requires="base-resgrp">
+    <display-name
+            xml:lang="da">Adgangskodestyring</display-name>
+    <display-name
+            xml:lang="de">Passwortverwaltung</display-name>
+    <display-name
+            xml:lang="en">Password Management</display-name>
+    <display-name
+            xml:lang="es">Gestión de contraseñas</display-name>
+    <display-name
+            xml:lang="fr">Gestion des mots de passe</display-name>
+    <display-name
+            xml:lang="it">Gestione password</display-name>
+    <display-name
+            xml:lang="ja">パスワードの管理</display-name>
+    <display-name
+            xml:lang="nl">Wachtwoordbeheer</display-name>
+    <display-name
+            xml:lang="pt">Gerenciamento de Senhas</display-name>
+    <display-name
+            xml:lang="ru">Управление паролями</display-name>
+    <display-name
+            xml:lang="sv">Lösenord</display-name>
+    <display-name
+            xml:lang="zh-CN">口令管理</display-name>
+    <display-name
+            xml:lang="zh-TW">密碼管理</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for komponenter til adgangskodestyring.</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für Passwortverwaltungskomponenten.</description>
+    <description
+            xml:lang="en">Resource Grouping for password management components.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos para los componentes de gestión de contraseñas.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les composants de gestion des mots de passe.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per i componenti Gestione password.</description>
+    <description
+            xml:lang="ja">パスワード管理コンポーネントのリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep voor wachtwoordbeheeronderdelen.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para componentes de gerenciamento de senha.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов для компонентов управления паролями.</description>
+    <description
+            xml:lang="sv">Resursgruppering för lösenordskomponenter</description>
+    <description
+            xml:lang="zh-CN">口令管理组件的资源分组。</description>
+    <description
+        xml:lang="zh-TW">密碼管理元件的「資源群組」。</description>
+  </resource-group>
+  <resource-group
+        name="apwa-resgrp" otb="true"
+            requires="base-resgrp">
+    <display-name
+            xml:lang="da">Anmodninger og godkendelser</display-name>
+    <display-name
+            xml:lang="de">Anforderungen und Genehmigungen</display-name>
+    <display-name
+            xml:lang="en">Requests and Approvals</display-name>
+    <display-name
+            xml:lang="es">Peticiones y aprobaciones</display-name>
+    <display-name
+            xml:lang="fr">Requêtes et approbations</display-name>
+    <display-name
+            xml:lang="it">Richieste e approvazioni</display-name>
+    <display-name
+            xml:lang="ja">要求および承認</display-name>
+    <display-name
+            xml:lang="nl">Aanvragen en goedkeuringen</display-name>
+    <display-name
+            xml:lang="pt">Solicitações e Aprovações</display-name>
+    <display-name
+            xml:lang="ru">Запросы и подтверждения</display-name>
+    <display-name
+            xml:lang="sv">Beställning</display-name>
+    <display-name
+            xml:lang="zh-CN">请求和批准</display-name>
+    <display-name
+            xml:lang="zh-TW">申請和核准</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for komponenter til anmodninger og godkendelser</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für Anforderungs- und Genehmigungskomponenten.</description>
+    <description
+            xml:lang="en">Resource Grouping for Request and Approval components.</description>
+    <description
+            xml:lang="es">Agrupamiento de recursos para los componentes de peticiones y aprobaciones.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les composants de requête et d''approbation.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per i componenti Richiesta e Approvazione.</description>
+    <description
+            xml:lang="ja">要求および承認コンポーネントのリソースグループ。</description>
+    <description
+            xml:lang="nl">Resourcegroep voor aanvraag- en goedkeuringsonderdelen.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para componentes de Solicitação e Aprovação.</description>
+    <description
+            xml:lang="ru">Группирование ресурсов для компонентов системы запросов и подтверждений.</description>
+    <description
+            xml:lang="sv">Resursgruppering för beställningskomponenter.</description>
+    <description
+            xml:lang="zh-CN">请求和批准组件的资源分组。</description>
+    <description
+        xml:lang="zh-TW">「申請和核准」元件的「資源群組」。</description>
+  </resource-group>
+  <resource-group
+        name="roles-resgrp" otb="true"
+            requires="base-resgrp">
+    <display-name
+            xml:lang="da">Roller</display-name>
+    <display-name
+            xml:lang="de">Rollen</display-name>
+    <display-name
+            xml:lang="en">Roles</display-name>
+    <display-name
+            xml:lang="es">Funciones</display-name>
+    <display-name
+            xml:lang="fr">Rôles</display-name>
+    <display-name
+            xml:lang="it">Ruoli</display-name>
+    <display-name
+            xml:lang="ja">役割</display-name>
+    <display-name
+            xml:lang="nl">Rollen</display-name>
+    <display-name
+            xml:lang="pt">Funções</display-name>
+    <display-name
+            xml:lang="ru">Роли</display-name>
+    <display-name
+            xml:lang="sv">Roller</display-name>
+    <display-name
+            xml:lang="zh-CN">角色</display-name>
+    <display-name
+            xml:lang="zh-TW">角色</display-name>
+    <description
+            xml:lang="da">Ressourcegruppering for komponenter til roller.</description>
+    <description
+            xml:lang="de">Ressourcengruppierung für Rollenskomponenten.</description>
+    <description
+            xml:lang="en">Resource Grouping for Roles components.</description>
+    <description
+            xml:lang="es">Agrupación de recursos para componentes de funciones.</description>
+    <description
+            xml:lang="fr">Regroupement des ressources pour les composants des rôles.</description>
+    <description
+            xml:lang="it">Raggruppamento delle risorse per i componenti Ruoli.</description>
+    <description
+            xml:lang="ja">役割コンポーネントのリソースグループ。</description>
+    <description
+            xml:lang="nl">Brongroepering voor rolcomponenten.</description>
+    <description
+            xml:lang="pt">Agrupamento de Recursos para componentes de Funções.</description>
+    <description
+            xml:lang="ru">Группировка ресурсов для компонентов ролей</description>
+    <description
+            xml:lang="sv">Resursgruppering för rollkomponenter.</description>
+    <description
+            xml:lang="zh-CN">角色组件的资源分组。</description>
+    <description xml:lang="zh-TW">角色元件的資源群組。</description>
+  </resource-group>
+</configuration>
+<!--============================================================================
+  Copyright (c) 2006-2014 Unpublished Work of NetIQ Corporation. All Rights Reserved.
+
+  THIS WORK IS AN UNPUBLISHED WORK AND CONTAINS CONFIDENTIAL,
+  PROPRIETARY AND TRADE SECRET INFORMATION OF NETIQ. ACCESS TO
+  THIS WORK IS RESTRICTED TO (I) NETIQ EMPLOYEES WHO HAVE A NEED
+  TO KNOW HOW TO PERFORM TASKS WITHIN THE SCOPE OF THEIR ASSIGNMENTS AND
+  (II) ENTITIES OTHER THAN NETIQ WHO HAVE ENTERED INTO
+  APPROPRIATE LICENSE AGREEMENTS. NO PART OF THIS WORK MAY BE USED,
+  PRACTICED, PERFORMED, COPIED, DISTRIBUTED, REVISED, MODIFIED,
+  TRANSLATED, ABRIDGED, CONDENSED, EXPANDED, COLLECTED, COMPILED,
+  LINKED, RECAST, TRANSFORMED OR ADAPTED WITHOUT THE PRIOR WRITTEN
+  CONSENT OF NETIQ. ANY USE OR EXPLOITATION OF THIS WORK WITHOUT
+  AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO CRIMINAL AND CIVIL
+  LIABILITY.
+  ===========================================================================-->

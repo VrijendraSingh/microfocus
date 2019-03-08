@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions/>
+	<body>
+		<p>Hola:
+<br/>
+			<br/>
+$ERROR_MESSAGE$<br/>
+			<br/>
+ID de petición: $REQUEST_ID$
+</p>
+	</body>
+</html>

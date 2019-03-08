@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Resource Approval" filename="ResourceApproval.prd"
+    hasContainment="false" modstamp="0" protected="true" readonly="true"
+    type="srvprvRequest"
+        visible="true">
+    <guid>4MD4LMU5</guid>
+    <display
+        xml:lang="de">Ressourcengenehmigung</display>
+    <display
+        xml:lang="sv">Resursgodkännande</display>
+    <display
+        xml:lang="ru">Подтверждение ресурса</display>
+    <display
+        xml:lang="pt">Aprovação de Recurso</display>
+    <display
+        xml:lang="zh-TW">資源核准</display>
+    <display
+        xml:lang="en">Resource Approval</display>
+    <display
+        xml:lang="it">Approvazione risorsa</display>
+    <display
+        xml:lang="fr">Approbation de la ressource</display>
+    <display
+        xml:lang="zh-CN">资源批准</display>
+    <display
+        xml:lang="es">Aprobación del recurso</display>
+    <display
+        xml:lang="ja">リソースの承認</display>
+    <display
+        xml:lang="da">Ressourcegodkendelse</display>
+    <display
+        xml:lang="nl">Goedkeuring van resource</display>
+    <descr
+        xml:lang="de">Ressourcengenehmigung</descr>
+    <descr
+        xml:lang="sv">Resursgodkännande</descr>
+    <descr
+        xml:lang="ru">Подтверждение ресурса</descr>
+    <descr
+        xml:lang="pt">Aprovação de Recurso</descr>
+    <descr
+        xml:lang="zh-TW">資源核准</descr>
+    <descr
+        xml:lang="en">Resource Approval</descr>
+    <descr
+        xml:lang="it">Approvazione risorsa</descr>
+    <descr
+        xml:lang="fr">Approbation de la ressource</descr>
+    <descr
+        xml:lang="zh-CN">资源批准</descr>
+    <descr
+        xml:lang="es">Aprobación del recurso</descr>
+    <descr
+        xml:lang="ja">リソースの承認</descr>
+    <descr
+        xml:lang="da">Ressourcegodkendelse</descr>
+    <descr xml:lang="nl">Goedkeuring van resource</descr>
+    <dirguid>9410DBF4E25984459A649410DBF4E259</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>nrf</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>CIQWV68V_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3239044438</pkg-checksum></item>

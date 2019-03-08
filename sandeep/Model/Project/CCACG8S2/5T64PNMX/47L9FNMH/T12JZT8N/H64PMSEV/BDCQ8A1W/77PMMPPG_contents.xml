@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="helpdesk ticket title" item-name="helpdeskTitle"/>
+		<form:token-description description="Description" item-name="description"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+		<form:token-description description="Time the helpdesk ticket is cretaed" item-name="requestSubmissionTime"/>
+		<form:token-description description="Status of the request" item-name="requestStatus"/>
+		<form:token-description description="comment provided in the apporval form" item-name="comment"/>
+		<form:token-description description="Ticket number " item-name="ticketNumber"/>
+	</form:token-descriptions> 
+您好：
+
+您创建的咨询台凭单已结。
+
+标题：$helpdeskTitle$
+说明：$description$
+凭单编号：$ticketNumber$
+创建人：$recipientFullName$
+提交时间：$requestSubmissionTime$
+状态：$requestStatus$
+注释：$comment$
+
+谢谢。
+
+</form:text>

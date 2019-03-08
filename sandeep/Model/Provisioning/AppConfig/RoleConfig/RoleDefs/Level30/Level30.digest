@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=Level30" protected="false" readonly="false"
+    type="nrfRoleDefsLevel30"
+        visible="true">
+    <guid>4SJLH8JI</guid>
+    <display
+        xml:lang="en">Business Role</display>
+    <modstamp>0</modstamp>
+    <display
+        xml:lang="de">Geschäftsrolle</display>
+    <display
+        xml:lang="ru">Бизнес-роль</display>
+    <display
+        xml:lang="sv">Företagsroll</display>
+    <display
+        xml:lang="pt">Função Comercial</display>
+    <display
+        xml:lang="zh-TW">業務角色</display>
+    <display
+        xml:lang="it">Ruolo aziendale</display>
+    <display
+        xml:lang="fr">Rôle métier</display>
+    <display
+        xml:lang="zh-CN">业务角色</display>
+    <display
+        xml:lang="es">Función empresarial</display>
+    <display
+        xml:lang="ja">ビジネス役割</display>
+    <display
+        xml:lang="da">Forretningsrolle</display>
+    <display xml:lang="nl">Bedrijfsrol</display></container>

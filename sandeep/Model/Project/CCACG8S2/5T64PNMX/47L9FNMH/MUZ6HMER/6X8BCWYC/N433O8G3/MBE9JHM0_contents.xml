@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Days before password expires." item-name="Days"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>Correo electrónico de contraseña caducada</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Estimada/o $UserFullName$:</p>
+		<p>Su contraseña caduca en $Days$ días.</p>
+		<p>Si necesita ayuda técnica, póngase en contacto con el servicio de atención al cliente en el teléfono (012) 345-6789 o envíe un correo electrónico a 
+     <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> - Seguridad automatizada</p>
+		<p>
+			<img ALT="Con tecnología NetIQ" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="User Application Base Package">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NOVLUA"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="0.0.1.20190115124756"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="User Application base package"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="2"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;supported-drivers>&#xA;&#x9;&#x9;&lt;definition display-name=&quot;User Application 4.8 Driver&quot; driver-id=&quot;NProv Driver 4.8.0&quot; id=&quot;UAPROV&quot;/>&#xA;&#x9;&lt;/supported-drivers>&#xA;&lt;/installation-directive>"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="2077924965"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="MicroFocus,Inc."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="GRRLWRMJ_201901151248230991"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201901151248230991"/>
+  <relations name="Idm:InstalledPackageDriverRefs" type="BackReference" key="#87NW8P9M.Driver_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#GOBG0HM6.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#Z6OZ6ELB.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#GHA8TYT1.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#RB6S5IU9.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#RM3DWZ8K.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#RV1JPF2P.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#OMK5959E.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#WTH7KM6L.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#MSX3S8RC.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

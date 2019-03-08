@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.header.RemoteLoader)Remote Loader"/>
+		<group>
+			<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.use-remote-loader)Connect To Remote Loader:" name="use-remote-loader" type="enum">
+				<description/>
+				<value>true</value>
+				<enum-choice display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.choice.use-remote-loader.yes)yes">true</enum-choice>
+				<enum-choice display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.choice.use-remote-loader.no)no">false</enum-choice>
+			</definition>
+			<subordinates active-value="true">
+				<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.rl-hostname)Host Name:" name="rl-hostname" type="string">
+					<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.dscr.rl-hostname)Enter the Host Name or IP Address where the Remote Loader Service has been installed and is running for this driver. [Host Name or IP Address; ###.###.###.###]</description>
+					<value/>
+				</definition>
+				<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.rl-port)Port:" name="rl-port" range-hi="" range-lo="" type="integer">
+					<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.dscr.rl-port)Enter the Port Number where the Remote Loader Service has been installed and is running for this driver. The Default Port is 8090.</description>
+					<value>8090</value>
+				</definition>
+				<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.rl-kmo)KMO:" name="rl-kmo" type="string">
+					<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.dscr.rl-kmo)Enter the Key Name of the Key Material Object containing the keys and certificate used for SSL. The 'KMO' parameter is used only when an SSL connection exists between the Remote Loader and the Metadirectory engine.</description>
+					<value/>
+				</definition>
+				<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.rl-other)Other parameters:" name="rl-other" type="string">
+					<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.dscr.rl-other)Enter other parameters required, if any, in the connection string. These parameters MUST be in the key-value pair e.g. 
+paraName1=paraValue1 paraName2=paraValue2</description>
+					<value/>
+				</definition>
+				<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.rl-password)Remote Password:" name="rl-password" type="password-ref">
+					<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.dscr.rl-password)The Remote Loader password is used to control access to the Remote Loader instance.  It must be the same password that is specified as the Remote Loader password on the Identity Manager Remote Loader.</description>
+					<value>rl-password</value>
+				</definition>
+				<definition display-name="xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.driver-password)Driver Password:" name="driver-password" type="password-ref">
+					<description>xlfid(NOVLLDAPBASE.idmresource.NOVLLDAPBASERemoteLoaderPrompts.gcv.dscr.driver-password)The Driver Object Password is used by the Remote Loader to authenticate itself to the Identity Manager server.  It must be the same password that is specified as the Driver Object Password on the Identity Manager Remote Loader.</description>
+					<value>driver-password</value>
+				</definition>
+			</subordinates>
+		</group>
+	</definitions>
+</configuration-values>

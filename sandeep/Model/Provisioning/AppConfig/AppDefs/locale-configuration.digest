@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=locale-configuration"
+    filename="locale-configuration.locale" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvLocales"
+        visible="false">
+    <guid>FNH0423Y</guid>
+    <display xml:lang="en">Locale Configuration</display>
+    <dirguid>F3738C3E01D2324F93BBF3738C3E01D2</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>J8ZAXB1J_201204201214140892</pkg-assoc-id>
+    <pkg-checksum>249043651</pkg-checksum></item>

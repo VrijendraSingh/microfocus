@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><attr-name-map>
+	<attr-name>
+		<nds-name>CN</nds-name>
+		<app-name>cn</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Description</nds-name>
+		<app-name>description</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Facsimile Telephone Number</nds-name>
+		<app-name>facsimiletelephonenumber</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Full Name</nds-name>
+		<app-name>fullName</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Given Name</nds-name>
+		<app-name>givenname</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Initials</nds-name>
+		<app-name>initials</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Internet EMail Address</nds-name>
+		<app-name>mail</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>L</nds-name>
+		<app-name>l</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Member</nds-name>
+		<app-name>uniqueMember</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Object Class</nds-name>
+		<app-name>objectclass</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>OU</nds-name>
+		<app-name>ou</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Postal Address</nds-name>
+		<app-name>postaladdress</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>S</nds-name>
+		<app-name>st</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>SA</nds-name>
+		<app-name>street</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Surname</nds-name>
+		<app-name>sn</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Telephone Number</nds-name>
+		<app-name>telephonenumber</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>Title</nds-name>
+		<app-name>title</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>uniqueID</nds-name>
+		<app-name>uid</app-name>
+	</attr-name>
+	<attr-name>
+		<nds-name>userCertificate</nds-name>
+		<app-name>usercertificate</app-name>
+	</attr-name>
+	<class-name>
+		<nds-name>Group</nds-name>
+		<app-name>groupOfUniqueNames</app-name>
+	</class-name>
+	<class-name>
+		<nds-name>Organizational Unit</nds-name>
+		<app-name>organizationalUnit</app-name>
+	</class-name>
+	<class-name>
+		<nds-name>User</nds-name>
+		<app-name>inetOrgPerson</app-name>
+	</class-name>
+</attr-name-map>

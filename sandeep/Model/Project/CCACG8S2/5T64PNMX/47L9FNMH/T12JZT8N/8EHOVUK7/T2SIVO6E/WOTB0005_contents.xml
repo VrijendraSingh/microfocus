@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Last name of submitter" item-name="submitterLastName"/>
+		<form:token-description description="First name of submitter" item-name="submitterFirstName"/>
+		<form:token-description description="Last name of a user the assignment corresponds to" item-name="userLastName"/>
+		<form:token-description description="First name of a user the assignment corresponds to" item-name="userFirstName"/>
+		<form:token-description description="Assignment effective time" item-name="startTime"/>
+		<form:token-description description="Assignment expiration time" item-name="expirationTime"/>
+		<form:token-description description="List of provisioning definition resources this assignment applies to" item-name="resources"/>
+		<form:token-description description="The protocol to the provisioning user application.  Typically 'http'." item-name="PROTOCOL"/>
+		<form:token-description description="The secure protocol to the provisioning user application.  Typically 'https'." item-name="SECURE_PROTOCOL"/>
+		<form:token-description description="The host name of the provisioning user application." item-name="HOST"/>
+		<form:token-description description="The port to the provisioning user application." item-name="PORT"/>
+		<form:token-description description="The secure port to the provisioning user application." item-name="SECURE_PORT"/>
+		<form:token-description description="The context/path of the URL to the provisioning user application to get a list of availability assignments." item-name="ASSIGNMENT_LIST_CONTEXT"/>
+	</form:token-descriptions>
+  您好：$submitterFirstName$ $submitterLastName$ 已更新了 $userFirstName$ $userLastName$ 的可用性设置。此用户已$operation$了一个适用于以下资源的可用性设置：$resources$ 此设置表示 $userFirstName$ $userLastName$ 在以下列出的时间范围内不能使用这些资源：开始时间：$startTime$失效时间：$expirationTime$ 当用户不可用时，任何指派的委托都可以为用户处理资源请求。可以在 $PROTOCOL$://$HOST$:$PORT$/$AVAILABILITY_CONTEXT$ 下查看可用性设置列表。
+</form:text>

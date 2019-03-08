@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=user" filename="user.entity" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>0XA6HQ2E</guid>
+    <display
+        xml:lang="de">Benutzer</display>
+    <display
+        xml:lang="sv">Användare</display>
+    <display
+        xml:lang="ru">Пользователь</display>
+    <display
+        xml:lang="pt">Usuário</display>
+    <display
+        xml:lang="zh-TW">使用者</display>
+    <display
+        xml:lang="en">User</display>
+    <display
+        xml:lang="it">Utente</display>
+    <display
+        xml:lang="fr">Utilisateur</display>
+    <display
+        xml:lang="zh-CN">用户</display>
+    <display
+        xml:lang="es">Usuario</display>
+    <display
+        xml:lang="ja">ユーザ</display>
+    <display
+        xml:lang="da">Bruger</display>
+    <display
+        xml:lang="nl">Gebruiker</display>
+    <descr xml:lang="en">user</descr>
+    <dirguid>F04CD5E9CD0B794C97EDF04CD5E9CD0B</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>J0CYNATV_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1846869663</pkg-checksum></item>

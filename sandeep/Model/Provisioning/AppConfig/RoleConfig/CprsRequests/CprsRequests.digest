@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=CprsRequests" protected="false" readonly="false"
+    type="nrfCPRSRequests"
+        visible="false">
+    <guid>ZD4IYN5K</guid>
+    <display xml:lang="en">CPRS Requests</display>
+    <modstamp>0</modstamp></container>

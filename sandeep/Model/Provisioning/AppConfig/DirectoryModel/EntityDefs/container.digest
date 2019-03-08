@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=container" filename="container.entity"
+    hasContainment="false" modstamp="1547558005142" protected="true"
+    readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>01R1P7OL</guid>
+    <display
+        xml:lang="de">Container</display>
+    <display
+        xml:lang="sv">Enhet</display>
+    <display
+        xml:lang="ru">Контейнер</display>
+    <display
+        xml:lang="pt">Container</display>
+    <display
+        xml:lang="zh-TW">容器</display>
+    <display
+        xml:lang="en">Container</display>
+    <display
+        xml:lang="it">Container</display>
+    <display
+        xml:lang="fr">Conteneur</display>
+    <display
+        xml:lang="zh-CN">容器</display>
+    <display
+        xml:lang="es">Contenedor</display>
+    <display
+        xml:lang="ja">コンテナ</display>
+    <display
+        xml:lang="da">Container</display>
+    <display
+        xml:lang="nl">Container</display>
+    <descr xml:lang="en">Container Definition</descr>
+    <dirguid>D586DD4309C33142B549D586DD4309C3</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>JKQQG0XV_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1726700901</pkg-checksum></item>

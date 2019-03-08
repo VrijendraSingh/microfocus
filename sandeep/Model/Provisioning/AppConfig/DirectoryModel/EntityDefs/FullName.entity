@@ -1,0 +1,1091 @@
+<entity-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <entity
+        auto-query="false" creatable="false" editable="false"
+        protected="true" removable="false" system="false"
+            viewable="true">
+    <display
+            xml:lang="it">
+      <label>Nome completo</label>
+    </display>
+    <display
+            xml:lang="pt">
+      <label>Nome Completo</label>
+    </display>
+    <display
+            xml:lang="ru">
+      <label>Полное имя</label>
+    </display>
+    <display
+            xml:lang="da">
+      <label>Fuldt navn</label>
+    </display>
+    <display
+            xml:lang="de">
+      <label>Vollständiger Name</label>
+    </display>
+    <display
+            xml:lang="nl">
+      <label>Volledige naam</label>
+    </display>
+    <display
+            xml:lang="sv">
+      <label>Fullständigt namn</label>
+    </display>
+    <display
+            xml:lang="ja">
+      <label>完全名</label>
+    </display>
+    <display
+            xml:lang="fr">
+      <label>Nom complet</label>
+    </display>
+    <display
+            xml:lang="zh-TW">
+      <label>全名</label>
+    </display>
+    <display
+            xml:lang="en">
+      <label>Full Name</label>
+    </display>
+    <display
+            xml:lang="es">
+      <label>Nombre completo</label>
+    </display>
+    <display
+            xml:lang="zh-CN">
+      <label>全名</label>
+    </display>
+    <object-class
+            auxiliary="false"
+            search="false">
+      <ldap-name>inetOrgPerson</ldap-name>
+      <nds-name>User</nds-name>
+    </object-class>
+    <password
+            required-on-create="false"/>
+  </entity>
+  <attributes>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>ja</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo JA</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo JA</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон японского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på JA</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>JA-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam JA</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, japanska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>JA完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet JA</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>JA 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>JA Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo JA</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>JA 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("sn") + " " + attr.getValue("givenName")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>en</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo EN</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo EN</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон английского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på EN</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>EN-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam EN</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, engelska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>EN完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet EN</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>EN 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>EN Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo EN</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>EN 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>zh-CN</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo ZH-CN</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo ZH-CN</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон китайского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på ZH-CN</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>ZH-CN-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam ZH-CN</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, förenklad kinesiska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>ZH-CN完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet ZH-CN</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>ZH-CN 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>ZH-CN Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo ZH-CN</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>ZH-CN 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("sn") + " " + attr.getValue("givenName")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>pt</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo PT</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo PT</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон португальского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på PT</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>PT-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam PT</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, portugisiska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>PT完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet PT</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>PT 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>PT Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo PT</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>PT 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>es</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo ES</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo ES</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон испанского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på ES</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>ES-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam ES</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, spanska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>ES完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet ES</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>ES 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>ES Full Name Patten</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo ES</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>ES 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>zh-TW</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo ZH-TW</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo ZH-TW</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон тайваньского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på ZH-TW</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>ZH-TW-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam ZH-TW</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, traditionell kinesiska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>ZH-TW完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet ZH-TW</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>ZH-TW 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>ZH-TW Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo ZH-TW</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>ZH-TW 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("sn") + " " + attr.getValue("givenName")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>it</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo IT</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo IT</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон итальянского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på IT</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>IT-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam IT</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, italienska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>IT完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet IT</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>IT 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>IT Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo IT</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>IT 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>da</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo DA</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo DA</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон датского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på DA</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>DA-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam DA</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, danska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>DA完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet DA</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>DA 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>DA Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo DA</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>DA 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>fr</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo FR</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo FR</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон французского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på FR</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>FR-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam FR</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, franska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>FR完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet FR</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>FR 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>FR Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo FR</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>FR 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>sv</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo SV</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo SV</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон шведского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på SV</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>SV-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam SV</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, svenska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>SV完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet SV</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>SV 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>SV Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo SV</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>SV 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>nl</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo NL</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo NL</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон нидерландского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på NL</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>NL-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam NL</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, nederländska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>NL完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet NL</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>NL 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>NL Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo NL</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>NL 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>ru</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo RU</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo RU</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон русского полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på RU</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>RU-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam RU</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, ryska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>RU完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet RU</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>RU 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>RU Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo RU</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>RU 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>de</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo DE</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo DE</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон немецкого полного имени</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Mønster for fuldt navn på DE</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>DE-Schema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Patroon volledige naam DE</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, tyska</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>DE完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet DE</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>DE 全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>DE Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo DE</label>
+      </display>
+      <display
+            xml:lang="zh-CN">
+        <label>DE 全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>default</key>
+      <ldap-name/>
+      <nds-name/>
+      <display
+                xml:lang="it">
+        <label>Modello nome completo di default</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Padrão de Nome Completo Predefinido</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Шаблон полного имени по умолчанию</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Standardmønster for fuldt navn</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Standardschema für vollständigen Namen</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Standaardpatroon volledige naam</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Mönster för fullständigt namn, standard</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>デフォルト完全名パターン</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Modèle de nom complet par défaut</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>預設全名模式</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Default Full Name Pattern</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Patrón de nombre completo por defecto</label>
+      </display>
+      <display xml:lang="zh-CN">
+        <label>默认的全名模式</label>
+      </display>
+      <type>Calculate</type>
+      <calculation>
+        <expression-attribute>
+          <ldap-name>givenName</ldap-name>
+          <nds-name>Given Name</nds-name>
+        </expression-attribute>
+        <expression-attribute>
+          <ldap-name>sn</ldap-name>
+          <nds-name>Surname</nds-name>
+        </expression-attribute>
+        <expression><![CDATA[attr.getValue("givenName") + " " + attr.getValue("sn")]]></expression>
+      </calculation>
+    </attribute>
+  </attributes>
+</entity-definition>

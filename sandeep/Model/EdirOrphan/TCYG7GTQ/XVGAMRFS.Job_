@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="StatisticsJob" type="Job">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="contents"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:InheritTraceFile" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:InheritTraceSize" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:InheritTraceLevel" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:InheritTraceFileEncoding" value="true"/>
+  <relations name="Idm:JobRefs" type="BackReference" key="#AG9OCJXA.Server_"/>
+  <relations name="Idm:JobServers" type="Reference" key="#AG9OCJXA.Server_"/>
+</com.novell.designer.model:CObject>

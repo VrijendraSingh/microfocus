@@ -1,0 +1,219 @@
+<list-items protected="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+    <display
+        xml:lang="de">
+        <label>Ressourcenkategorie</label>
+    </display>
+    <display
+        xml:lang="sv">
+        <label>Resurskategori</label>
+    </display>
+    <display
+        xml:lang="ru">
+        <label>Категория ресурса</label>
+    </display>
+    <display
+        xml:lang="pt">
+        <label>Categoria de Recurso</label>
+    </display>
+    <display
+        xml:lang="zh-TW">
+        <label>資源類別</label>
+    </display>
+    <display
+        xml:lang="en">
+        <label>Resources Category</label>
+    </display>
+    <display
+        xml:lang="it">
+        <label>Categoria risorse</label>
+    </display>
+    <display
+        xml:lang="fr">
+        <label>Catégorie de ressources</label>
+    </display>
+    <display
+        xml:lang="zh-CN">
+        <label>资源类别</label>
+    </display>
+    <display
+        xml:lang="es">
+        <label>Categoría de recursos</label>
+    </display>
+    <display
+        xml:lang="ja">
+        <label>リソースカテゴリ</label>
+    </display>
+    <display
+        xml:lang="da">
+        <label>Ressourcekategori</label>
+    </display>
+    <display
+            xml:lang="nl">
+        <label>Resourcecategorie</label>
+    </display>
+    <list-item>
+        <key>default</key>
+        <display
+            xml:lang="de">
+            <label>Standard</label>
+        </display>
+        <display
+            xml:lang="sv">
+            <label>Standard</label>
+        </display>
+        <display
+            xml:lang="ru">
+            <label>По умолчанию</label>
+        </display>
+        <display
+            xml:lang="pt">
+            <label>Padrão</label>
+        </display>
+        <display
+            xml:lang="zh-TW">
+            <label>預設值</label>
+        </display>
+        <display
+            xml:lang="en">
+            <label>Default</label>
+        </display>
+        <display
+            xml:lang="it">
+            <label>Default</label>
+        </display>
+        <display
+            xml:lang="fr">
+            <label>Par défaut</label>
+        </display>
+        <display
+            xml:lang="zh-CN">
+            <label>默认</label>
+        </display>
+        <display
+            xml:lang="es">
+            <label>Por defecto</label>
+        </display>
+        <display
+            xml:lang="ja">
+            <label>デフォルト</label>
+        </display>
+        <display
+            xml:lang="da">
+            <label>Standard</label>
+        </display>
+        <display
+            xml:lang="nl">
+            <label>Standaardwaarde</label>
+        </display>
+    </list-item>
+    <list-item>
+        <key>system</key>
+        <display
+            xml:lang="de">
+            <label>Systemressourcen</label>
+        </display>
+        <display
+            xml:lang="sv">
+            <label>Systemresurser</label>
+        </display>
+        <display
+            xml:lang="ru">
+            <label>Системные ресурсы</label>
+        </display>
+        <display
+            xml:lang="pt">
+            <label>Recursos do Sistema</label>
+        </display>
+        <display
+            xml:lang="zh-TW">
+            <label>系統資源</label>
+        </display>
+        <display
+            xml:lang="en">
+            <label>System Resources</label>
+        </display>
+        <display
+            xml:lang="it">
+            <label>Risorse di sistema</label>
+        </display>
+        <display
+            xml:lang="fr">
+            <label>Ressources système</label>
+        </display>
+        <display
+            xml:lang="zh-CN">
+            <label>系统资源</label>
+        </display>
+        <display
+            xml:lang="es">
+            <label>Recursos del sistema</label>
+        </display>
+        <display
+            xml:lang="ja">
+            <label>システムリソース</label>
+        </display>
+        <display
+            xml:lang="da">
+            <label>Systemressourcer</label>
+        </display>
+        <display
+            xml:lang="nl">
+            <label>Systeemresources</label>
+        </display>
+    </list-item>
+    <list-item>
+        <key>helpdesk</key>
+        <display
+            xml:lang="de">
+            <label>Helpdesk</label>
+        </display>
+        <display
+            xml:lang="ru">
+            <label>Служба поддержки</label>
+        </display>
+        <display
+            xml:lang="sv">
+            <label>Helpdesk </label>
+        </display>
+        <display
+            xml:lang="pt">
+            <label>Suporte Técnico</label>
+        </display>
+        <display
+            xml:lang="zh-TW">
+            <label>服務台</label>
+        </display>
+        <display
+            xml:lang="en">
+            <label>Helpdesk</label>
+        </display>
+        <display
+            xml:lang="it">
+            <label>Help desk</label>
+        </display>
+        <display
+            xml:lang="fr">
+            <label>Service d'assistance</label>
+        </display>
+        <display
+            xml:lang="zh-CN">
+            <label>咨询台</label>
+        </display>
+        <display
+            xml:lang="es">
+            <label>Servicio de ayuda técnica</label>
+        </display>
+        <display
+            xml:lang="ja">
+            <label>ヘルプデスク</label>
+        </display>
+        <display
+            xml:lang="da">
+            <label>Helpdesk</label>
+        </display>
+        <display xml:lang="nl">
+            <label>Helpdesk</label>
+        </display>
+    </list-item></list-items>

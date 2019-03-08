@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="helpdesk ticket title" item-name="helpdeskTitle"/>
+		<form:token-description description="Description" item-name="description"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+		<form:token-description description="Time the helpdesk ticket is cretaed" item-name="requestSubmissionTime"/>
+		<form:token-description description="The protocol to the provisioning user application.  Typically 'http'." item-name="PROTOCOL"/>
+		<form:token-description description="The secure protocol to the provisioning user application.  Typically 'https'." item-name="SECURE_PROTOCOL"/>
+		<form:token-description description="The host name of the provisioning user application." item-name="HOST"/>
+		<form:token-description description="The port to the provisioning user application." item-name="PORT"/>
+		<form:token-description description="The secure port to the provisioning user application." item-name="SECURE_PORT"/>
+		<form:token-description description="The context/path of the URL to the provisioning user application to get a list of tasks assigned to a email recipient." item-name="TASKLIST_CONTEXT"/>
+		<form:token-description description="The context/path to the provisioning user application to get details of the current task." item-name="TASK_DETAILS"/>
+		<form:token-description description="severity level of the ticket" item-name="severity"/>
+		<form:token-description description="Ticket Number of the helpdesk ticket" item-name="ticketNumber"/>
+	</form:token-descriptions>Hej,
+
+Ett nytt helpdesk-ärende har skapats som kräver en åtgärd från din sida.
+
+Titel: $helpdeskTitle$
+Beskrivning: $description$
+Ärendenummer: $ticketNumber$
+Allvarlighetsgrad : $severity$
+Skapad av: $recipientFullName$
+Skickades in: $requestSubmissionTime$
+
+Vänligen granska detaljerna i detta ärende på  $PROTOCOL$://$HOST$:$PORT$/$TASK_DETAILS$ för att vidta lämplig åtgärd.
+
+Du kan granska en lista över alla förfrågningar som väntar på ditt godkännande på $PROTOCOL$://$HOST$:$PORT$/#/idmdash/tasks.</html>

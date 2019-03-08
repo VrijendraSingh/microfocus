@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Attestation User Profile"
+    filename="AttestationUserProfile.prd" hasContainment="false"
+    modstamp="0" protected="true" readonly="true" type="srvprvRequest"
+        visible="true">
+    <guid>IRV76OZ2</guid>
+    <display
+        xml:lang="de">Beglaubigungsbenutzerprofil</display>
+    <display
+        xml:lang="sv">Verifiering av användarprofil</display>
+    <display
+        xml:lang="ru">Профиль пользователя подтверждения</display>
+    <display
+        xml:lang="pt">Perfil do Usuário do Atestado</display>
+    <display
+        xml:lang="zh-TW">證明使用者設定檔</display>
+    <display
+        xml:lang="en">Attestation User Profile</display>
+    <display
+        xml:lang="it">Profilo utente attestazione</display>
+    <display
+        xml:lang="fr">Attestation de profil utilisateur</display>
+    <display
+        xml:lang="zh-CN">证明用户配置文件</display>
+    <display
+        xml:lang="es">Perfil de usuario de certificación</display>
+    <display
+        xml:lang="ja">検証ユーザプロファイル</display>
+    <display
+        xml:lang="da">Attestationsbrugerprofil</display>
+    <display
+        xml:lang="nl">Attest gebruikersprofiel</display>
+    <descr
+        xml:lang="de">Beglaubigungsbenutzerprofil</descr>
+    <descr
+        xml:lang="sv">Verifiering av användarprofil</descr>
+    <descr
+        xml:lang="ru">Профиль пользователя подтверждения</descr>
+    <descr
+        xml:lang="pt">Perfil do Usuário do Atestado</descr>
+    <descr
+        xml:lang="zh-TW">證明使用者設定檔</descr>
+    <descr
+        xml:lang="en">Attestation User Profile</descr>
+    <descr
+        xml:lang="it">Profilo utente attestazione</descr>
+    <descr
+        xml:lang="fr">Attestation de profil utilisateur</descr>
+    <descr
+        xml:lang="zh-CN">证明用户配置文件</descr>
+    <descr
+        xml:lang="es">Perfil de usuario de certificación</descr>
+    <descr
+        xml:lang="ja">検証ユーザプロファイル</descr>
+    <descr
+        xml:lang="da">Attestationsbrugerprofil</descr>
+    <descr xml:lang="nl">Attest gebruikersprofiel</descr>
+    <dirguid>D59BE3C77C9DB94597EDD59BE3C77C9D</dirguid>
+    <dirrev>22</dirrev>
+    <keys>
+        <key>attestation</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>CCZU6W43_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>408368805</pkg-checksum></item>

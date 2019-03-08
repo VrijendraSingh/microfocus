@@ -1,0 +1,29 @@
+<configuration-definition
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <default-entity-key>user</default-entity-key>
+  <default-ldap-naming-attribute>cn</default-ldap-naming-attribute>
+  <container-class>
+    <ldap-name>organizationalUnit</ldap-name>
+  </container-class>
+  <container-class>
+    <ldap-name>Locality</ldap-name>
+  </container-class>
+  <container-class>
+    <ldap-name>domain</ldap-name>
+  </container-class>
+  <container-class>
+    <ldap-name>treeRoot</ldap-name>
+  </container-class>
+  <container-class>
+    <ldap-name>Organization</ldap-name>
+  </container-class>
+  <container-class>
+    <ldap-name>nrfRoleDefs</ldap-name>
+  </container-class>
+  <container-class>
+    <ldap-name>nrfResourceDefs</ldap-name>
+  </container-class>
+  <team-user-lookup-entity-key>user</team-user-lookup-entity-key>
+  <team-user-lookup-attribute-key>LastName</team-user-lookup-attribute-key>
+  <team-user-lookup-attribute-key>FirstName</team-user-lookup-attribute-key>
+</configuration-definition>

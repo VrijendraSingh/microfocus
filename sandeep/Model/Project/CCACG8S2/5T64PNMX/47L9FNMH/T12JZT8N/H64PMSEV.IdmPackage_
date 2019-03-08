@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Helpdesk Ticket Templates">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="HXOQY56X_201709191248310934"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="4.7.0.20180115225219"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="4"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="1738553323"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="678584498"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="Email notification templates used when ticket is created and when it is closed."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NETQPROVHTET"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20180115225219"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="IND-SRAJAGOPAL"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="SRajagopal"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201801152245400267"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="NetIQ Corporation"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorURL" value="www.netiq.com"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.7.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="2"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;supported-drivers/>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:InstalledPackageIVRefs" type="BackReference" key="#XZ6ON3YK.IdentityVault_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#PMAE7XGG.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#CJZBVD14.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#3PLY3GKL.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#A9CID8M7.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#QPQHDD16.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#QANEIS3D.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#BDCQ8A1W.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#F2U1R2KY.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#QXRWIJS6.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

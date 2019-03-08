@@ -1,0 +1,1200 @@
+<entity-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <entity
+        auto-query="false" creatable="true" editable="true"
+        protected="true" removable="true" system="false"
+            viewable="true">
+        <display
+            xml:lang="de">
+            <label>Benutzer</label>
+        </display>
+        <display
+            xml:lang="sv">
+            <label>Användare</label>
+        </display>
+        <display
+            xml:lang="ru">
+            <label>Пользователь</label>
+        </display>
+        <display
+            xml:lang="pt">
+            <label>Usuário</label>
+        </display>
+        <display
+            xml:lang="zh-TW">
+            <label>使用者</label>
+        </display>
+        <display
+            xml:lang="en">
+            <label>User</label>
+        </display>
+        <display
+            xml:lang="it">
+            <label>Utente</label>
+        </display>
+        <display
+            xml:lang="fr">
+            <label>Utilisateur</label>
+        </display>
+        <display
+            xml:lang="zh-CN">
+            <label>用户</label>
+        </display>
+        <display
+            xml:lang="es">
+            <label>Usuario</label>
+        </display>
+        <display
+            xml:lang="ja">
+            <label>ユーザ</label>
+        </display>
+        <display
+            xml:lang="da">
+            <label>Bruger</label>
+        </display>
+        <display
+            xml:lang="nl">
+            <label>Gebruiker</label>
+        </display><search-root>%user-root%</search-root>
+        <object-class
+            auxiliary="false"
+            search="true">
+            <ldap-name>inetOrgPerson</ldap-name>
+            <nds-name>User</nds-name>
+        </object-class>
+        <object-class
+            add-always="true" auxiliary="true" protected="true"
+                search="false">
+            <ldap-name>srvprvUserAux</ldap-name>
+            <nds-name>srvprvUserAux</nds-name>
+        </object-class>
+        <naming-attribute>
+            <ldap-name>cn</ldap-name>
+            <nds-name>CN</nds-name>
+            <display
+                xml:lang="de">
+                <label>Benutzer-ID</label>
+            </display>
+            <display
+                xml:lang="sv">
+                <label>Användar-ID</label>
+            </display>
+            <display
+                xml:lang="ru">
+                <label>ID пользователя</label>
+            </display>
+            <display
+                xml:lang="pt">
+                <label>ID do Usuário</label>
+            </display>
+            <display
+                xml:lang="zh-TW">
+                <label>使用者 ID</label>
+            </display>
+            <display
+                xml:lang="en">
+                <label>User Id</label>
+            </display>
+            <display
+                xml:lang="it">
+                <label>ID utente</label>
+            </display>
+            <display
+                xml:lang="fr">
+                <label>ID utilisateur</label>
+            </display>
+            <display
+                xml:lang="zh-CN">
+                <label>用户 ID</label>
+            </display>
+            <display
+                xml:lang="es">
+                <label>ID de usuario</label>
+            </display>
+            <display
+                xml:lang="ja">
+                <label>ユーザID</label>
+            </display>
+            <display
+                xml:lang="da">
+                <label>Bruger-id</label>
+            </display>
+            <display
+            xml:lang="nl">
+                <label>Gebruikers-id</label>
+            </display>
+        </naming-attribute>
+    <edit-entity-key>user</edit-entity-key>
+        <password
+            required-on-create="true"/>
+  </entity>
+  <attributes>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="true" searchable="true"
+                viewable="true">
+      <key>FirstName</key>
+      <ldap-name>givenName</ldap-name>
+      <nds-name>Given Name</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>名</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Nombre de pila</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Voornaam</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>名</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Fornavn</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Förnamn</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Имя</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>名</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Vorname</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Nome</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Nome</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>First Name</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Prénom</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="true" searchable="true"
+                viewable="true">
+      <key>LastName</key>
+      <ldap-name>sn</ldap-name>
+      <nds-name>Surname</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>姓</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Apellido</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Achternaam</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>姓</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Efternavn</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Efternamn</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Фамилия</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>姓</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Nachname</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Cognome</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Sobrenome</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Last Name</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Nom</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" readable="true" required="false"
+            searchable="true"
+                viewable="true">
+      <key>Title</key>
+      <ldap-name>title</ldap-name>
+      <nds-name>Title</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>职务</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Título</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Titel</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>職稱</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Titel</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Befattning</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Должность</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>役職</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Titel</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Qualifica</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Cargo</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Title</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Titre</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="true" readable="true" required="false"
+            searchable="true"
+                viewable="true">
+      <key>Department</key>
+      <ldap-name>ou</ldap-name>
+      <nds-name>OU</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>部门</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Departamento</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Afdeling</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>部門</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Afdeling</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Avdelning</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Отдел</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>部署</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Abteilung</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Reparto</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Departamento</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Department</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Service</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="false" enabled="true" hideable="false"
+            multivalue="true" readable="true" required="false"
+            searchable="true"
+                viewable="true">
+      <key>Location</key>
+      <ldap-name>l</ldap-name>
+      <nds-name>L</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>地区</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Región</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Regio</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>區域</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Region</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Region</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Состояние</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>リージョン</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Region</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Area geografica</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Região</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Region</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Région</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+      <key>Email</key>
+      <ldap-name>mail</ldap-name>
+      <nds-name>Internet EMail Address</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>电子邮件</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Correo electrónico</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>E-mail</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>電子郵件</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>E-mail</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>E-post</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Электронная почта</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>電子メール</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Email</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>E-mail</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>E-mail</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Email</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Courrier électronique</label>
+      </display>
+      <type>String</type>
+      <format-type>email</format-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+      <key>manager</key>
+      <ldap-name>manager</ldap-name>
+      <nds-name>manager</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>管理者</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Supervisor</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Manager</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>管理員</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Styring</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Chef</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Руководитель</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>マネージャ</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Manager</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Manager</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Gerente</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Manager</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Gestionnaire</label>
+      </display>
+      <type>DN</type>
+      <sub-type
+            type="DNLookup">
+        <entity-lookup-key>user-lookup</entity-lookup-key>
+        <attribute-key>FirstName</attribute-key>
+        <attribute-key>LastName</attribute-key>
+        <entity-detail-key>user</entity-detail-key>
+        <update-target-attribute>
+          <ldap-name>directReports</ldap-name>
+          <nds-name/>
+        </update-target-attribute>
+        <auto-query>false</auto-query>
+      </sub-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+      <key>group</key>
+      <ldap-name>groupMembership</ldap-name>
+      <nds-name>Group Membership</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>组</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Grupo</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Groep</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>群組</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Gruppe</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Grupp</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Группа</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>グループ</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Gruppe</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Gruppo</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Grupo</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Group</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Groupe</label>
+      </display>
+      <type>DN</type>
+      <sub-type
+            type="DNLookup">
+        <entity-lookup-key>group</entity-lookup-key>
+        <attribute-key>Description</attribute-key>
+        <update-target-attribute>
+          <ldap-name>member</ldap-name>
+          <nds-name>member</nds-name>
+        </update-target-attribute>
+        <update-target-attribute>
+          <ldap-name>equivalentToMe</ldap-name>
+          <nds-name>equivalentToMe</nds-name>
+        </update-target-attribute>
+        <auto-query>false</auto-query>
+      </sub-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" readable="true" required="false"
+            searchable="true"
+                viewable="true">
+      <key>TelephoneNumber</key>
+      <ldap-name>telephoneNumber</ldap-name>
+      <nds-name>Telephone Number</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>电话号码</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Teléfono</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Telefoonnummer</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>電話號碼</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Telefonnummer</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Telefonnummer</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Номер телефона</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>電話番号</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Telefonnummer</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Numero di telefono</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Telefone</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Telephone Number</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Numéro de téléphone</label>
+      </display>
+      <type>String</type>
+      <format-type>phone-number</format-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="true"
+            multivalue="true" readable="true" required="false"
+            searchable="false"
+                viewable="true">
+      <key>UserPhoto</key>
+      <ldap-name>photo</ldap-name>
+      <display
+                xml:lang="zh-CN">
+        <label>用户照片</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Fotografía del usuario</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Foto gebruiker</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>使用者照片</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Brugerfoto</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Användarfoto</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Фото пользователя</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>ユーザの写真</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Benutzerfoto</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Foto dell'utente</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Fotografia do Usuário</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>User Photo</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Photo de l'utilisateur</label>
+      </display>
+      <type>Binary</type>
+      <format-type>image</format-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+      <key>directReports</key>
+      <ldap-name>directReports</ldap-name>
+      <nds-name>directReports</nds-name>
+      <display
+                xml:lang="zh-CN">
+        <label>直属上司</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Personas a cargo</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Directe ondergeschikten</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>直屬員工</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Direkte rapporter</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Direkt underställda</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Подчиненные</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>直接報告</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Direkt unterstellt</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Dipendenti diretti</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Reporta-se a</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Direct Reports</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Rapports directs</label>
+      </display>
+      <type>DN</type>
+      <sub-type
+            type="DNLookup">
+        <entity-lookup-key>user-lookup</entity-lookup-key>
+        <attribute-key>FirstName</attribute-key>
+        <attribute-key>LastName</attribute-key>
+        <entity-detail-key>user</entity-detail-key>
+        <update-target-attribute>
+          <ldap-name>manager</ldap-name>
+          <nds-name>manager</nds-name>
+        </update-target-attribute>
+        <auto-query>false</auto-query>
+      </sub-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="false" protected="true" readable="true"
+            required="false" searchable="false"
+                viewable="false">
+      <key>srvprvQueryList</key>
+      <ldap-name>srvprvQueryList</ldap-name>
+      <nds-name>srvprvQueryList</nds-name>
+      <aux-class>srvprvUserAux</aux-class>
+      <display
+                xml:lang="zh-CN">
+        <label>查询列表</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Lista de consultas</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Querylijst</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>查詢清單</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Forespørgselsliste</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Frågelista</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Список запросов</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>クエリリスト</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Abfrageliste</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Elenco interrogazioni</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Lista de Consultas</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Query List</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Liste des requêtes</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="false" searchable="false"
+                viewable="false">
+      <key>srvprvHideAttributes</key>
+      <ldap-name>srvprvHideAttributes</ldap-name>
+      <nds-name>srvprvHideAttributes</nds-name>
+      <aux-class>srvprvUserAux</aux-class>
+      <display
+                xml:lang="zh-CN">
+        <label>隐藏属性列表</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Lista de atributos oculta</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Lijst verborgen kenmerken</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>隱藏的屬性清單</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Liste over skjulte attributter</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Lista över dolda attribut</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Список скрытых атрибутов</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>隠し属性のリスト</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Liste der verborgenen Attribute</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Elenco degli attributi nascosti</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Lista de atributos ocultos</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Hidden attribute List</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Liste d'attributs masqués</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="true" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+      <key>NotificationPrefs</key>
+      <ldap-name>srvprvNotificationPrefs</ldap-name>
+      <nds-name>srvprvNotificationPrefs</nds-name>
+      <aux-class>srvprvUserAux</aux-class>
+      <display
+                xml:lang="zh-CN">
+        <label>首选通知</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Notificación preferida</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Voorkeursnotificatie</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>偏好通知</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Foretrukken notifikation</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Önskat meddelandesätt</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Предпочтительное оповещение</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>優先通知</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Bevorzugte Benachrichtigung</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Notifica preferita</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Notificação Preferida</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>Preferred Notification</label>
+      </display>
+      <display
+                xml:lang="fr">
+        <label>Notification préférée</label>
+      </display>
+      <type>String</type>
+      <sub-type
+            type="DynamicList">
+        <choice-key>application-notification</choice-key>
+      </sub-type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="false" protected="true" readable="true"
+            required="false" searchable="false"
+                viewable="false">
+      <key>srvprvUserPrefs</key>
+      <ldap-name>srvprvUserPrefs</ldap-name>
+      <nds-name>srvprvUserPrefs</nds-name>
+      <aux-class>srvprvUserAux</aux-class>
+      <display
+                xml:lang="zh-CN">
+        <label>用户自选设置</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Preferencias del usuario</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Gebruikersvoorkeuren</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>使用者優先設定</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Brugerindstillinger</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Användarinställningar</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Настройки пользователя</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>ユーザ初期設定</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Benutzereinstellungen</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Preferenze utente</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Preferências do Usuário</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>User Preferences</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Préférences utilisateur</label>
+      </display>
+      <type>String</type>
+    </attribute>
+    <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="false" protected="true" readable="true"
+            required="false" searchable="false"
+                viewable="false">
+      <key>srvprvUserPrefsPlus</key>
+      <ldap-name>srvprvUserPrefsPlus</ldap-name>
+      <nds-name>srvprvUserPrefsPlus</nds-name>
+      <aux-class>srvprvUserAux</aux-class>
+      <display
+                xml:lang="zh-CN">
+        <label>用户自选设置</label>
+      </display>
+      <display
+                xml:lang="es">
+        <label>Preferencias del usuario</label>
+      </display>
+      <display
+                xml:lang="nl">
+        <label>Gebruikersvoorkeuren</label>
+      </display>
+      <display
+                xml:lang="zh-TW">
+        <label>使用者優先設定</label>
+      </display>
+      <display
+                xml:lang="da">
+        <label>Brugerindstillinger</label>
+      </display>
+      <display
+                xml:lang="sv">
+        <label>Användarinställningar</label>
+      </display>
+      <display
+                xml:lang="ru">
+        <label>Настройки пользователя</label>
+      </display>
+      <display
+                xml:lang="ja">
+        <label>ユーザ初期設定</label>
+      </display>
+      <display
+                xml:lang="de">
+        <label>Benutzereinstellungen</label>
+      </display>
+      <display
+                xml:lang="it">
+        <label>Preferenze utente</label>
+      </display>
+      <display
+                xml:lang="pt">
+        <label>Preferências do Usuário</label>
+      </display>
+      <display
+                xml:lang="en">
+        <label>User Preferences</label>
+      </display>
+      <display
+            xml:lang="fr">
+        <label>Préférences utilisateur</label>
+      </display>
+      <type>Stream</type>
+    </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="false">
+            <key>srvprvDashboardPrefs</key>
+            <ldap-name>srvprvDashboardPrefs</ldap-name>
+            <nds-name>srvprvDashboardPrefs</nds-name>
+            <aux-class>srvprvUserAux</aux-class>
+            <display
+            xml:lang="en">
+                <label>Dashboard Preferences</label>
+            </display><type>Stream</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>CN</key>
+            <ldap-name>cn</ldap-name>
+            <nds-name>CN</nds-name>
+            <display xml:lang="en">
+                <label>CN</label>
+            </display><type>String</type>
+        </attribute>
+  </attributes>
+</entity-definition>

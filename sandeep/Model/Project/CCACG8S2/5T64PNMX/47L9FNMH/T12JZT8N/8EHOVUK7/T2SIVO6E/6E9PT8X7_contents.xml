@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="The protocol to the provisioning user application.  Typically 'http'." item-name="PROTOCOL"/>
+		<form:token-description description="The secure protocol to the provisioning user application.  Typically 'https'." item-name="SECURE_PROTOCOL"/>
+		<form:token-description description="The host name of the provisioning user application." item-name="HOST"/>
+		<form:token-description description="The port to the provisioning user application." item-name="PORT"/>
+		<form:token-description description="The secure port to the provisioning user application." item-name="SECURE_PORT"/>
+		<form:token-description description="The context/path of the URL to the provisioning user application to get a list of tasks assigned to a email recipient." item-name="TASKLIST_CONTEXT"/>
+		<form:token-description description="The context/path to the provisioning user application to get details of the current task." item-name="TASK_DETAILS"/>
+	</form:token-descriptions>
+Hola,
+
+Se ha enviado una nueva actividad de conformidad a la que debe prestar atención.
+
+Nombre de petición: $requestTitle$
+Enviado por: $initiatorFullName$
+
+Revise los detalles de esta actividad de conformidad en $PROTOCOL$://$HOST$:$PORT$/$TASK_DETAILS$ para realizar la acción correcta.
+
+Puede revisar una lista de todas las peticiones pendientes de su acción en $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$.
+
+</form:text>

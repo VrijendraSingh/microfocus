@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov-req-defn flow-strategy="SingleFlow" grant="true"
+    prov-category="nrf" prov-id="Resource Approval" revoke="false"
+    status="Active"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ApprovalXmlData.xsd">
+    <display-name
+        xml:lang="fr">Approbation de la ressource</display-name>
+    <display-name
+        xml:lang="it">Approvazione risorsa</display-name>
+    <display-name
+        xml:lang="zh-CN">资源批准</display-name>
+    <display-name
+        xml:lang="pt">Aprovação de Recurso</display-name>
+    <display-name
+        xml:lang="zh-TW">資源核准</display-name>
+    <display-name
+        xml:lang="es">Aprobación del recurso</display-name>
+    <display-name
+        xml:lang="da">Ressourcegodkendelse</display-name>
+    <display-name
+        xml:lang="sv">Resursgodkännande</display-name>
+    <display-name
+        xml:lang="en">Resource Approval</display-name>
+    <display-name
+        xml:lang="de">Ressourcengenehmigung</display-name>
+    <display-name
+        xml:lang="nl">Goedkeuring van resource</display-name>
+    <display-name
+        xml:lang="ja">リソースの承認</display-name>
+    <display-name
+        xml:lang="ru">Подтверждение ресурса</display-name>
+    <description
+        xml:lang="fr">Approbation de la ressource</description>
+    <description
+        xml:lang="it">Approvazione risorsa</description>
+    <description
+        xml:lang="zh-CN">资源批准</description>
+    <description
+        xml:lang="pt">Aprovação de Recurso</description>
+    <description
+        xml:lang="zh-TW">資源核准</description>
+    <description
+        xml:lang="es">Aprobación del recurso</description>
+    <description
+        xml:lang="da">Ressourcegodkendelse</description>
+    <description
+        xml:lang="sv">Resursgodkännande</description>
+    <description
+        xml:lang="en">Resource Approval</description>
+    <description
+        xml:lang="de">Ressourcengenehmigung</description>
+    <description
+        xml:lang="nl">Goedkeuring van resource</description>
+    <description
+        xml:lang="ja">リソースの承認</description>
+    <description
+        xml:lang="ru">Подтверждение ресурса</description>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <prov-resource-ref>None</prov-resource-ref>
+  <workflow-ref/>
+  <xml-data>
+    <design-params>
+      <links/>
+    </design-params>
+    <resource-data-binding/>
+  </xml-data>
+    <provision-request
+        version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalRequest3_5_1.xsd">
+        <form
+                    form-id="request_form">
+            <content>
+                <field
+                    name="title"
+                        visible="true">
+                    <control
+                        control-type="Title"
+                        editable="false"/>
+                    <display-label
+                        xml:lang="es">Aprobación del recurso</display-label>
+                    <display-label
+                        xml:lang="en">Resource Approval</display-label>
+                    <display-label
+                        xml:lang="nl">Goedkeuring van resource</display-label>
+                    <display-label
+                        xml:lang="da">Ressourcegodkendelse</display-label>
+                    <display-label
+                        xml:lang="zh-CN">资源批准</display-label>
+                    <display-label
+                        xml:lang="zh-TW">資源核准</display-label>
+                    <display-label
+                        xml:lang="sv">Resursgodkännande</display-label>
+                    <display-label
+                        xml:lang="de">Ressourcengenehmigung</display-label>
+                    <display-label
+                        xml:lang="fr">Approbation de la ressource</display-label>
+                    <display-label
+                        xml:lang="ja">リソースの承認</display-label>
+                    <display-label
+                        xml:lang="it">Approvazione risorsa</display-label>
+                    <display-label
+                        xml:lang="pt">Aprovação de Recurso</display-label>
+                    <display-label
+                        xml:lang="ru">Подтверждение ресурса</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    name="subheading"
+                        visible="true">
+                    <control
+                        control-type="Title"
+                                editable="false">
+                        <props>
+                            <prop
+                        name="font-size">
+                                <value>medium</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="es">Haga clic en Enviar para pedir el recurso.</display-label>
+                    <display-label
+                        xml:lang="en">Press 'Submit' to request the resource.</display-label>
+                    <display-label
+                        xml:lang="nl">Kies 'Indienen' om de resources aan te vragen.</display-label>
+                    <display-label
+                        xml:lang="da">Tryk på 'Send' for at anmode om ressourcen.</display-label>
+                    <display-label
+                        xml:lang="zh-CN">按“提交”以请求资源。</display-label>
+                    <display-label
+                        xml:lang="zh-TW">請按「提交」申請資源。</display-label>
+                    <display-label
+                        xml:lang="sv">Klicka på Skicka om du vill beställa resursen.</display-label>
+                    <display-label
+                        xml:lang="de">Wählen Sie 'Senden' zum Anfordern der Ressource.</display-label>
+                    <display-label
+                        xml:lang="fr">Cliquez sur 'Soumettre' pour demander la ressource.</display-label>
+                    <display-label
+                        xml:lang="ja">リソースを要求するには［送信］を押します。</display-label>
+                    <display-label
+                        xml:lang="it">Fare clic su 'Invia' per richiedere la risorsa.</display-label>
+                    <display-label
+                        xml:lang="pt">Pressione 'Submeter' para solicitar o recurso.</display-label>
+                    <display-label
+                        xml:lang="ru">Нажмите кнопку "Передать" для запроса ресурса.</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="dn"
+                        name="nrfResourceRequestDN">
+                    <control
+                        control-type="Text"
+                        editable="true">
+                        <props/>
+                    </control>
+                    <display-label
+                        xml:lang="es">DN de petición</display-label>
+                    <display-label
+                        xml:lang="en">Request DN</display-label>
+                    <display-label
+                        xml:lang="nl">DN van aanvraag</display-label>
+                    <display-label
+                        xml:lang="da">Anmodnings-DN</display-label>
+                    <display-label
+                        xml:lang="zh-CN">请求 DN</display-label>
+                    <display-label
+                        xml:lang="zh-TW">申請 DN</display-label>
+                    <display-label
+                        xml:lang="sv">Beställnings-DN</display-label>
+                    <display-label
+                        xml:lang="de">Anforderungs-DN</display-label>
+                    <display-label
+                        xml:lang="fr">DN de requête</display-label>
+                    <display-label
+                        xml:lang="ja">要求DN</display-label>
+                    <display-label
+                        xml:lang="it">DN richiesta</display-label>
+                    <display-label
+                        xml:lang="pt">DN da Solicitação</display-label>
+                    <display-label
+                        xml:lang="ru">Отличительное имя запроса</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <actions
+                        location="bottom">
+                    <action
+                            name="SubmitAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="ja">送信</display-label>
+                        <display-label
+                            xml:lang="it">Invia</display-label>
+                        <display-label
+                            xml:lang="nl">Indienen</display-label>
+                        <display-label
+                            xml:lang="pt">Submeter</display-label>
+                        <display-label
+                            xml:lang="zh-CN">提交</display-label>
+                        <display-label
+                            xml:lang="zh-TW">提交</display-label>
+                        <display-label
+                            xml:lang="de">Senden</display-label>
+                        <display-label
+                            xml:lang="en">Submit</display-label>
+                        <display-label
+                            xml:lang="es">Enviar</display-label>
+                        <display-label
+                        xml:lang="fr">Soumettre</display-label>
+                    </action>
+                    <action
+                        block-on-error="false"
+                            name="CancelAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="ja">キャンセル</display-label>
+                        <display-label
+                            xml:lang="it">Annulla</display-label>
+                        <display-label
+                            xml:lang="nl">Annuleren</display-label>
+                        <display-label
+                            xml:lang="pt">Cancelar</display-label>
+                        <display-label
+                            xml:lang="zh-CN">取消</display-label>
+                        <display-label
+                            xml:lang="zh-TW">取消</display-label>
+                        <display-label
+                            xml:lang="de">Abbrechen</display-label>
+                        <display-label
+                            xml:lang="en">Cancel</display-label>
+                        <display-label
+                            xml:lang="es">Cancelar</display-label>
+                        <display-label
+                xml:lang="fr">Annuler</display-label>
+                    </action>
+                </actions>
+            </content>
+        </form>
+        <request-data-items>
+            <data-item
+                data-type="dn" name="nrfResourceRequestDN"
+                target="flowdata.nrfResourceRequest/DN"
+        target-type="single-value"/>
+        </request-data-items>
+    </provision-request>
+    <process
+        id="cn=Resource Approval,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        process-type="Resource" restrict-view="true" setnotify="true"
+        version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalProcess3_6_1.xsd">
+  <display-name
+            expr="true"
+            xml:lang="nl">flowdata.get('displayName/nl')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="pt">flowdata.get('displayName/pt')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="ja">flowdata.get('displayName/ja')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="it">flowdata.get('displayName/it')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="de">flowdata.get('displayName/de')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="ru">flowdata.get('displayName/ru')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="da">flowdata.get('displayName/da')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="fr">flowdata.get('displayName/fr')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="en">flowdata.get('displayName/en')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="es">flowdata.get('displayName/es')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="zh-CN">flowdata.get('displayName/zh-CN')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="zh-TW">flowdata.get('displayName/zh-TW')</display-name>
+  <display-name
+            expr="true"
+            xml:lang="sv">flowdata.get('displayName/sv')</display-name>
+  <form
+                    form-id="approval_form">
+    <content>
+      <field
+                    data-type="string" name="hiddenParameterTable"
+                        visible="false">
+        <control
+                        control-type="Text" editable="false"
+                        visible="false"/>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    name="title" visible="true">
+        <control
+                        control-type="Title"
+                        editable="false"/>
+        <display-label
+                        xml:lang="nl">Definitie goedkeuring resourcetoewijzing/-intrekking</display-label>
+        <display-label
+                        xml:lang="pt">Aprovação de Atribuição/Revogação de Recurso</display-label>
+        <display-label
+                        xml:lang="ja">リソース割り当て/取り消しの承認</display-label>
+        <display-label
+                        xml:lang="it">Approvazione assegnazione/revoca risorsa</display-label>
+        <display-label
+                        xml:lang="de">Genehmigung der Ressourcenzuweisung/-zurücknahme</display-label>
+        <display-label
+                        xml:lang="ru">Утверждение назначения/аннулирования ресурса</display-label>
+        <display-label
+                        xml:lang="da">Godkendelse af ressourcetildeling/tilbagekaldelse</display-label>
+        <display-label
+                        xml:lang="fr">Approbation de l'assignation/la révocation de ressource</display-label>
+        <display-label
+                        xml:lang="en">Resource Assignment/Revocation Approval</display-label>
+        <display-label
+                        xml:lang="es">Aprobación de asignación o revocación de recurso</display-label>
+        <display-label
+                        xml:lang="zh-CN">资源指派/撤消批准</display-label>
+        <display-label
+                        xml:lang="zh-TW">資源指定/撤銷核准</display-label>
+        <display-label
+                        xml:lang="sv">Godkännande av resurstilldelning/-återkallelse</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    name="subheading" visible="true">
+        <control
+                        control-type="Title"
+                                editable="false">
+          <props>
+            <prop
+                        name="font-size">
+              <value>medium</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Selecteer de betreffende knop om de resourceaanvraag goed te keuren of af te wijzen.</display-label>
+        <display-label
+                        xml:lang="pt">Selecione o botão apropriado para aprovar ou rejeitar a solicitação de recurso.</display-label>
+        <display-label
+                        xml:lang="ja">該当するボタンを選択してリソース要求を承認または却下してください。</display-label>
+        <display-label
+                        xml:lang="it">Selezionare il pulsante appropriato per approvare o rifiutare la richiesta di risorsa.</display-label>
+        <display-label
+                        xml:lang="de">Bitte wählen Sie die entsprechende Schaltfläche zum Genehmigen oder Ablehnen der Ressourcenanforderung.</display-label>
+        <display-label
+                        xml:lang="ru">Нажмите соответствующую кнопку для подтверждения или отклонения запроса на ресурс.</display-label>
+        <display-label
+                        xml:lang="da">Vælg den relevante knap for at godkende eller afvise ressourceanmodningen.</display-label>
+        <display-label
+                        xml:lang="fr">Sélectionnez le bouton approprié pour approuver ou refuser la requête de ressource.</display-label>
+        <display-label
+                        xml:lang="en">Please select the appropriate button to approve or reject the resource request.</display-label>
+        <display-label
+                        xml:lang="es">Seleccione el botón adecuado para aprobar o rechazar la petición de recurso.</display-label>
+        <display-label
+                        xml:lang="zh-CN">请选择相应按钮以批准或拒绝资源请求。</display-label>
+        <display-label
+                        xml:lang="zh-TW">請選取適當的按鈕核准或拒絕資源申請。</display-label>
+        <display-label
+                        xml:lang="sv">Godkänn eller avslå resursbeställningen med hjälp av motsvarande knapp.</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="dn"
+                        name="RequestNumber">
+        <control
+                        control-type="DNDisplay"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="nl">Aanvraag-id:</display-label>
+        <display-label
+                        xml:lang="pt">ID da Solicitação:</display-label>
+        <display-label
+                        xml:lang="ja">要求ID:</display-label>
+        <display-label
+                        xml:lang="it">ID richiesta:</display-label>
+        <display-label
+                        xml:lang="de">Anforderungs-ID:</display-label>
+        <display-label
+                        xml:lang="ru">ИД запроса:</display-label>
+        <display-label
+                        xml:lang="da">Anmodnings-id:</display-label>
+        <display-label
+                        xml:lang="fr">ID de la requête :</display-label>
+        <display-label
+                        xml:lang="en">Request ID:</display-label>
+        <display-label
+                        xml:lang="es">ID de petición:</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求 ID:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請 ID :</display-label>
+        <display-label
+                        xml:lang="sv">Beställnings-ID:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="dn" name="RequesterName"
+                        visible="true">
+        <control
+                        control-type="DNDisplay"
+                                editable="false">
+          <props>
+            <prop
+                                name="display-entitydef">
+              <value>user</value>
+            </prop>
+            <prop
+                        name="display-exp">
+              <value>%LocaleFormattedFullName%</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Aangevraagd door:</display-label>
+        <display-label
+                        xml:lang="pt">Solicitado por:</display-label>
+        <display-label
+                        xml:lang="ja">要求者:</display-label>
+        <display-label
+                        xml:lang="it">Richiesta effettuata da:</display-label>
+        <display-label
+                        xml:lang="de">Angefordert von:</display-label>
+        <display-label
+                        xml:lang="ru">Инициатор запроса:</display-label>
+        <display-label
+                        xml:lang="da">Anmodet af:</display-label>
+        <display-label
+                        xml:lang="fr">Demandée par :</display-label>
+        <display-label
+                        xml:lang="en">Requested by:</display-label>
+        <display-label
+                        xml:lang="es">Petición de:</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求者:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請者︰</display-label>
+        <display-label
+                    xml:lang="sv">Beställd av:</display-label>
+      </field>
+      <field
+                    data-type="string"
+                        name="CurrentStatus">
+        <control
+                        control-type="Html"
+                                editable="false">
+          <props>
+            <prop
+                        name="hideLabel">
+              <value>false</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Status:</display-label>
+        <display-label
+                        xml:lang="pt">Status:</display-label>
+        <display-label
+                        xml:lang="ja">ステータス:</display-label>
+        <display-label
+                        xml:lang="it">Stato:</display-label>
+        <display-label
+                        xml:lang="de">Status:</display-label>
+        <display-label
+                        xml:lang="ru">Состояние:</display-label>
+        <display-label
+                        xml:lang="da">Status:</display-label>
+        <display-label
+                        xml:lang="fr">État :</display-label>
+        <display-label
+                        xml:lang="en">Status:</display-label>
+        <display-label
+                        xml:lang="es">Estado:</display-label>
+        <display-label
+                        xml:lang="zh-CN">状态:</display-label>
+        <display-label
+                        xml:lang="zh-TW">狀態 :</display-label>
+        <display-label
+                        xml:lang="sv">Status:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="SourceDN">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>false</value>
+            </prop>
+            <prop
+                        name="colspan">
+              <value>1</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Resourcenaam:</display-label>
+        <display-label
+                        xml:lang="pt">Nome do Recurso:</display-label>
+        <display-label
+                        xml:lang="ja">リソース名:</display-label>
+        <display-label
+                        xml:lang="it">Nome risorsa:</display-label>
+        <display-label
+                        xml:lang="de">Ressourcenname:</display-label>
+        <display-label
+                        xml:lang="ru">Имя ресурса:</display-label>
+        <display-label
+                        xml:lang="da">Ressourcenavn:</display-label>
+        <display-label
+                        xml:lang="fr">Nom de la ressource :</display-label>
+        <display-label
+                        xml:lang="en">Resource Name:</display-label>
+        <display-label
+                        xml:lang="es">Nombre del recurso:</display-label>
+        <display-label
+                        xml:lang="zh-CN">资源名称:</display-label>
+        <display-label
+                        xml:lang="zh-TW">資源名稱 :</display-label>
+        <display-label
+                    xml:lang="sv">Resursnamn:</display-label>
+      </field>
+      <field
+                    data-type="string" name="TargetDN"
+                        visible="true">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                                name="hideLabel">
+              <value>false</value>
+            </prop>
+            <prop
+                        name="colspan">
+              <value>1</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Ontvanger:</display-label>
+        <display-label
+                        xml:lang="pt">Destinatário:</display-label>
+        <display-label
+                        xml:lang="ja">受信者:</display-label>
+        <display-label
+                        xml:lang="it">Destinatario:</display-label>
+        <display-label
+                        xml:lang="de">Empfänger:</display-label>
+        <display-label
+                        xml:lang="ru">Получатель:</display-label>
+        <display-label
+                        xml:lang="da">Modtager:</display-label>
+        <display-label
+                        xml:lang="fr">Destinataire :</display-label>
+        <display-label
+                        xml:lang="en">Recipient:</display-label>
+        <display-label
+                        xml:lang="es">Destinatario:</display-label>
+        <display-label
+                        xml:lang="zh-CN">收件人:</display-label>
+        <display-label
+                        xml:lang="zh-TW">接收者︰</display-label>
+        <display-label
+                        xml:lang="sv">Mottagare:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="date"
+                        name="RequestDate">
+        <control
+                        control-type="DatePicker"
+                                editable="false">
+          <props>
+            <prop
+                                    name="dayHeaders">
+              <value
+                                    xml:lang="zh-TW">'日','一','二','三','四','五','六'</value>
+              <value
+                                    xml:lang="de">'S','M','D','M','D','F','S'</value>
+              <value
+                                    xml:lang="sv">'S','M','T','O','T','F','L'</value>
+              <value
+                                    xml:lang="ja">'日','月','火','水','木','金','土'</value>
+              <value
+                                    xml:lang="zh-CN">'日','一','二','三','四','五','六'</value>
+              <value
+                                    xml:lang="fr">'D','L','M','M','J','V','S'</value>
+              <value
+                                    xml:lang="nl">'z','m','d','w','d','v','z'</value>
+              <value
+                                    xml:lang="pt">'D','S','T','Q','Q','S','S'</value>
+              <value
+                                    xml:lang="ru">'В','П','В','С','Ч','П','С'</value>
+              <value
+                                    xml:lang="en">'S','M','T','W','T','F','S'</value>
+              <value
+                                    xml:lang="es">'D','L','M','M','J','V','S'</value>
+              <value
+                                xml:lang="it">'D','L','M','M','G','V','S'</value>
+            </prop>
+            <prop
+                                    name="monthNames">
+              <value
+                                    xml:lang="zh-TW">'1 月','2 月','3 月','4 月','5 月','6 月','7 月','8 月','9 月','10 月','11 月','12 月'</value>
+              <value
+                                    xml:lang="de">'Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'</value>
+              <value
+                                    xml:lang="sv">'Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'</value>
+              <value
+                                    xml:lang="ja">'1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'</value>
+              <value
+                                    xml:lang="zh-CN">'一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'</value>
+              <value
+                                    xml:lang="fr">'Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'</value>
+              <value
+                                    xml:lang="nl">'januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'</value>
+              <value
+                                    xml:lang="pt">'Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'</value>
+              <value
+                                    xml:lang="ru">'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'</value>
+              <value
+                                    xml:lang="en">'January','February','March','April','May','June','July','August','September','October','November','December'</value>
+              <value
+                                    xml:lang="es">'Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'</value>
+              <value
+                        xml:lang="it">'gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Datum van aanvraag:</display-label>
+        <display-label
+                        xml:lang="pt">Data de Solicitação:</display-label>
+        <display-label
+                        xml:lang="ja">要求日:</display-label>
+        <display-label
+                        xml:lang="it">Data della richiesta:</display-label>
+        <display-label
+                        xml:lang="de">Anforderungsdatum:</display-label>
+        <display-label
+                        xml:lang="ru">Дата запроса:</display-label>
+        <display-label
+                        xml:lang="da">Anmodningsdato:</display-label>
+        <display-label
+                        xml:lang="fr">Date de la requête :</display-label>
+        <display-label
+                        xml:lang="en">Request Date:</display-label>
+        <display-label
+                        xml:lang="es">Fecha de la petición:</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求日期:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請日期 :</display-label>
+        <display-label
+                    xml:lang="sv">Beställningsdatum:</display-label>
+      </field>
+      <field
+                    data-type="string" name="Description"
+                        visible="true">
+        <control
+                        control-type="Html"
+                                editable="false">
+          <props>
+            <prop
+                        name="hideLabel">
+              <value>false</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Beschrijving:</display-label>
+        <display-label
+                        xml:lang="pt">Descrição:</display-label>
+        <display-label
+                        xml:lang="ja">説明:</display-label>
+        <display-label
+                        xml:lang="it">Descrizione:</display-label>
+        <display-label
+                        xml:lang="de">Beschreibung:</display-label>
+        <display-label
+                        xml:lang="ru">Описание:</display-label>
+        <display-label
+                        xml:lang="da">Beskrivelse:</display-label>
+        <display-label
+                        xml:lang="fr">Description :</display-label>
+        <display-label
+                        xml:lang="en">Description:</display-label>
+        <display-label
+                        xml:lang="es">Descripción:</display-label>
+        <display-label
+                        xml:lang="zh-CN">说明:</display-label>
+        <display-label
+                        xml:lang="zh-TW">描述 :</display-label>
+        <display-label
+                        xml:lang="sv">Beskrivning:</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"/>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="parameterTable">
+        <control
+                        control-type="Html"
+                                editable="true">
+          <props>
+            <prop
+                        name="html">
+              <value>form.getValue("hiddenParameterTable")</value>
+            </prop>
+          </props>
+        </control>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="apwaComment">
+        <control
+                        control-type="TextArea"
+                        editable="true">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="da">Kommentar:</display-label>
+        <display-label
+                        xml:lang="de">Kommentar:</display-label>
+        <display-label
+                        xml:lang="sv">Kommentar:</display-label>
+        <display-label
+                        xml:lang="ja">コメント:</display-label>
+        <display-label
+                        xml:lang="zh-TW">備註：</display-label>
+        <display-label
+                        xml:lang="zh-CN">注释：</display-label>
+        <display-label
+                        xml:lang="fr">Commentaire :</display-label>
+        <display-label
+                        xml:lang="nl">Opmerking:</display-label>
+        <display-label
+                        xml:lang="pt">Comentário:</display-label>
+        <display-label
+                        xml:lang="ru">Комментарий:</display-label>
+        <display-label
+                        xml:lang="en">Comment:</display-label>
+        <display-label
+                        xml:lang="es">Comentario:</display-label>
+        <display-label
+                        xml:lang="it">Commento:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <actions
+                        location="bottom">
+        <action
+                        block-on-error="false"
+                            name="CommentAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="da">Vis kommentarhistorik</display-label>
+          <display-label
+                            xml:lang="zh-TW">檢視備註歷程</display-label>
+          <display-label
+                            xml:lang="de">Kommentarverlauf anzeigen</display-label>
+          <display-label
+                            xml:lang="sv">Visa kommentarshistorik</display-label>
+          <display-label
+                            xml:lang="ja">コメント履歴の表示</display-label>
+          <display-label
+                            xml:lang="zh-CN">查看注释历史</display-label>
+          <display-label
+                            xml:lang="fr">Afficher l'historique des commentaires</display-label>
+          <display-label
+                            xml:lang="nl">Opmerkingshistorie weergeven</display-label>
+          <display-label
+                            xml:lang="pt">Ver Histórico de Comentários</display-label>
+          <display-label
+                            xml:lang="ru">Просмотр протокола комментариев</display-label>
+          <display-label
+                            xml:lang="en">View Comment History</display-label>
+          <display-label
+                            xml:lang="es">Ver historial de comentarios</display-label>
+          <display-label
+                            xml:lang="it">Visualizza cronologia commenti</display-label>
+        </action>
+        <field>
+          <control
+                        control-type="LineBreak"/>
+        </field>
+        <action
+                        hide-if-readonly="true"
+                            name="ApprovalAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="da">Godkend</display-label>
+          <display-label
+                            xml:lang="zh-TW">核准</display-label>
+          <display-label
+                            xml:lang="de">Genehmigen</display-label>
+          <display-label
+                            xml:lang="sv">Godkänn</display-label>
+          <display-label
+                            xml:lang="ja">承認</display-label>
+          <display-label
+                            xml:lang="zh-CN">批准</display-label>
+          <display-label
+                            xml:lang="fr">Approuver</display-label>
+          <display-label
+                            xml:lang="nl">Goedkeuren</display-label>
+          <display-label
+                            xml:lang="pt">Aprovar</display-label>
+          <display-label
+                            xml:lang="ru">Подтвердить</display-label>
+          <display-label
+                            xml:lang="en">Approve</display-label>
+          <display-label
+                            xml:lang="es">Aprobar</display-label>
+          <display-label
+                        xml:lang="it">Approva</display-label>
+        </action>
+        <action
+                        hide-if-readonly="true"
+                            name="DenyAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="da">Afvis</display-label>
+          <display-label
+                            xml:lang="zh-TW">拒絕</display-label>
+          <display-label
+                            xml:lang="de">Verweigern</display-label>
+          <display-label
+                            xml:lang="sv">Avslå</display-label>
+          <display-label
+                            xml:lang="ja">却下</display-label>
+          <display-label
+                            xml:lang="zh-CN">拒绝</display-label>
+          <display-label
+                            xml:lang="fr">Refuser</display-label>
+          <display-label
+                            xml:lang="nl">Afwijzen</display-label>
+          <display-label
+                            xml:lang="pt">Negar</display-label>
+          <display-label
+                            xml:lang="ru">Запретить</display-label>
+          <display-label
+                            xml:lang="en">Reject</display-label>
+          <display-label
+                            xml:lang="es">Denegar</display-label>
+          <display-label
+            xml:lang="it">Rifiuta</display-label>
+        </action>
+      </actions>
+    </content>
+  </form>
+  <form
+                    form-id="approval_form_mobile">
+    <content>
+      <field
+                    data-type="string" name="hiddenParameterTable"
+                        visible="false">
+        <control
+                        control-type="Text" editable="false"
+                        visible="false"/>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    name="title" visible="true">
+        <control
+                        control-type="Title"
+                        editable="false"/>
+        <display-label
+                        xml:lang="nl">Definitie goedkeuring resourcetoewijzing/-intrekking</display-label>
+        <display-label
+                        xml:lang="pt">Aprovação de Atribuição/Revogação de Recurso</display-label>
+        <display-label
+                        xml:lang="ja">リソース割り当て/取り消しの承認</display-label>
+        <display-label
+                        xml:lang="it">Approvazione assegnazione/revoca risorsa</display-label>
+        <display-label
+                        xml:lang="de">Genehmigung der Ressourcenzuweisung/-zurücknahme</display-label>
+        <display-label
+                        xml:lang="ru">Утверждение назначения/аннулирования ресурса</display-label>
+        <display-label
+                        xml:lang="da">Godkendelse af ressourcetildeling/tilbagekaldelse</display-label>
+        <display-label
+                        xml:lang="fr">Approbation de l'assignation/la révocation de ressource</display-label>
+        <display-label
+                        xml:lang="en">Resource Assignment/Revocation Approval</display-label>
+        <display-label
+                        xml:lang="es">Aprobación de asignación o revocación de recurso</display-label>
+        <display-label
+                        xml:lang="zh-CN">资源指派/撤消批准</display-label>
+        <display-label
+                        xml:lang="zh-TW">資源指定/撤銷核准</display-label>
+        <display-label
+                        xml:lang="sv">Godkännande av resurstilldelning/-återkallelse</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    name="subheading" visible="true">
+        <control
+                        control-type="Title"
+                                editable="false">
+          <props>
+            <prop
+                        name="font-size">
+              <value>medium</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Selecteer de betreffende knop om de resourceaanvraag goed te keuren of af te wijzen.</display-label>
+        <display-label
+                        xml:lang="pt">Selecione o botão apropriado para aprovar ou rejeitar a solicitação de recurso.</display-label>
+        <display-label
+                        xml:lang="ja">該当するボタンを選択してリソース要求を承認または却下してください。</display-label>
+        <display-label
+                        xml:lang="it">Selezionare il pulsante appropriato per approvare o rifiutare la richiesta di risorsa.</display-label>
+        <display-label
+                        xml:lang="de">Bitte wählen Sie die entsprechende Schaltfläche zum Genehmigen oder Ablehnen der Ressourcenanforderung.</display-label>
+        <display-label
+                        xml:lang="ru">Нажмите соответствующую кнопку для подтверждения или отклонения запроса на ресурс.</display-label>
+        <display-label
+                        xml:lang="da">Vælg den relevante knap for at godkende eller afvise ressourceanmodningen.</display-label>
+        <display-label
+                        xml:lang="fr">Sélectionnez le bouton approprié pour approuver ou refuser la requête de ressource.</display-label>
+        <display-label
+                        xml:lang="en">Please select the appropriate button to approve or reject the resource request.</display-label>
+        <display-label
+                        xml:lang="es">Seleccione el botón adecuado para aprobar o rechazar la petición de recurso.</display-label>
+        <display-label
+                        xml:lang="zh-CN">请选择相应按钮以批准或拒绝资源请求。</display-label>
+        <display-label
+                        xml:lang="zh-TW">請選取適當的按鈕核准或拒絕資源申請。</display-label>
+        <display-label
+                        xml:lang="sv">Godkänn eller avslå resursbeställningen med hjälp av motsvarande knapp.</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="dn" name="RequestNumber"
+                        visible="false">
+        <control
+                        control-type="DNDisplay" editable="false"
+                        visible="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="nl">Aanvraag-id:</display-label>
+        <display-label
+                        xml:lang="pt">ID da Solicitação:</display-label>
+        <display-label
+                        xml:lang="ja">要求ID:</display-label>
+        <display-label
+                        xml:lang="it">ID richiesta:</display-label>
+        <display-label
+                        xml:lang="de">Anforderungs-ID:</display-label>
+        <display-label
+                        xml:lang="ru">ИД запроса:</display-label>
+        <display-label
+                        xml:lang="da">Anmodnings-id:</display-label>
+        <display-label
+                        xml:lang="fr">ID de la requête :</display-label>
+        <display-label
+                        xml:lang="en">Request ID:</display-label>
+        <display-label
+                        xml:lang="es">ID de petición:</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求 ID:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請 ID :</display-label>
+        <display-label
+                        xml:lang="sv">Beställnings-ID:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="dn" name="RequesterName"
+                        visible="true">
+        <control
+                        control-type="DNDisplay"
+                                editable="false">
+          <props>
+            <prop
+                                name="display-entitydef">
+              <value>user</value>
+            </prop>
+            <prop
+                        name="display-exp">
+              <value>FirstName LastName </value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Aangevraagd door:</display-label>
+        <display-label
+                        xml:lang="pt">Solicitado por:</display-label>
+        <display-label
+                        xml:lang="ja">要求者:</display-label>
+        <display-label
+                        xml:lang="it">Richiesta effettuata da:</display-label>
+        <display-label
+                        xml:lang="de">Angefordert von:</display-label>
+        <display-label
+                        xml:lang="ru">Инициатор запроса:</display-label>
+        <display-label
+                        xml:lang="da">Anmodet af:</display-label>
+        <display-label
+                        xml:lang="fr">Demandée par :</display-label>
+        <display-label
+                        xml:lang="en">Requested by:</display-label>
+        <display-label
+                        xml:lang="es">Petición de:</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求者:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請者︰</display-label>
+        <display-label
+                    xml:lang="sv">Beställd av:</display-label>
+      </field>
+      <field
+                    data-type="string"
+                        name="CurrentStatus">
+        <control
+                        control-type="Text"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="nl">Status:</display-label>
+        <display-label
+                        xml:lang="pt">Status:</display-label>
+        <display-label
+                        xml:lang="ja">ステータス:</display-label>
+        <display-label
+                        xml:lang="it">Stato:</display-label>
+        <display-label
+                        xml:lang="de">Status:</display-label>
+        <display-label
+                        xml:lang="ru">Состояние:</display-label>
+        <display-label
+                        xml:lang="da">Status:</display-label>
+        <display-label
+                        xml:lang="fr">État :</display-label>
+        <display-label
+                        xml:lang="en">Status:</display-label>
+        <display-label
+                        xml:lang="es">Estado:</display-label>
+        <display-label
+                        xml:lang="zh-CN">状态:</display-label>
+        <display-label
+                        xml:lang="zh-TW">狀態 :</display-label>
+        <display-label
+                        xml:lang="sv">Status:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="SourceDN">
+        <control
+                        control-type="Text"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="nl">Resourcenaam:</display-label>
+        <display-label
+                        xml:lang="pt">Nome do Recurso:</display-label>
+        <display-label
+                        xml:lang="ja">リソース名:</display-label>
+        <display-label
+                        xml:lang="it">Nome risorsa:</display-label>
+        <display-label
+                        xml:lang="de">Ressourcenname:</display-label>
+        <display-label
+                        xml:lang="ru">Имя ресурса:</display-label>
+        <display-label
+                        xml:lang="da">Ressourcenavn:</display-label>
+        <display-label
+                        xml:lang="fr">Nom de la ressource :</display-label>
+        <display-label
+                        xml:lang="en">Resource Name:</display-label>
+        <display-label
+                        xml:lang="es">Nombre del recurso:</display-label>
+        <display-label
+                        xml:lang="zh-CN">资源名称:</display-label>
+        <display-label
+                        xml:lang="zh-TW">資源名稱 :</display-label>
+        <display-label
+                    xml:lang="sv">Resursnamn:</display-label>
+      </field>
+      <field
+                    data-type="string" name="TargetDN"
+                        visible="true">
+        <control
+                        control-type="Text"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="nl">Ontvanger:</display-label>
+        <display-label
+                        xml:lang="pt">Destinatário:</display-label>
+        <display-label
+                        xml:lang="ja">受信者:</display-label>
+        <display-label
+                        xml:lang="it">Destinatario:</display-label>
+        <display-label
+                        xml:lang="de">Empfänger:</display-label>
+        <display-label
+                        xml:lang="ru">Получатель:</display-label>
+        <display-label
+                        xml:lang="da">Modtager:</display-label>
+        <display-label
+                        xml:lang="fr">Destinataire :</display-label>
+        <display-label
+                        xml:lang="en">Recipient:</display-label>
+        <display-label
+                        xml:lang="es">Destinatario:</display-label>
+        <display-label
+                        xml:lang="zh-CN">收件人:</display-label>
+        <display-label
+                        xml:lang="zh-TW">接收者︰</display-label>
+        <display-label
+                        xml:lang="sv">Mottagare:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="date"
+                        name="RequestDate">
+        <control
+                        control-type="DatePicker"
+                                editable="false">
+          <props>
+            <prop
+                                    name="dayHeaders">
+              <value
+                                    xml:lang="zh-TW">'日','一','二','三','四','五','六'</value>
+              <value
+                                    xml:lang="de">'S','M','D','M','D','F','S'</value>
+              <value
+                                    xml:lang="sv">'S','M','T','O','T','F','L'</value>
+              <value
+                                    xml:lang="ja">'日','月','火','水','木','金','土'</value>
+              <value
+                                    xml:lang="zh-CN">'日','一','二','三','四','五','六'</value>
+              <value
+                                    xml:lang="fr">'D','L','M','M','J','V','S'</value>
+              <value
+                                    xml:lang="nl">'z','m','d','w','d','v','z'</value>
+              <value
+                                    xml:lang="pt">'D','S','T','Q','Q','S','S'</value>
+              <value
+                                    xml:lang="ru">'В','П','В','С','Ч','П','С'</value>
+              <value
+                                    xml:lang="en">'S','M','T','W','T','F','S'</value>
+              <value
+                                    xml:lang="es">'D','L','M','M','J','V','S'</value>
+              <value
+                                xml:lang="it">'D','L','M','M','G','V','S'</value>
+            </prop>
+            <prop
+                                    name="monthNames">
+              <value
+                                    xml:lang="zh-TW">'1 月','2 月','3 月','4 月','5 月','6 月','7 月','8 月','9 月','10 月','11 月','12 月'</value>
+              <value
+                                    xml:lang="de">'Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'</value>
+              <value
+                                    xml:lang="sv">'Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'</value>
+              <value
+                                    xml:lang="ja">'1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'</value>
+              <value
+                                    xml:lang="zh-CN">'一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'</value>
+              <value
+                                    xml:lang="fr">'Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'</value>
+              <value
+                                    xml:lang="nl">'januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'</value>
+              <value
+                                    xml:lang="pt">'Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'</value>
+              <value
+                                    xml:lang="ru">'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'</value>
+              <value
+                                    xml:lang="en">'January','February','March','April','May','June','July','August','September','October','November','December'</value>
+              <value
+                                    xml:lang="es">'Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'</value>
+              <value
+                        xml:lang="it">'gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'</value>
+            </prop>
+          </props>
+        </control>
+        <display-label
+                        xml:lang="nl">Datum van aanvraag:</display-label>
+        <display-label
+                        xml:lang="pt">Data de Solicitação:</display-label>
+        <display-label
+                        xml:lang="ja">要求日:</display-label>
+        <display-label
+                        xml:lang="it">Data della richiesta:</display-label>
+        <display-label
+                        xml:lang="de">Anforderungsdatum:</display-label>
+        <display-label
+                        xml:lang="ru">Дата запроса:</display-label>
+        <display-label
+                        xml:lang="da">Anmodningsdato:</display-label>
+        <display-label
+                        xml:lang="fr">Date de la requête :</display-label>
+        <display-label
+                        xml:lang="en">Request Date:</display-label>
+        <display-label
+                        xml:lang="es">Fecha de la petición:</display-label>
+        <display-label
+                        xml:lang="zh-CN">请求日期:</display-label>
+        <display-label
+                        xml:lang="zh-TW">申請日期 :</display-label>
+        <display-label
+                    xml:lang="sv">Beställningsdatum:</display-label>
+      </field>
+      <field
+                    data-type="string" name="Description"
+                        visible="true">
+        <control
+                        control-type="Text"
+                        editable="false">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="nl">Beschrijving:</display-label>
+        <display-label
+                        xml:lang="pt">Descrição:</display-label>
+        <display-label
+                        xml:lang="ja">説明:</display-label>
+        <display-label
+                        xml:lang="it">Descrizione:</display-label>
+        <display-label
+                        xml:lang="de">Beschreibung:</display-label>
+        <display-label
+                        xml:lang="ru">Описание:</display-label>
+        <display-label
+                        xml:lang="da">Beskrivelse:</display-label>
+        <display-label
+                        xml:lang="fr">Description :</display-label>
+        <display-label
+                        xml:lang="en">Description:</display-label>
+        <display-label
+                        xml:lang="es">Descripción:</display-label>
+        <display-label
+                        xml:lang="zh-CN">说明:</display-label>
+        <display-label
+                        xml:lang="zh-TW">描述 :</display-label>
+        <display-label
+                        xml:lang="sv">Beskrivning:</display-label>
+      </field>
+      <field>
+        <control
+                        control-type="LineBreak"/>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string" name="parameterTable"
+                        visible="false">
+        <control
+                        control-type="Text" editable="false"
+                        visible="false"/>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <field
+                    data-type="string"
+                        name="apwaComment">
+        <control
+                        control-type="TextArea"
+                        editable="true">
+          <props/>
+        </control>
+        <display-label
+                        xml:lang="da">Kommentar:</display-label>
+        <display-label
+                        xml:lang="de">Kommentar:</display-label>
+        <display-label
+                        xml:lang="sv">Kommentar:</display-label>
+        <display-label
+                        xml:lang="ja">コメント:</display-label>
+        <display-label
+                        xml:lang="zh-TW">備註：</display-label>
+        <display-label
+                        xml:lang="zh-CN">注释：</display-label>
+        <display-label
+                        xml:lang="fr">Commentaire :</display-label>
+        <display-label
+                        xml:lang="nl">Opmerking:</display-label>
+        <display-label
+                        xml:lang="pt">Comentário:</display-label>
+        <display-label
+                        xml:lang="ru">Комментарий:</display-label>
+        <display-label
+                        xml:lang="en">Comment:</display-label>
+        <display-label
+                        xml:lang="es">Comentario:</display-label>
+        <display-label
+                        xml:lang="it">Commento:</display-label>
+      </field>
+      <field>
+        <control
+                    control-type="LineBreak"/>
+      </field>
+      <actions
+                        location="bottom">
+        <action
+                        block-on-error="false"
+                            name="CommentAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="da">Vis kommentarhistorik</display-label>
+          <display-label
+                            xml:lang="zh-TW">檢視備註歷程</display-label>
+          <display-label
+                            xml:lang="de">Kommentarverlauf anzeigen</display-label>
+          <display-label
+                            xml:lang="sv">Visa kommentarshistorik</display-label>
+          <display-label
+                            xml:lang="ja">コメント履歴の表示</display-label>
+          <display-label
+                            xml:lang="zh-CN">查看注释历史</display-label>
+          <display-label
+                            xml:lang="fr">Afficher l'historique des commentaires</display-label>
+          <display-label
+                            xml:lang="nl">Opmerkingshistorie weergeven</display-label>
+          <display-label
+                            xml:lang="pt">Ver Histórico de Comentários</display-label>
+          <display-label
+                            xml:lang="ru">Просмотр протокола комментариев</display-label>
+          <display-label
+                            xml:lang="en">View Comment History</display-label>
+          <display-label
+                            xml:lang="es">Ver historial de comentarios</display-label>
+          <display-label
+                            xml:lang="it">Visualizza cronologia commenti</display-label>
+        </action>
+        <field>
+          <control
+                        control-type="LineBreak"/>
+        </field>
+        <action
+                        hide-if-readonly="true"
+                            name="ApprovalAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="da">Godkend</display-label>
+          <display-label
+                            xml:lang="zh-TW">核准</display-label>
+          <display-label
+                            xml:lang="de">Genehmigen</display-label>
+          <display-label
+                            xml:lang="sv">Godkänn</display-label>
+          <display-label
+                            xml:lang="ja">承認</display-label>
+          <display-label
+                            xml:lang="zh-CN">批准</display-label>
+          <display-label
+                            xml:lang="fr">Approuver</display-label>
+          <display-label
+                            xml:lang="nl">Goedkeuren</display-label>
+          <display-label
+                            xml:lang="pt">Aprovar</display-label>
+          <display-label
+                            xml:lang="ru">Подтвердить</display-label>
+          <display-label
+                            xml:lang="en">Approve</display-label>
+          <display-label
+                            xml:lang="es">Aprobar</display-label>
+          <display-label
+                        xml:lang="it">Approva</display-label>
+        </action>
+        <action
+                        hide-if-readonly="true"
+                            name="DenyAction">
+          <control
+                            control-type="Button"/>
+          <display-label
+                            xml:lang="da">Afvis</display-label>
+          <display-label
+                            xml:lang="zh-TW">拒絕</display-label>
+          <display-label
+                            xml:lang="de">Verweigern</display-label>
+          <display-label
+                            xml:lang="sv">Avslå</display-label>
+          <display-label
+                            xml:lang="ja">却下</display-label>
+          <display-label
+                            xml:lang="zh-CN">拒绝</display-label>
+          <display-label
+                            xml:lang="fr">Refuser</display-label>
+          <display-label
+                            xml:lang="nl">Afwijzen</display-label>
+          <display-label
+                            xml:lang="pt">Negar</display-label>
+          <display-label
+                            xml:lang="ru">Запретить</display-label>
+          <display-label
+                            xml:lang="en">Reject</display-label>
+          <display-label
+                            xml:lang="es">Denegar</display-label>
+          <display-label
+            xml:lang="it">Rifiuta</display-label>
+        </action>
+      </actions>
+    </content>
+  </form>
+  <form-binding
+            activity-id="Activity"
+            form-id="approval_form"/>
+  <form-binding
+            activity-id="Activity8"
+            form-id="approval_form"/>
+  <data-items
+                activity-id="Activity">
+    <data-item
+                data-type="string" name="hiddenParameterTable"
+                source="NrfResourceRequest.getDynamicParameterValuesAsHTML(locale)"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="title"
+                source="NrfResourceRequest.getCategoryLocaleString(locale) + ' - ' + NrfResourceRequest.getSourceDNDisplayName(locale)"
+                target-type="single-value"/>
+    <data-item
+                data-type="dn" name="RequestNumber"
+                source="NrfResourceRequest.getCn()"
+                target-type="single-value"/>
+    <data-item
+                data-type="dn" name="RequesterName"
+                source="NrfResourceRequest.getRequester()"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="SourceDN"
+                source="NrfResourceRequest.getSourceDNDisplayName(locale)"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="TargetDN"
+                source="NrfResourceRequest.getTargetDNDisplayName()"
+                target-type="single-value"/>
+    <data-item
+                data-type="date" name="RequestDate"
+                source="NrfResourceRequest.getRequestDate()"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="Description"
+                source="NrfResourceRequest.getDescription()"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="CurrentStatus"
+                source="NrfResourceRequest.getStatusLocaleString(locale)"
+            target-type="single-value"/>
+  </data-items>
+  <data-items
+                activity-id="Activity8">
+    <data-item
+                data-type="string" name="hiddenParameterTable"
+                source="NrfResourceRequest.getDynamicParameterValuesAsHTML(locale)"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="title"
+                source="NrfResourceRequest.getCategoryLocaleString(locale) + ' - ' + NrfResourceRequest.getSourceDNDisplayName(locale)"
+                target-type="single-value"/>
+    <data-item
+                data-type="dn" name="RequestNumber"
+                source="NrfResourceRequest.getCn()"
+                target-type="single-value"/>
+    <data-item
+                data-type="dn" name="RequesterName"
+                source="NrfResourceRequest.getRequester()"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="SourceDN"
+                source="NrfResourceRequest.getSourceDNDisplayName(locale)"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="TargetDN"
+                source="NrfResourceRequest.getTargetDNDisplayName()"
+                target-type="single-value"/>
+    <data-item
+                data-type="date" name="RequestDate"
+                source="NrfResourceRequest.getRequestDate()"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="Description"
+                source="NrfResourceRequest.getDescription()"
+                target-type="single-value"/>
+    <data-item
+                data-type="string" name="CurrentStatus"
+                source="NrfResourceRequest.getStatusLocaleString(locale)"
+            target-type="single-value"/>
+  </data-items>
+  <data-items
+                activity-id="Activity4">
+    <data-item
+                data-type="string" name="MAP0" source="Number(0)"
+                target="flowdata.nrfResourceRequest/approverCounter"
+            target-type="multi-value-list"/>
+  </data-items>
+  <data-items
+                activity-id="Activity7">
+    <data-item
+                data-type="string" name="MAP0"
+                source="Number(flowdata.get('nrfResourceRequest/approverCounter')) + 1;"
+                target="flowdata.nrfResourceRequest/approverCounter"
+            target-type="multi-value-list"/>
+  </data-items>
+  <data-items
+                activity-id="Activity3">
+    <data-item
+                data-type="string" name="MAP0"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('en')) + ' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('en'))"
+                target="flowdata.displayName/en"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP1"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('fr')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('fr'))"
+                target="flowdata.displayName/fr"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP2"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('de')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('de'))"
+                target="flowdata.displayName/de"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP3"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('zh','TW')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('zh','TW'))"
+                target="flowdata.displayName/zh-TW"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP4"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('it')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('it'))"
+                target="flowdata.displayName/it"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP5"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('pt')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('pt'))"
+                target="flowdata.displayName/pt"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP6"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('sv')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('sv'))"
+                target="flowdata.displayName/sv"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP7"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('ru')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('ru'))"
+                target="flowdata.displayName/ru"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP8"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('zh','CN')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('zh','CN'))"
+                target="flowdata.displayName/zh-CN"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP9"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('es')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('es'))"
+                target="flowdata.displayName/es"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP10"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('ja')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('ja'))"
+                target="flowdata.displayName/ja"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP11"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('nl')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('nl'))"
+                target="flowdata.displayName/nl"
+                target-type="multi-value-list"/>
+    <data-item
+                data-type="string" name="MAP12"
+                source="NrfResourceRequest.getCategoryLocaleString(new java.util.Locale('da')) +' - ' + NrfResourceRequest.getSourceDNDisplayName(new java.util.Locale('da'))"
+                target="flowdata.displayName/da"
+            target-type="multi-value-list"/>
+  </data-items>
+  <start-activity
+                activity-id="Start">
+    <display-name
+                xml:lang="nl">Starten</display-name>
+    <display-name
+                xml:lang="pt">Iniciar</display-name>
+    <display-name
+                xml:lang="ja">開始</display-name>
+    <display-name
+                xml:lang="it">Avvia</display-name>
+    <display-name
+                xml:lang="de">Start</display-name>
+    <display-name
+                xml:lang="ru">Запустить</display-name>
+    <display-name
+                xml:lang="da">Start</display-name>
+    <display-name
+                xml:lang="fr">Démarrer</display-name>
+    <display-name
+                xml:lang="en">Start</display-name>
+    <display-name
+                xml:lang="es">Iniciar</display-name>
+    <display-name
+                xml:lang="zh-CN">启动</display-name>
+    <display-name
+                xml:lang="zh-TW">開始</display-name>
+    <display-name
+            xml:lang="sv">Starta</display-name>
+  </start-activity>
+  <user-activity
+            activity-id="Activity" timeout="">
+    <display-name
+                xml:lang="nl">Goedkeuring voor rescourceaanvraag/-intrekking</display-name>
+    <display-name
+                xml:lang="pt">Aprovação de Solicitação/Revogação de Recurso</display-name>
+    <display-name
+                xml:lang="ja">リソース要求/取り消しの承認</display-name>
+    <display-name
+                xml:lang="it">Approvazione richiesta/revoca risorsa</display-name>
+    <display-name
+                xml:lang="de">Genehmigung der Ressourcenanforderung/-zurücknahme</display-name>
+    <display-name
+                xml:lang="ru">Утверждение запроса/аннулирования ресурса</display-name>
+    <display-name
+                xml:lang="da">Godkendelse af ressourceanmodning/tilbagekaldelse</display-name>
+    <display-name
+                xml:lang="fr">Approbation de requête/révocation de ressource</display-name>
+    <display-name
+                xml:lang="en">Resource Request/Revocation Approval</display-name>
+    <display-name
+                xml:lang="es">Aprobación de solicitud o revocación de recurso</display-name>
+    <display-name
+                xml:lang="zh-CN">资源请求/撤消批准</display-name>
+    <display-name
+                xml:lang="zh-TW">資源申請/撤銷核准</display-name>
+    <display-name
+                xml:lang="sv">Godkännande av resursbeställning/-återkallelse</display-name>
+    <addressee>NrfResourceRequest.getApproverDN(Number(flowdata.get('nrfResourceRequest/approverCounter')))</addressee>
+    <notify
+                    template="cn=Resource Request Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="IDVault.get(NrfResourceRequest.getRequester(), 'user', 'FirstName') + ' ' + IDVault.get(NrfResourceRequest.getRequester(), 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="NrfResourceRequest.getTargetDNDisplayName()"
+                    target="recipientFullName"/>
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="_default_"
+                target="TO"/>
+    </notify>
+    <retry attempts=""
+            interval="">
+      <addressee/>
+    </retry>
+  </user-activity>
+  <mapping-activity
+                activity-id="Activity4">
+    <display-name
+                xml:lang="nl">Teller instellen</display-name>
+    <display-name
+                xml:lang="pt">Configurar contador</display-name>
+    <display-name
+                xml:lang="ja">カウンタの設定</display-name>
+    <display-name
+                xml:lang="it">Imposta contatore</display-name>
+    <display-name
+                xml:lang="de">Zähler konfigurieren</display-name>
+    <display-name
+                xml:lang="ru">Настройка счетчика</display-name>
+    <display-name
+                xml:lang="da">Konfigurer tæller</display-name>
+    <display-name
+                xml:lang="fr">Configurer le compteur</display-name>
+    <display-name
+                xml:lang="en">Set up counter</display-name>
+    <display-name
+                xml:lang="es">Configurar contador</display-name>
+    <display-name
+                xml:lang="zh-CN">设置计数器</display-name>
+    <display-name
+                xml:lang="zh-TW">設定計數器</display-name>
+    <display-name
+            xml:lang="sv">Konfigurera räknare</display-name>
+  </mapping-activity>
+  <condition-activity
+                activity-id="Activity6">
+    <display-name
+                xml:lang="nl">Heeft meer fiatteurs</display-name>
+    <display-name
+                xml:lang="pt">Tem Mais Aprovadores</display-name>
+    <display-name
+                xml:lang="ja">その他の承認者を設定する</display-name>
+    <display-name
+                xml:lang="it">Ha più approvatori</display-name>
+    <display-name
+                xml:lang="de">Hat weitere Genehmiger</display-name>
+    <display-name
+                xml:lang="ru">Есть еще подтверждающие</display-name>
+    <display-name
+                xml:lang="da">Har flere godkendere</display-name>
+    <display-name
+                xml:lang="fr">A d'autres d'approbateurs</display-name>
+    <display-name
+                xml:lang="en">Has More Approvers</display-name>
+    <display-name
+                xml:lang="es">Tiene más aprobadores</display-name>
+    <display-name
+                xml:lang="zh-CN">有多个批准者</display-name>
+    <display-name
+                xml:lang="zh-TW">有更多核准人</display-name>
+    <display-name
+            xml:lang="sv">Har fler godkännare</display-name>
+    <expression>Number(flowdata.get('nrfResourceRequest/approverCounter')) + 1 &lt; Number(NrfResourceRequest.getNumberOfApprovers())</expression>
+  </condition-activity>
+  <mapping-activity
+                activity-id="Activity7">
+    <display-name
+                xml:lang="nl">Fiatteursteller verhogen</display-name>
+    <display-name
+                xml:lang="pt">Incrementar Contador de Aprovador</display-name>
+    <display-name
+                xml:lang="ja">承認者カウンタを増加</display-name>
+    <display-name
+                xml:lang="it">Incrementa contatore approvatori</display-name>
+    <display-name
+                xml:lang="de">Genehmigerzähler inkrementieren</display-name>
+    <display-name
+                xml:lang="ru">Увеличение счетчика подтверждающих</display-name>
+    <display-name
+                xml:lang="da">Forøg godkendertæller</display-name>
+    <display-name
+                xml:lang="fr">Incrémenter le compteur d'approbateurs</display-name>
+    <display-name
+                xml:lang="en">Increment Approver Counter</display-name>
+    <display-name
+                xml:lang="es">Aumentar el recuento de aprobadores</display-name>
+    <display-name
+                xml:lang="zh-CN">递增批准者计数器</display-name>
+    <display-name
+                xml:lang="zh-TW">遞增核准人計數器</display-name>
+    <display-name
+            xml:lang="sv">Öka räknare för godkännare</display-name>
+  </mapping-activity>
+  <mapping-activity
+                activity-id="Activity3">
+    <display-name
+                xml:lang="nl">Weergave lokaliseren</display-name>
+    <display-name
+                xml:lang="pt">Localizar Tela</display-name>
+    <display-name
+                xml:lang="ja">表示のローカライズ</display-name>
+    <display-name
+                xml:lang="it">Localizza display</display-name>
+    <display-name
+                xml:lang="de">Anzeige lokalisieren</display-name>
+    <display-name
+                xml:lang="ru">Локализация отображения</display-name>
+    <display-name
+                xml:lang="da">Lokaliser visning</display-name>
+    <display-name
+                xml:lang="fr">Localiser l'affichage</display-name>
+    <display-name
+                xml:lang="en">Localize Display</display-name>
+    <display-name
+                xml:lang="es">Localizar visualización</display-name>
+    <display-name
+                xml:lang="zh-CN">本地化显示</display-name>
+    <display-name
+                xml:lang="zh-TW">當地語系化顯示</display-name>
+    <display-name
+            xml:lang="sv">Lokalisera visning</display-name>
+  </mapping-activity>
+  <condition-activity
+                activity-id="Activity5">
+    <display-name
+                xml:lang="nl">Verwerkingstype controleren</display-name>
+    <display-name
+                xml:lang="pt">Verificar Tipo de Processamento</display-name>
+    <display-name
+                xml:lang="ja">処理タイプのチェック</display-name>
+    <display-name
+                xml:lang="it">Verifica il tipo di elaborazione</display-name>
+    <display-name
+                xml:lang="de">Auf Verarbeitungstyp prüfen</display-name>
+    <display-name
+                xml:lang="ru">Проверка типа обработки</display-name>
+    <display-name
+                xml:lang="da">Kontroller behandlingstype</display-name>
+    <display-name
+                xml:lang="fr">Vérifier le type de traitement</display-name>
+    <display-name
+                xml:lang="en">Check For Processing Type</display-name>
+    <display-name
+                xml:lang="es">Comprobar tipo de proceso</display-name>
+    <display-name
+                xml:lang="zh-CN">检查处理类型</display-name>
+    <display-name
+                xml:lang="zh-TW">檢查處理類型</display-name>
+    <display-name
+            xml:lang="sv">Kontrollera behandlingstyp</display-name>
+    <expression>NrfResourceRequest.isQuorumProcess()</expression>
+  </condition-activity>
+  <user-activity
+            activity-id="Activity8"
+            approver-condition-expr="NrfResourceRequest.getQuorum()"
+            approver-type="quorum-approver"
+                timeout="">
+    <display-name
+                xml:lang="nl">Goedkeuring voor rescourceaanvraag/-intrekking</display-name>
+    <display-name
+                xml:lang="pt">Aprovação de Solicitação/Revogação de Recurso</display-name>
+    <display-name
+                xml:lang="ja">リソース要求/取り消しの承認</display-name>
+    <display-name
+                xml:lang="it">Approvazione richiesta/revoca risorsa</display-name>
+    <display-name
+                xml:lang="de">Genehmigung der Ressourcenanforderung/-zurücknahme</display-name>
+    <display-name
+                xml:lang="ru">Утверждение запроса/аннулирования ресурса</display-name>
+    <display-name
+                xml:lang="da">Godkendelse af ressourceanmodning/tilbagekaldelse</display-name>
+    <display-name
+                xml:lang="fr">Approbation de requête/révocation de ressource</display-name>
+    <display-name
+                xml:lang="en">Resource Request/Revocation Approval</display-name>
+    <display-name
+                xml:lang="es">Aprobación de solicitud o revocación de recurso</display-name>
+    <display-name
+                xml:lang="zh-CN">资源请求/撤消批准</display-name>
+    <display-name
+                xml:lang="zh-TW">資源申請/撤銷核准</display-name>
+    <display-name
+                xml:lang="sv">Godkännande av resursbeställning/-återkallelse</display-name>
+    <addressee>NrfResourceRequest.getAllApproversDN()</addressee>
+    <notify
+                    template="cn=Resource Request Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="IDVault.get(NrfResourceRequest.getRequester(), 'user', 'FirstName') + ' ' + IDVault.get(NrfResourceRequest.getRequester(), 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="NrfResourceRequest.getTargetDNDisplayName()"
+                    target="recipientFullName"/>
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="_default_"
+            target="TO"/>
+    </notify>
+  </user-activity>
+  <bind-resource-status-activity
+            action="APPROVED" activity-id="Activity1">
+    <display-name
+                xml:lang="nl">Resourcetoewijzing/-intrekking goedkeuren</display-name>
+    <display-name
+                xml:lang="pt">Aprovar Atribuição/Revogação de Recurso</display-name>
+    <display-name
+                xml:lang="ja">リソース割り当て/取り消しの承認</display-name>
+    <display-name
+                xml:lang="it">Approva assegnazione/revoca risorsa</display-name>
+    <display-name
+                xml:lang="de">Ressourcenzuweisung/-zurücknahme genehmigen</display-name>
+    <display-name
+                xml:lang="ru">Утвердить назначение/аннулирование ресурса</display-name>
+    <display-name
+                xml:lang="da">Godkend ressourcetildeling/tilbagekaldelse</display-name>
+    <display-name
+                xml:lang="fr">Approuver l'assignation/la révocation de ressource</display-name>
+    <display-name
+                xml:lang="en">Approve Resource Assignment/Revocation</display-name>
+    <display-name
+                xml:lang="es">Aprobar asignación o revocación de recurso</display-name>
+    <display-name
+                xml:lang="zh-CN">批准资源指派/撤消</display-name>
+    <display-name
+                xml:lang="zh-TW">核准資源指定/撤銷</display-name>
+    <display-name
+            xml:lang="sv">Godkänn resurstilldelning/-återkallelse</display-name>
+  </bind-resource-status-activity>
+  <bind-resource-status-activity
+            action="DENIED" activity-id="Activity2">
+    <display-name
+                xml:lang="nl">Resourcetoewijzing/-intrekking afwijzen</display-name>
+    <display-name
+                xml:lang="pt">Negar Atribuição/Revogação de Recurso</display-name>
+    <display-name
+                xml:lang="ja">リソース割り当て/取り消しの拒否</display-name>
+    <display-name
+                xml:lang="it">Nega assegnazione/revoca risorsa</display-name>
+    <display-name
+                xml:lang="de">Ressourcenzuweisung/-zurücknahme ablehnen</display-name>
+    <display-name
+                xml:lang="ru">Запретить назначение/аннулирование ресурса</display-name>
+    <display-name
+                xml:lang="da">Afvis ressourcetildeling/tilbagekaldelse</display-name>
+    <display-name
+                xml:lang="fr">Refuser l'assignation/la révocation de ressource</display-name>
+    <display-name
+                xml:lang="en">Deny Resource Assignment/Revocation</display-name>
+    <display-name
+                xml:lang="es">Denegar asignación o revocación de recurso</display-name>
+    <display-name
+                xml:lang="zh-CN">拒绝资源指派/撤消</display-name>
+    <display-name
+                xml:lang="zh-TW">拒絕資源指定/撤銷</display-name>
+    <display-name
+            xml:lang="sv">Avslå resurstilldelning/-återkallelse</display-name>
+  </bind-resource-status-activity>
+  <finish-activity
+                activity-id="Finish">
+    <display-name
+                xml:lang="nl">Voltooien</display-name>
+    <display-name
+                xml:lang="pt">Concluir</display-name>
+    <display-name
+                xml:lang="ja">完了</display-name>
+    <display-name
+                xml:lang="it">Fine</display-name>
+    <display-name
+                xml:lang="de">Fertig stellen</display-name>
+    <display-name
+                xml:lang="ru">Готово</display-name>
+    <display-name
+                xml:lang="da">Afslut</display-name>
+    <display-name
+                xml:lang="fr">Terminer</display-name>
+    <display-name
+                xml:lang="en">Finish</display-name>
+    <display-name
+                xml:lang="es">Finalizar</display-name>
+    <display-name
+                xml:lang="zh-CN">完成</display-name>
+    <display-name
+                xml:lang="zh-TW">完成</display-name>
+    <display-name
+                xml:lang="sv">Slutför</display-name>
+    <notify
+                    template="cn=Resource Request Approval Completed Notification,cn=Default Notification Collection,cn=Security">
+      <map
+                    source="IDVault.get(NrfResourceRequest.getRequester(), 'user', 'FirstName') + ' ' + IDVault.get(NrfResourceRequest.getRequester(), 'user', 'LastName')"
+                    target="initiatorFullName"/>
+      <map
+                    source="process.getTimestamp().toString()"
+                    target="requestSubmissionTime"/>
+      <map
+                    source="process.getRequestId()"
+                    target="requestId"/>
+      <map
+                    source="NrfResourceRequest.getTargetDNDisplayName()"
+                    target="recipientFullName"/>
+      <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+      <map
+                    source="NrfResourceRequest.getStatusLocaleString(java.util.Locale.getDefault())"
+                    target="requestStatus"/>
+      <map
+                    source="IDVault.get(NrfResourceRequest.getRequester(),'user','Email')"
+            target="TO"/>
+    </notify>
+  </finish-activity>
+  <link
+            source="Activity" target="Activity2" type="denied"/>
+  <link
+            source="Start" target="Activity4" type="forward"/>
+  <link
+            source="Activity6" target="Activity1" type="false"/>
+  <link
+            source="Activity6" target="Activity7" type="true"/>
+  <link
+            source="Activity" target="Activity6"
+            type="approved"/>
+  <link source="Activity2" target="Finish"
+            type="forward"/>
+  <link source="Activity1" target="Finish"
+            type="forward"/>
+  <link source="Activity4"
+            target="Activity3" type="forward"/>
+  <link
+            source="Activity7" target="Activity"
+            type="forward"/>
+  <link source="Activity3"
+            target="Activity5" type="forward"/>
+  <link
+            source="Activity5" target="Activity" type="false"/>
+  <link
+            source="Activity5" target="Activity8" type="true"/>
+  <link
+            source="Activity8" target="Activity2"
+            type="denied"/>
+  <link source="Activity8"
+            target="Activity1" type="approved"/>
+</process>
+</prov-req-defn>

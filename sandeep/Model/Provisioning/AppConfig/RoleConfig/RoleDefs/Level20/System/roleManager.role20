@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=roleManager" roleLevel="Level20" xmi:version="2.0"
+    xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><localizedDescription
+        label="Um administrador indicado, capaz de executar apenas ações permitidas para um subconjunto de objetos no domínio de Função."
+        locale="pt"/><localizedDescription
+        label="Ein beauftragter Administrator, der nur zugelassene Aktionen für eine Teilmenge der Objekte innerhalb der Rollendomäne durchführen kann."
+        locale="de"/><localizedDescription
+        label="En delegerad administratör som bara kan utföra tillåtna åtgärder för en deluppsättning av objekten i rolldomänen."
+        locale="sv"/><localizedDescription
+        label="役割ドメイン内でオブジェクトのサブセットに対して許可されたアクションのみを実行できる委任管理者。"
+        locale="ja"/><localizedDescription
+        label="Делегированный администратор, который может выполнять все разрешенные действия для подмножества объектов в рамках домена роли."
+        locale="ru"/><localizedDescription
+        label="A delegated administrator who can perform only allowed actions for a subset of objects within the Role domain."
+        locale="en"/><localizedDescription
+        label="Administrateur délégué qui ne peut effectuer que les opérations autorisées sur un sous-ensemble d'objets au sein du domaine de rôles."
+        locale="fr"/><localizedDescription
+        label="Un amministratore delegato che può eseguire solo le azioni consentite per un sottoinsieme di oggetti all'interno del dominio del ruolo."
+        locale="it"/><localizedDescription
+        label="En delegeret administrator, som kun kan udføre tilladte handlinger for et undersæt af objekter i rolledomænet."
+        locale="da"/><localizedDescription
+        label="Administrador delegado que sólo puede realizar las acciones permitidas para un subconjunto de objetos del dominio de funciones."
+        locale="es"/><localizedDescription
+        label="僅可為角色網域內的部分物件執行允許的動作的委託管理員。"
+        locale="zh-TW"/><localizedDescription
+        label="仅可以对角色域内的对象子集执行已允许操作的委托管理员。"
+        locale="zh-CN"/><localizedDescription
+        label="Een gedelegeerde beheerder die alleen toegestane acties kan uitvoeren voor een subset van objecten in het roldomein."
+        locale="nl"/><localizedName label="Gerenciador de Função"
+        locale="pt"/><localizedName label="Rollenmanager"
+        locale="de"/><localizedName label="Rollhanterare"
+        locale="sv"/><localizedName label="役割マネージャ"
+        locale="ja"/><localizedName label="Менеджер ролей"
+        locale="ru"/><localizedName label="Role Manager"
+        locale="en"/><localizedName label="Gestionnaire de rôles"
+        locale="fr"/><localizedName label="Manager dei ruoli"
+        locale="it"/><localizedName label="Rollestyring"
+        locale="da"/><localizedName label="Supervisor de funciones"
+        locale="es"/><localizedName label="角色主管"
+        locale="zh-TW"/><localizedName label="角色管理者"
+        locale="zh-CN"/><localizedName label="Rolmanager" locale="nl"/><categoryKey>system</categoryKey></role:Role>

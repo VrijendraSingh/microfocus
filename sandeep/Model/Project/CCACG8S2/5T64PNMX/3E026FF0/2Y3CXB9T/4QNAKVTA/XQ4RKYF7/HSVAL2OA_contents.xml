@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><policy>
+	<rule>
+		<description>openLDAP - Disable account on add</description>
+		<conditions>
+			<and>
+				<if-global-variable mode="nocase" name="drv.acctTrk.statusAttr" op="equal">pwdAccountLockedTime</if-global-variable>
+				<if-operation mode="case" op="equal">add</if-operation>
+				<if-op-attr mode="nocase" name="pwdAccountLockedTime" op="equal">TRUE</if-op-attr>
+			</and>
+		</conditions>
+		<actions>
+			<do-add-dest-attr-value name="pwdAccountLockedTime">
+				<arg-value type="string">
+					<token-text xml:space="preserve">197001010001Z</token-text>
+				</arg-value>
+			</do-add-dest-attr-value>
+		</actions>
+	</rule>
+	<rule>
+		<description>openLDAP - Disable account on modify</description>
+		<conditions>
+			<and>
+				<if-global-variable mode="nocase" name="drv.acctTrk.statusAttr" op="equal">pwdAccountLockedTime</if-global-variable>
+				<if-operation mode="case" op="equal">modify</if-operation>
+				<if-op-attr mode="nocase" name="pwdAccountLockedTime" op="changing-to">TRUE</if-op-attr>
+			</and>
+		</conditions>
+		<actions>
+			<do-clear-dest-attr-value name="pwdAccountLockedTime"/>
+			<do-add-dest-attr-value name="pwdAccountLockedTime">
+				<arg-value type="string">
+					<token-text xml:space="preserve">197001010001Z</token-text>
+				</arg-value>
+			</do-add-dest-attr-value>
+		</actions>
+	</rule>
+	<rule>
+		<description>openLDAP - Enable account on add</description>
+		<conditions>
+			<and>
+				<if-global-variable mode="nocase" name="drv.acctTrk.statusAttr" op="equal">pwdAccountLockedTime</if-global-variable>
+				<if-operation mode="case" op="equal">add</if-operation>
+				<if-op-attr name="pwdAccountLockedTime" op="available"/>
+				<if-op-attr mode="nocase" name="pwdAccountLockedTime" op="equal">FALSE</if-op-attr>
+			</and>
+		</conditions>
+		<actions>
+			<do-strip-op-attr name="pwdAccountLockedTime"/>
+		</actions>
+	</rule>
+	<rule>
+		<description>openLDAP - Enable account on modify</description>
+		<conditions>
+			<and>
+				<if-global-variable mode="nocase" name="drv.acctTrk.statusAttr" op="equal">pwdAccountLockedTime</if-global-variable>
+				<if-operation mode="case" op="equal">modify</if-operation>
+				<if-op-attr mode="nocase" name="pwdAccountLockedTime" op="changing-to">FALSE</if-op-attr>
+			</and>
+		</conditions>
+		<actions>
+			<do-clear-dest-attr-value name="pwdAccountLockedTime"/>
+		</actions>
+	</rule>
+	<rule>
+		<description>iPlanet - Enable account on modify</description>
+		<conditions>
+			<and>
+				<if-global-variable mode="nocase" name="drv.acctTrk.statusAttr" op="equal">nsaccountlock</if-global-variable>
+				<if-operation mode="case" op="equal">modify</if-operation>
+				<if-op-attr mode="nocase" name="nsaccountlock" op="changing-to">FALSE</if-op-attr>
+			</and>
+		</conditions>
+		<actions>
+			<do-remove-dest-attr-value name="nsRoleDN">
+				<arg-value>
+					<token-lower-case>
+						<token-global-variable name="driver.ldap.disabledRole"/>
+					</token-lower-case>
+				</arg-value>
+			</do-remove-dest-attr-value>
+		</actions>
+	</rule>
+</policy>

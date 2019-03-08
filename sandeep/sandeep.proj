@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><com.novell.idm.model:Project cprojectURI="sandeep/sandeep.cproj" domainURI="IdentityManager/9VYIH28E.domain" guid="M7XRBQWT" name="sandeep" packageLinkagesMigrated="true" productID="4.7" type="Project" version="4.7" xmlns:com.novell.idm.model="http://com.novell.idm.model">
+  <modelerNodes href="Model/IdentityManager/XUIJLCQM.ModelerNodes_#/"/>
+  <adapterProject href="sandeep.cproj#/"/>
+</com.novell.idm.model:Project>

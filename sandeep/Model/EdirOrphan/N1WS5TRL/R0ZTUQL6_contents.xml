@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Days before password expires." item-name="Days"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>E-mail sobre vencimento da senha</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Prezado(a) $UserFullName$,</p>
+		<p>Sua senha vai vencer em $Days$ dias.</p>
+		<p>Se precisar de ajuda, contate o suporte técnico pelo telefone (012) 345-6789 ou pelo e-mail
+     <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> - Segurança Automatizada</p>
+		<p>
+			<img ALT="Powered by NetIQ" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

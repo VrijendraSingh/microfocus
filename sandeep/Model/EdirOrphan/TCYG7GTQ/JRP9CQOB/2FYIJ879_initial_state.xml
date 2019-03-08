@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><ds-object ds-object-class="DirXML-Rule" ds-object-name="NOVLUABASE-smp" mapping-policy="true" name="NOVLUABASE-smp">
+	<ds-attributes>
+		<ds-attribute ds-attr-name="XmlData">
+			<ds-value>
+				<attr-name-map/>
+			</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-installationdirective">
+			<ds-value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48aW5zdGFsbGF0aW9uLWRpcmVjdGl2ZT4KCTxwbGFjZW1lbnQgbG9jYXRpb249ImRlZmF1bHQiLz4KCTxkcy1hdHRyaWJ1dGVzLz4KCTxwb2xpY3ktbGlua2FnZT4KCQk8cG9saWN5LXNldCBjaGFubmVsPSJwdWJsaXNoZXIiIG5hbWU9InNjaGVtYSIgb3JkZXI9IldlaWdodCIgdmFsdWU9IjUwMCIvPgoJPC9wb2xpY3ktbGlua2FnZT4KPC9pbnN0YWxsYXRpb24tZGlyZWN0aXZlPg==</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-directivechecksum">
+			<ds-value>529996895</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageassocguid">
+			<ds-value>NCN1D884_201006281545180574</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageguid">
+			<ds-value>B5PAGQ5E_201005261601510810</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-contentchecksum">
+			<ds-value>3812923875</ds-value>
+		</ds-attribute>
+	</ds-attributes>
+</ds-object>

@@ -1,0 +1,77 @@
+<relationship org-chart="true" team-management="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <key>user2users</key>
+  <display
+        xml:lang="en">
+    <label>Manager-Employee</label>
+  </display>
+  <display
+        xml:lang="zh-TW">
+    <label>管理員- 員工</label>
+  </display>
+  <display
+        xml:lang="ru">
+    <label>Менеджер-сотрудник</label>
+  </display>
+  <display
+        xml:lang="es">
+    <label>Supervisor-Empleado</label>
+  </display>
+  <display
+        xml:lang="sv">
+    <label>Chef-Anställd</label>
+  </display>
+  <display
+        xml:lang="nl">
+    <label>Manager-Werknemer</label>
+  </display>
+  <display
+        xml:lang="ja">
+    <label>マネージャ-従業員</label>
+  </display>
+  <display
+        xml:lang="zh-CN">
+    <label>经理 － 雇员</label>
+  </display>
+  <display
+        xml:lang="pt">
+    <label>Gerente - Funcionario</label>
+  </display>
+  <display
+        xml:lang="fr">
+    <label>Manager-Employé</label>
+  </display>
+  <display
+        xml:lang="de">
+    <label>Manager-Mitarbeiter</label>
+  </display>
+  <display
+        xml:lang="it">
+    <label>Manager-Impiegato</label>
+  </display>
+  <display
+        xml:lang="da">
+    <label>Styring-medarbejder</label>
+  </display>
+  <parent>
+    <entity-definition>
+      <key>user</key>
+    </entity-definition>
+    <attribute>
+      <key>@key</key>
+    </attribute>
+  </parent>
+  <child>
+    <entity-definition>
+      <key>user</key>
+    </entity-definition>
+    <attribute>
+      <key>manager</key>
+    </attribute>
+  </child>
+  <cascading enabled="false">
+    <max-depth>1</max-depth>
+  </cascading>
+</relationship>
+<!-- Do not insert a xml declaration line (i.e. <?xml...), otherwise the aggregation of the relationship definition xml files will fail in the user application portal runtime -->

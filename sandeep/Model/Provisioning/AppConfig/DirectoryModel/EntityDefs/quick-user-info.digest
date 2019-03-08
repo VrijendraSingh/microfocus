@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=quick-user-info" filename="quick-user-info.entity"
+    hasContainment="false" modstamp="0" protected="true"
+    readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>IAEFR7G2</guid>
+    <display
+        xml:lang="de">Benutzerinformationen im Überblick</display>
+    <display
+        xml:lang="ru">Краткая информация о пользователе</display>
+    <display
+        xml:lang="sv">Kortfattad användarinfo</display>
+    <display
+        xml:lang="pt">Informações Rápidas do Usuário</display>
+    <display
+        xml:lang="zh-TW">快速使用者資訊</display>
+    <display
+        xml:lang="en">Quick User Info</display>
+    <display
+        xml:lang="it">Informazioni utente rapide</display>
+    <display
+        xml:lang="fr">Résumé des informations utilisateur</display>
+    <display
+        xml:lang="zh-CN">快速用户信息</display>
+    <display
+        xml:lang="es">Información rápida del usuario</display>
+    <display
+        xml:lang="ja">クイックユーザ情報</display>
+    <display
+        xml:lang="da">Brugeroversigt</display>
+    <display
+        xml:lang="nl">Snelle gebruikersgegevens</display>
+    <descr xml:lang="en">Quick User Definition</descr>
+    <dirguid>0856E69DF0948E45AADA0856E69DF094</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>LCUODVKJ_201305161800360031</pkg-assoc-id>
+    <pkg-checksum>2946791390</pkg-checksum></item>

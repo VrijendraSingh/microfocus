@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=roleAdmin" filename="roleAdmin.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>8O6DROS8</guid>
+    <display
+        xml:lang="de">Rollenadministrator</display>
+    <display
+        xml:lang="ru">Администратор роли</display>
+    <display
+        xml:lang="sv">Rolladministratör</display>
+    <display
+        xml:lang="pt">Administrador de Função</display>
+    <display
+        xml:lang="zh-TW">角色管理員</display>
+    <display
+        xml:lang="en">Role Administrator</display>
+    <display
+        xml:lang="it">Amministratore ruoli</display>
+    <display
+        xml:lang="fr">Administrateur de rôles</display>
+    <display
+        xml:lang="zh-CN">角色管理员</display>
+    <display
+        xml:lang="es">Administrador de funciones</display>
+    <display
+        xml:lang="ja">役割管理者</display>
+    <display
+        xml:lang="da">Rolleadministrator</display>
+    <display
+        xml:lang="nl">Rolbeheerder</display>
+    <descr
+        xml:lang="de">Ein Domänenadministrator, der innerhalb der Rollendomäne über nahezu die ganze Palette an Funktionen verfügt. Der Rollenadministrator kann alle möglichen Aktionen für alle Objekte (außer für Systemrollen) innerhalb der Rollendomäne durchführen.</descr>
+    <descr
+        xml:lang="ru">Администратор домена, имеющий полный спектр возможностей в рамках домена роли. Администратор роли может выполнять все возможные действия для всех объектов (кроме системных ролей) в рамках домена роли.</descr>
+    <descr
+        xml:lang="sv">En domänadministratör som har tillgång till nästan alla funktioner i rolldomänen. Rolladministratören kan utföra alla åtgärder för alla objekt (förutom för systemrollerna) i domänen Roll.</descr>
+    <descr
+        xml:lang="pt">Um administrador de domínio com quase todos os recursos no domínio de Função. O Administrador de Função é capaz de executar todas as ações possíveis para todos os objetos (exceto as Funções de Sistema) no domínio de Função.</descr>
+    <descr
+        xml:lang="zh-TW">幾乎擁有角色網域內所有功能的網域管理員。角色管理員可為角色網域內的所有物件 (系統角色除外) 執行所有可能的動作。</descr>
+    <descr
+        xml:lang="en">A domain administrator who has nearly the full range of capabilities within the Role domain. The Role Administrator can perform all possible actions for all objects (except for the System Roles) within the Role domain.</descr>
+    <descr
+        xml:lang="it">Un amministratore di dominio che dispone quasi dell'intera gamma di funzionalità all'interno del dominio del ruolo. L'amministratore dei ruoli può eseguire tutte le azioni disponibili per tutti gli oggetti (ad eccezione dei ruoli di sistema) all'interno del dominio del ruolo.</descr>
+    <descr
+        xml:lang="fr">Administrateur de domaine qui a accès à la quasi-totalité des fonctions au sein du domaine de rôles. L'administrateur de rôles peut effectuer toutes les opérations possibles sur l'ensemble des objets (à l'exception des rôles système) au sein du domaine de rôles.</descr>
+    <descr
+        xml:lang="zh-CN">几乎具有角色域内所有功能的域管理员。角色管理员可以对角色域内的所有对象（除系统角色外）执行所有可能的操作。</descr>
+    <descr
+        xml:lang="es">Administrador de dominio que cuenta con casi todas las funciones en el dominio de funciones. El administrador de funciones puede realizar todas las acciones posibles para todos los objetos (excepto para las funciones del sistema) dentro del dominio de funciones.</descr>
+    <descr
+        xml:lang="ja">役割ドメイン内でほぼ全種類の機能を持つドメイン管理者。役割管理者は、役割ドメイン内のすべてのオブジェクト(システム役割を除く)の可能なアクションをすべて実行できます。</descr>
+    <descr
+        xml:lang="da">En domæneadministrator, som næsten har alle rettigheder og tilladelser i rolledomænet. Rolleadministratoren kan udføre alle mulige handlinger for alle objekter (bortset fra systemroller) i rolledomænet.</descr>
+    <descr xml:lang="nl">Een domeinbeheerder met vrijwel alle mogelijkheden in het roldomein. De rolbeheerder kan alle mogelijke acties uitvoeren voor alle objecten (behalve systeemrollen) in het roldomein.</descr>
+    <dirguid>9404DA5D845A7F4295029404DA5D845A</dirguid>
+    <dirrev>6</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>KUVJJZHG_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2942320081</pkg-checksum></item>

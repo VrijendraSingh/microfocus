@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=RelationshipDefs" protected="false" readonly="false"
+    type="srvprvRelationshipDefs"
+        visible="true">
+    <guid>DKA5F9O6</guid>
+    <display xml:lang="en">Relationships</display>
+    <modstamp>0</modstamp></container>

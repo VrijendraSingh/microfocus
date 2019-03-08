@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=user2groups" filename="user2groups.relation"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="srvprvRelationship"
+        visible="true">
+    <guid>JOAL259U</guid>
+    <display
+        xml:lang="de">Benutzergruppen</display>
+    <display
+        xml:lang="ru">Пользовательские группы</display>
+    <display
+        xml:lang="sv">Användargrupper</display>
+    <display
+        xml:lang="pt">Grupos de usuários</display>
+    <display
+        xml:lang="zh-TW">使用者群組</display>
+    <display
+        xml:lang="en">User groups</display>
+    <display
+        xml:lang="it">Gruppi di utenti</display>
+    <display
+        xml:lang="fr">Groupes d'utilisateurs</display>
+    <display
+        xml:lang="zh-CN">用户组</display>
+    <display
+        xml:lang="es">Grupos de usuarios</display>
+    <display
+        xml:lang="ja">ユーザグループ</display>
+    <display
+        xml:lang="da">Brugergrupper</display>
+    <display
+        xml:lang="nl">Gebruikersgroepen</display>
+    <descr xml:lang="en">User to Groups</descr>
+    <dirguid>A0B25F484EA7E44AA0BAA0B25F484EA7</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>677ZR8DV_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>2916462862</pkg-checksum></item>

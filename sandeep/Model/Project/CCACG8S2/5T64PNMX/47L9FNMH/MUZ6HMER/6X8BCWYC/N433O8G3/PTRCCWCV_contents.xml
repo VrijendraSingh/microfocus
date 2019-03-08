@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Password hint" item-name="Hint"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>Votre demande d'indice de mot de passe</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Cher $UserFullName$,</p>
+		<p>Vous avez demandé que votre indice de mot de passe vous soit adressé par e-mail. L'indice de mot de passe est indiqué ci-dessous :</p>
+		<p>Indice : $Hint$</p>
+		<p>Si vous n''avez pas demandé que votre indice vous soit envoyé par e-mail, contactez le service d'assistance par téléphone au (012) 345-6789 ou par e-mail à l'adresse <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> - Sécurité automatique</p>
+		<p>
+			<img ALT="Powered by Novell" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

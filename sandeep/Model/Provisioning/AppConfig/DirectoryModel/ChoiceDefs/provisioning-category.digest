@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=provisioning-category"
+    filename="provisioning-category.choice" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvChoice"
+        visible="true">
+    <guid>NX5PLSQM</guid>
+    <display
+        xml:lang="de">Bereitstellungskategorie</display>
+    <display
+        xml:lang="sv">Logistikkategori</display>
+    <display
+        xml:lang="ru">Категория обеспечения</display>
+    <display
+        xml:lang="pt">Categoria de Aprovisionamento</display>
+    <display
+        xml:lang="zh-TW">佈建類別</display>
+    <display
+        xml:lang="en">Provisioning Category</display>
+    <display
+        xml:lang="it">Categoria di provisioning</display>
+    <display
+        xml:lang="fr">Catégorie de provisioning</display>
+    <display
+        xml:lang="zh-CN">供应类别</display>
+    <display
+        xml:lang="es">Categoría de provisión</display>
+    <display
+        xml:lang="ja">プロビジョニングカテゴリ</display>
+    <display
+        xml:lang="da">Klargøringskategori</display>
+    <display
+        xml:lang="nl">Categorie voor toegangsbeheer</display>
+    <descr xml:lang="en">Provisioning category</descr>
+    <dirguid>472792FFB72759489D0D472792FFB727</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>DRB5FNYU_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3595585504</pkg-checksum></item>

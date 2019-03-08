@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="LDAP Default Configuration">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="de" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_TW" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="ja" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="fr" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_CN" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="BKV3P4G0_201009101320030320"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="2.1.0.20130218211418"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="2"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="3748239204"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="643291772"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="LDAP Driver Base Package"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NOVLLDAPDCFG"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20130218211418"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="BLR-NJ"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="NJames"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201302182113360718"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="Novell, Inc."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="20"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;features>&#xA;&#x9;&#x9;&lt;mandatory/>&#xA;&#x9;&#x9;&lt;optional>&#xA;&#x9;&#x9;&#x9;&lt;!--&#xA;&#x9;&#x9;&lt;group display-name=&quot;Default Configuration&quot; expanded=&quot;false&quot;>&#xA;&#x9;&#x9;&#x9;&lt;package id=&quot;5DRKWAWH_201009040020200702&quot; name=&quot;Defautl Configuration&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&lt;/group>&#xA;&#x9;&#x9;-->&#xA;&#x9;&#x9;&#x9;&lt;group display-name=&quot;Entitlements&quot; expanded=&quot;false&quot;>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;YL7G1UW2_201006221605140093&quot; name=&quot;LDAP Entitlements&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;!--&#xA;&#x9;&#x9;&#x9;&lt;package id=&quot;DETECXTK_201004161538110582&quot; name=&quot;Audit Entitlements Common&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&lt;package id=&quot;YMO9C1Y3_201006291302430386&quot; name=&quot;LDAP Audit Entitlements&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;-->&#xA;&#x9;&#x9;&#x9;&lt;/group>&#xA;&#x9;&#x9;&#x9;&lt;group display-name=&quot;Password Synchronization&quot; expanded=&quot;false&quot;>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;XTEF1YO3_201006231733410161&quot; name=&quot;Password Synchronization Common&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;DNJH3X18_201006221309390890&quot; name=&quot;LDAP Password Synchronization&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&lt;/group>&#xA;&#x9;&#x9;&#x9;&lt;group display-name=&quot;Data Collection&quot; expanded=&quot;false&quot;>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;JW1W812F_201006231041250703&quot; name=&quot;LDAP Managed System Information&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;S3NVESCX_201005251632080655&quot; name=&quot;Generic Data Collection Query Support&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&lt;/group>&#xA;&#x9;&#x9;&#x9;&lt;group display-name=&quot;Account Tracking&quot; expanded=&quot;false&quot;>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;WUHJYFNL_201003011427170743&quot; name=&quot;Account Tracking Common&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&#x9;&lt;package id=&quot;OQ144089_201006221717230218&quot; name=&quot;LDAP Account Tracking&quot; selected=&quot;true&quot;/>&#xA;&#x9;&#x9;&#x9;&lt;/group>&#xA;&#x9;&#x9;&lt;/optional>&#xA;&#x9;&lt;/features>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;dependencies>&#xA;&#x9;&#x9;&lt;dependency name=&quot;Common Settings&quot; package-id=&quot;4YGKJX0U_201006021536040516&quot; type=&quot;3&quot;/>&#xA;&#x9;&lt;/dependencies>&#xA;&#x9;&lt;supported-drivers>&#xA;&#x9;&#x9;&lt;definition display-name=&quot;Driver for LDAP&quot; driver-id=&quot;LDAP-Driver&quot; id=&quot;LDAP&quot;/>&#xA;&#x9;&lt;/supported-drivers>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#P8CURETX.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#LFMU6LOB.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#7FTSFENK.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#K5VNAMIH.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#O9PV49FL.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#KSO6S3MX.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#A0LFWZVM.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#KZFXXDDR.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#06CIPQ55.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

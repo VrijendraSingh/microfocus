@@ -1,0 +1,73 @@
+<relationship org-chart="true" team-management="false"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+  <key>group2users</key>
+  <display
+        xml:lang="sv">
+    <label>Gruppens medlemskap</label>
+  </display>
+  <display
+        xml:lang="pt">
+    <label>Participação no grupo</label>
+  </display>
+  <display
+        xml:lang="ja">
+    <label>グループのメンバーシップ</label>
+  </display>
+  <display
+        xml:lang="zh-CN">
+    <label>组成员资格</label>
+  </display>
+  <display
+        xml:lang="en">
+    <label>Group's membership</label>
+  </display>
+  <display
+        xml:lang="zh-TW">
+    <label>群組成員</label>
+  </display>
+  <display
+        xml:lang="ru">
+    <label>Членство в группах</label>
+  </display>
+  <display
+        xml:lang="nl">
+    <label>Lidmaatschap groep</label>
+  </display>
+  <display
+        xml:lang="it">
+    <label>Appartenenza a gruppi</label>
+  </display>
+  <display
+        xml:lang="de">
+    <label>Mitgliedschaft der Gruppe</label>
+  </display>
+  <display
+        xml:lang="da">
+    <label>Gruppes medlemskab</label>
+  </display>
+  <display
+        xml:lang="fr">
+    <label>Appartenance au groupe</label>
+  </display>
+  <display xml:lang="es">
+    <label>Miembros del grupo</label>
+  </display>
+  <parent>
+    <entity-definition>
+      <key>group</key>
+    </entity-definition>
+    <attribute>
+      <key>@key</key>
+    </attribute>
+  </parent>
+  <child>
+    <entity-definition>
+      <key>user</key>
+    </entity-definition>
+    <attribute>
+      <key>group</key>
+    </attribute>
+  </child>
+</relationship>
+<!-- Do not insert a xml declaration line (i.e. <?xml...), otherwise the aggregation of the relationship definition xml files will fail in the user application portal runtime -->

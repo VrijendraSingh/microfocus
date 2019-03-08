@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=secAdmin" filename="secAdmin.role20" hasContainment="false"
+    modstamp="0" protected="false" readonly="false"
+    type="nrfRoleLevel20"
+        visible="true">
+    <guid>SX1OXP18</guid>
+    <display
+        xml:lang="de">Sicherheitsadministrator</display>
+    <display
+        xml:lang="sv">Säkerhetsadministratör</display>
+    <display
+        xml:lang="ru">Администратор безопасности</display>
+    <display
+        xml:lang="pt">Administrador de Segurança</display>
+    <display
+        xml:lang="zh-TW">安全性管理員</display>
+    <display
+        xml:lang="en">Security Administrator</display>
+    <display
+        xml:lang="it">Amministratore sicurezza</display>
+    <display
+        xml:lang="fr">Administrateur de la sécurité</display>
+    <display
+        xml:lang="zh-CN">安全管理员</display>
+    <display
+        xml:lang="es">Administrador de seguridad</display>
+    <display
+        xml:lang="ja">セキュリティ管理者</display>
+    <display
+        xml:lang="da">Sikkerhedsadministrator</display>
+    <display
+        xml:lang="nl">Beveiligingsbeheerder</display>
+    <descr
+        xml:lang="de">Ein Domänenadministrator, der innerhalb der Sicherheitsdomäne über die ganze Palette an Funktionen verfügt. Der Sicherheitsadministrator kann alle möglichen Aktionen für alle Objekte innerhalb der Sicherheitsdomäne durchführen. Die Sicherheitsdomäne erlaubt es dem Sicherheitsadministrator, Zugriffsberechtigungen für alle Objekte in allen Domänen innerhalb des rollenbasierten Bereitstellungsmoduls zu konfigurieren. Der Sicherheitsadministrator kann Teams konfigurieren sowie Domänenadministratoren, beauftragte Administratoren und andere Sicherheitsadministratoren zuweisen.</descr>
+    <descr
+        xml:lang="sv">En domänadministratör som har tillgång till alla funktioner i säkerhetsdomänen. Säkerhetsadministratören kan utföra alla åtgärder för alla objekt i domänen Säkerhet. I säkerhetsdomänen kan säkerhetsadministratören konfigurera åtkomstbehörigheter för alla objekt i alla domäner i den rollbaserade logistikmodulen. Säkerhetsadministratören kan konfigurera grupper och utse domänadministratörer, delegerade administratörer och andra säkerhetsadministratörer.</descr>
+    <descr
+        xml:lang="ru">Администратор домена, имеющий полный спектр возможностей в рамках домена безопасности. Администратор безопасности может выполнять все возможные действия для всех объектов в рамках домена безопасности. Домен безопасности позволяет администратору безопасности настраивать разрешения доступа для всех объектов на всех доменах в рамках модуля обеспечения на основе ролей. Администратор безопасности может настраивать коллективы, а также назначать администраторов домена, делегированных администраторов и других администраторов безопасности.</descr>
+    <descr
+        xml:lang="pt">Um administrador de domínio com quase todos os recursos no domínio de Segurança. O Administrador de Segurança é capaz de executar todas as ações possíveis para todos os objetos no domínio de Segurança. O domínio de Segurança permite que o Administrador de Segurança configure as permissões de acesso para todos os objetos em todos os domínios no Módulo de Aprovisionamento Baseado em Funções. O Administrador de Segurança é capaz de configurar equipes e atribuir administradores de domínio, administradores indicados e outros Administradores de Segurança.</descr>
+    <descr
+        xml:lang="zh-TW">擁有安全性網域內所有功能的網域管理員。安全性管理員可為安全性網域內的所有物件執行所有可能的動作。安全性網域允許安全性管理員在 Roles Based Provisioning Module 內為所有網域中的所有物件設定存取許可。安全性管理員可以設定團隊組態，還可以指定網域管理員、委託管理員及其他安全性管理員。</descr>
+    <descr
+        xml:lang="en">A domain administrator who has the full range of capabilities within the Security domain. The Security Administrator can perform all possible actions for all objects within the Security domain. The Security domain allows the Security Administrator to configure access permissions for all objects in all domains within the Roles Based Provisioning Module. The Security Administrator can configure teams, and also assign domain administrators, delegated administrators, and other Security Administrators.</descr>
+    <descr
+        xml:lang="it">Un amministratore di dominio che dispone dell'intera gamma di funzionalità all'interno del dominio di sicurezza. L'amministratore della sicurezza può eseguire tutte le azioni disponibili per tutti gli oggetti all'interno del dominio di sicurezza. Il dominio di sicurezza consente all'amministratore della sicurezza di configurare le autorizzazioni di accesso per tutti gli oggetti di tutti i domini all'interno del modulo di provisioning basato sui ruoli. L'amministratore della sicurezza può configurare team e assegnare amministratori di dominio, amministratori delegati e altri amministratori della sicurezza.</descr>
+    <descr
+        xml:lang="fr">Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de sécurité. L'administrateur de sécurité peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de sécurité. Ce domaine permet à l'administrateur de sécurité de configurer les droits d'accès relatifs à l'ensemble des objets présents dans tous les domaines du module de provisioning basé sur les rôles. L'administrateur de sécurité peut configurer des équipes, mais aussi assigner des administrateurs de domaine, des administrateurs délégués et d'autres administrateurs de sécurité.</descr>
+    <descr
+        xml:lang="zh-CN">具有安全性域内所有功能的域管理员。安全性管理员可以对安全性域内的所有对象执行所有可能的操作。安全性域允许安全性管理员使用基于角色的供应模块配置所有域内所有对象的访问权限。安全性管理员可以配置小组，还可以指派域管理员、委托管理员及其他安全性管理员。</descr>
+    <descr
+        xml:lang="es">Administrador de dominio que cuenta con todas las funciones en el dominio de seguridad. El administrador de seguridad puede realizar todas las acciones posibles para todos los objetos dentro del dominio de seguridad. El dominio de seguridad permite a los administradores de seguridad configurar el acceso a todos los objetos de todos los dominios dentro del módulo de provisión basado en funciones (RBPM). El administrador de seguridad puede configurar equipos y asignar administradores de dominio, administradores delegados y otros administradores de seguridad.</descr>
+    <descr
+        xml:lang="ja">セキュリティドメイン内でほぼ全種類の機能を持つドメイン管理者。セキュリティ管理者は、セキュリティドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。セキュリティドメインでは、セキュリティ管理者が役割ベースのプロビジョニングモジュール内のすべてのドメインですべてのオブジェクトへのアクセス許可を設定できます。セキュリティアプリケーション管理者は、チームを設定し、ドメイン管理者、委任管理者、他のセキュリティ管理者に割り当てることもできます。</descr>
+    <descr
+        xml:lang="da">En domæneadministrator, som har alle rettigheder og tilladelser i sikkerhedsdomænet. Sikkerhedsadministratoren kan udføre alle mulige handlinger for alle objekter i sikkerhedsdomænet. I sikkerhedsdomænet kan sikkerhedsadministratoren konfigurere adgangstilladelser for alle objekter i alle domæner i modulet til rollebaseret klargøring. Sikkerhedsadministratoren kan konfigurere teams og endvidere tildele domæneadministratorer, delegerede administratorer og andre sikkerhedsadministratorer.</descr>
+    <descr xml:lang="nl">Een domeinbeheerder met vrijwel alle mogelijkheden in het beveiligingsdomein. De beveiligingsbeheerder kan alle mogelijke acties uitvoeren voor alle objecten in het beveiligingsdomein. In het beveiligingsdomein kan de beveiligingsbeheerder de toegangstoestemmingen configureren voor alle objecten in alle domeinen in de Rolgebaseerde provisioning-module. De beveiligingsbeheerder kan teams configureren en domeinbeheerders, gedelegeerde beheerders en ander beveiligingsbeheerders toewijzen.</descr>
+    <dirguid>EE769A07E4412E4FA87DEE769A07E441</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>POLY9CPY_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>736049836</pkg-checksum></item>

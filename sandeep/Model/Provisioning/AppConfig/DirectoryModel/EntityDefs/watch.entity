@@ -1,0 +1,111 @@
+<entity-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../../xml-validation/conf/schema/DirectoryModelXmlData3_5_0.xsd">
+	<entity
+        auto-query="false" creatable="true" editable="true"
+        protected="false" removable="true" system="false"
+            viewable="true">
+        <display
+            xml:lang="en">
+            <label>Watch</label>
+        </display>
+        <object-class
+            auxiliary="false"
+            search="true">
+            <ldap-name>watch</ldap-name>
+            <nds-name>watch</nds-name>
+        </object-class>
+    </entity>
+	<attributes>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="false" readable="true"
+            required="false" searchable="false"
+                viewable="true">
+            <key>photo</key>
+            <ldap-name>photo</ldap-name>
+            <nds-name>photo</nds-name>
+            <display
+            xml:lang="en">
+                <label>photo</label>
+            </display>
+            <type>Binary</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>isRepairable</key>
+            <ldap-name>isRepairable</ldap-name>
+            <nds-name>isRepairable</nds-name>
+            <display
+            xml:lang="en">
+                <label>isRepairable</label>
+            </display><type>Boolean</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="false" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>datetime</key>
+            <ldap-name>datetime</ldap-name>
+            <nds-name>datetime</nds-name>
+            <display
+            xml:lang="en">
+                <label>datetime</label>
+            </display><type>Time</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>vendor</key>
+            <ldap-name>vendor</ldap-name>
+            <nds-name>vendor</nds-name>
+            <display
+            xml:lang="en">
+                <label>vendor</label>
+            </display><type>String</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>model</key>
+            <ldap-name>model</ldap-name>
+            <nds-name>model</nds-name>
+            <display
+            xml:lang="en">
+                <label>model</label>
+            </display><type>String</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>CN</key>
+            <ldap-name>cn</ldap-name>
+            <nds-name>CN</nds-name>
+            <display
+            xml:lang="en">
+                <label>CN</label>
+            </display><type>String</type>
+        </attribute>
+        <attribute
+            editable="true" enabled="true" hideable="false"
+            multivalue="true" protected="false" readable="true"
+            required="false" searchable="true"
+                viewable="true">
+            <key>RepairedBy</key>
+            <ldap-name>RepairedBy</ldap-name>
+            <nds-name>RepairedBy</nds-name>
+            <display xml:lang="en">
+                <label>RepairedBy</label>
+            </display><type>DN</type>
+        </attribute>		
+	</attributes>
+</entity-definition>

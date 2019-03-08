@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=ResourceRequests" protected="false" readonly="false"
+    type="nrfResourceRequests"
+        visible="false">
+    <guid>2E1AK1UF</guid>
+    <display xml:lang="en">Resource Requests</display>
+    <modstamp>0</modstamp></container>

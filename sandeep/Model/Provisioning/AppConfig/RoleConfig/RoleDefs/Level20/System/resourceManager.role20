@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=resourceManager" roleLevel="Level20" xmi:version="2.0"
+    xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><localizedDescription
+        label="Um administrador indicado, capaz de executar apenas ações permitidas para um subconjunto de objetos no domínio de Recurso."
+        locale="pt"/><localizedDescription
+        label="Ein beauftragter Administrator, der nur zugelassene Aktionen für eine Teilmenge der Objekte innerhalb der Ressourcendomäne durchführen kann."
+        locale="de"/><localizedDescription
+        label="En delegerad administratör som bara kan utföra tillåtna åtgärder för en deluppsättning av objekt i resursdomänen."
+        locale="sv"/><localizedDescription
+        label="リソースドメイン内でオブジェクトのサブセットに対して許可されたアクションのみを実行できる委任管理者。"
+        locale="ja"/><localizedDescription
+        label="Делегированный администратор, который может выполнять только разрешенные действия для подмножества объектов в домене ресурса."
+        locale="ru"/><localizedDescription
+        label="A delegated administrator who can perform only allowed actions for a subset of objects within the Resource domain."
+        locale="en"/><localizedDescription
+        label="Administrateur délégué qui ne peut effectuer que les opérations autorisées sur un sous-ensemble d'objets au sein du domaine de ressources."
+        locale="fr"/><localizedDescription
+        label="Un amministratore delegato che può eseguire solo le azioni consentite per un sottoinsieme di oggetti all'interno del dominio della risorsa."
+        locale="it"/><localizedDescription
+        label="En delegeret administrator, som kun kan udføre tilladte handlinger for et undersæt af objekter i ressourcedomænet."
+        locale="da"/><localizedDescription
+        label="Administrador delegado que sólo puede realizar las acciones permitidas para un subconjunto de objetos del dominio de recursos."
+        locale="es"/><localizedDescription
+        label="僅可為資源網域內的部分物件執行允許的動作的委託管理員。"
+        locale="zh-TW"/><localizedDescription
+        label="仅可以对资源域内的对象子集执行已允许操作的委托管理员。"
+        locale="zh-CN"/><localizedDescription
+        label="Een gedelegeerde beheerder die alleen toegestane acties kan uitvoeren voor een subset van objecten in het resourcedomein."
+        locale="nl"/><localizedName label="Gerenciador de Recursos"
+        locale="pt"/><localizedName label="Ressourcenmanager"
+        locale="de"/><localizedName label="Resurshanterare"
+        locale="sv"/><localizedName label="リソースマネージャ"
+        locale="ja"/><localizedName label="Менеджер ресурса"
+        locale="ru"/><localizedName label="Resource Manager"
+        locale="en"/><localizedName label="Gestionnaire de ressources"
+        locale="fr"/><localizedName label="Manager risorse"
+        locale="it"/><localizedName label="Ressourcestyring"
+        locale="da"/><localizedName label="Supervisor de recursos"
+        locale="es"/><localizedName label="資源主管"
+        locale="zh-TW"/><localizedName label="资源管理者"
+        locale="zh-CN"/><localizedName label="Resourcemanager" locale="nl"/><categoryKey>system</categoryKey></role:Role>

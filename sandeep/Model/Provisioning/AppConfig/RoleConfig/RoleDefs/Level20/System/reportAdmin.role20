@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=reportAdmin" roleLevel="Level20" xmi:version="2.0"
+    xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><parentRole
+        dn="cn=role1,cn=Level30,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><localizedDescription
+        label="Um administrador de domínio com quase todos os recursos no domínio de Relatório. O Administrador de Relatório é capaz de executar todas as ações possíveis para todos os objetos no domínio de Relatório."
+        locale="pt"/><localizedDescription
+        label="Ein Domänenadministrator, der innerhalb der Berichtsdomäne über die ganze Palette an Funktionen verfügt. Der Berichtsadministrator kann alle möglichen Aktionen für alle Objekte innerhalb der Berichtsdomäne durchführen."
+        locale="de"/><localizedDescription
+        label="En domänadministratör som har tillgång till alla funktioner i rapportdomänen. Rapportadministratören kan utföra alla åtgärder för alla objekt i domänen Rapporter."
+        locale="sv"/><localizedDescription
+        label="レポートドメイン内でほぼ全種類の機能を持つドメイン管理者。レポート管理者は、レポートドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。"
+        locale="ja"/><localizedDescription
+        label="Администратор домена, имеющий полный спектр возможностей в рамках домена отчета. Администратор отчета может выполнять все возможные действия для всех объектов в рамках домена отчета."
+        locale="ru"/><localizedDescription
+        label="A domain administrator who has the full range of capabilities within the Report domain. The Report Administrator can perform all possible actions for all objects within the Reports domain."
+        locale="en"/><localizedDescription
+        label="Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de rapports. L'administrateur de rapports peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de rapports."
+        locale="fr"/><localizedDescription
+        label="Un amministratore di dominio che dispone dell'intera gamma di funzionalità all'interno del dominio dei rapporti. L'amministratore dei rapporti può eseguire tutte le azioni disponibili per tutti gli oggetti all'interno del dominio dei rapporti."
+        locale="it"/><localizedDescription
+        label="En domæneadministrator, som har alle rettigheder og tilladelser i rapportdomænet. Rapportadministratoren kan udføre alle mulige handlinger for alle objekter i rapportdomænet."
+        locale="da"/><localizedDescription
+        label="Administrador de dominio que cuenta con todas las funciones en el dominio de informes. El administrador de informes puede realizar todas las acciones posibles para todos los objetos dentro del dominio de informes."
+        locale="es"/><localizedDescription
+        label="擁有報告網域內所有功能的網域管理員。報告管理員可為報告網域內的所有物件執行所有可能的動作。"
+        locale="zh-TW"/><localizedDescription
+        label="具有报告域内所有功能的域管理员。报告管理员可以对报告域内的所有对象执行所有可能的操作。"
+        locale="zh-CN"/><localizedDescription
+        label="Een domeinbeheerder met vrijwel alle mogelijkheden in het rapportdomein. De rapportbeheerder kan alle mogelijke acties uitvoeren voor alle objecten in het rapportdomein."
+        locale="nl"/><localizedName label="Administrador de Relatório"
+        locale="pt"/><localizedName label="Berichtsadministrator"
+        locale="de"/><localizedName label="Rapportadministratör"
+        locale="sv"/><localizedName label="レポート管理者"
+        locale="ja"/><localizedName label="Администратор отчета"
+        locale="ru"/><localizedName label="Report Administrator"
+        locale="en"/><localizedName label="Administration de rapports"
+        locale="fr"/><localizedName label="Amministratore rapporti"
+        locale="it"/><localizedName label="Rapportadministrator"
+        locale="da"/><localizedName label="Administrador de informes"
+        locale="es"/><localizedName label="報告管理員"
+        locale="zh-TW"/><localizedName label="报告管理员"
+        locale="zh-CN"/><localizedName label="Rapportbeheerder" locale="nl"/><categoryKey>system</categoryKey></role:Role>

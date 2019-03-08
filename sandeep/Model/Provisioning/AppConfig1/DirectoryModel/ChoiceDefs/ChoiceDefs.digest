@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=ChoiceDefs" protected="false" readonly="false"
+    type="srvprvChoiceDefs"
+        visible="true">
+    <guid>0K1CJ4LM</guid>
+    <display xml:lang="en">Lists</display>
+    <modstamp>0</modstamp></container>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=NavItems" protected="false" readonly="false"
+    type="nrfNavItems"
+        visible="false">
+    <guid>RTO800YV</guid>
+    <display xml:lang="en">Nav Items</display>
+    <modstamp>0</modstamp></container>

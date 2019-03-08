@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=DirectoryModel" protected="false" readonly="false"
+    type="srvprvDirectoryModel"
+        visible="true">
+    <guid>49535BPU</guid>
+    <display xml:lang="en">Directory Abstraction Layer</display>
+    <modstamp>0</modstamp></container>

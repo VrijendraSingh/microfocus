@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="NOVLLDAPDCFG-pub-mp-Scoping">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="contents"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;placement location=&quot;publisher&quot;/>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;policy-linkage>&#xA;&#x9;&#x9;&lt;policy-set channel=&quot;publisher&quot; name=&quot;matching&quot; order=&quot;weight&quot; value=&quot;400&quot;/>&#xA;&#x9;&lt;/policy-linkage>&#xA;&lt;/installation-directive>"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="1221596501"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageAssocGuid" value="V9QAXT8I_201009101320030413"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="BKV3P4G0_201009101320030320"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="2790050972"/>
+</com.novell.designer.model:CObject>

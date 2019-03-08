@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=delegatee-relationship"
+    filename="delegatee-relationship.choice" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvChoice"
+        visible="true">
+    <guid>65GF8DIS</guid>
+    <display
+        xml:lang="de">Delegiertenbeziehung</display>
+    <display
+        xml:lang="sv">Ombudsrelation</display>
+    <display
+        xml:lang="ru">Отношение делегирования</display>
+    <display
+        xml:lang="pt">Relação de Delegação</display>
+    <display
+        xml:lang="zh-TW">委託關係</display>
+    <display
+        xml:lang="en">Delegate Relationship</display>
+    <display
+        xml:lang="it">Relazione deleghe</display>
+    <display
+        xml:lang="fr">Relations de délégué</display>
+    <display
+        xml:lang="zh-CN">委托关系</display>
+    <display
+        xml:lang="es">Relación de delegado</display>
+    <display
+        xml:lang="ja">代理人関係</display>
+    <display
+        xml:lang="da">Stedfortræderrelation</display>
+    <display
+        xml:lang="nl">Relatie gedelegeerde</display>
+    <descr xml:lang="en">Provisioning application valid delegatee relationships</descr>
+    <dirguid>02694AB4BB450448A31D02694AB4BB45</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>811IFHL8_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3860583603</pkg-checksum></item>

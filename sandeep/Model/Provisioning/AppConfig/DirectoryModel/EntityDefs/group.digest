@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=group" filename="group.entity" hasContainment="false"
+    modstamp="0" protected="true" readonly="false" type="srvprvEntity"
+        visible="true">
+    <guid>HTF7HLRP</guid>
+    <display
+        xml:lang="de">Grupp</display>
+    <display
+        xml:lang="ru">Группа</display>
+    <display
+        xml:lang="sv">Grupp</display>
+    <display
+        xml:lang="pt">Grupo</display>
+    <display
+        xml:lang="zh-TW">群組</display>
+    <display
+        xml:lang="en">Group</display>
+    <display
+        xml:lang="it">Gruppo</display>
+    <display
+        xml:lang="fr">Groupe</display>
+    <display
+        xml:lang="zh-CN">组</display>
+    <display
+        xml:lang="es">Grupo</display>
+    <display
+        xml:lang="ja">グループ</display>
+    <display
+        xml:lang="da">Gruppe</display>
+    <display
+        xml:lang="nl">Groep</display>
+    <descr xml:lang="en">Group Definition</descr>
+    <dirguid>97530CDE36B71F419D3097530CDE36B7</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>SIUOMDDD_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>606121104</pkg-checksum></item>

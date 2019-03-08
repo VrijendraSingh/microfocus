@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provisioning op="revert" packages="true" type="base"
+        version="4.7"><ds-object ds-object-class="srvprvAppConfig"
+            ds-object-name="AppConfig"><ds-object
+            ds-object-class="srvprvDirectoryModel"
+                ds-object-name="DirectoryModel"><ds-object
+                ds-object-class="srvprvEntityDefs" ds-object-name="EntityDefs"/></ds-object></ds-object></provisioning>

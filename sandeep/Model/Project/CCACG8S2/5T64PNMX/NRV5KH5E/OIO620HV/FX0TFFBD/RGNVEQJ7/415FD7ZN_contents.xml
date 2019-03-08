@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><filter>
+	<filter-class class-name="nrfRequest" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="nrfStatus" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+	</filter-class>
+	<filter-class class-name="nrfResourceRequest" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="nrfStatus" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+	</filter-class>
+	<filter-class class-name="User" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="Group Membership" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="nrfMemberOf" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="DirXML-EntitlementResult" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="nrfDynamicGroupMembership" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+	</filter-class>
+	<filter-class class-name="nrfRole" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="nrfEntitlementRef" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="nrfChildRoles" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="nrfStatus" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+	</filter-class>
+	<filter-class class-name="nrfResourceAssociation" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="nrfRole" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="nrfResource" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+		<filter-attr attr-name="nrfStatus" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="notify"/>
+	</filter-class>
+</filter>

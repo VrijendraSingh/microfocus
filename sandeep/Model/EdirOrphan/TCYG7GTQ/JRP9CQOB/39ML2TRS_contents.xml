@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><xsl:transform version="1.0" xmlns:cmd="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.XdsCommandProcessor" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:param name="destCommandProcessor"/>
+	<xsl:template match="output/submit-command">
+		<xsl:variable name="command">
+			<xsl:copy-of select="./nds"/>
+		</xsl:variable>
+		<xsl:variable name="dummy" select="cmd:execute($destCommandProcessor, $command)"/>
+	</xsl:template>
+	<xsl:template match="node()|@*">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:transform>

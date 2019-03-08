@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=prdNewForm" filename="prdNewForm.prd"
+    hasContainment="false" protected="false" readonly="false"
+    type="srvprvRequest"
+        visible="true">
+    <guid>4BY2156X</guid>
+    <display
+        xml:lang="en">prdNewForm</display>
+    <descr xml:lang="en">prdNewForm</descr>
+    <dirguid>3A5032FD92015B4FA0B63A5032FD9201</dirguid>
+    <dirrev/>
+    <keys>
+        <key>accounts</key>
+    </keys>
+    
+    </item>

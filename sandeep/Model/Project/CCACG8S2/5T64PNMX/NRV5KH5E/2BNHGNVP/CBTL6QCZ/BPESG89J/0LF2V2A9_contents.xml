@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<definition critical-change="true" display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.shim-auth-id)Authentication ID" dn-space="dirxml" dn-type="ldap" name="shim-auth-id" type="dn">
+			<description>xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.dscr.shim-auth-id)Enter the distinguished name of the User Application Administrator. This is the user that will have rights to administer the User Application portal. Use the eDirectory format, i.e., cn=admin.ou=orgunit.o=novell, or browse to find the user.</description>
+			<value>CN=uaadmin,OU=sa,O=data</value>
+		</definition>
+		<definition critical-change="true" display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.shim-auth-password)Application Password" name="shim-auth-password" type="password-ref">
+			<description>xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.dscr.shim-auth-password)Enter the password of the User Application Administrator specified above.</description>
+			<value>shim-auth-password</value>
+		</definition>
+		<definition display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.Host)Host" name="Host" type="string">
+			<description>xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.dscr.Host)Enter the Host Name or IP address of the application server where the User Application is running. For example, 'http://ServerName' or 'https://123.456.78.99'.</description>
+			<value>http://127.0.0.1</value>
+		</definition>
+		<definition display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.Port)Port" name="Port" range-hi="" range-lo="" type="integer">
+			<description>xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.dscr.Port)Enter the Host port on the application server specified above. This is the port where the User Application is accessible e.g. 80, 8080, 8090. The default for Identity Manager 4 is 8180.</description>
+			<value>8180</value>
+		</definition>
+		<definition display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.ApplicationContext)Application Context" name="ApplicationContext" type="string">
+			<description>xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.dscr.ApplicationContext)Enter the User Application Context. This is the context portion of the URL for the User Application WAR file. The default is: IDMProv.</description>
+			<value>IDMProv</value>
+		</definition>
+		<definition display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.bOverrideinit)Allow Initiator Override" name="bOverrideinit" type="enum">
+			<description>xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.dscr.bOverrideinit)Allow Override Initiator. Set to Yes to allow the provisioning administrator to start workflows in the name of the person for whom the provisioning administrator is designated as proxy.</description>
+			<value>yes</value>
+			<enum-choice display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.choice.bOverrideinit.No)No">no</enum-choice>
+			<enum-choice display-name="xlfid(NOVLUABASE.idmresource.NOVLUABASEConnectionPrompts.gcv.choice.bOverrideinit.Yes)Yes">yes</enum-choice>
+		</definition>
+	</definitions>
+</configuration-values>

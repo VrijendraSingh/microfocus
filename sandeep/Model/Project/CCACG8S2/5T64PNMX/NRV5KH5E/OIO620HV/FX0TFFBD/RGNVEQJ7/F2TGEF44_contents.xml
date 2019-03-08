@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.header.UserApplication/WorkflowConnection)User Application/Workflow Connection"/>
+		<definition display-name="xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.user-group-dn)User-Group base container DN" dn-space="dirxml" dn-type="slash" mandatory="true" name="user-group-dn" type="dn">
+			<description>xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.dscr.user-group-dn)The slash-form DN container root that will be serviced by the roles driver.</description>
+			<value>data</value>
+		</definition>
+		<definition display-name="xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.uad-dn)User Application Driver DN" dn-space="dirxml" dn-type="slash" mandatory="true" name="uad-dn" type="dn">
+			<description>xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.dscr.uad-dn)The slash-form DN of the User Application Driver object that is hosting the role system.</description>
+			<value>system\driverset1\UserApplication</value>
+		</definition>
+		<definition display-name="xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.user-app-url)User Application URL" mandatory="true" name="user-app-url" type="string">
+			<description>xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.dscr.user-app-url)The URL used to connect to the User Application in order to start Approval Workflows.</description>
+			<value>http://127.0.0.1:8180/IDMProv</value>
+		</definition>
+		<definition display-name="xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.user-app-identity)User Application Identity" dn-space="dirxml" dn-type="ldap" mandatory="true" name="user-app-identity" type="dn">
+			<description>xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.dscr.user-app-identity)The LDAP DN of the object used to authenticate to the User Application in order to start Approval Workflows.</description>
+			<value>cn=uaadmin,ou=sa,o=data</value>
+		</definition>
+		<definition display-name="xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.user-app-password)User Application Password" mandatory="true" name="user-app-password" type="password-ref">
+			<description>xlfid(NOVLRSERVB.idmresource.NOVLRSERVBDriverOptionPrompts.gcv.dscr.user-app-password)The password used to authenticate to the User Application in order to start Approval Workflows.</description>
+			<value>user-app-password</value>
+		</definition>
+	</definitions>
+</configuration-values>

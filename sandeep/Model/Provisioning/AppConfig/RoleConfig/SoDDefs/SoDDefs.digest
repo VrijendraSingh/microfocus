@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=SoDDefs" protected="false" readonly="false"
+    type="nrfSODDefs"
+        visible="true">
+    <guid>JH8NF7RD</guid>
+    <display xml:lang="en">Separation of Duties</display>
+    <modstamp>0</modstamp></container>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=roles-category" filename="roles-category.choice"
+    hasContainment="false" modstamp="0" protected="true"
+    readonly="false" type="srvprvChoice"
+        visible="true">
+    <guid>DS3X8AWG</guid>
+    <display
+        xml:lang="de">Rollenkategorie</display>
+    <display
+        xml:lang="sv">Rollkategori</display>
+    <display
+        xml:lang="ru">Категории ролей</display>
+    <display
+        xml:lang="pt">Categoria de Funções</display>
+    <display
+        xml:lang="zh-TW">角色類別</display>
+    <display
+        xml:lang="en">Roles Category</display>
+    <display
+        xml:lang="it">Categoria ruoli</display>
+    <display
+        xml:lang="fr">Catégorie de rôles</display>
+    <display
+        xml:lang="zh-CN">角色类别</display>
+    <display
+        xml:lang="es">Categoría de funciones</display>
+    <display
+        xml:lang="ja">役割のカテゴリ</display>
+    <display
+        xml:lang="da">Rollekategori</display>
+    <display
+        xml:lang="nl">Categorie Rollen</display>
+    <descr xml:lang="en">Roles category</descr>
+    <dirguid>EFEFFE1C541FB646A3FAEFEFFE1C541F</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>V2JCZWGI_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1821273624</pkg-checksum></item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=provManager" roleLevel="Level20" xmi:version="2.0"
+    xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><parentRole
+        dn="cn=role1,cn=Level30,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><localizedDescription
+        label="Um administrador indicado, capaz de executar apenas ações permitidas para um subconjunto de objetos no domínio de Aprovisionamento."
+        locale="pt"/><localizedDescription
+        label="Ein beauftragter Administrator, der nur zugelassene Aktionen für eine Teilmenge der Objekte innerhalb der Bereitstellungsdomäne durchführen kann."
+        locale="de"/><localizedDescription
+        label="En delegerad administratör som bara kan utföra tillåtna åtgärder för en deluppsättning av objekt i logistikdomänen."
+        locale="sv"/><localizedDescription
+        label="プロビジョニングドメイン内でオブジェクトのサブセットに対して許可されたアクションのみを実行できる委任管理者。"
+        locale="ja"/><localizedDescription
+        label="Делегированный администратор, который может выполнять только разрешенные действия для подмножества объектов в рамках домена обеспечения правами доступа."
+        locale="ru"/><localizedDescription
+        label="A delegated administrator who can perform only allowed actions for a subset of objects within the Provisioning domain."
+        locale="en"/><localizedDescription
+        label="Administrateur délégué qui ne peut effectuer que les opérations autorisées sur un sous-ensemble d'objets au sein du domaine de provisioning."
+        locale="fr"/><localizedDescription
+        label="Un amministratore delegato che può eseguire solo le azioni consentite per un sottoinsieme di oggetti all'interno del dominio di provisioning."
+        locale="it"/><localizedDescription
+        label="En delegeret administrator, som kun kan udføre tilladte handlinger for et undersæt af objekter i klargøringsdomænet."
+        locale="da"/><localizedDescription
+        label="Administrador delegado que sólo puede realizar las acciones permitidas para un subconjunto de objetos del dominio de provisión."
+        locale="es"/><localizedDescription
+        label="僅可為佈建網域內的部分物件執行允許的動作的委託管理員。"
+        locale="zh-TW"/><localizedDescription
+        label="仅可以对供应域内的对象子集执行已允许操作的委托管理员。"
+        locale="zh-CN"/><localizedDescription
+        label="Een gedelegeerde beheerder die alleen toegestane acties kan uitvoeren voor een subset van objecten in het provisioningdomein."
+        locale="nl"/><localizedName
+        label="Gerenciador de Aprovisionamento"
+        locale="pt"/><localizedName label="Bereitstellungsmanager"
+        locale="de"/><localizedName label="Logistikhanterare"
+        locale="sv"/><localizedName label="プロビジョニングマネージャ"
+        locale="ja"/><localizedName
+        label="Менеджер обеспечения правами доступа"
+        locale="ru"/><localizedName label="Provisioning Manager"
+        locale="en"/><localizedName label="Gestionnaire du provisioning"
+        locale="fr"/><localizedName label="Manager di provisioning"
+        locale="it"/><localizedName label="Klargøringsstyring"
+        locale="da"/><localizedName label="Supervisor de provisión"
+        locale="es"/><localizedName label="佈建主管"
+        locale="zh-TW"/><localizedName label="供应管理者"
+        locale="zh-CN"/><localizedName label="Provisioning manager" locale="nl"/><categoryKey>system</categoryKey></role:Role>

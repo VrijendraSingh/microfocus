@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=user2users" filename="user2users.relation"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="srvprvRelationship"
+        visible="true">
+    <guid>Y158ODKC</guid>
+    <display
+        xml:lang="de">Manager-Mitarbeiter</display>
+    <display
+        xml:lang="ru">Менеджер-сотрудник</display>
+    <display
+        xml:lang="sv">Chef-Anställd</display>
+    <display
+        xml:lang="pt">Gerente - Funcionario</display>
+    <display
+        xml:lang="zh-TW">管理員- 員工</display>
+    <display
+        xml:lang="en">Manager-Employee</display>
+    <display
+        xml:lang="it">Manager-Impiegato</display>
+    <display
+        xml:lang="fr">Manager-Employé</display>
+    <display
+        xml:lang="zh-CN">经理 － 雇员</display>
+    <display
+        xml:lang="es">Supervisor-Empleado</display>
+    <display
+        xml:lang="ja">マネージャ-従業員</display>
+    <display
+        xml:lang="da">Styring-medarbejder</display>
+    <display
+        xml:lang="nl">Manager-Werknemer</display>
+    <descr xml:lang="en">Org chart relationship User to Users</descr>
+    <dirguid>4F37839B6DB82C47A19D4F37839B6DB8</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>Q94FVTTI_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>3812931602</pkg-checksum></item>

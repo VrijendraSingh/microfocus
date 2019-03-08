@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet version="1.0" xmlns:query="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.XdsQueryProcessor" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:param name="srcQueryProcessor"/>
+	<!-- The first two templates implement the identity transform.	-->
+	<!-- anything that doesn't match a more specific template will	-->
+	<!-- be copied as is to the output 								-->
+	<xsl:template match="/">
+		<xsl:apply-templates select="node()|@*"/>
+	</xsl:template>
+	<xsl:template match="node()|@*">
+		<xsl:copy>
+			<xsl:apply-templates select="node()|@*"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="modify|sync">
+		<!-- convert modify or sync with an assocition to an instance so that -->
+		<!-- output transform can create a complete output record -->
+		<xsl:variable name="associationValue" select="string(association/text())"/>
+		<xsl:choose>
+			<xsl:when test="association[@state = 'disabled']">
+				<!-- ignore if the association is disabled -->
+			</xsl:when>
+			<xsl:otherwise>
+				<!-- if a modify on an associated object the association replace it with the instance -->
+				<!-- returned by querying the object -->
+				<xsl:variable name="query">
+					<nds dtdversion="1.0" ndsversion="8.5">
+						<input>
+							<!-- may want to specifiy a dest-dn here to specify the root of the search -->
+							<query class-name="User" dest-dn="{@src-dn}" dest-entry-id="{@src-entry-id}" scope="entry">
+								<!-- this should match the attributes in the subscriber filter -->
+								<read-attr attr-name="Description"/>
+								<read-attr attr-name="Facsimile Telephone Number"/>
+								<read-attr attr-name="Given Name"/>
+								<read-attr attr-name="Internet EMail Address"/>
+								<read-attr attr-name="mobile"/>
+								<read-attr attr-name="Surname"/>
+								<read-attr attr-name="Telephone Number"/>
+								<read-attr attr-name="Title"/>
+								<read-attr attr-name="workforceID"/>
+								<read-attr attr-name="DirXML-EntitlementRef"/>
+							</query>
+						</input>
+					</nds>
+				</xsl:variable>
+				<!-- query NDS -->
+				<xsl:variable name="result" select="query:query($srcQueryProcessor,$query)"/>
+				<!-- copy the instance into the output -->
+				<xsl:copy-of select="$result//instance"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+</xsl:stylesheet>

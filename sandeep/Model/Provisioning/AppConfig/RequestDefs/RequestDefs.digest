@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=RequestDefs" protected="false" readonly="false"
+    type="srvprvRequestDefs"
+        visible="true">
+    <guid>IK89J53Y</guid>
+    <display xml:lang="en">Provisioning Request Definitions</display>
+    <modstamp>0</modstamp></container>

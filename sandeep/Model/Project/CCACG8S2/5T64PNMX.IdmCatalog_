@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Package Catalog" type="IdmCatalog">
+  <relations name="Idm:Categories" type="Child" key="#47L9FNMH.IdmCategory_"/>
+  <relations name="Idm:Categories" type="Child" key="#Y2BOMOM7.IdmCategory_"/>
+  <relations name="Idm:Categories" type="Child" key="#3E026FF0.IdmCategory_"/>
+  <relations name="Idm:Categories" type="Child" key="#M0RSK31U.IdmCategory_"/>
+  <relations name="Idm:Categories" type="Child" key="#NRV5KH5E.IdmCategory_"/>
+</com.novell.designer.model:CObject>

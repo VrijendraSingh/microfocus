@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=Level20" protected="false" readonly="false"
+    type="nrfRoleDefsLevel20"
+        visible="true">
+    <guid>R7E0PBZ1</guid>
+    <display
+        xml:lang="en">IT Role</display>
+    <modstamp>0</modstamp>
+    <display
+        xml:lang="de">IT-Rolle</display>
+    <display
+        xml:lang="ru">Роль ИТ</display>
+    <display
+        xml:lang="sv">IT-roll</display>
+    <display
+        xml:lang="pt">Função TI</display>
+    <display
+        xml:lang="zh-TW">IT 角色</display>
+    <display
+        xml:lang="it">Ruolo IT</display>
+    <display
+        xml:lang="fr">Rôle IT</display>
+    <display
+        xml:lang="zh-CN">IT 角色</display>
+    <display
+        xml:lang="es">Función de TI</display>
+    <display
+        xml:lang="ja">IT役割</display>
+    <display
+        xml:lang="da">It-rolle</display>
+    <display xml:lang="nl">IT-rol</display></container>

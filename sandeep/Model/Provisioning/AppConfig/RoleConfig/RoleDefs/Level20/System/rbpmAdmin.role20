@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=rbpmAdmin" roleLevel="Level20" xmi:version="2.0"
+    xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><parentRole
+        dn="cn=role1,cn=Level30,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><localizedDescription
+        label="Um administrador de domínio com quase todos os recursos no domínio de Configuração. O Administrador de Aplicativo de RBPM é capaz de executar todas as ações possíveis para todos os objetos no domínio de Aplicativo de RBPM. O Administrador de Aplicativo de RBPM controla o acesso aos itens de navegação no Módulo de Aprovisionamento Baseado em Funções. Além disso, o Administrador de Aplicativo de RBPM configura o serviço proxy e delegação, o serviço de assinatura digital, a interface de usuário de aprovisionamento e o mecanismo de workflow."
+        locale="pt"/><localizedDescription
+        label="Ein Domänenadministrator, der innerhalb der Konfigurationsdomäne über die ganze Palette an Funktionen verfügt. Der RBPM-Anwendungsadministrator kann alle möglichen Aktionen auf alle Objekte innerhalb der RBPM-Anwendungsdomäne durchführen. Der RBPM-Anwendungsadministrator steuert den Zugriff auf Navigationselemente mit dem rollenbasierten Bereitstellungsmodul. Darüber hinaus konfiguriert der RBPM-Anwendungsadministrator den Delegierungs- und Proxy-Dienst, den Digitalsignaturservice, die Bereitstellungsbenutzerschnittstelle und die Workflow-Engine."
+        locale="de"/><localizedDescription
+        label="En domänadministratör som har tillgång till alla funktioner i konfigurationsdomänen. RBPM-programadministratören kan utföra alla åtgärder för alla objekt i domänen RBPM-program. RBPM-programadministratören styr åtkomsten till navigeringsobjekt med den rollbaserade logistikmodulen. RBPM-programadministratören konfigurerar också delegerings- och fullmaktstjänsten, den digitala signaturtjänsten, användargränssnittet för logistik och arbetsgångsmotorn."
+        locale="sv"/><localizedDescription
+        label="設定ドメイン内でほぼ全種類の機能を持つドメイン管理者。RBPMアプリケーション管理者は、RBPMアプリケーションドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。RBPMアプリケーション管理者は、役割ベースのプロビジョニングモジュールを持つナビゲーション項目へのアクセスを制御します。また、RBPMアプリケーション管理者は、委任と代理人サービス、デジタル署名サービス、プロビジョニングユーザインタフェース、およびワークフローエンジンを設定します。"
+        locale="ja"/><localizedDescription
+        label="Администратор домена, имеющий полный спектр возможностей в рамках домена конфигурации. Администратор приложения RBPM может выполнять все возможные действия для всех объектов в рамках домена приложения RBPM. Администратор приложения RBPM управляет доступом к объектам навигации в рамках модуля обеспечения на основе ролей. Кроме того, администратор приложения RBPM может настраивать делегирование и доверенные лица, сервис цифровой подписи, пользовательский интерфейс обеспечения и ядро рабочего потока."
+        locale="ru"/><localizedDescription
+        label="A domain administrator who has the full range of capabilities within the Configuration domain. The RBPM Application Administrator can perform all possible actions on all objects within the RBPM Application domain. The RBPM Application Administrator controls access to navigation items with the Roles Based Provisioning Module. In addition, the RBPM Application Administrator configures the delegation and proxy service, the digital signature service, the provisioning user interface, and the workflow engine."
+        locale="en"/><localizedDescription
+        label="Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de configuration. L'administrateur de l'application RBPM peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de l'application RBPM. Il contrôle l'accès aux éléments de navigation à l'aide du module de provisioning basé sur les rôles. Il configure également le service de délégation et de proxy, le service de signature numérique, l'interface utilisateur de provisioning et le moteur de workflow."
+        locale="fr"/><localizedDescription
+        label="Un amministratore di dominio che dispone dell'intera gamma di funzionalità all'interno del dominio di configurazione. L'amministratore dell'applicazione RBPM può eseguire tutte le azioni disponibili su tutti gli oggetti all'interno del dominio dell'applicazione RBPM. L'amministratore dell'applicazione RBPM controlla l'accesso agli elementi della navigazione con il modulo di provisioning basato sui ruoli. Inoltre, l'amministratore dell'applicazione RBPM configura il servizio di delega e utente incaricato, il servizio di firma digitale, l'interfaccia utente di provisioning e il motore workflow."
+        locale="it"/><localizedDescription
+        label="En domæneadministrator, som har alle rettigheder og tilladelser i konfigurationsdomænet. RBPM-programadministratoren kan udføre alle mulige handlinger på alle objekter i RBPM-programdomænet. RBPM-programadministratoren styrer adgang til navigationselementer med det rollebaserede klargøringsmodul. RBPM-programadministratoren konfigurerer derudover delegerings- og fuldmægtigtjenesten, tjenesten til digital signatur, brugergrænsefladen til klargøring og arbejdsprocesprogrammet."
+        locale="da"/><localizedDescription
+        label="Administrador de dominio que cuenta con todas las funciones en el dominio de configuración. El administrador de aplicación de RBPM puede realizar todas las acciones posibles para todos los objetos dentro del dominio de aplicaciones RBPM. El administrador de aplicación de RBPM controla el acceso a los elementos de navegación con el módulo de provisión basado en funciones (RBPM). Además, configura el servicio proxy y la delegación, el servicio de firma digital, la interfaz de usuario de provisión y el motor de flujo de trabajo."
+        locale="es"/><localizedDescription
+        label="擁有組態網域內所有功能的網域管理員。RBPM 應用程式管理員可對 RBPM 應用程式網域內的所有物件執行所有可能的動作。RBPM 應用程式管理員透過 Roles Based Provisioning Module 來控制對導覽項目的存取，此外還可設定委託與代理服務、數位簽名服務、佈建使用者介面及工作流程引擎。"
+        locale="zh-TW"/><localizedDescription
+        label="具有配置域内所有功能的域管理员。RBPM 应用程序管理员可以对 RBPM 应用程序域内的所有对象执行所有可能的操作。RBPM 应用程序管理员使用基于角色的供应模块控制对导航项的访问。此外，RBPM 应用程序管理员配置委托和代理服务、数字签名服务、供应用户界面及工作流程引擎。"
+        locale="zh-CN"/><localizedDescription
+        label="Een domeinbeheerder met vrijwel alle mogelijkheden in het configuratiedomein. De beheerder van de RBPM-toepassing kan alle mogelijke acties uitvoeren voor alle objecten in het domein van de RBPM-toepassing. De beheerder van de RBPM-toepassing beheert toegang tot navigatie-items in de Rolgebaseerde provisioning-module. Daarnaast configureert de beheerder van de RBPM-toepassing de service Delegatie en machtiging, de service Digitale handtekening, de provisioninggebruikersinterface en de werkstroomengine."
+        locale="nl"/><localizedName
+        label="Administrador de Aplicativo de RBPM"
+        locale="pt"/><localizedName label="RBPM-Anwendungsadministrator"
+        locale="de"/><localizedName label="RBPM-programadministratör"
+        locale="sv"/><localizedName label="RBPMアプリケーション管理者"
+        locale="ja"/><localizedName
+        label="Администратор приложения RBPM"
+        locale="ru"/><localizedName
+        label="RBPM Application Administrator"
+        locale="en"/><localizedName
+        label="Administrateur de l'application RBPM"
+        locale="fr"/><localizedName
+        label="Amministratore applicazione RBPM"
+        locale="it"/><localizedName label="RBPM-programadministrator"
+        locale="da"/><localizedName
+        label="Administrador de aplicación de RBPM"
+        locale="es"/><localizedName label="RBPM 應用程式管理員"
+        locale="zh-TW"/><localizedName label="RBPM 应用程序管理员"
+        locale="zh-CN"/><localizedName
+        label="Beheerder van RBPM-toepassing" locale="nl"/><categoryKey>system</categoryKey></role:Role>

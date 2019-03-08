@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><policy>
+	<rule>
+		<description>User Required Attributes</description>
+		<conditions>
+			<or>
+				<if-class-name op="equal">User</if-class-name>
+			</or>
+		</conditions>
+		<actions>
+			<do-veto-if-op-attr-not-available name="CN"/>
+			<do-veto-if-op-attr-not-available name="Surname"/>
+		</actions>
+	</rule>
+	<rule>
+		<description>Veto if a User add with no nspmDistributionPassword</description>
+		<conditions>
+			<and>
+				<if-class-name op="equal">User</if-class-name>
+				<if-operation mode="case" op="equal">add</if-operation>
+			</and>
+		</conditions>
+		<actions>
+			<do-veto-if-op-attr-not-available name="nspmDistributionPassword"/>
+		</actions>
+	</rule>
+	<rule>
+		<description>Organizational Unit Required Attributes</description>
+		<conditions>
+			<or>
+				<if-class-name op="equal">Organizational Unit</if-class-name>
+			</or>
+		</conditions>
+		<actions>
+			<do-veto-if-op-attr-not-available name="OU"/>
+		</actions>
+	</rule>
+</policy>

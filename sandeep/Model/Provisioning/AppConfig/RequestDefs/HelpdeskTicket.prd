@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov-req-defn flow-strategy="SingleFlow" grant="true"
+    prov-category="accounts" prov-id="HelpdeskTicket" revoke="false"
+    status="Active"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="">
+    <display-name
+        xml:lang="en">HelpDesk Ticket</display-name>
+    <display-name
+        xml:lang="de">Helpdesk-Bericht</display-name>
+    <display-name
+        xml:lang="ru">Сообщение о проблеме</display-name>
+    <display-name
+        xml:lang="sv">Helpdesk-ärende</display-name>
+    <display-name
+        xml:lang="pt">Ticket de Suporte Técnico</display-name>
+    <display-name
+        xml:lang="zh-TW">服務台票證</display-name>
+    <display-name
+        xml:lang="it">Ticket per help desk</display-name>
+    <display-name
+        xml:lang="fr">Ticket de service dassistance</display-name>
+    <display-name
+        xml:lang="zh-CN">咨询台凭单</display-name>
+    <display-name
+        xml:lang="es">Ticket de servicio de ayuda técnica</display-name>
+    <display-name
+        xml:lang="ja">ヘルプデスクチケット</display-name>
+    <display-name
+        xml:lang="da">HelpDesk-anmodning</display-name>
+    <display-name
+        xml:lang="nl">HelpDesk-ticket</display-name>
+    <description
+        xml:lang="en">Helpdesk Ticket Creation Form</description>
+    <description
+        xml:lang="de">Formular zum Erstellen von Helpdesk-Berichten</description>
+    <description
+        xml:lang="ru">Форма создания сообщения о проблеме</description>
+    <description
+        xml:lang="sv">Formulär för att skapa helpdesk-ärende</description>
+    <description
+        xml:lang="pt">Formulário de Criação de Ticket de Suporte Técnico</description>
+    <description
+        xml:lang="zh-TW">服務台票證建立表單</description>
+    <description
+        xml:lang="it">Modulo di creazione ticket per help desk</description>
+    <description
+        xml:lang="fr">Formulaire de création dun ticket de service dassistance</description>
+    <description
+        xml:lang="zh-CN">咨询台凭单创建表单</description>
+    <description
+        xml:lang="es">Formulario de creación de tickets de servicio de ayuda técnica</description>
+    <description
+        xml:lang="ja">ヘルプデスクチケットの作成フォーム</description>
+    <description
+        xml:lang="da">Formular til oprettelse af Helpdesk-anmodning</description>
+    <description
+            xml:lang="nl">Formulier voor het maken van een Helpdesk-ticket</description>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <prov-resource-ref>None</prov-resource-ref><workflow-ref/><trustees/><xml-data><design-params
+            digital-signature-type="not-required" grant="true"
+            notify-addressee="true"
+                    prov-id="HelpdeskTicket"><form-title><display-label
+                    xml:lang="en">Helpdesk Ticket</display-label><display-label
+                    xml:lang="de">Helpdesk-Bericht</display-label><display-label
+                    xml:lang="zh-TW">服務台票證</display-label><display-label
+                    xml:lang="fr">Ticket de service d'assistance</display-label><display-label
+                    xml:lang="ja">ヘルプデスクチケット</display-label><display-label
+                    xml:lang="zh-CN">咨询台凭单</display-label><display-label
+                    xml:lang="pt">Ticket de Suporte Técnico</display-label><display-label
+                    xml:lang="es">Ticket de servicio de ayuda técnica</display-label><display-label
+                    xml:lang="sv">Helpdesk-ärende</display-label><display-label
+                    xml:lang="nl">Helpdesk-ticket</display-label><display-label
+                    xml:lang="it">Ticket per help desk</display-label><display-label
+                    xml:lang="ru">Сообщение о проблеме</display-label><display-label
+                    xml:lang="da">HelpDesk-anmodning</display-label><description
+                    xml:lang="en">Helpdesk Ticket Creation Form</description><description
+                    xml:lang="de">Formular zum Erstellen von Helpdesk-Berichten</description><description
+                    xml:lang="zh-TW">服務台票證建立表單</description><description
+                    xml:lang="fr">Formulaire de création d'un ticket de service d'assistance</description><description
+                    xml:lang="ja">ヘルプデスクチケットの作成フォーム</description><description
+                    xml:lang="zh-CN">咨询台凭单创建表单</description><description
+                    xml:lang="pt">Formulário de Criação de Ticket de Suporte Técnico</description><description
+                    xml:lang="es">Formulario de creación de tickets de servicio de ayuda técnica</description><description
+                    xml:lang="sv">Formulär för att skapa helpdesk-ärende</description><description
+                    xml:lang="nl">Formulier voor het maken van een Helpdesk-ticket</description><description
+                    xml:lang="it">Modulo di creazione ticket per help desk</description><description
+                    xml:lang="ru">Форма создания сообщения о проблеме</description><description
+                xml:lang="da">Formular til oprettelse af Helpdesk-anmodning</description></form-title><prov-resource
+                    name="None"/><workflow/><legal-disclaimers/><links><link
+                    source="Start" target="Activity"
+                    type="forward"/><link source="Activity"
+                    target="Finish"
+                type="approved"/></links><user-activity
+                activity-id="Activity" approver-type="group-approver"
+                digital-signature-type="not-required"
+                ontimeout="approved" timeout=""
+                    timeout-units="milliseconds"><display-label
+                    xml:lang="en">Approval</display-label><display-label
+                    xml:lang="de">Genehmigung</display-label><display-label
+                    xml:lang="zh-TW">核准</display-label><display-label
+                    xml:lang="fr">Approbation</display-label><display-label
+                    xml:lang="ja">承認</display-label><display-label
+                    xml:lang="zh-CN">批准</display-label><display-label
+                    xml:lang="pt">Aprovação</display-label><display-label
+                    xml:lang="es">Aprobación</display-label><display-label
+                    xml:lang="sv">Godkännande</display-label><display-label
+                    xml:lang="nl">Goedkeuring</display-label><display-label
+                    xml:lang="it">Approvazione</display-label><display-label
+                    xml:lang="ru">Подтверждение</display-label><display-label
+                    xml:lang="da">Godkendelse</display-label><addressee
+                    value=" RoleVault.getHelpdeskAddresseeList(recipient,flowdata.get('Start/request_form/selectedType'));&#x9;&#xd;&#xa;"/><notify
+                        template="cn=helpdesk_ticket_creation,cn=Default Notification Collection,cn=Security"><map
+                        source="_default_" target="TO"/><map
+                        source="flowdata.get('Start/request_form/severity')"
+                        target="severity"/><map
+                        source="process.getTimestamp()"
+                        target="requestSubmissionTime"/><map
+                        source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                        target="recipientFullName"/><map
+                        source="flowdata.get('Start/request_form/description')"
+                        target="description"/><map
+                        source="flowdata.get('Start/request_form/ticketTitle')"
+                        target="helpdeskTitle"/><map
+                        source="flowdata.get('Start/request_form/ticketNumber')"
+                    target="ticketNumber"/></notify><retry attempts="0"
+                        interval=""><addressee
+        value=""/></retry></user-activity></design-params><resource-data-binding/></xml-data>
+    <provision-request
+        version="3.6.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalRequest3_5_1.xsd">
+        <form
+                    form-id="request_form">
+            <content>
+                <field
+                    data-type="string" name="ticketTitle"
+                        visible="true">
+                    <control
+                        control-type="Text" editable="true"
+                                required="true">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                            <prop
+                        name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="fr">Titre</display-label>
+                    <display-label
+                        xml:lang="nl">Titel</display-label>
+                    <display-label
+                        xml:lang="pt">Cargo</display-label>
+                    <display-label
+                        xml:lang="ru">Должность</display-label>
+                    <display-label
+                        xml:lang="zh-TW">標題</display-label>
+                    <display-label
+                        xml:lang="zh-CN">标题</display-label>
+                    <display-label
+                        xml:lang="en">Title</display-label>
+                    <display-label
+                        xml:lang="es">Título</display-label>
+                    <display-label
+                        xml:lang="it">Qualifica</display-label>
+                    <display-label
+                        xml:lang="sv">Titel</display-label>
+                    <display-label
+                        xml:lang="de">Titel</display-label>
+                    <display-label
+                        xml:lang="ja">タイトル</display-label>
+                    <display-label
+                        xml:lang="da">Titel</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    name="title"
+                        visible="false">
+                    <control
+                        control-type="Title" editable="false"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="onload"
+                        type="event">
+                                <value>document.getElementsByTagName("TABLE")[1].id = "tableForm";&#xd;
+var t = document.getElementById("tableForm"); // This have to be the ID of your table, not the tag&#xd;
+d = t.getElementsByTagName("tr")[16];&#xd;
+d.getElementsByTagName("td")[1].id = "submitButtons";&#xd;
+&#xd;
+var link = document.createElement("STYLE");&#xd;
+link.setAttribute("type", "text/css");&#xd;
+var textnode = document.createTextNode("body  {background-color:#ffffff;position:relative; } label  {margin:10px; font-weight:500; font-family:'Lato'}  h1 {position: relative;color:#fff;	background: #007CD0;min-height: 60px;margin:0;background: linear-gradient(to right, #01A9E7, #007CD0); /* Standard syntax */background-color:white;padding-top: 10px; padding-left: 40%;font-size:30px}  table  {padding:20px; border-radius: 0px;}  ul  {color: white; text-align: center; list-style: none;}  select  {color: black;}  .nv-color1  {color: #031424;}  .nv-fontBold  {}  .nv-fontLarge  {font-size: 30px;}  .nv-fontExtraSmall  {font-weight: bold;color:#808080} .nv-font-small  {font-weight: bold;}  input[type=radio] { margin: 10px; margin-right: 0;}  button, html input[type=button], input[type=reset], input[type=submit]  {display: inline-block;color: #434c50;background: #f6f9f8;padding: 5px 10px;	margin-bottom: 5px;	margin-right: 5px;font-size: 15px;	text-align: center;	border: 1px solid #dae1e1;	border-radius: 3px; min-width: 40px;} .idmua #wfFormLayoutId {padding: 0px;}  #uiform  { background-color: #ffffff; } .form-control {border-radius:0px;margin:10px;width:300px} #submitButtons {text-align:left} #formDetail tr td {padding-top:0px;} #formDetail textarea {width:300px} #formDetail td:nth-child(odd) {padding:0px;width:300px}") &#xd;
+link.appendChild(textnode); &#xd;
+document.head.appendChild(link);</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="fr">Créer un ticket de service d'assistance</display-label>
+                    <display-label
+                        xml:lang="nl">Maak ticket voor Helpdesk</display-label>
+                    <display-label
+                        xml:lang="pt">Criar Ticket de Suporte Técnico</display-label>
+                    <display-label
+                        xml:lang="ru">Создать сообщение о проблеме</display-label>
+                    <display-label
+                        xml:lang="zh-TW">建立服務台票證</display-label>
+                    <display-label
+                        xml:lang="zh-CN">创建咨询台凭单</display-label>
+                    <display-label
+                        xml:lang="en">Create Helpdesk Ticket</display-label>
+                    <display-label
+                        xml:lang="es">Crear ticket de servicio de ayuda técnica</display-label>
+                    <display-label
+                        xml:lang="it">Crea ticket per help desk</display-label>
+                    <display-label
+                        xml:lang="sv">Skapa helpdesk-ärende</display-label>
+                    <display-label
+                        xml:lang="de">Helpdesk-Bericht erstellen</display-label>
+                    <display-label
+                        xml:lang="ja">ヘルプデスクチケットの作成</display-label>
+                    <display-label
+                        xml:lang="da">Opret Helpdesk-anmodning</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="description">
+                    <control
+                        control-type="TextArea" editable="true"
+                                required="true">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="nbcols">
+                                <value>60</value>
+                            </prop>
+                            <prop
+                                name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                            <prop
+                        name="nblines">
+                                <value>3</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">Description</display-label>
+                    <display-label
+                        xml:lang="de">Beschreibung</display-label>
+                    <display-label
+                        xml:lang="zh-TW">描述</display-label>
+                    <display-label
+                        xml:lang="fr">Description</display-label>
+                    <display-label
+                        xml:lang="ja">説明</display-label>
+                    <display-label
+                        xml:lang="zh-CN">说明</display-label>
+                    <display-label
+                        xml:lang="pt">Descrição</display-label>
+                    <display-label
+                        xml:lang="es">Descripción</display-label>
+                    <display-label
+                        xml:lang="sv">Beskrivning</display-label>
+                    <display-label
+                        xml:lang="nl">Beschrijving</display-label>
+                    <display-label
+                        xml:lang="it">Descrizione</display-label>
+                    <display-label
+                        xml:lang="ru">Описание</display-label>
+                    <display-label
+                        xml:lang="da">Beskrivelse</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="type">
+                    <control
+                        control-type="StaticList" editable="true"
+                                required="true">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                            <prop
+                                name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                            <prop
+                                name="onload"
+                                type="event">
+                                <value>field.fireEvent("onEvent");&#xd;
+var  fieldValues = JSON.parse(form.getValues("users"));&#xd;
+var heldpeskResources = fieldValues.accessRights;&#xd;
+var typeChoice = new Array();&#xd;
+var j=1;&#xd;
+&#xd;
+for(i=0;i&lt; fieldValues.accessRights.length;i++){&#xd;
+	var str =  fieldValues.accessRights[i].resourceDn;&#xd;
+	var nameOfResource = fieldValues.accessRights[i].resourceName;&#xd;
+	if (str) {&#xd;
+       var res = str.split(",");&#xd;
+       var cn = res[0].split("=");&#xd;
+       var helpdeskAccess = cn[1].split("-");&#xd;
+	var typeSplit =nameOfResource.split(" ");&#xd;
+	var choiceOfAccess = "";&#xd;
+	for(k=0;k&lt;typeSplit.length-1;k++){&#xd;
+		if(choiceOfAccess == "")&#xd;
+		{&#xd;
+			choiceOfAccess = typeSplit[k];&#xd;
+		}&#xd;
+		else {&#xd;
+			choiceOfAccess = choiceOfAccess + " " +  typeSplit[k];&#xd;
+		}&#xd;
+		&#xd;
+	}&#xd;
+   			if( helpdeskAccess[1] == "History")&#xd;
+   				{&#xd;
+					typeChoice[0] = choiceOfAccess;&#xd;
+ 			      }&#xd;
+ 		     else {&#xd;
+					 typeChoice[j] = choiceOfAccess;&#xd;
+					 j++;&#xd;
+				}   &#xd;
+	}	&#xd;
+}&#xd;
+form.setValues("type", typeChoice);&#xd;
+&#xd;
+</value>
+                            </prop>
+                            <prop
+                                name="onchange"
+                        type="event">
+                                <value>field.fireEvent("onEvent");&#xd;
+var fieldType = field.getValue();&#xd;
+var users = new Array();&#xd;
+var jsonUsers = JSON.parse(form.getValues("users"));&#xd;
+for(i=0;i&lt;jsonUsers.accessRights.length;i++){&#xd;
+	if(jsonUsers.accessRights[i].key.match(fieldType)){&#xd;
+		if(jsonUsers.accessRights[i].users.length !== 0){&#xd;
+			for(j=0;j&lt;jsonUsers.accessRights[i].users.length;j++)&#xd;
+			{&#xd;
+				users[j] = jsonUsers.accessRights[i].users[j].fullName;&#xd;
+			}&#xd;
+		}&#xd;
+	}&#xd;
+}&#xd;
+form.setValues("helpdeskUsers", users);&#xd;
+&#xd;
+</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">Type</display-label>
+                    <display-label
+                        xml:lang="de">Typ</display-label>
+                    <display-label
+                        xml:lang="zh-TW">類型</display-label>
+                    <display-label
+                        xml:lang="fr">Type</display-label>
+                    <display-label
+                        xml:lang="ja">タイプ</display-label>
+                    <display-label
+                        xml:lang="zh-CN">类型</display-label>
+                    <display-label
+                        xml:lang="pt">Tipo</display-label>
+                    <display-label
+                        xml:lang="es">Tipo</display-label>
+                    <display-label
+                        xml:lang="sv">Typ</display-label>
+                    <display-label
+                        xml:lang="nl">Type</display-label>
+                    <display-label
+                        xml:lang="it">Tipo</display-label>
+                    <display-label
+                        xml:lang="ru">Тип</display-label>
+                    <display-label
+                        xml:lang="da">Type</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="selectedType"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="true"
+                                visible="false">
+                        <props>
+                            <prop
+                        name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">selected Type</display-label>
+                    <display-label
+                        xml:lang="de">Ausgewählter Typ</display-label>
+                    <display-label
+                        xml:lang="zh-TW">選定類型</display-label>
+                    <display-label
+                        xml:lang="fr">Type sélectionné</display-label>
+                    <display-label
+                        xml:lang="ja">選択済みタイプ</display-label>
+                    <display-label
+                        xml:lang="zh-CN">选定类型</display-label>
+                    <display-label
+                        xml:lang="pt">Tipo selecionado</display-label>
+                    <display-label
+                        xml:lang="es">Tipo seleccionado</display-label>
+                    <display-label
+                        xml:lang="sv">vald typ</display-label>
+                    <display-label
+                        xml:lang="nl">geselecteerde type</display-label>
+                    <display-label
+                        xml:lang="it">Tipo selezionato</display-label>
+                    <display-label
+                        xml:lang="ru">выбранный тип</display-label>
+                    <display-label
+                        xml:lang="da">valgte Type</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="helpdeskUsers">
+                    <control
+                        control-type="PickList"
+                                editable="true">
+                        <props>
+                            <prop
+                                name="display-entitydef">
+                                <value>user</value>
+                            </prop>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                            <prop
+                                name="show-2lists">
+                                <value>true</value>
+                            </prop>
+                            <prop
+                                name="nblines">
+                                <value>4</value>
+                            </prop>
+                            <prop
+                                name="onchange"
+                                type="event">
+                                <value>var userName = field.getValue();&#xd;
+var userAndResources = JSON.parse(form.getValue("users"));&#xd;
+var imgdisp = '&lt;div id="details" style="margin-left: 20px;display:table"&gt; &lt;img id="imap" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAEZ0FNQQAAsY58+1GTAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAADaySURBVHja7X15nKRVdfZzzn3ft7bunu6mZ5gZlmEdljFssmsIoKCACwRxi2hwifk0KioGxUTR71OjQUEhgBpFjUjUxCiKuLCKCMg67DvDwMDsS3dX1/Lee873x71v1ds11T09MCuZ+v3qV9XVVdXV9Tz3LM8591xSVWztF1VHRIYAyGTPe+ub38qFUgGFcpEiE5skjqjZbHJ1tIrBwYHG+edfIPhfdqGXAgGm8n82G03ESYzq2BiKxSKzIQZgVIkJIEDBxCmAFID+byFAtLUDm935zNuH9o7jxm5ps6YUDR0Vm/Qka2tl16zpqmUAEaDqb5nZv5hATIBlplKxML+3v3Dx0A57P/j3X7j5+XVZk20WYPNe+Joff6b4wO1Xznru8cc/2mg2e/sHS8dC00En1ohNYwBM4yjSzXXkfwDA3CCKFzar8VcPee2bvnfaP1zWfKlbg62FAPTwnVfyg7f/ovf+W395VHV47FUGzTcB6ZASEqY2SusCffJgIryPAk7NwsaY+drLj33Dxaf/40/tS5UIWyoBCACefOD6+Or/OGvesmeeOLpRrx1juLk3gNlKKJOCNuon92QQJ+bBYmnwHZ+7fOm9OVuxjQAb6/L80/OT3//o3HlPPfyHU8ZGR4+LubkLGfSTInEAwwXTTZvm86hCibi5fFnx/G/dWP10eFi2EWAD+/SrL/+n/ruv/84Ja1at+vuIGwdyhAIDRgikAfTsulkuAixfGt/16re864i3fOjb9qVCgs1OgOcXzE++9bnXvb+25vmPRombbRgFJQAOcNIGXcRH8JtVbxBg9ar4mm/e0HxNcAW6jQAv4m9f8umjd37ivlu/Vig2TjIRCq1VLoBTQF07fdtiRCcBVqzo/cJ3bhr+zEvBCmwWAtx45Tf6fvHtT3+6UBw93RjMIIIhApwL4Lt2zr4lrPy1vIFjp2bGCV/9n+ev2dqtwCYnwGfP2OvgZvXp75E29mEDbn+Q9qp34edu4GePqQLMUwriNkqGUG+Yha9712f3es3b/rmxNZOAN/HfM0sWLPwibGNfYnA+sBNqfyImQMkD3OkCsseYpw5Wngwb5AqgELudrvzu187aDN/hVk0APfS4kz4ipvi4sx1fqowHODIAMUAGMAYw4T5Rl2vuuWv9LhpvRTYUCQSgOBn+2MX//Lr+rZkEm/qDy7vP+a9HDzvuH04cWV1+sNmEZn5/XLQfVi4Ha8AZsPD317oiPK/L7w0yTTjn9+jFE8CrVTJw759uOntrJsDmygIKACqXnHPUiY89cPcHicYOESeG2K/2bPVuKE1RQ2wh0j2lFH1hupIq0BiLFp/51at23/ug4+tbY1awuQhAAGIAUa1WK/7wa+85slzg/xhduaT/0UdugdoUzUaz5Q7WiU5OGVQFDAFR0gaZyIMsmYqo4wPEFywwBbl41i4HHPipi+9+EIDdRoD1/PvPPLsoWrbgobk7lJv3WqlzWm/AcISFzz2GkWVLUGsMw7kGRF2wtAJuWVwFgUAmAUQgUBSiGHGhF9f87hKwWg9+yCpawWZwM9Jh1rO0c31JYF3Pty/+3ciHAdS3NgJs7n4AjQy77Qq1zzRSy82xERAJrBrsMGMX0Ow5IMQAORgYwAuEMPC23Alg2N9CfFRZLvfi5luuRqNmUSi2V7sjT4LMWmgWATlPBMDrD5m1mKpLUAXGas3XLHz8rmjnPQ6irS0l3JzBCwFAVFsSi20eI6yICz2gpAJKCnAqsE1F09bhGk00GmOo1UfQrI+gVquhVq/BNccwVqvBpWNwaRMC4JlnHsfVv/o+4mT86uZMXQwEoFzaaULaabj9waYaKIKBQpzOvu5nFw9ik5WoXhoEUACornju3xQYInVwTDAmQhTFiIolRIUiYi4DxSJMoYK42Isk6UFUKiMuVkDFCpJiGZRUwOUemEIZ5335XLCmsE3ANoFmA6jXgGoViOI+xMUKxPp4gBxAEnpB8ktXvEGhEDyqTHJNAWaNbr/uv9+/NWYDm9UFLLzn2kRs7S0MIusAww6iDCaFCiAwoFjAiKEhN1Sot9wsMGIAoy2fbkyEM97/ISxb8gQWPv0Eao0aZg7ORN+0XiTFPhx60NG46Jtnw0m1JSRJtmw5F8OzB1cUEPYkWdel2WzuFL5Pu40AU7y4Zn2muLTic3wDUQWzgwiBwTBwEGFICPwUCrBCRGHEg+PFIwEEaKYp9tn3YOyx29448jALEgchBlwKUYcoZoyNjfnVrjk/lAWJQYhyWVahwUKss98Y4EiO/P55793pXWf9+2PbCDB1H/AJ2JRcnIDVQZXhVMGs/hYMSAoyBlZTsJhWuO4UYOcg8EEgG4KKoJE6ONuENGoQEW/rQShEER557GE0ag2USm0fblMgittCUxYQeisTos4pkMCQnf38gnv2BfBkeNW2GGCdsqBLD1M20DSFE4GqgwpgnUIhcLBeb3MuLEj/e3UOqg5OBSTin+sciBwACxMVwcVemEIP4qQHcakHfdN3wO+u/TGi2IPcTIFqPcIxx7wdqgW4XJCoFKxLcAGKUKXM9ISOqwJo1K2p1aQXW1mn9WYlgLPpDkBo/AhAkqYeVBGoE1gVqPr7qgJF6gMzCBSAUwVpIEEKEBkoA4ZjcJIAxSJKlWn4zvfOw9NPPoO0CQyvAXr6Z+F9f/MRHPbyw1Gv23GBHbn2ajcS7itAoTU00xTUtYNEApLnFzz15q0tENxsbH3ytqsqrlHbTtk7XBWAlOCIwSzQ1Dtk5hSqJifVEYAUcMZbWiI4UTAUQoBzBAbBkfh+MiicOBx44NHYfmgWiIDZQ7Ow5+57odmsY83qVVBo19xfCVAOq9z5glMmI7duAXCwArbe2HFr0wE2GwFss76jOhtLCO6YGSoCJoFT8oGawN/PSIAg5BsDSApf6kkBEBwILAIBPCGMQNQATHC2hrl7zsNuc+ZAqmvgIKiOrAHHjIXPPoXUCqIIcI5hjORk0qAPoB1wRlH7Izhpg6+eFNuEoCn7f3VnKxyTqDf5zvdZOhFABA4+yVYROOtXvU8CCepSqBIUFuoouAMHp/DugL2qB02967CENK0irddRcw6umUIMIyr0YLhWgwqQNhPsf8AxaDY9wCLBNblcr0KIXAntwpINjSxwgFPRbQSYagaQ2pcpACfWAysC5/zqa5FACJBAAkeAS30cIASVNDzfQVN4oOHgREAuDYFhII4qRAxMkqBY7oMp9iMq9SIplpE266hWgded8BYcvt8hqDfWVvso6AwETwahdsma8jGBxTYCTDkAlHQGROCcBVz45rKfReBSL8c5UNsSSAaohYLATmARSCCBBGFFkhUou0ACB1KFUAQlg6iQgCkBc4LnlzyHObvuiMMO2B+NZqOVYmYRfuqA0RpQrQONtB0PpMEKOLRdgFWYrU0O3nwpi9iCOgewX/GsCmUfVTn2QpATAUPglMFIoTCeEPD2mQCwAywRSJyPGxghYfQEEQKcJZBxLc779yU0bBN773UAXn/cyVixagX6evtg2EDFAgTU68C0vgG8/vjjkKZN3PfQvXjy6ScRJ94quBAftCVkjbYRYMoWQFRVgBSgiOHEgTWCggAncOzVP+cEzALHAMNCU/aVHbSFG68VElwghAZIMhI4A7DzxMm0HSIgbTbwsn33R31kJWyziXKlAihBBBgeBV556OF4w2tPQLPeADNw2F8ciC9c8nWMrFmJOIhHSm1JGbStGLQ+QWAEp3AQuDSFguDEAsjFBEFWb8UETvzvg07gIBAV3xXgghYgEvL5EBNAwS6ITBoURlVY63sJmmkKASFOijDFMpwq1gwDJ59wMk457rVYvWI1RseGsWrVKEbH6jj1+BNRrWUSdPtKCkRxsgxbWVfQ5hMtrPMAO4GSAtZCReFSBxULgkBT8aQQwKUZ6H69qQvXoAIKAHKeEFAXhJpwq+oJALREJGIHEQERwcRlmMogTJRg2TLBYQcdisMP2g+LV69G2qgjraZojIyi2mhin5cdiN13moHUedPvpHV12+88+zfbCDBVF6DCYh0c2bANzAd9SgIRC+fUk0AEFj5IhABqbbAEbbVQ1QIqEAFYfGCoLgSGwQqoY/8YOzirUFUQtesIBoxGavGKVxyEk447HqtWLIdL60itwFEESspo1OtopIL99ns5bDO0mGWpYkrVmTvs9sdtBJh6IcDn+k69JVD1JHDepItYOPEkYOctgYNAXLAE4sNw7w4IDr7iJwqQc1CGX/XOZwdgbw3IOa/vW/97goMohdTO4h2nvQ1pWoVLU4gjxKUyCj29SEoFqCPY5hgoLvquonAVACaKlhLzgm1K4NSDQPZ9fARShTKD1cCpgEWgxBBYqPqMgIPQw1CQeBHIB4Z+BWYmgoKC6LVbAM6BDcE6gRePGRwI4iyDjIDVwSr7p6cWcBGiuIioWEESGTjHSFURRSkaNYtioQLrQqHR/z03JoWbTn3v557f2oLAzZgG+tULKJQiH8Sxeh0fAJGA2ev8CgYzgyWFA/tUz/kJEQ4Mhg/8EGr51NHcEbJNWAZYfbzQShmsTx0Jzi9nUiS9g4ilCYB8b4LU/RtHEahZRV/fNEAJWUOtCJoRFW7ZY9+D3dZGgM0XA9iUnPhuHpUUSpnwo8Gf+6ifhVoCkYrX+50Tn+qJekUQfsVnlTmECqJv6fL3ff+AjwkQAsPMVTjNYgIBxAARgaMSCAYgn4s4AE4duNyHRc8+A3BbLGo0MHbM6075LbbCy2azAAQQnIUzDBIGqcAxg52FYwIphxTPWwIV36BBqmANChyzB1U9SIY9CXwxKaSAGeFC/sCOYdmC1XhVQC0QCk2qgJqsQ9BBQP79UoEaBqWEysAQnn3+2ZarFwdUa2blK49/y7JtBFg/KZhUyOf1HEFF4RtDGeQIYAGrdwfqGMwKdc63jrGCHPzKBoNEwAxYFzaNOsAagFWCxMwg46Bq4ODAjqHkQAyoZTBbqJ8+A5KwOVUICJVJJSCyDi5KACjue+BBmOBanAPUxvcdePirm9sIsF46AEiRepOrKYQZkbAv9jB5gJnAwnBIocogZjiXgpX92hYHcIgFnFcEVQ3ACg4L28cEDmwZwi0VAUwZYUIjKhSOAQOGFQdSgRWFqCddKha9lQoefuxRjI7UUan4vymOdOYus7+CrXRYxGaLAVK15P2/A4lX8hycjwmcF3wk9Wofq1f24FwQX0IBSLPnShjt5t8vE4j8bUg5yReE/NQngbPw9YfQB5YphM6lUAs0mhapCMT55rQoMhicNRM33/JH3wsQ9hquWGEeueAnt96DrXRGwGYjAKk2Wu1euWqeg/ONIc5BvQQIh1DlC5KwArAuayED1CmsOB8YqkJFvaCsCrI+PlCVsBXMg67sIKogJVi1Pp+33ppY8oEiOwslgipQKFewbMli3HrLveDQGeQs3PTZQ5+fPn26xVZ62Yz9a2YBOy8G+ag+bSl7LqxyL/2SF3LgoBp6BJ2v/Dnn4ODNNamE6SIeeA4ysGMFB+UPZL0YlFkCDZE9GOosfHsaI4JCVCBKrVFQM6bPwGWX/7BdVRRgeNg8+PlLrvgFtqIu4C2HAKRPWdHWSldHIPgVnjV0IOj5DggkCWZbxccCgRx+vkDQ+13mDhgq1su07Fe9dQwl61U/q76vgACxDqQMFYWSQpWRJLEvUDmHgf4+3Pinm3DnHY8hMT71c4LG9FlD58078IgatuLL5qsGOl0JtbBCLdPvXAjRco9p6P9XABLcAVpduf5xq67tDlRh4QIhGARPAmXn9x449noDKcjLgVD2K55AsNaCiFAsFlEuRRiY0Y+Fi57H+Rf+CD19vgcACoyuMYs+8ZVv/axQKOg2ArwQA0B6u2+q9P6fs5Yuh7ViAper7CFHDKs+NeQQB3h3EFZ3GCnqR9FYqHLw+V72VQoRfmj79UUoARPjk5/5V9x+152I4yKeevJpfPG8SzCtzxOM/EfAwMyhHxx21GvHsJVfNp8O4NyvCc46NRHDwQn7vJ0UsAxm5/N39RIxqc/drRqwFcBo6MjV9mq2CmEHZoZYhQ334QisFkpeRiYXYgKG346mXlkSVvSUynDSwDcu/k9Mm/bfGKtalErabv5QYGxNtOLL37/ioiRJtvo5gZvNAowNr1gKildmTRrK1q9odXAcVj23q3kW/j6r9bUAK0HCZaj1ryMOlsA5EKsH2imUg6AD9buO2Hp3IQol65tGQ1+3wmHevrujUADUpSiXtNUFDAC2Ad3roL0+/vIjjlmNl8BlsxHgDR//pgXxTRp0fXVh+6cw2HkTrk5BbH33rZOQwvmI3bIPBluKntNQ70cAFKCwv7vVFGL9aldhCFmQUzjHcKQhhiCkzSYOP/jlaNqwLSxsE2O/Y1iH0/JvLrv6/p9szZH/FpIGAoD+p6gohdq835PvfKOFUzgonOXgw/0qt+w3kXJmxq2DExe6coNcrAq1oQNIFWrD65lCHOBjAqWwrUwISg4CB2cFe+66M6LItLS97EsaXmMe/vSXvvQObIWjYLZMAhBdRYqqZRty9pzpV4BDa7cq+9zdsa/gaXieKixzixwcqnqqgLLCBuCJOQhEDkoEcV55tEqBBD7eAAPNeg2GGbNm9Km1YU6AALXh6LFT3nHqCX/9zg+vwkvozIDNSoDj3//lmjLuJfGrnLPc3PpVKtDxgAcyKLKcX71aF8ggpCAiWGf97wI5RHz7F5xCnUA4bC9XgUp4nShcqhir1xAR4chDD6JG6o3A6jXRE2ec9bHjzjn/xwvxEjswYrNvZWaKv2dd/UgiA8sKVvbCjTKIFTYUasIGAF+5s361+gyOfbs4M9SGphJqA88cSOUYGiyB7yXX0FKOljsYG6miWIgRJ4y+nhLqdUAl/tMXL/3m20887YzFeAkeG7PZtzLXayOXMfNyaVkAl7MEIep3IXVjhQRiZGbfqYNzHKJ9blsC+PcQ51NEq86XnCns4RL17sBzASOjo2BDSOIIRhl777krDpg38/6/ed97TjnxtDOqAJp4CV62iBNDfnXRR79BzcaH1JDP7Zl8yZcdSCOvCaif2KDEYCUflSt79EIDCZODso8XiDmUkr1FYM66frjlGgCCMQZjtTHAWZQKRfRWikhiRhwnIG1+ffdTzv3HYCnHXooE2CKGGWiafsEq1UgUogq18BU6y3BqQybg3YLfQuYFHJ8i+hGgSg7iOIg8XhRy5OcGqNoQB3hLIepTPgJQbzbgGk3EkUGpEMEYvw00TVPURqvT4Ic+NfASvWwRBHj9Ry9awow/2tBoqWyDBWjf+tVrPfBivZQr7ewAQfBRJagGnUBscAfBNTgBMXnhCArrUtRGRhHFBqVCgshwEH18JTJiFICw+3QbATZ6SvgREmuVCCTkhRphiPrbPODtlR4Az4AXhSXXthShwpeteB8YCpgZqUsxvHoESRyhWEgQRwZE1AJfycDtcuwR99111zS8hC9bDAFef+ZFD4HNzSR+owYJBeB8cyhZGgd4Zi0saQjuvDugrLBjyYs8GfAkYe+mopk2MLpmBMVChHIxQSkyICVIGEGrqtC0DhqcuxOAM7cRYFPFAiJ/Z1UthWYMUkBIguBjA+A+gueg4fNa7oBa7sC/R+jqCf2DzWaKkZERFOIIxSRBEvsDhH1PgoZtZE2gsl0TYg2A98y/447O74lyt7SNABvo8sazLn2Ula6z5AO3bHUrKTi4Ac67AwppYWgSESUQSyvXV/INnyQObCKMVscwPDyMxMQoFRMUYhPig1y9IHXQQi+ifU8ldQ0A2Mk595kANIcr5W7zjzO2silhW9yHFXGnkZWFSgwOuTqJtwQttyA0zsz72wB4K9cPgg/5rUKrlq9CrVpFOYlQKkaImMO0L4ELQ35UAdccRWGPV69AOhZnk8mMMWfdc/vt+3Ss+omu2JrIsMV9wFPO/vdhjuMj1LoVQgSyYWULWsFcKyZgaaWD/jkSrAOByOf/zlqsWL4CqViUkiLiYoLEMIgy4L3Pd04hto5oYNeG6Zu1ncq4wL8C4Kb5d9wxN/xsuly5wyp0kmEbAaZ6ecPHLn6OjTlWrVvjyPtx78/VZweqELYh4MvcgQ3mXn15WAmr1qzB0mUrYZhQKSUoFg0SZjgKvQCataH5gRQigt4DT02lmdN81NcUAAzaNL353rvumowEE5FhiyXCFsvMN5516b0mjvdl6HUOBJLQzCkUijccbilMdDZ+VxAxRqtVLF68DM1GA32VBKVigpKJwBQifadIsxbyQAJbW4P+g948ouJ6MtPP7DejtNRSYwbTRuPm++6+O3MHcbiaoBbmSUDhsW5E2CYFr8/lf778nteKpJ8mJ3uC0QORKCr1FrJB/yqMemMMtunQbDbBTCHIixFFhMhEIGZ/5oghEAiGDNQAMQhi6+jb5ZDGtL84sZDWhiHWQoigzkGcnyQC+DZ07y7ccLlSec28/fe/Pwc00Boq2xKPNPcYOu5nP28jwLout91002xT6LkfRD0AkTFm1a3f+/gAR4XImLB1nA2iyCCJDExkEBlCZGJwODPOS7wG/iZHAjjESVF3PumTzebo6oJIAFz8vKH8fQ37CaxziJieX92Qf3l81cgD733ja+4AkHQA7iYgQga6bgkk2ComW1cbjW/3R9GAy/bjm57+cqUME0WI2IAJIDZ+kEQEf0sEEQeicNaQA4xxcGpgnEKNrzdQbRg7nvjxldKobpdhwjntN7vPFOYWMGGgEEMIvZ+7+qbP3/Tok41f//mer/zsC2d/N4CaycfZ2NjWYDK0zzfLE4I3Jwm26DTlyHf9w6l9R5zyVN3hRBNFYGZEHnSipGgNAczkLQApiH17l1CQc725DrGcttI9f6Og2mqk+73dJkmpFfUzc2tpZlVDJoIyoyeJUYkjXPCH+Tjk3P/oueaxRdMk6pnxu2dWnTfn9I/d9YkLv3MqwgzJEBtEuWs+QMzrCJsVhy3SBez5+ncepJXKD558YOG8Iw/ZDz8++3QsXTPqgSBCXOx1D1755TXp2JpBNpGf9BVOmyQiEBl/5CzajxljQsnBl5LRGMWanY7BcSe+FSOrV0BEYK0FiHwMAL8XQcSPs96up4Qf3/4QPn/Vn1FTQU8pBnEUBk0xbOrQTJuY2588/M5XHHjuR9528u8DsGGs+bjrZDHClk0A2shnub/sTe/+yoPPDn9EmpKgXsOP/u8HcOAeO6GZ2haYUaFHH/z1BcO1lYummSgJoE+NBOJSuNooyge/ZdUhr3zttNGRNSzWQoK/FxGIDfMJARTIp4Lv+9Hvcdtjz6LSU0YUM5RMe5w4wnwhBhp1C1ev6/479N33vmMO/dQ7T3z1rbkV77pcx5GAiDYoCdaF7xZDgJe/7e/mDkv088cefHof9PYAzmHWjEHcc+HZWLZqOPRl+54/NhEiNOs3futjhVLfdkQt0CcmgTiLtDaCwV1etugvTvlYHJGZUa9VPeBhpUtH0NeTxHh86UqcdsnPUCeDSiH272v8aDCOIj9ZFP4wAWL270GMerUOsU15+8F73rFdb+WcL7znrXehfThZJwHcxiLBVkGAcy79wclf/vr3f+jK0yoohhmsa0bxuQ+chjNedThGm6kfDUMEMgbFiDE0e0dcdemnVtSWLtjOxG0r0EkCtRYj1TV213mH3bbXMX9TqkzfYf9GtWpcftWHOMGGx1QElSTCQ8+twGkX/QQoFlGIoxb4DH8qid9mpK3z7EnVR3/MCFPsUB0dBRcit3uEP77llQd+/Oy3vfHxEB+4EC9sVBJs8QT44Ne+efolF/7wOzJ9Vow4HO/pFGURPPAfX/S7gsMYuZgJ5d4evPWz38AVXz4HI88+hhv//ZMo9UzLrfpwVYXUVqNv7pHDR735zFUUJzun9QbZtDne3HchQMEwHlm8HKd+7QqY3l4kiR9U1wKf2gHiOPDVH3lOFBpb4Q+3FUeouxSm0aifsf8uF3/1w+/+fAgMZWOTYF34btYs4Iz/940PXHzxFZeNA18ZSFOcdOyhmNZT9sfGxDEKcYxSXz/+6v2fxK233IPbHngEc+a+DCvqvvu3VcdXhTiHKCIUj/+Uvur0T/aJ0pxmrUbi1j3HgQ0jjiKc/t0roeWKHwotBO4Gfnb4oIailTFgY6Dkp5ET/ATSKAZKcQLTUypeeu+ij81779lXPf7MoiQAHueUw3yWAPWNkC/NNPCvP/mFT3zvB1depIMzzDjwVUBjTXzg9X+Feupg4hilJEGh0oNDT/8gHn70WdRMjPmPPwMQY49XvQuuUfWpXSCAS+sYmHccTvjLI6hRr0N16gtpoFLC535xA1aPNlCIGYwIHBu/e4g7wM8sQOsajr8xkSdEiEEgPvOIoxg9PQUsMNNecfqFl99+wY9/vhd8z2GeBLQpSbBZCPCef/m39/zPz679sg4O0jjw4ScvzN1/Dxy4z16woqgUC0BSwP6n/R0WPrcKmD4DKJZxx6MLoCI46fVvwqPD5Of7BBKkzRq233HX9T4SvhAZzH96Mb5/ze0olooAKGwvQxgdNhH42chS/zul0H0chk1w1A4cTWTQ0xPj3hG7w5euvfP67//6mncGEnTWETYJCTY5Ab72w/868buX/vBS7R8imA7wiYFaDR9646tAaROVShkpMfZ7w99iyYpRYHC6P+WxkOCP9z2C1PpdQbMOPA6uWYMqwdoUKE/HnH0PgU3Xr5W/WC7hvd+/ClqpgMAhrvDRfTYrhrqCH86lj8LvshZ2BBIQe5dggixNEXp6imiW+ysf/OkfLvrAed/81+D7s6LSJus02qQEOOEDZ+1/1me+/lOdMSdCjLXBV4dKTxlvefUrYKIIY6nDy17zNiyvpcB22/kju9ifBDa8eCWWr1yFZr2Ot77pdKwYqYEkxeqxJk756IVoNFI0Gw2/yXMKl75igkt+fwsWPrMMcWxaq1hYvaQM44+NC6nohOAz2govZTOQAwlCnAAWGGYkCaE42I/vP7bk/R+76LIv5RTorIq40a3AJiPART/+Rfn6e5+6WgZnlBGHURt58FmBah0nH3cEysUiVoyMYd6rTsUqR8C0ASBKPPjqn29BuH7+I4A4lMolLI+HsHLlCrz57G8hFaDZqKNgCMtWjyIyk5OAidAQwVevvBnoKcLvJmiFJFA1kOxsQQ6TRngC8IMwBM5KlRn4WWubgsgnAIYMTGxQ6unFt+5/9oPnfudH/xzYY7pIxxuFBJuMAP9y+X/9qD7SnIVCtPbKZ386U//M7fDFvz0VK9aMYN6xb8JwVASmDQJxoQ0+fNqFyODPjzwFEkF1tIajDjsch77x78FRCY2xKiqlBBdedSOO+T+fQhTHk6/+UgHf+N1tGKnVYTicUU7s6wgaGkbDEbKiCjLGH2erPDH4LY0gswQEpggaka9bUAQY+HH4MaHQ24t/vfmhT3znyt9+OFc8oi51g62PAKecde7Ji54efj16yh3go33yYpris+94A1Ji7HPESRgtloCeASApASYaD74qEDMeenYpBIKx6jCmzz0cO/7FUahVh1GJI/zm9gdwzr/9BE899CT+eN8jKBWSrp/NMGMstbjo17dASwUoRX50jPhWNEf+MEqon03cIgEbSJhJtC7wwf6sOTX+VFMln1aSeHma1cBEhHhwkD5+1Z8/d/lvrjk6xARrxQMb2gpsdAKcdd5Fg7/83c3f1ULC+QDJgx+WFROQFHD5NTdh/ze9F9X+fqB3ECgU24DnwScAJsITi5chbVosXrIEpUq/39sPxVNLl+Nd//Jd6Hb9wM674iNf+6a3IF0uPaUE5//6FoyMVcFR5KeIOi/qCKk/RBLhvMAg0Sj8PCGiyG9hnwL4maXwlsBAVXx2oAyKBAYGcRJB+vqiD/30usuvve3OHUJ2sFHjgY1OgD889MSFlooDiMOclXHgayu9QhThjocWoBoVgd4hoFgKXyLWBp8ZYMLylcN47tlF6CmVEBl/JAxUcNznvo1aIfGv75mGB+5+CNffff9aVsAwo1pPcfFvbwbKFX+GsLTnAYkg7CAm2NCM6sJiVH+gHQgMIe82qBv4mk8RQyqJkC4qQ0lA8FaHGSgmjFrv4LTzfven3y9ZvqKMtdvPNygJNioBdn/zB2bPf2zRKSiXwhlrHeCDchaBgFIRKPYCSQG+imMQpLe1X8uMZq2J5WN1FAoJ6vUmpvWW8JYLf4yVI2M+XcwKcDvshA9//bveleQulUKMi6/9M0YbFogoBHwMpXBUPPm5gc45XxomhQTYRQQgr/r5g6V9xuBdQu5/a9UKcv9rK0ZUMEUho+TWqXOV3iJuWDw2570X/PtPc+lhXh/QrcICLF6+6tJGXUs+suoCPncEgtkyQCa8SA7wlhP0X6jxZwo+t2YMai0GSzG++osb8Ke7HgFKpfAeYX9A3zQ8fvcDuP3RBSgmcaum4aIYl9xwJ5DEQfRh+IPsABEKlT1/npBVCm1hYU+C+J+dIBxv4+cICpN3CTQx+MhvgQ/t62QUhnxziyFGqb+C61fJ0Vf+4bajAgk4Bz5vKCuw0QiQHP32/RpNd8Kk4GsO/PxKDyO5wFEuwkZbfGm5DcZji5cjYcI9C5/H+f99A9DXE75oDmsngLH9LJz/k5+DY+8GinGE6+c/guXPLAXiqGW+lbJAzw+XturH0bkwWMqqwDqCsP89wH5zqvPTxMK5piCeGPyWK6AwxoYUrF4oonBGvTEMVyzQt6/78zdyjSUG4zuNXzQJNhoBnHNfsaJRuxt+Q4EfAkdSwBisqI6hMK2Md33r52gWCu3niAJR7mjPoe3xm9/djNFaDZFhRMUizv/9rUBPCQBDxE8VoxDpZ10aBAMJJ5O2yADrj54jCoGieBfiAMl2HGn7gOnx4Oc+f1ZX0OwEMr9hxUQRDIByTwnXrq7v8Y3//MXbN1ZquHEIcMSb9hLoX4EMWgf68lTBbwso3cHXcZagaCJ8++pbsGJlFYhM7r2yiDz0XJoI9b7p+N6vrkGhXMLzS1fiT3c9DMSJf35QDMU5TwKiUJ/14AsBzlF7dB0rrDpY5zekOOf8MfMqkNAhlNV1qeW1c58/F9dw5B9jzUQiHzAaJphKCZfPf+L/PrXo+cJEUvGLsQK8AWOJdqpS6jlXhYvB2a0N9KTg54sraJtRrA0+ohi/euBxfOnq24ByIfccBShqn+2eWZVp/bjw2jsAML593S2wHASiaDwwmdLXmhZP7LODsB9RwvZ059RPJScHfyhdGCbtzySBInQJKUJtYW3wvduJWv2OTKHxhQwMA8Ukwn0WMy67+voP5KzABksNeQMHkoqXn5ig2fjLccHdWpH8usDX8eDno+nsMWEgYTyyaCXqqfNZA3WCn70+vC5iLFpZw2W//yMuv/1RoBCNBz9X2WtZAiY/gCrEpEL+KBlnrR9VSwIrfpSNDZPJHGUdHhLqCFmGsDb4matThp9uRgolAzL+O2JicJxg/pI170utNR1l4xftCngDrPpxDUOIiztBdfo4ILM8mNAGZJ3gdworHQFgRiJjpgZ+uGpPCR/67i+xaMUab/YnqexlE8bUhONhyWcFfm6B32ZmheA0HHQZRtRK2K7mY4lMMWQfH7TAx/gMJ9MHlMHGk4WYQCQoJQmuWz66083zHzg6VzreIK5gQ7mA9gcpVN4DoqQNfraCsTbok4IvgEYd4OcDqNwCmCL4rRSzVPYrv6OZow1+W8AR+AhfDaBswgEWWYoYAkTyJ5M69UfWaTjHWBSBCOGks3FxQV4kavk7MBu/F4H9NDSSCJEhSFKgX/z5vnNyGcEGqRryBrAc4wcnxIUT1ga/W4DXRQ+YCPzOGCADtwV+zmJkXOwGvmruNesAv0UyBoIF8EfcGl8cMgSxAou8O/BqoVWvGwh5nUDgtWQ/y0h8WdmFVDEHPojD6ancGnlLkbcQ5UoZP3hqyQFX/fHWOWtWr6YlS5bETz75pHmxroBfJPj5+4K9X1GCrc+ZGPxOMDp9Yhc9vdMNdAW/24rPvwcmBr9Fvi7ga+7vczu/Vw5TyyMflnmxKKiGYfy9Uwu1/nGQtM9GMsZvYzeBBFjbAmYb1DhiEPxOaGOAOkyyYMmKc0AkcRybSqViFi5cGN95553mhbqCF+sCFPmtTj390yFSmRD8XBPlxODnV2UXSzBl8MW7BNaO13SxChlZJgK/pe9nQ0cYGmnbNQQdQdjXDSScP2DJq4VWQuOqMV5uzmYahoHkXjjUnMCb6x+gyBeLiJGUS7j8gWdeu3zV6p44ijiKIlMoFGhoaMjccccd42KCqZKAN1D0j5D+HQ5CPCH4mvPdnfp+tgpbX/6mBD/3fEwEvrb+lg/mAviO25JxCAizWMCptM4lVvZxgqiXkWEEKlmqmBOOEFJDRjggU1sBYrEQ475ac9pv77j/H4ZHRuzIyIhZsWJFHMcxDQwM0I033hitb62AN9jqBwgmOWTcpthu4E9U3Mmnd9FGAr8z+Fzr+dxu6dJ8FpMnhrdg/th7P862RQRyIfjzY+it+nkCVhVW/Tgb8acmw0l2/rELE06Ci6F2YJgdY8do73dQZiy3OLJaqxfGxsbiUqlkCoVCZIyhGTNm0JVXXknrUyvYkEIQYKIdxwk9k4HfWdxpgT+Jz88Hl+OqbfmS64sBP3NBWVCItpzcWdzxB9VCYYI1cFDnh04IBKnY1sFWDgRntWUVrJAPDFmg4iuKkqsoZpPSobmm0rADOiqW8NAzz+/8+7vm79FTKWu1Wo1WrlwZVSoVE8cxT58+ndcnINxQBNBQTiuBJ1H5mCcv7oyLAfKFFEwASA7AVgQ/CfgTWor1BD/v4pBZAxPOMyC/cgPIVgnOChwTHGVBoncN1lFwCQKY0Hom/osU8VNOs8+eZQVJxLivVt+uv6dv96VLl3K5XOaxsbFo+fLlcW9vr6lUKtThAngT1gL0Oe8BXkBlj7oIMq0qGk8R/I6UkScCvyPDeKHgq46zBsSmXRkMjUAUdAIVgbMUTiPXECxK68CqVmkZ2esUMF6MyrJ+ZgY7BxuXk73mzJ6RptYsWbIkKRQKVCwWadGiRaa3t5fXJxbYsASw9VtaNf31rexRlwCwBb5OHXwNfzsK790V/G5WZxLwW9kLOsAfX9nzyiE8CXyXu28sEUGqWW+BwDqFE3+1ofVMlYJwhHDQpReUyFAupFKQiTBKGl11232HGWNcs9k01WrVrF69movFIhljaGBggKeK74YkAGPJ079DnCwYZ+61i9mfqLiTDwChXSp7GL96JwW/i9jTFXwe35zamRquVYHsELRofFzj44IolyX4W8B4YcgpnBCc5DWDECQSQUQhIX1UBCsROo0o6BAORHctWrxLai1FUUT1et0kScKRTw1Z/Y5Q3ZQxgH+vR25ZjeXPnIyk9HxL3IhN+MKnUNzJg9+1ske5ADAXIL4o8PMrOWdd1gX+BJU9cBTiAm5bA/UdQ1mnsaiEgDAQwIX71rVOPRcKHQlEoQjVHh9iwBgslZojIyMcxzE1Go2oWq2aZcuWkTFGi8XilGcSvtg0MJO2s2uCu377BBbMfyVc+mmAfgpxC0BxE1HivCk1gEvDKg56vHAYV2XG7aqZsr6fmfposj17k4Gvk4M/TsCaoMLZWdxBmBWQdQxBoGrCOFvyG01IQ6bQnoLuLIWU0QtKTsTHtEJhnrG3MsXYNG2ammq16ucZEiGKIjz99NPMPHVYX8iUMOlCnGwqlt/p+shta/DIbZe02phm7dFfmrXDXpUZO/71SmemzZo9e5cV1dHd65YKBE0UAtTq/unlAmDFf8l5cYbXoe9n/X+T6fvQFwa+dqiD+d1ALfA7peOQCRgfw/gijwNc5C0dqNV1zFBYtWAbwURBPHIKNX57uS9HS5vrDmCo1ut1mCiiJEnEOSfZGJx6vT7l7dAvZkBE5tWj3K2B3+rMaG95LuSKRRlREA1u3ytxMZpz+NEnLFw5esCee+xamjHYv9ttDy+cnRbLBYBiEQuMNYFy0ff1i/Xl38xyvJDiTleVLwSqoms1h7xg8PNBZPiqsno/hYOIKfKbQzjyswQ4bBwx4TNxaBQhUhim1m7nVATnzt3+8hl29LM9vb2Rc87OmDFjTFVTImoODQ2ljz76qHvd616Xn0G0wSxAZxlYOsDN9ru78HgTQDHcz0amxXblEgKAp37x/V8B+OXDNwEPA5Z7+3tn7LLHwMvmzTvqpiVj+xx31CuG7n3ymT2eqUsfFyuxqLCO1fwXXCqEzXu+S7hNAAluZSrg5zON9QA/+4/NJOCPq/b5VLFltIy0rIG4CJTVFiBQ4/cK+C1qYTp6OCirbgWvTHRlKa3/T71Rj5JCwVprba1Wc1EUqbVWRkdHxTlHG9sC5GMIytWpCePn52Y5aZ4EeUuRL2nmq1o2izHiQpG0Z6By7DFHz5u/snbE0B77zNh5xtCc6558ZnYa9RUAiUQcUK37vQXGwJ85FwVNjNrd9evYuTMh+OPSQuTSxamB334dh/0APjYg8W6OCCBtWwMTAmcOW9QNKxSExkgN/++AnX9ef/KBM/v7+4tJktjBwcFab2+vrdVqjXnz5jWXL1+uhx9+eIopjJ/bUATIN4V0Dk2OOkDPtzZ3drZ0q2/nu14o989Y09PXu/0uu/cfcMCBr7hhaX2vk/7qFYP3LFy82+MN6TNJJVJpsqvWPRA9CZCGwDLi9ru+WPA7W98mA7/DAnGo/yNUGCkSkPrZgwQKH4cCXxmu6VBKWL66a+WEB+65e8HQ9OlpFEWur6+vUSwWm0mSuH322aexZMkSPf7449dp/jcEAbpZgYmsgelCjPz252gS8PPv13mbn+wqcVJgqUzrOe5Vr5r7wIg9dPs9954+Z+bMnX7/1KKZ1UJfQmJjKwKM1YBiGYgJsDZ0BWc+m8ZH+3nwW0LWVMDPUl90sRTZ38pnxv7fJUKLAIRwpI11oFRx0WG7XnrDz674wsDAQFFV0xkzZtSTJHGzZ8+ul8tlN3PmTPfUU0/p6aefbjsWzEYjQJ4EnUEhofssfdPxe54E+G7kyL9XlHs8ylmL/HFvzvT09cyas1vl4IMPOeLG1bLXXx912MBdzyzfbX4TvYVCEjeteGvB6mMLF2KLKCdAtbSMLt3NXcHvAvo40rSXDoczDhBSx6w/gMiXm01T8cX9Zv3wl9/+xjnFYrHY39/fLJfL9ZkzZ7pisZjOmDHDqqrbaaed3DXXXCNf//rXlYhkU46J444yMXcBeKJZ+tzRWtb5Hp0rv5NMpotlIHQft5INaERUKACVaZXXHvfq3R+v82Gz5u47tPP20+dcuXDxzGrcV2B1Ud1ZYKwOFIv+nSVsV+OwgiWg90LBz+8ZyAWJvo3cH2xRTFP5yoFz/u38fzrrvDiOC0NDQ1ZE6kNDQ+mOO+6YRlFkV69e7d75zne66667Tmq1Gl1wwQU2lIQ3GQEm6hXsdmsm+F3+ffKDlE2X1U+5uGIqbqIzvsh/ToWf1wcAqent79lpt917jzjs8COvH9Y93/zKwwfueX7F7jc30FtK4rjhHKejdf+ySs5aMOV2M3cBPy8cdQG/9c9zKBfXLXYqcP2f5g6d+8kzP3gFMxcGBwdtkiSNvr6+dGBgwDrnGnPnzpXHH3/cHXvssRLHMZ155pk21x62SQnQjQSYAOzOVd4N+HGbITuCTOqII0zHqu/mPiZqouy0PtnjWSTt4mKJqLe/96TjjtvjSSkctsPcfYZ2235o558uWDp7VaEnMaJxzTW8tSiF3dASMpGsgUV0nNg5DvyMhkpA0yJJEnx479mPPnDDb8+9/orLbiGiAjPXmbkZx3EzjmNbLpfTadOmSW9vr55xxhn23e9+91pR/+aaFDrROXudwOep39nE0Am+6eIqaAIy8CRWgdYRc6DL/fzP42b8Rv3blefsstu0vzzqL4+8bhhz33rkwdvds3TVbtfW0VeJorhmhdNa3a/8cshEOAAu4V+PY6BuYQoxBhNuvG373kfsgocvu/hLn78yWDj09fU1iKgZx3Eax7GN49gNDAykc+bMcVdeeaWbKOXb3KNiJyJCt5hhIuvRzYKgY+VP5Cp4AvDNBFaAJshqqAvx0HFrM1IkpTLRtMGek1/7mj2f0uLhO+yx1/SdB/p2vmLhsh1WF8sJCWIHQq8hqStsqV51J28/8LRds/Tmu377qx/cf9vNi+FPIMmsUCMIamn4O2kHEW1H8LvFEGCyopN2eZwneU43t9FtJWdZiJngd91eA3Q/xGGyzGSyxzWXggmAdP8DDxxa2D97n0P3nTcwb4/djnhi5UjpiNkDD81/5MlHf3b/Q3bPFQv/fP/dd64MK14C6GkO+InAn/S8gS1xWPRUSlWTkaMbQOsKOrnLayaKQXgCF0DrIN66HpdcapoiX91ty+gugJxdGx0/rxf4WyoBuoEqUyBGN1ehXcCdKtA0wSaXbq/TnPXAFMHvpmR2/j+aAzMjhQ2rPj9JPA/8ep00stUcGPECrMVUCDEZQdbnuVNxQZ2kM10Cys4SejcSuJwlcDkC6ATgv6QJ8GJiismCTJrEtUyFEN2sR14F5QncTycBuh0xJ5j8RJH1OnvwpUqAqcYTE5FiXb+jdcQe60uOzr8nHTq95KL5/ErPP9Z53uA6wf/fQIBuhJgsntBJfsdTJM+6yEETKJoTfR5g7RNHKRcPEF7EiaP/2wiwMbIPdDH13d6Tu7x+snMBu50gmk8dO++vN/hTIcD/B0LQMNWsrXXjAAAAAElFTkSuQmCC" style="height:82px ; width:80px;    display: table-cell;     padding-right: 8px;     vertical-align: top;"&gt; &lt;div style="display: table-cell;     vertical-align: top;     color: #555"&gt;     &lt;h5 id="helpdeskFullname"&gt;ggdgfgd&lt;/h5&gt;     &lt;h5 id="helpdeskEmail"&gt;&lt;/h5&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt;';&#xd;
+form.setValues("personDetails",imgdisp);	&#xd;
+var divid=document.getElementById("details");&#xd;
+divid.style.display="none";&#xd;
+if(userName !==undefined){&#xd;
+	for(i=0;i&lt;userAndResources.accessRights.length;i++)&#xd;
+	{&#xd;
+		if(userAndResources.accessRights[i].users.length !=0)&#xd;
+		{&#xd;
+			for(j=0;j&lt;userAndResources.accessRights[i].users.length;j++)&#xd;
+			{&#xd;
+				if(userAndResources.accessRights[i].users[j].fullName == userName)&#xd;
+				{&#xd;
+					document.getElementById("helpdeskFullname").innerHTML= userName;&#xd;
+					var userDnAttr = userAndResources.accessRights[i].users[j].dn.toString();&#xd;
+					var emailID =  IDVault.get(null,userDnAttr , 'user', 'Email');&#xd;
+					document.getElementById("helpdeskEmail").innerHTML = emailID;&#xd;
+					divid.style.display="table";&#xd;
+				}&#xd;
+			}&#xd;
+		}&#xd;
+	}&#xd;
+&#xd;
+}&#xd;
+&#xd;
+&#xd;
+</value>
+                            </prop>
+                            <prop
+                        name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">Helpdesk Users</display-label>
+                    <display-label
+                        xml:lang="de">Helpdesk-Benutzer</display-label>
+                    <display-label
+                        xml:lang="zh-TW">服務台使用者</display-label>
+                    <display-label
+                        xml:lang="fr">Utilisateurs du service d'assistance</display-label>
+                    <display-label
+                        xml:lang="ja">ヘルプデスクユーザ</display-label>
+                    <display-label
+                        xml:lang="zh-CN">咨询台用户</display-label>
+                    <display-label
+                        xml:lang="pt">Usuários de Suporte Técnico</display-label>
+                    <display-label
+                        xml:lang="es">Usuarios del servicio de ayuda técnica</display-label>
+                    <display-label
+                        xml:lang="sv">Helpdesk-användare</display-label>
+                    <display-label
+                        xml:lang="nl">Gebruikers van Helpdesk</display-label>
+                    <display-label
+                        xml:lang="it">Utenti help desk</display-label>
+                    <display-label
+                        xml:lang="ru">Пользователи службы поддержки</display-label>
+                    <display-label
+                    xml:lang="da">Helpdesk-brugere</display-label>
+                </field>
+                <field
+                    data-type="string"
+                        name="personDetails">
+                    <control
+                        control-type="Html"
+                                editable="true">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                        name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en"/>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="confirmationNumber">
+                    <control
+                        control-type="Text"
+                                editable="true">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                            <prop
+                                name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                            <prop
+                                name="onEvent"
+                        type="event">
+                                <value>var allTypes = form.getAllValues("type");&#xd;
+var fieldType = form.getValue("type");&#xd;
+var dnList = new Array();&#xd;
+var index= 0 ;&#xd;
+for(i=0;i&lt;allTypes[0].length;i++){&#xd;
+	if(allTypes[0][i] == fieldType)&#xd;
+	{&#xd;
+		index = i;&#xd;
+		break;&#xd;
+	}&#xd;
+}&#xd;
+&#xd;
+var  fieldValues = JSON.parse(form.getValues("users"));&#xd;
+var heldpeskResources = fieldValues.accessRights;&#xd;
+var typeChoice = new Array();&#xd;
+var j=1;&#xd;
+for(i=0;i&lt; fieldValues.accessRights.length;i++){&#xd;
+	var str =  fieldValues.accessRights[i].resourceDn;&#xd;
+	if (str) {&#xd;
+       var res = str.split(",");&#xd;
+       var cn = res[0].split("=");&#xd;
+       var helpdeskAccess = cn[1].split("-");&#xd;
+   			if( helpdeskAccess[1] == "History")&#xd;
+   				{&#xd;
+					dnList[0] = fieldValues.accessRights[i].resourceDn;&#xd;
+ 			      }&#xd;
+ 		     else {&#xd;
+					 dnList[j] =fieldValues.accessRights[i].resourceDn;&#xd;
+					 j++;&#xd;
+				}   &#xd;
+	}	&#xd;
+}&#xd;
+dnValue = dnList[index];&#xd;
+if(dnValue !==undefined)&#xd;
+{&#xd;
+	if(dnValue.match( "Reassign") || dnValue.match("History") )&#xd;
+		{&#xd;
+			field.show();&#xd;
+		}&#xd;
+	else {&#xd;
+		field.hide();&#xd;
+		}&#xd;
+	form.setValues("selectedType",dnValue.toString());&#xd;
+}&#xd;
+&#xd;
+&#xd;
+</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">Task ID</display-label>
+                    <display-label
+                        xml:lang="de">Aufgaben-ID</display-label>
+                    <display-label
+                        xml:lang="zh-TW">任務 ID</display-label>
+                    <display-label
+                        xml:lang="fr">ID de tâche</display-label>
+                    <display-label
+                        xml:lang="ja">タスクID</display-label>
+                    <display-label
+                        xml:lang="zh-CN">任务 ID</display-label>
+                    <display-label
+                        xml:lang="pt">ID da Tarefa</display-label>
+                    <display-label
+                        xml:lang="es">ID de tarea</display-label>
+                    <display-label
+                        xml:lang="sv">Uppgifts-ID</display-label>
+                    <display-label
+                        xml:lang="nl">Taak-id</display-label>
+                    <display-label
+                        xml:lang="it">ID task</display-label>
+                    <display-label
+                        xml:lang="ru">ИД задачи</display-label>
+                    <display-label
+                        xml:lang="da">Opgave-id</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="severity">
+                    <control
+                        control-type="StaticList" editable="true"
+                                required="true">
+                        <props>
+                            <prop
+                                name="list"
+                                    type="list-items">
+                                <list-item>
+                                    <key>normal</key>
+                                    <value
+                                    xml:lang="en">Normal</value>
+                                    <value
+                                    xml:lang="de">Normal</value>
+                                    <value
+                                    xml:lang="zh-TW">一般</value>
+                                    <value
+                                    xml:lang="fr">Normal</value>
+                                    <value
+                                    xml:lang="ja">標準</value>
+                                    <value
+                                    xml:lang="zh-CN">常规</value>
+                                    <value
+                                    xml:lang="pt">Normal</value>
+                                    <value
+                                    xml:lang="es">Normal</value>
+                                    <value
+                                    xml:lang="sv">Normal</value>
+                                    <value
+                                    xml:lang="nl">Normaal</value>
+                                    <value
+                                    xml:lang="it">Normale</value>
+                                    <value
+                                    xml:lang="ru">Нормальный</value>
+                                    <value
+                                    xml:lang="da">Normal</value>
+                                </list-item>
+                                <list-item>
+                                    <key>medium</key>
+                                    <value
+                                    xml:lang="en">Medium</value>
+                                    <value
+                                    xml:lang="de">Mittel</value>
+                                    <value
+                                    xml:lang="zh-TW">中</value>
+                                    <value
+                                    xml:lang="fr">Moyen</value>
+                                    <value
+                                    xml:lang="ja">中</value>
+                                    <value
+                                    xml:lang="zh-CN">中</value>
+                                    <value
+                                    xml:lang="pt">Médio</value>
+                                    <value
+                                    xml:lang="es">Medio</value>
+                                    <value
+                                    xml:lang="sv">Mellan</value>
+                                    <value
+                                    xml:lang="nl">Normaal</value>
+                                    <value
+                                    xml:lang="it">Medio</value>
+                                    <value
+                                    xml:lang="ru">Средняя</value>
+                                    <value
+                                    xml:lang="da">Mellem</value>
+                                </list-item>
+                                <list-item>
+                                    <key>major</key>
+                                    <value
+                                    xml:lang="en">Major</value>
+                                    <value
+                                    xml:lang="de">Wichtig	</value>
+                                    <value
+                                    xml:lang="zh-TW">重要</value>
+                                    <value
+                                    xml:lang="fr">Majeur</value>
+                                    <value
+                                    xml:lang="ja">メジャー</value>
+                                    <value
+                                    xml:lang="zh-CN">重要</value>
+                                    <value
+                                    xml:lang="pt">Principal</value>
+                                    <value
+                                    xml:lang="es">Importante</value>
+                                    <value
+                                    xml:lang="sv">Stor</value>
+                                    <value
+                                    xml:lang="nl">Major</value>
+                                    <value
+                                    xml:lang="it">Principale</value>
+                                    <value
+                                    xml:lang="ru">Высокая</value>
+                                    <value
+                                xml:lang="da">Større</value>
+                                </list-item>
+                            </prop>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                            <prop
+                        name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">Severity</display-label>
+                    <display-label
+                        xml:lang="de">Schweregrad</display-label>
+                    <display-label
+                        xml:lang="zh-TW">嚴重程度</display-label>
+                    <display-label
+                        xml:lang="fr">Gravité</display-label>
+                    <display-label
+                        xml:lang="ja">重大度</display-label>
+                    <display-label
+                        xml:lang="zh-CN">严重性</display-label>
+                    <display-label
+                        xml:lang="pt">Gravidade</display-label>
+                    <display-label
+                        xml:lang="es">Gravedad</display-label>
+                    <display-label
+                        xml:lang="sv">Allvarlighetsgrad</display-label>
+                    <display-label
+                        xml:lang="nl">Ernst</display-label>
+                    <display-label
+                        xml:lang="it">Gravità</display-label>
+                    <display-label
+                        xml:lang="ru">Критичность</display-label>
+                    <display-label
+                        xml:lang="da">Alvorlighedsgrad</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="dn" name="cretatedBy"
+                        visible="false">
+                    <control
+                        control-type="DNDisplay" editable="true"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="display-entitydef">
+                                <value>user</value>
+                            </prop>
+                            <prop
+                        name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="de">createdBy</display-label>
+                    <display-label
+                        xml:lang="zh-TW">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="fr">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="ja">作成者</display-label>
+                    <display-label
+                        xml:lang="zh-CN">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="pt">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="es">CreadoPor</display-label>
+                    <display-label
+                        xml:lang="sv">createdBy</display-label>
+                    <display-label
+                        xml:lang="nl">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="it">cretatedBy</display-label>
+                    <display-label
+                        xml:lang="ru">кем создано</display-label>
+                    <display-label
+                        xml:lang="da">cretatedBy</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="Createddate"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="true"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                        name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">Createddate</display-label>
+                    <display-label
+                        xml:lang="de">Erstelldatum</display-label>
+                    <display-label
+                        xml:lang="zh-TW">Createddate</display-label>
+                    <display-label
+                        xml:lang="fr">Createddate</display-label>
+                    <display-label
+                        xml:lang="ja">作成日</display-label>
+                    <display-label
+                        xml:lang="zh-CN">Createddate</display-label>
+                    <display-label
+                        xml:lang="pt">Createddate</display-label>
+                    <display-label
+                        xml:lang="es">FechaDeCreación</display-label>
+                    <display-label
+                        xml:lang="sv">Createddate</display-label>
+                    <display-label
+                        xml:lang="nl">Aanmaakdatum</display-label>
+                    <display-label
+                        xml:lang="it">Createddate</display-label>
+                    <display-label
+                        xml:lang="ru">Дата создания</display-label>
+                    <display-label
+                        xml:lang="da">Createddate</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="ticketNumber"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="true"
+                        required="true"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="field-className">
+                                <value>form-control</value>
+                            </prop>
+                            <prop
+                                name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                            <prop
+                        name="label-className">
+                                <value>form-group</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="de">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="zh-TW">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="fr">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="ja">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="zh-CN">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="pt">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="es">NúmeroDeTicket</display-label>
+                    <display-label
+                        xml:lang="sv">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="nl">ticketnummer</display-label>
+                    <display-label
+                        xml:lang="it">ticketNumber</display-label>
+                    <display-label
+                        xml:lang="ru">номер сообщения о проблеме</display-label>
+                    <display-label
+                        xml:lang="da">ticketNumber</display-label>
+                </field>
+                <field>
+                    <control
+                        control-type="LineBreak"/>
+                </field>
+                <field>
+                    <control
+                        control-type="LineBreak"/>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="users"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="true"
+                                visible="false">
+                        <props>
+                            <prop
+                        name="widthPixels">
+                                <value>300</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">users</display-label>
+                    <display-label
+                        xml:lang="de">Benutzer</display-label>
+                    <display-label
+                        xml:lang="zh-TW">使用者</display-label>
+                    <display-label
+                        xml:lang="fr">utilisateurs</display-label>
+                    <display-label
+                        xml:lang="ja">ユーザ</display-label>
+                    <display-label
+                        xml:lang="zh-CN">用户</display-label>
+                    <display-label
+                        xml:lang="pt">usuários</display-label>
+                    <display-label
+                        xml:lang="es">usuarios</display-label>
+                    <display-label
+                        xml:lang="sv">användare</display-label>
+                    <display-label
+                        xml:lang="nl">gebruikers</display-label>
+                    <display-label
+                        xml:lang="it">utenti</display-label>
+                    <display-label
+                        xml:lang="ru">Пользователи</display-label>
+                    <display-label
+                        xml:lang="da">brugere</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="footerLine">
+                    <control
+                        control-type="Html"
+                                editable="true">
+                        <props>
+                            <prop
+                                name="onload"
+                        type="event">
+                                <value>var footerLine = '&lt;hr style="margin-top: 20px;margin-bottom: 20px;border: 0;border-top: 1px solid #eee"&gt;'&#xd;
+&#xd;
+field.setValues(footerLine);</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="en">footerLine</display-label>
+                    <display-label
+                        xml:lang="de">footerLine</display-label>
+                    <display-label
+                        xml:lang="zh-TW">footerLine</display-label>
+                    <display-label
+                        xml:lang="fr">footerLine</display-label>
+                    <display-label
+                        xml:lang="ja">フッタ行</display-label>
+                    <display-label
+                        xml:lang="zh-CN">footerLine</display-label>
+                    <display-label
+                        xml:lang="pt">footerLine</display-label>
+                    <display-label
+                        xml:lang="es">LíneaDePie</display-label>
+                    <display-label
+                        xml:lang="sv">footerLine</display-label>
+                    <display-label
+                        xml:lang="nl">footerLine</display-label>
+                    <display-label
+                        xml:lang="it">footerLine</display-label>
+                    <display-label
+                        xml:lang="ru">примечание</display-label>
+                    <display-label
+                        xml:lang="da">footerLine</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <actions
+                        location="bottom">
+                    <action
+                            name="SubmitAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="fr">Créer</display-label>
+                        <display-label
+                            xml:lang="nl">Maken</display-label>
+                        <display-label
+                            xml:lang="pt">Criar</display-label>
+                        <display-label
+                            xml:lang="ru">Создание</display-label>
+                        <display-label
+                            xml:lang="zh-TW">建立</display-label>
+                        <display-label
+                            xml:lang="zh-CN">创建</display-label>
+                        <display-label
+                            xml:lang="en">Create</display-label>
+                        <display-label
+                            xml:lang="es">Crear</display-label>
+                        <display-label
+                            xml:lang="it">Crea</display-label>
+                        <display-label
+                            xml:lang="sv">Skapa</display-label>
+                        <display-label
+                            xml:lang="de">Erstellen</display-label>
+                        <display-label
+                            xml:lang="ja">作成</display-label>
+                        <display-label
+                        xml:lang="da">Opret</display-label>
+                    </action>
+                    <action
+                        block-on-error="false"
+                            name="CancelAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="fr">Annuler</display-label>
+                        <display-label
+                            xml:lang="nl">Annuleren</display-label>
+                        <display-label
+                            xml:lang="pt">Cancelar</display-label>
+                        <display-label
+                            xml:lang="ru">Отмена</display-label>
+                        <display-label
+                            xml:lang="zh-TW">取消</display-label>
+                        <display-label
+                            xml:lang="zh-CN">取消</display-label>
+                        <display-label
+                            xml:lang="en">Cancel</display-label>
+                        <display-label
+                            xml:lang="es">Cancelar</display-label>
+                        <display-label
+                            xml:lang="it">Annulla</display-label>
+                        <display-label
+                            xml:lang="sv">Avbryt</display-label>
+                        <display-label
+                            xml:lang="de">Abbrechen</display-label>
+                        <display-label
+                            xml:lang="ja">キャンセル</display-label>
+                        <display-label
+                    xml:lang="da">Annuller</display-label>
+                    </action>
+                </actions>
+                <event
+                event-type="onload"/>
+            </content>
+        </form>
+        <request-data-items>
+            <data-item
+                data-type="string" name="ticketTitle"
+                target="flowdata.Start/request_form/ticketTitle"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="description"
+                target="flowdata.Start/request_form/description"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="type"
+                target="flowdata.Start/request_form/type"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="selectedType"
+                target="flowdata.Start/request_form/selectedType"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="helpdeskUsers"
+                target="flowdata.Start/request_form/helpdeskUsers"
+                target-type="multi-value-list"/>
+            <data-item
+                data-type="string" name="personDetails"
+                target="flowdata.Start/request_form/personDetails"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="confirmationNumber"
+                target="flowdata.Start/request_form/confirmationNumber"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="severity"
+                target="flowdata.Start/request_form/severity"
+                target-type="single-value"/>
+            <data-item
+                data-type="dn" name="cretatedBy"
+                target="flowdata.Start/request_form/cretatedBy"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="Createddate"
+                target="flowdata.Start/request_form/Createddate"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="ticketNumber"
+                source="RoleVault.createHelpdeskTicketNumber()"
+                target="flowdata.Start/request_form/ticketNumber"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="users"
+                source="RoleVault.getHelpdeskUsers(recipient)"
+                target="flowdata.Start/request_form/users"
+        target-type="single-value"/>
+        </request-data-items>
+    </provision-request>
+    <process
+        default-completed-approval-status="approved"
+        generate-comments="true"
+        id="cn=HelpdeskTicket,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        process-type="Normal" restrict-view="false" setnotify="true"
+        version="3.6.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalProcess3_6_1.xsd"><display-name
+            xml:lang="en">HelpDesk Ticket</display-name><display-name
+            xml:lang="de">Helpdesk-Bericht</display-name><display-name
+            xml:lang="ru">Сообщение о проблеме</display-name><display-name
+            xml:lang="sv">Helpdesk-ärende</display-name><display-name
+            xml:lang="pt">Ticket de Suporte Técnico</display-name><display-name
+            xml:lang="zh-TW">服務台票證</display-name><display-name
+            xml:lang="it">Ticket per help desk</display-name><display-name
+            xml:lang="fr">Ticket de service dassistance</display-name><display-name
+            xml:lang="zh-CN">咨询台凭单</display-name><display-name
+            xml:lang="es">Ticket de servicio de ayuda técnica</display-name><display-name
+            xml:lang="ja">ヘルプデスクチケット</display-name><display-name
+            xml:lang="da">HelpDesk-anmodning</display-name><display-name
+            xml:lang="nl">HelpDesk-ticket</display-name><form
+                    form-id="request_form1"><content><field
+                    data-type="string" name="ticketNumber"
+                        visible="true"><control control-type="Text"
+                        editable="false" visible="true"><props><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                                name="widthPixels"><value>300</value></prop><prop
+                                name="label-className"><value>form-group</value></prop><prop
+                                name="onload"
+                        type="event"><value>var link = document.createElement("STYLE");&#xd;
+link.setAttribute("type", "text/css");&#xd;
+var textnode = document.createTextNode("body  {background-color:#ffffff;position:relative; } label  {margin:10px; font-weight:500; font-family:'Lato'}  h1 {position: relative;color:#fff;	background: #007CD0;min-height: 60px;margin:0;background: linear-gradient(to right, #01A9E7, #007CD0); /* Standard syntax */background-color:white;padding-top: 10px; padding-left: 40%;font-size:30px}  table  {padding:20px; border-radius: 0px;}  ul  {color: white; text-align: center; list-style: none;}  select  {color: black;}  .nv-color1  {color: #031424;}  .nv-fontBold  {}  .nv-fontLarge  {font-size: 30px;}  .nv-fontExtraSmall  {font-weight: bold;color:#808080} .nv-font-small  {font-weight: bold;}  input[type=radio] { margin: 10px; margin-right: 0;}  button, html input[type=button], input[type=reset], input[type=submit]  {display: inline-block;color: #434c50;background: #f6f9f8;padding: 5px 10px;	margin-bottom: 5px;	margin-right: 5px;font-size: 15px;	text-align: center;	border: 1px solid #dae1e1;	border-radius: 3px; min-width: 40px;} .idmua #wfFormLayoutId {padding: 0px;}  #uiform  { background-color: #ffffff; } .form-control {border-radius:0px;margin:10px;width:300px} #_initiator {padding:10px}  #___initiatedTime {padding:10px}  #formDetail tr td {padding-top:0px;} #formDetail textarea {width:300px} #formDetail td:nth-child(odd) {padding:0px;width:300px}") &#xd;
+link.appendChild(textnode); &#xd;
+document.head.appendChild(link);</value></prop></props></control><display-label
+                        xml:lang="en">Ticket Number</display-label><display-label
+                        xml:lang="de">Berichtsnummer</display-label><display-label
+                        xml:lang="zh-TW">票證編號</display-label><display-label
+                        xml:lang="fr">Numéro du ticket</display-label><display-label
+                        xml:lang="ja">チケット番号</display-label><display-label
+                        xml:lang="zh-CN">凭单编号</display-label><display-label
+                        xml:lang="pt">Número do Ticket</display-label><display-label
+                        xml:lang="es">Número de ticket</display-label><display-label
+                        xml:lang="sv">Ärendenummer</display-label><display-label
+                        xml:lang="nl">Ticketnummer</display-label><display-label
+                        xml:lang="it">N. ticket</display-label><display-label
+                        xml:lang="ru">Номер сообщения о проблеме</display-label><display-label
+                        xml:lang="da">Anmodningsnummer</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="Title"><control
+                        control-type="Text" editable="false"
+                                required="false"><props><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                                name="widthPixels"><value>300</value></prop><prop
+                        name="label-className"><value>form-group</value></prop></props></control><display-label
+                        xml:lang="en">Title</display-label><display-label
+                        xml:lang="de">Titel</display-label><display-label
+                        xml:lang="zh-TW">標題</display-label><display-label
+                        xml:lang="fr">Titre</display-label><display-label
+                        xml:lang="ja">タイトル</display-label><display-label
+                        xml:lang="zh-CN">标题</display-label><display-label
+                        xml:lang="pt">Cargo</display-label><display-label
+                        xml:lang="es">Título</display-label><display-label
+                        xml:lang="sv">Titel</display-label><display-label
+                        xml:lang="nl">Titel</display-label><display-label
+                        xml:lang="it">Qualifica</display-label><display-label
+                        xml:lang="ru">Должность</display-label><display-label
+                        xml:lang="da">Titel</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="description"
+                        visible="true"><control control-type="TextArea"
+                                editable="false"><props><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                                name="nbcols"><value>20</value></prop><prop
+                        name="label-className"><value>form-group</value></prop></props></control><display-label
+                        xml:lang="fr">Description</display-label><display-label
+                        xml:lang="nl">Beschrijving</display-label><display-label
+                        xml:lang="pt">Descrição</display-label><display-label
+                        xml:lang="ru">Описание</display-label><display-label
+                        xml:lang="zh-TW">描述</display-label><display-label
+                        xml:lang="zh-CN">说明</display-label><display-label
+                        xml:lang="en">Description</display-label><display-label
+                        xml:lang="es">Descripción</display-label><display-label
+                        xml:lang="it">Descrizione</display-label><display-label
+                        xml:lang="sv">Beskrivning</display-label><display-label
+                        xml:lang="de">Beschreibung</display-label><display-label
+                        xml:lang="ja">説明</display-label><display-label
+                        xml:lang="da">Beskrivelse</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="dn" name="initiator"><control
+                        control-type="DNDisplay"
+                                editable="false"><props><prop
+                                name="display-exp"><value>FirstName LastName </value></prop><prop
+                                name="display-entitydef"><value>user</value></prop><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                        name="label-className"><value>form-group</value></prop></props></control><display-label
+                        xml:lang="en">Created by</display-label><display-label
+                        xml:lang="de">Erstellt von</display-label><display-label
+                        xml:lang="zh-TW">建立者</display-label><display-label
+                        xml:lang="fr">Auteur</display-label><display-label
+                        xml:lang="ja">作成者</display-label><display-label
+                        xml:lang="zh-CN">创建人</display-label><display-label
+                        xml:lang="pt">Criado por</display-label><display-label
+                        xml:lang="es">Creado por</display-label><display-label
+                        xml:lang="sv">Skapat av </display-label><display-label
+                        xml:lang="nl">Gemaakt door</display-label><display-label
+                        xml:lang="it">Autore</display-label><display-label
+                        xml:lang="ru">Кем создано</display-label><display-label
+                        xml:lang="da">Oprettet af</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="date" name="initiatedTime"><control
+                        control-type="DatePicker"
+                                editable="false"><props><prop
+                                    name="dayHeaders"><value
+                                    xml:lang="nl">'z','m','d','w','d','v','z'</value><value
+                                    xml:lang="en">'S','M','T','W','T','F','S'</value><value
+                                    xml:lang="fr">'D','L','M','M','J','V','S'</value><value
+                                    xml:lang="de">'S','M','D','M','D','F','S'</value><value
+                                    xml:lang="it">'D','L','M','M','G','V','S'</value><value
+                                    xml:lang="ja">「日」、「月」、「火」、「水」、「木」、「金」、「土」</value><value
+                                    xml:lang="pt">'D','S','T','Q','Q','S','S'</value><value
+                                    xml:lang="es">'D','L','M','M','J','V','S'</value><value
+                                    xml:lang="zh-TW">'日','一','二','三','四','五','六'</value><value
+                                    xml:lang="zh-CN">'日','一','二','三','四','五','六'</value><value
+                                    xml:lang="sv">'S','M','T','O','T','F','L'</value><value
+                                    xml:lang="ru">'В','П','В','С','Ч','П','С'</value><value
+                                xml:lang="da">'S','M','T','O','T','F','L'</value></prop><prop
+                                    name="monthNames"><value
+                                    xml:lang="nl">'januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'</value><value
+                                    xml:lang="en">'January','February','March','April','May','June','July','August','September','October','November','December'</value><value
+                                    xml:lang="fr">'Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'</value><value
+                                    xml:lang="de">'Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'</value><value
+                                    xml:lang="it">'gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'</value><value
+                                    xml:lang="ja">「1月」、「2月」、「3月」、「4月」、「5月」、「6月」、「7月」、「8月」、「9月」、「10月」、「11月」、「12月」</value><value
+                                    xml:lang="pt">'Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'</value><value
+                                    xml:lang="es">'Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'</value><value
+                                    xml:lang="zh-TW">'1 月','2 月','3 月','4 月','5 月','6 月','7 月','8 月','9 月','10 月','11 月','12 月'</value><value
+                                    xml:lang="zh-CN">'1 月','2 月','3 月','4 月','5 月','6 月','7 月','8 月','9 月','10 月','11 月','12 月'</value><value
+                                    xml:lang="sv">'Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'</value><value
+                                    xml:lang="ru">'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'</value><value
+                                xml:lang="da">'Januar','Februar','Marts','April','Maj','Juni','Juli','August','September','Oktober','November','December'</value></prop><prop
+                                name="label-className"><value>forn-group</value></prop><prop
+                                name="widthPixels"><value>300</value></prop><prop
+                        name="field-className"><value>form-control</value></prop></props></control><display-label
+                        xml:lang="en">Created Date:</display-label><display-label
+                        xml:lang="de">Erstellt am:</display-label><display-label
+                        xml:lang="zh-TW">建立日期︰</display-label><display-label
+                        xml:lang="fr">Date de création :</display-label><display-label
+                        xml:lang="ja">作成日:</display-label><display-label
+                        xml:lang="zh-CN">创建日期：</display-label><display-label
+                        xml:lang="pt">Data de Criação:</display-label><display-label
+                        xml:lang="es">Fecha de creación:</display-label><display-label
+                        xml:lang="sv">Skapandedatum:</display-label><display-label
+                        xml:lang="nl">Aanmaakdatum:</display-label><display-label
+                        xml:lang="it">Data di creazione:</display-label><display-label
+                        xml:lang="ru">Дата создания:</display-label><display-label
+                        xml:lang="da">Dato for oprettelse:</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="taskID"><control
+                        control-type="Text"
+                                editable="false"><props><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                                name="widthPixels"><value>300</value></prop><prop
+                        name="label-className"><value>form-group</value></prop></props></control><display-label
+                        xml:lang="en">Task Id</display-label><display-label
+                        xml:lang="de">Aufgaben-ID</display-label><display-label
+                        xml:lang="zh-TW">任務 ID</display-label><display-label
+                        xml:lang="fr">ID de tâche</display-label><display-label
+                        xml:lang="ja">タスクID</display-label><display-label
+                        xml:lang="zh-CN">任务 ID</display-label><display-label
+                        xml:lang="pt">ID da Tarefa</display-label><display-label
+                        xml:lang="es">ID de tarea</display-label><display-label
+                        xml:lang="sv">Uppgifts-ID</display-label><display-label
+                        xml:lang="nl">Taak-id</display-label><display-label
+                        xml:lang="it">Id task</display-label><display-label
+                        xml:lang="ru">ИД задачи</display-label><display-label
+                        xml:lang="da">Opgave-id</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="severity"><control
+                        control-type="StaticList"
+                                editable="false"><props><prop
+                                name="autoselect"><value>2</value></prop><prop
+                                name="list"
+                                    type="list-items"><list-item><key>normal</key><value
+                                    xml:lang="en">Normal</value><value
+                                    xml:lang="de">Normal</value><value
+                                    xml:lang="zh-TW">一般</value><value
+                                    xml:lang="fr">Normal</value><value
+                                    xml:lang="ja">標準</value><value
+                                    xml:lang="zh-CN">常规</value><value
+                                    xml:lang="pt">Normal</value><value
+                                    xml:lang="es">Normal</value><value
+                                    xml:lang="sv">Normal</value><value
+                                    xml:lang="nl">Normaal</value><value
+                                    xml:lang="it">Normale</value><value
+                                    xml:lang="ru">Нормальный</value><value
+                                    xml:lang="da">Normal</value></list-item><list-item><key>medium</key><value
+                                    xml:lang="en">Medium</value><value
+                                    xml:lang="de">Mittel</value><value
+                                    xml:lang="zh-TW">中</value><value
+                                    xml:lang="fr">Moyen</value><value
+                                    xml:lang="ja">中</value><value
+                                    xml:lang="zh-CN">中</value><value
+                                    xml:lang="pt">Médio</value><value
+                                    xml:lang="es">Medio</value><value
+                                    xml:lang="sv">Mellan</value><value
+                                    xml:lang="nl">Normaal</value><value
+                                    xml:lang="it">Medio</value><value
+                                    xml:lang="ru">Средняя</value><value
+                                    xml:lang="da">Mellem</value></list-item><list-item><key>major</key><value
+                                    xml:lang="en">Major</value><value
+                                    xml:lang="de">Wichtig	</value><value
+                                    xml:lang="zh-TW">重要</value><value
+                                    xml:lang="fr">Majeur</value><value
+                                    xml:lang="ja">メジャー</value><value
+                                    xml:lang="zh-CN">重要</value><value
+                                    xml:lang="pt">Principal</value><value
+                                    xml:lang="es">Importante</value><value
+                                    xml:lang="sv">Stor</value><value
+                                    xml:lang="nl">Major</value><value
+                                    xml:lang="it">Principale</value><value
+                                    xml:lang="ru">Высокая</value><value
+                                xml:lang="da">Større</value></list-item></prop><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                                name="widthPixels"><value>300</value></prop><prop
+                        name="label-className"><value>form-group</value></prop></props></control><display-label
+                        xml:lang="en">Severity</display-label><display-label
+                        xml:lang="de">Schweregrad</display-label><display-label
+                        xml:lang="zh-TW">嚴重程度</display-label><display-label
+                        xml:lang="fr">Gravité</display-label><display-label
+                        xml:lang="ja">重大度</display-label><display-label
+                        xml:lang="zh-CN">严重性</display-label><display-label
+                        xml:lang="pt">Gravidade</display-label><display-label
+                        xml:lang="es">Gravedad</display-label><display-label
+                        xml:lang="sv">Allvarlighetsgrad</display-label><display-label
+                        xml:lang="nl">Ernst</display-label><display-label
+                        xml:lang="it">Gravità</display-label><display-label
+                        xml:lang="ru">Критичность</display-label><display-label
+                        xml:lang="da">Alvorlighedsgrad</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="comment"
+                        visible="false"><control control-type="Text"
+                        editable="false" required="true"
+                                visible="false"><props><prop
+                                name="label-className"><value>form-control</value></prop><prop
+                        name="widthPixels"><value>300</value></prop></props></control><display-label
+                        xml:lang="en">comment</display-label><display-label
+                        xml:lang="de">Kommentar</display-label><display-label
+                        xml:lang="zh-TW">備註</display-label><display-label
+                        xml:lang="fr">commentaire</display-label><display-label
+                        xml:lang="ja">コメント</display-label><display-label
+                        xml:lang="zh-CN">注释</display-label><display-label
+                        xml:lang="pt">comentário</display-label><display-label
+                        xml:lang="es">comentario</display-label><display-label
+                        xml:lang="sv">kommentar</display-label><display-label
+                        xml:lang="nl">opmerking</display-label><display-label
+                        xml:lang="it">commento</display-label><display-label
+                        xml:lang="ru">комментарий</display-label><display-label
+                        xml:lang="da">kommentar</display-label></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="apwaComment"><control
+                        control-type="TextArea"
+                                editable="true"><props><prop
+                                name="onchange"
+                                type="event"><value>form.setValues("comment", field.getValue())</value></prop><prop
+                                name="label-className"><value>form-group</value></prop><prop
+                                name="field-className"><value>form-control</value></prop><prop
+                        name="nbcols"><value>20</value></prop></props></control><display-label
+                        xml:lang="en">Comment</display-label><display-label
+                        xml:lang="de">Kommentar</display-label><display-label
+                        xml:lang="zh-TW">備註</display-label><display-label
+                        xml:lang="fr">Commentaire</display-label><display-label
+                        xml:lang="ja">コメント</display-label><display-label
+                        xml:lang="zh-CN">注释</display-label><display-label
+                        xml:lang="pt">Comentário</display-label><display-label
+                        xml:lang="es">Comentario</display-label><display-label
+                        xml:lang="sv">Kommentar</display-label><display-label
+                        xml:lang="nl">Opmerking</display-label><display-label
+                        xml:lang="it">Commento</display-label><display-label
+                        xml:lang="ru">Комментарий</display-label><display-label
+                        xml:lang="da">Kommentar</display-label></field><field><control
+                        control-type="LineBreak"/></field><field><control
+                        control-type="LineBreak"/></field><field><control
+                    control-type="LineBreak"/></field><field
+                    data-type="string" name="footerLine"><control
+                        control-type="Html" editable="true"><props><prop
+                                name="onload"
+                        type="event"><value>var footerLine = '&lt;hr style="margin-top: 20px;margin-bottom: 20px;border: 0;border-top: 1px solid #eee"&gt;'&#xd;
+&#xd;
+field.setValues(footerLine);</value></prop></props></control><display-label
+                        xml:lang="en">footerLine</display-label><display-label
+                        xml:lang="de">footerLine</display-label><display-label
+                        xml:lang="zh-TW">footerLine</display-label><display-label
+                        xml:lang="fr">footerLine</display-label><display-label
+                        xml:lang="ja">フッタ行</display-label><display-label
+                        xml:lang="zh-CN">footerLine</display-label><display-label
+                        xml:lang="pt">footerLine</display-label><display-label
+                        xml:lang="es">LíneaDePie</display-label><display-label
+                        xml:lang="sv">footerLine</display-label><display-label
+                        xml:lang="nl">voettekst</display-label><display-label
+                        xml:lang="it">footerLine</display-label><display-label
+                        xml:lang="ru">примечание</display-label><display-label
+                        xml:lang="da">footerLine</display-label></field><field><control
+                    control-type="LineBreak"/></field><actions
+                        location="bottom"><action
+                        hide-if-readonly="true"
+                            name="UpdateAction"><control
+                                    control-type="Button"><props><prop
+                            name="UpdateAction"><value>to be filled in at runtime</value></prop></props></control><display-label
+                            xml:lang="en">Update</display-label><display-label
+                            xml:lang="de">Aktualisieren</display-label><display-label
+                            xml:lang="zh-TW">更新</display-label><display-label
+                            xml:lang="fr">Mettre à jour</display-label><display-label
+                            xml:lang="ja">更新</display-label><display-label
+                            xml:lang="zh-CN">更新</display-label><display-label
+                            xml:lang="pt">Atualizar</display-label><display-label
+                            xml:lang="es">Actualizar</display-label><display-label
+                            xml:lang="sv">Uppdatera</display-label><display-label
+                            xml:lang="nl">Bijwerken</display-label><display-label
+                            xml:lang="it">Aggiorna</display-label><display-label
+                            xml:lang="ru">Обновить</display-label><display-label
+                        xml:lang="da">Opdater</display-label></action><action
+                        hide-if-readonly="true"
+                            name="ApprovalAction"><control
+                            control-type="Button"/><display-label
+                            xml:lang="en">Complete</display-label><display-label
+                            xml:lang="de">Abgeschlossen</display-label><display-label
+                            xml:lang="zh-TW">完成</display-label><display-label
+                            xml:lang="fr">Fini</display-label><display-label
+                            xml:lang="ja">完了</display-label><display-label
+                            xml:lang="zh-CN">完成</display-label><display-label
+                            xml:lang="pt">Concluir</display-label><display-label
+                            xml:lang="es">Finalizar</display-label><display-label
+                            xml:lang="sv">Slutförd</display-label><display-label
+                            xml:lang="nl">Voltooien</display-label><display-label
+                            xml:lang="it">Completa</display-label><display-label
+                            xml:lang="ru">Завершено</display-label><display-label
+                        xml:lang="da">Gennemført</display-label></action><action
+                        block-on-error="false"
+                            name="CancelAction"><control
+                            control-type="Button"
+                            visible="true"/><display-label
+                            xml:lang="fr">Annuler</display-label><display-label
+                            xml:lang="nl">Annuleren</display-label><display-label
+                            xml:lang="pt">Cancelar</display-label><display-label
+                            xml:lang="ru">Отмена</display-label><display-label
+                            xml:lang="zh-TW">取消</display-label><display-label
+                            xml:lang="zh-CN">取消</display-label><display-label
+                            xml:lang="en">Cancel</display-label><display-label
+                            xml:lang="es">Cancelar</display-label><display-label
+                            xml:lang="it">Annulla</display-label><display-label
+                            xml:lang="sv">Avbryt</display-label><display-label
+                            xml:lang="de">Abbrechen</display-label><display-label
+                            xml:lang="ja">キャンセル</display-label><display-label
+            xml:lang="da">Annuller</display-label></action></actions></content></form><form-binding
+            activity-id="Activity" form-id="request_form1"/><data-items
+                activity-id="Activity"><data-item data-type="string"
+                name="ticketNumber"
+                source="flowdata.get('Start/request_form/ticketNumber')"
+                target="flowdata.Activity/request_form1/ticketNumber"
+                target-type="single-value"/><data-item
+                data-type="string" name="Title"
+                source="flowdata.get('Start/request_form/ticketTitle')"
+                target="flowdata.Activity/request_form1/Title"
+                target-type="single-value"/><data-item
+                data-type="string" name="description"
+                source="flowdata.get('Start/request_form/description')"
+                target="flowdata.Activity/request_form1/description"
+                target-type="single-value"/><data-item data-type="dn"
+                name="initiator" source="initiator"
+                target-type="single-value"/><data-item data-type="date"
+                name="initiatedTime" source="process.getTimestamp()"
+                target="flowdata.Activity/request_form1/initiatedTime"
+                target-type="single-value"/><data-item
+                data-type="string" name="taskID"
+                source="flowdata.get('Start/request_form/confirmationNumber')"
+                target-type="single-value"/><data-item
+                data-type="string" name="severity"
+                source="flowdata.get('Start/request_form/severity')"
+                target="flowdata.Activity/request_form1/severity"
+                target-type="single-value"/><data-item
+                data-type="string" name="comment"
+                target="flowdata.Activity/request_form1/comment"
+            target-type="single-value"/></data-items><start-activity
+                activity-id="Start"><display-name
+                xml:lang="en">Start</display-name><display-name
+                xml:lang="en">Start</display-name><display-name
+                xml:lang="de">Start</display-name><display-name
+                xml:lang="zh-TW">啟動</display-name><display-name
+                xml:lang="fr">Démarrer</display-name><display-name
+                xml:lang="ja">開始</display-name><display-name
+                xml:lang="zh-CN">开始</display-name><display-name
+                xml:lang="pt">Iniciar</display-name><display-name
+                xml:lang="es">Iniciar</display-name><display-name
+                xml:lang="sv">Starta</display-name><display-name
+                xml:lang="nl">Starten</display-name><display-name
+                xml:lang="it">Avvia:</display-name><display-name
+                xml:lang="ru">Запустить</display-name><display-name
+            xml:lang="da">Start</display-name></start-activity><user-activity
+            activity-id="Activity" approver-type="group-approver"
+                ontimeout="approved"><display-name
+                xml:lang="en">Approval</display-name><display-name
+                xml:lang="de">Genehmigung</display-name><display-name
+                xml:lang="zh-TW">核准</display-name><display-name
+                xml:lang="fr">Approbation</display-name><display-name
+                xml:lang="ja">承認</display-name><display-name
+                xml:lang="zh-CN">批准</display-name><display-name
+                xml:lang="pt">Aprovação</display-name><display-name
+                xml:lang="es">Aprobación</display-name><display-name
+                xml:lang="sv">Godkännande</display-name><display-name
+                xml:lang="nl">Goedkeuring</display-name><display-name
+                xml:lang="it">Approvazione</display-name><display-name
+                xml:lang="ru">Подтверждение</display-name><display-name
+                xml:lang="da">Godkendelse</display-name><addressee> RoleVault.getHelpdeskAddresseeList(recipient,flowdata.get('Start/request_form/selectedType'));	&#xd;
+</addressee><notify
+                    template="cn=helpdesk_ticket_creation,cn=Default Notification Collection,cn=Security"><map
+                    source="_default_" target="TO"/><map
+                    source="flowdata.get('Start/request_form/severity')"
+                    target="severity"/><map
+                    source="process.getTimestamp()"
+                    target="requestSubmissionTime"/><map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                    target="recipientFullName"/><map
+                    source="flowdata.get('Start/request_form/description')"
+                    target="description"/><map
+                    source="flowdata.get('Start/request_form/ticketTitle')"
+                    target="helpdeskTitle"/><map
+                    source="flowdata.get('Start/request_form/ticketNumber')"
+                target="ticketNumber"/></notify><retry attempts="0"
+            interval=""><addressee/></retry></user-activity><finish-activity
+                activity-id="Finish"><display-name
+                xml:lang="en">Finish</display-name><display-name
+                xml:lang="en">Finish</display-name><display-name
+                xml:lang="de">Fertig stellen</display-name><display-name
+                xml:lang="zh-TW">完成</display-name><display-name
+                xml:lang="fr">Terminer</display-name><display-name
+                xml:lang="ja">終了</display-name><display-name
+                xml:lang="zh-CN">完成</display-name><display-name
+                xml:lang="pt">Concluir</display-name><display-name
+                xml:lang="es">Finalizar</display-name><display-name
+                xml:lang="sv">Slutför</display-name><display-name
+                xml:lang="nl">Voltooien</display-name><display-name
+                xml:lang="it">Fine</display-name><display-name
+                xml:lang="ru">Готово</display-name><display-name
+                xml:lang="da">Afslut</display-name><notify
+                    template="cn=helpdesk ticket closed notification,cn=Default Notification Collection,cn=Security"><map
+                    source="flowdata.get('Start/request_form/ticketNumber')"
+                    target="ticketNumber"/><map
+                    source="process.getTimestamp()"
+                    target="requestSubmissionTime"/><map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                    target="recipientFullName"/><map
+                    source="flowdata.get('Start/request_form/description')"
+                    target="description"/><map
+                    source="flowdata.get('Start/request_form/ticketTitle')"
+                    target="helpdeskTitle"/><map
+                    source="flowdata.get('Activity/request_form1/comment')"
+                    target="comment"/><map
+                    source="process.getApprovalStatus()"
+                    target="requestStatus"/><map source="_default_"
+            target="TO"/></notify></finish-activity><link source="Start"
+            target="Activity" type="forward"/><link source="Activity"
+            target="Finish" type="approved"/></process></prov-req-defn>

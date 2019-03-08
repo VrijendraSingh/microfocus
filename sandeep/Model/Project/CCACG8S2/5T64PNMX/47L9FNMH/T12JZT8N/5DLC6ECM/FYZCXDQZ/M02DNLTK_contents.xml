@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+	</form:token-descriptions>
+	<body>
+		<p>Bonjour,<br/>
+			<br/>
+$initiatorFullName$ a envoyé à $recipientFullName$ une demande qui nécessite votre approbation.<br/>
+			<br/>
+Voici les détails de la demande :<br/>
+			<br/>
+Nom de la demande : $requestTitle$<br/>
+ID de la demande : $requestId$<br/>
+Expéditeur : $initiatorFullName$<br/>
+Destinataire : $recipientFullName$<br/>
+Proxy en tant que : $PROXY_AS$<br/>
+			<br/>
+Pour traiter la demande directement à partir du message électronique, cliquez sur  <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Enter a comment}">APPROUVER</a> ou <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Enter a comment}">REFUSER</a>
+			<br/>
+OU <br/>
+répondez à $REPLY_EMAIL$ en ajoutant $APPROVE_PHRASE$ or $DENY_PHRASE$ dans l'objet et en indiquant un commentaire approprié dans le corps du message.<br/>
+			<br/>
+Vous pouvez également passer en revue la liste de toutes les demandes en attente d'approbation à l'adresse $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$.<br/>
+		</p>
+	</body>
+</html>

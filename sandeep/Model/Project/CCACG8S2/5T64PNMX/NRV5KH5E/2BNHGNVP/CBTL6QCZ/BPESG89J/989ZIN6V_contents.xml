@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><filter>
+	<filter-class class-name="srvprvDirectoryModel" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="false" subscriber="sync">
+		<filter-attr attr-name="srvprvModified" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+	<filter-class class-name="User" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="false" subscriber="sync">
+		<filter-attr attr-name="DirXML-EntitlementResult" from-all-classes="true" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+	<filter-class class-name="srvprvRequest" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="srvprvLocalizedNames" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="srvprvLocalizedDescrs" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="srvprvCategoryKey" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="srvprvStatus" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="srvprvRequestXML" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+	<filter-class class-name="nrfResource" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="nrfLocalizedNames" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfLocalizedDescrs" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfCategoryKey" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfActive" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfEntitlementRef" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfResourceParms" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfExpiresAfter" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfIsExpirationRequired" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+	<filter-class class-name="nrfRole" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="nrfLocalizedDescrs" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfLocalizedNames" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfRoleCategoryKey" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfActive" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfEntitlementRef" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="nrfStatus" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+</filter>

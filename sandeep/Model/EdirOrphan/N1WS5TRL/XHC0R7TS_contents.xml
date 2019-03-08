@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Days before password expires." item-name="Days"/>
+		<form:token-description description="User full name" item-name="UserFullName"/>
+	</form:token-descriptions>
+	<head>
+		<title>Уведомление об истечении срока действия пароля</title>
+		<style>
+			<!-- body { font-family: Trebuchet MS } -->
+		</style>
+	</head>
+	<body BGCOLOR="#FFFFFF">
+		<p>Здравствуйте, $UserFullName$!</p>
+		<p>Срок действия Вашего пароля истекает через $Days$ дн.</p>
+		<p>Если Вам нужна помощь, обратитесь в службу поддержки по телефону (012) 345-67-89 или электронной почте <a href="mailto:help.desk@mycompany.com">help.desk@mycompany.com</a>
+		</p>
+		<p> – Автоматический сервис безопасности</p>
+		<p>
+			<img ALT="На базе технологий NetIQ" SRC="cid:powered_by_novell.gif" height="29" width="80"/>
+		</p>
+	</body>
+</html>

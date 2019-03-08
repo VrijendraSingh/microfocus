@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=SoD Conflict Approval" filename="SoDConflictApproval.prd"
+    hasContainment="false" modstamp="0" protected="true" readonly="true"
+    type="srvprvRequest"
+        visible="true">
+    <guid>A32GY86J</guid>
+    <display
+        xml:lang="de">Funktionstrennungskonfliktgenehmigung</display>
+    <display
+        xml:lang="sv">Godkännande av SoD-konflikt</display>
+    <display
+        xml:lang="ru">Подтверждение конфликта SOD</display>
+    <display
+        xml:lang="pt">Aprovação de Conflito de SoD</display>
+    <display
+        xml:lang="zh-TW">SoD 衝突核准</display>
+    <display
+        xml:lang="en">SoD Conflict Approval</display>
+    <display
+        xml:lang="it">Approvazione conflitto di separazione dei compiti</display>
+    <display
+        xml:lang="fr">Approbation de conflit SoD</display>
+    <display
+        xml:lang="zh-CN">SoD 冲突批准</display>
+    <display
+        xml:lang="es">Aprobación de conflictos de separaciones de tareas</display>
+    <display
+        xml:lang="ja">SoD競合の承認</display>
+    <display
+        xml:lang="da">Godkendelse af FO-konflikt</display>
+    <display
+        xml:lang="nl">Goedkeuring van conflicterende scheiding van taken</display>
+    <descr
+        xml:lang="de">Funktionstrennungskonfliktgenehmigung</descr>
+    <descr
+        xml:lang="sv">Godkännande av SoD-konflikt</descr>
+    <descr
+        xml:lang="ru">Подтверждение конфликта SOD</descr>
+    <descr
+        xml:lang="pt">Aprovação de Conflito de SoD</descr>
+    <descr
+        xml:lang="zh-TW">SoD 衝突核准</descr>
+    <descr
+        xml:lang="en">SoD Conflict Approval</descr>
+    <descr
+        xml:lang="it">Approvazione conflitto di separazione dei compiti</descr>
+    <descr
+        xml:lang="fr">Approbation de conflit SoD</descr>
+    <descr
+        xml:lang="zh-CN">SoD 冲突批准</descr>
+    <descr
+        xml:lang="es">Aprobación de conflictos de separaciones de tareas</descr>
+    <descr
+        xml:lang="ja">SoD競合の承認</descr>
+    <descr
+        xml:lang="da">Godkendelse af FO-konflikt</descr>
+    <descr xml:lang="nl">Goedkeuring van conflicterende scheiding van taken</descr>
+    <dirguid>D7CCC19F4AB6764A946CD7CCC19F4AB6</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>nrf</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>PS2UN6ZM_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1599516460</pkg-checksum></item>

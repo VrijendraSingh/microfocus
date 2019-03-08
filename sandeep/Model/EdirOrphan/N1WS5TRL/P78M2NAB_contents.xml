@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="request initiator name" item-name="initiatorFullName"/>
+		<form:token-description description="request instance id" item-name="requestId"/>
+		<form:token-description description="submission time" item-name="requestSubmissionTime"/>
+		<form:token-description description="request title" item-name="requestTitle"/>
+	</form:token-descriptions>
+Hola,
+
+El proceso de flujo de trabajo de su petición de certificación ha finalizado.
+
+Nombre de petición: $requestTitle$
+Número de confirmación: $requestId$
+Enviado por: $initiatorFullName$
+Enviado el: $requestSubmissionTime$
+
+Puede revisar los resultados de certificación introduciendo un número de confirmación en la página Ver estado de petición de certificación.
+
+</form:text>

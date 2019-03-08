@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Template2SerialApproval_TA"
+    filename="Template2SerialApproval_TA.prd" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>TSLIPZSE</guid>
+    <display
+        xml:lang="en">Template2SerialApproval_TA</display>
+    <descr
+        xml:lang="de">Sequenzielle Genehmigung in zwei Stufen (Genehmigung bei Zeitüberschreitung)</descr>
+    <descr
+        xml:lang="sv">Sekventiellt godkännande i två steg (godkänns vid timeout)</descr>
+    <descr
+        xml:lang="ru">Двухэтапное последовательное подтверждение (истечение срока означает подтверждение)</descr>
+    <descr
+        xml:lang="pt">Aprovação Seqüencial de Duas Etapas (Recusa de Tempo de Espera)</descr>
+    <descr
+        xml:lang="zh-TW">兩段式連續核准 (逾時核准)</descr>
+    <descr
+        xml:lang="en">Two Step Sequential Approval (Timeout Approves)</descr>
+    <descr
+        xml:lang="it">Approvazione sequenziale in due passaggi (approvazione in caso di timeout)</descr>
+    <descr
+        xml:lang="fr">Approbation séquentielle en deux étapes (timeout approuvé)</descr>
+    <descr
+        xml:lang="zh-CN">两步顺序批准（批准超时）</descr>
+    <descr
+        xml:lang="es">Aprobación secuencial en dos pasos (aprobación al alcanzar el tiempo límite)</descr>
+    <descr
+        xml:lang="ja">2ステップ順次承認(タイムアウト時に承認)</descr>
+    <descr
+        xml:lang="da">Sekventiel godkendelse i to trin (godkendelse ved timeout)</descr>
+    <descr xml:lang="nl">Opeenvolgende goedkeuring in twee stappen (goedgekeurd na time-out)</descr>
+    <dirguid>432F6F7A94A84B429F1C432F6F7A94A8</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>entitlements</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>JLWHZALJ_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>316350724</pkg-checksum></item>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=configuration" filename="configuration.roleconfig"
+    hasContainment="false" modstamp="0" protected="true"
+    readonly="false" type="nrfConfiguration"
+        visible="true">
+    <guid>YS60LKL4</guid>
+    <display
+        xml:lang="de">Rollenkonfiguration</display>
+    <display
+        xml:lang="ru">Role Configuration</display>
+    <display
+        xml:lang="sv">Role Configuration</display>
+    <display
+        xml:lang="pt">Configuração de Função</display>
+    <display
+        xml:lang="zh-TW">角色組態</display>
+    <display
+        xml:lang="en">Role Configuration</display>
+    <display
+        xml:lang="it">Configurazione del ruolo</display>
+    <display
+        xml:lang="fr">Configuration de rôle</display>
+    <display
+        xml:lang="zh-CN">角色配置</display>
+    <display
+        xml:lang="es">Configuración de funciones</display>
+    <display
+        xml:lang="ja">役割環境設定</display>
+    <display
+        xml:lang="da">Role Configuration</display>
+    <display
+        xml:lang="nl">Rolconfiguratie</display>
+    <descr
+        xml:lang="de">Rollenkonfiguration</descr>
+    <descr
+        xml:lang="ru">Role Configuration</descr>
+    <descr
+        xml:lang="sv">Role Configuration</descr>
+    <descr
+        xml:lang="pt">Configuração de Função</descr>
+    <descr
+        xml:lang="zh-TW">角色組態</descr>
+    <descr
+        xml:lang="en">Role Configuration</descr>
+    <descr
+        xml:lang="it">Configurazione del ruolo</descr>
+    <descr
+        xml:lang="fr">Configuration de rôle</descr>
+    <descr
+        xml:lang="zh-CN">角色配置</descr>
+    <descr
+        xml:lang="es">Configuración de funciones</descr>
+    <descr
+        xml:lang="ja">役割環境設定</descr>
+    <descr
+        xml:lang="da">Role Configuration</descr>
+    <descr xml:lang="nl">Rolconfiguratie</descr>
+    <dirguid>4E613C16935E49498CE44E613C16935E</dirguid>
+    <dirrev>10</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>2FXFRVZ2_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1317475935</pkg-checksum></item>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:com.novell.designer.model="http://com.novell.designer.model" name="User Application">
+  <relations name="Idm:Packages" type="Child" key="#CBTL6QCZ.IdmPackage_"/>
+  <relations name="Idm:Packages" type="Child" key="#GRRLWRMJ.IdmPackage_"/>
+</com.novell.designer.model:CObject>

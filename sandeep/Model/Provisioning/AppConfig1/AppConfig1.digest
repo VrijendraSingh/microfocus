@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=AppConfig" protected="false" readonly="false"
+    type="srvprvAppConfig"
+        visible="true">
+    <guid>GVS856OB</guid>
+    <display xml:lang="en">User Application</display>
+    <modstamp>0</modstamp></container>

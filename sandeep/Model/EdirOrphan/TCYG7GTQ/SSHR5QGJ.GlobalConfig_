@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="NOVLACOMSET-GCVs" type="GlobalConfig">
+  <associatedAttrSets objectURI="EdirOrphan/AG9OCJXA.Server_">
+    <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="DirXML-ConfigValues"/>
+  </associatedAttrSets>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="initial_state"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageAssocGuid" value="HXWM4E6F_201309101410450765"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="9VMR2GM8_201309101410450593"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="585516308"/>
+  <relations name="Idm:ConfigExtensionDSetRefs" type="BackReference" key="#TCYG7GTQ.DriverSet_"/>
+</com.novell.designer.model:CObject>

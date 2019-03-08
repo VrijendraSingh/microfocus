@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="driverset1" type="DriverSet">
+  <associatedAttrSets objectURI="EdirOrphan/AG9OCJXA.Server_">
+    <attributes xsi:type="com.novell.designer.model:CStructure" attrName="JavaEnvParameters"/>
+  </associatedAttrSets>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="DSetContext" value="o=system"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="DSetCreatePartition" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CStructure" attrName="DirXML-LogEvents">
+    <attributes xsi:type="com.novell.designer.model:CInteger" attrName="LogEvent" value="0"/>
+  </attributes>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="DirXML-LogLimit" value="0"/>
+  <relations name="Idm:ConfigExtensions" type="Reference" key="#SSHR5QGJ.GlobalConfig_"/>
+  <relations name="Idm:Drivers" type="Child" key="#JRP9CQOB.Driver_"/>
+  <relations name="Idm:Drivers" type="Child" key="#656HFQT7.Driver_"/>
+  <relations name="Idm:Drivers" type="Child" key="#87NW8P9M.Driver_"/>
+  <relations name="Idm:GlobalConfigs" type="Child" key="#SSHR5QGJ.GlobalConfig_"/>
+  <relations name="Idm:IdentityVaults" type="BackReference" key="#XZ6ON3YK.IdentityVault_"/>
+  <relations name="Idm:InstalledPackages" type="Reference" key="#W2AJDRPB.IdmPackage_"/>
+  <relations name="Idm:Jobs" type="Child" key="#XVGAMRFS.Job_"/>
+  <relations name="Idm:Servers" type="Reference" key="#AG9OCJXA.Server_"/>
+</com.novell.designer.model:CObject>

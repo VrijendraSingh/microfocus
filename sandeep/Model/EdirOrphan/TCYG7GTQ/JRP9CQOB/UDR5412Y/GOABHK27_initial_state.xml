@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><ds-object ds-object-class="DirXML-Rule" ds-object-name="NOVLUABASE-sub-etp-ManageModify" name="NOVLUABASE-sub-etp-ManageModify">
+	<ds-attributes>
+		<ds-attribute ds-attr-name="XmlData">
+			<ds-value>
+				<policy>
+					<rule>
+						<description>Set Class Name</description>
+						<conditions>
+							<and>
+								<if-op-attr name="DirXML-EntitlementResult" op="changing"/>
+							</and>
+						</conditions>
+						<actions>
+							<do-set-op-class-name>
+								<arg-string>
+									<token-text xml:space="preserve">DirXML-EntitlementRecipient</token-text>
+								</arg-string>
+							</do-set-op-class-name>
+							<do-set-op-association>
+								<arg-association>
+									<token-text xml:space="preserve">"AnAssociation"</token-text>
+								</arg-association>
+							</do-set-op-association>
+						</actions>
+					</rule>
+					<rule>
+						<description>Set Association</description>
+						<conditions>
+							<or>
+								<if-class-name op="equal">User</if-class-name>
+								<if-class-name op="equal">srvprvRequest</if-class-name>
+								<if-class-name op="equal">nrfRole</if-class-name>
+								<if-class-name op="equal">nrfResource</if-class-name>
+							</or>
+						</conditions>
+						<actions>
+							<do-set-op-association>
+								<arg-association>
+									<token-text xml:space="preserve">"AnAssociation"</token-text>
+								</arg-association>
+							</do-set-op-association>
+						</actions>
+					</rule>
+					<rule>
+						<description>Set Entitlement Purge Type</description>
+						<conditions>
+							<and>
+								<if-op-attr name="DirXML-EntitlementResult" op="changing"/>
+							</and>
+						</conditions>
+						<actions>
+							<do-append-xml-element expression="." name="PurgeType"/>
+							<do-append-xml-text expression="./PurgeType">
+								<arg-string>
+									<token-global-variable name="dirxml.engine.entitl-rs-purge-type"/>
+								</arg-string>
+							</do-append-xml-text>
+						</actions>
+					</rule>
+				</policy>
+			</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-installationdirective">
+			<ds-value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48aW5zdGFsbGF0aW9uLWRpcmVjdGl2ZT4KCTxwbGFjZW1lbnQgbG9jYXRpb249InN1YnNjcmliZXIiLz4KCTxkcy1hdHRyaWJ1dGVzLz4KCTxwb2xpY3ktbGlua2FnZT4KCQk8cG9saWN5LXNldCBjaGFubmVsPSJzdWJzY3JpYmVyIiBuYW1lPSJldmVudCIgb3JkZXI9IldlaWdodCIgdmFsdWU9IjUwMCIvPgoJPC9wb2xpY3ktbGlua2FnZT4KPC9pbnN0YWxsYXRpb24tZGlyZWN0aXZlPg==</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-directivechecksum">
+			<ds-value>4212453141</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageassocguid">
+			<ds-value>A8WN0U3X_201309232141450327</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageguid">
+			<ds-value>B5PAGQ5E_201005261601510810</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-contentchecksum">
+			<ds-value>617182466</ds-value>
+		</ds-attribute>
+	</ds-attributes>
+</ds-object>

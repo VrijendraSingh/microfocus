@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=UIConfig" protected="false" readonly="false"
+    type="nrfUIConfig"
+        visible="false">
+    <guid>68N8LN4D</guid>
+    <display xml:lang="en">UI Config</display>
+    <modstamp>0</modstamp></container>

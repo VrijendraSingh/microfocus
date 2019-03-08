@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><filter>
+	<filter-class class-name="User" publisher="sync" subscriber="sync">
+		<filter-attr attr-name="Description" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Facsimile Telephone Number" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Given Name" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Internet EMail Address" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="mobile" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Surname" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Telephone Number" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Title" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="workforceID" publisher="sync" subscriber="sync"/>
+	</filter-class>
+</filter>

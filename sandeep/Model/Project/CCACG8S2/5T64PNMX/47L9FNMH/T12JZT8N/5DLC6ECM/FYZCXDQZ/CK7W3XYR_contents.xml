@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request Name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+		<form:token-description description="Request Id of the process" item-name="requestId"/>
+	</form:token-descriptions>
+	<body>
+		<p>Hallo,<br/>
+			<br/>
+Een aanvraag door $initiatorFullName$ voor $recipientFullName$ is ingediend en vereist uw goedkeuring.<br/>
+			<br/>
+De aanvraaggegevens zijn:<br/>
+			<br/>
+Naam van de aanvraag: $requestTitle$<br/>
+Aanvraag-id: $requestId$<br/>
+Ingediend door: $initiatorFullName$<br/>
+Ontvanger: $recipientFullName$<br/>
+Proxy als: $PROXY_AS$<br/>
+Reden: $REQ_REASON$<br/>
+			<br/>
+Als u dit rechtstreeks vanuit de e-mail wilt verwerken, klikt u op <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Enter a comment}">GOEDKEUREN</a> of op <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Enter a comment}">AFWIJZEN</a>
+			<br/>
+OF <br/>
+reageer op $REPLY_EMAIL$ door $APPROVE_PHRASE$ of $DENY_PHRASE$ in de onderwerpregel toe te voegen met een relevante opmerking in de hoofdtekst.<br/>
+			<br/>
+U kunt ook een lijst van alle aanvragen die wachten op uw goedkeuring weergeven op $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$.<br/>
+		</p>
+	</body>
+</html>

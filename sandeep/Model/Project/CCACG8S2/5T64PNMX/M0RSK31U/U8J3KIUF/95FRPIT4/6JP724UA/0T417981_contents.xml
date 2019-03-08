@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><xsl:stylesheet exclude-result-prefixes="ext" version="1.0" xmlns:cmd="http://www.novell.com/nxsl/java/com.novell.nds.dirxml.driver.XdsCommandProcessor" xmlns:ext="http://exslt.org/common" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:param name="srcCommandProcessor"/>
+	<!-- each application must fill in the name of the field that provides the association key -->
+	<xsl:variable name="association-field-name" select="'~driver.association.attribute~'"/>
+	<xsl:variable name="field-list" select="'~driver.field-names~'"/>
+	<xsl:variable name="DELIMITER" select="'~driver.field.delimiter~'"/>
+	<xsl:variable name="t" select="&apos;&#x9;&apos;"/>
+	<xsl:variable name="traceEncryptData" select="'~driver.traceData~'"/>
+	<xsl:variable name="lwdelimiter" select="translate($DELIMITER,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')"/>
+	<xsl:variable name="delimiter">
+		<xsl:choose>
+			<xsl:when test="$lwdelimiter='{tab}'">
+				<xsl:value-of select="$t"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$DELIMITER"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<xsl:variable name="SplitWordsList">
+		<xsl:call-template name="split">
+			<xsl:with-param name="nText" select="$field-list"/>
+		</xsl:call-template>
+	</xsl:variable>
+	<xsl:variable name="vSplitWords" select="ext:node-set($SplitWordsList)/*"/>
+	<xsl:template match="nds[input]">
+		<!-- only look at <add> events and <instances> apply a template for each add transaction-->
+		<xsl:apply-templates select="//add|//instance|//query"/>
+	</xsl:template>
+	<xsl:template match="nds[output]">
+		<xsl:copy-of select="."/>
+	</xsl:template>
+	<!-- now here's the template -->
+	<xsl:template match="input/add|input/instance">
+		<xsl:choose>
+			<xsl:when test="//@is-sensitive and starts-with($traceEncryptData,'yes')">
+				<input is-sensitive="true">
+					<xsl:call-template name="dummy"/>
+				</input>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name="dummy"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template name="dummy">
+		<!-- create association if needed and we have enough info -->
+		<xsl:variable name="hasAssociation" select="string(association) != ''"/>
+		<xsl:variable name="associationValue" select="*[(@attr-name = $association-field-name)][1]/value[1]/text()"/>
+		<xsl:if test="not($hasAssociation) and $associationValue">
+			<xsl:variable name="dummy">
+				<add-association dest-dn="{@src-dn}" dest-entry-id="{@src-entry-id}">
+					<xsl:value-of select="$associationValue"/>
+				</add-association>
+			</xsl:variable>
+			<xsl:variable name="dummy2" select="cmd:execute($srcCommandProcessor, $dummy)"/>
+		</xsl:if>
+		<xsl:apply-templates select="$vSplitWords">
+			<xsl:with-param name="input" select="."/>
+		</xsl:apply-templates>
+		<!-- finish the record with a newline -->
+		<!-- uncomment next line to have DOS style end of line (0D0A), otherwise just 0A -->
+		<!-- <xsl:value-of select="'&#x0D;'"/> -->
+		<xsl:value-of select="&apos;&#xa;&apos;"/>
+	</xsl:template>
+	<!-- Below splits the field-names contained in field-list -->
+	<xsl:template name="split">
+		<xsl:param name="nText"/>
+		<xsl:param name="nElemName" select="'word'"/>
+		<xsl:variable name="first" select="substring-before(concat($nText,','),',')"/>
+		<xsl:variable name="remaining" select="substring-after($nText,',')"/>
+		<xsl:element name="{$nElemName}">
+			<xsl:value-of select="$first"/>
+		</xsl:element>
+		<xsl:choose>
+			<xsl:when test="$remaining">
+				<xsl:call-template name="split">
+					<xsl:with-param name="nText" select="$remaining"/>
+					<xsl:with-param name="nElemName" select="$nElemName"/>
+				</xsl:call-template>
+			</xsl:when>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template match="word">
+		<xsl:param name="input"/>
+		<xsl:if test="position() > 1">
+			<xsl:value-of select="$delimiter"/>
+		</xsl:if>
+		<xsl:choose>
+			<xsl:when test="$input/*[(@attr-name = current())]/value/@type='structured'">
+				<xsl:call-template name="output-field">
+					<xsl:with-param name="field-value" select="$input/*[(@attr-name = current())]/value/component[1]/text()"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name="output-field">
+					<xsl:with-param name="field-value" select="$input/*[(@attr-name = current())]/value"/>
+				</xsl:call-template>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template name="output-field">
+		<xsl:param name="field-value"/>
+		<xsl:choose>
+			<xsl:when test="count($field-value)>1">
+				<xsl:for-each select="$field-value">
+					<xsl:value-of select="."/>
+					<xsl:if test="position() != last()">|</xsl:if>
+				</xsl:for-each>
+			</xsl:when>
+			<xsl:when test="contains($field-value[1], $DELIMITER)">
+				<!-- if the field value contains a delimiter, then enclose in quotes -->
+				<xsl:text>"</xsl:text>
+				<xsl:value-of select="$field-value"/>
+				<xsl:text>"</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<!-- otherwise output it raw -->
+				<xsl:value-of select="$field-value"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template match="@*|node()">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>

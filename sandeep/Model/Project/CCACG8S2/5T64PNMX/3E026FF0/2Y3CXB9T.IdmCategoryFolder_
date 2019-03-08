@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:com.novell.designer.model="http://com.novell.designer.model" name="LDAP">
+  <relations name="Idm:Packages" type="Child" key="#HGJDRNCY.IdmPackage_"/>
+  <relations name="Idm:Packages" type="Child" key="#THW7D084.IdmPackage_"/>
+  <relations name="Idm:Packages" type="Child" key="#4QNAKVTA.IdmPackage_"/>
+</com.novell.designer.model:CObject>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=Attestation Report" filename="AttestationReport.prd"
+    hasContainment="false" modstamp="0" protected="true" readonly="true"
+    type="srvprvRequest"
+        visible="true">
+    <guid>OGGP3LJS</guid>
+    <display
+        xml:lang="de">Beglaubigungsbericht</display>
+    <display
+        xml:lang="ru">Отчет о подтверждении</display>
+    <display
+        xml:lang="sv">Verifieringsrapport</display>
+    <display
+        xml:lang="pt">Relatório de Atestado</display>
+    <display
+        xml:lang="zh-TW">證明報告</display>
+    <display
+        xml:lang="en">Attestation Report</display>
+    <display
+        xml:lang="it">Rapporto attestazioni</display>
+    <display
+        xml:lang="fr">Rapport d'attestation</display>
+    <display
+        xml:lang="zh-CN">证明报告</display>
+    <display
+        xml:lang="es">Informe de certificación</display>
+    <display
+        xml:lang="ja">検証レポート</display>
+    <display
+        xml:lang="da">Attestationsrapport</display>
+    <display
+        xml:lang="nl">Attestrapport</display>
+    <descr
+        xml:lang="de">Beglaubigungsbericht</descr>
+    <descr
+        xml:lang="ru">Отчет о подтверждении</descr>
+    <descr
+        xml:lang="sv">Verifieringsrapport</descr>
+    <descr
+        xml:lang="pt">Relatório de Atestado</descr>
+    <descr
+        xml:lang="zh-TW">證明報告</descr>
+    <descr
+        xml:lang="en">Attestation Report</descr>
+    <descr
+        xml:lang="it">Rapporto attestazioni</descr>
+    <descr
+        xml:lang="fr">Rapport d'attestation</descr>
+    <descr
+        xml:lang="zh-CN">证明报告</descr>
+    <descr
+        xml:lang="es">Informe de certificación</descr>
+    <descr
+        xml:lang="ja">検証レポート</descr>
+    <descr
+        xml:lang="da">Attestationsrapport</descr>
+    <descr xml:lang="nl">Attestrapport</descr>
+    <dirguid>760E690C57420B47BBBE760E690C5742</dirguid>
+    <dirrev>22</dirrev>
+    <keys>
+        <key>attestation</key>
+    </keys>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>33ZSPGKL_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1306607363</pkg-checksum></item>

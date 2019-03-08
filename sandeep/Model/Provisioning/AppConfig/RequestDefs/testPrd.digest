@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=testPrd" filename="testPrd.prd" hasContainment="false"
+    modstamp="0" protected="false" readonly="false" type="srvprvRequest"
+        visible="true">
+    <guid>G5573DO3</guid>
+    <display
+        xml:lang="en">testPrd</display>
+    <descr xml:lang="en">testPrd</descr>
+    <dirguid>BE75201184669E40ABFBBE7520118466</dirguid>
+    <dirrev>12</dirrev>
+    <keys>
+        <key>entitlements</key>
+    </keys></item>

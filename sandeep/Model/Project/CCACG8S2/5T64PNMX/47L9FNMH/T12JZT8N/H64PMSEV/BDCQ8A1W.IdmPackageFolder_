@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Notification Templates">
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:FolderId" value="7"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#U5LM1IMU.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#AM5NEIZF.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#O468T2YZ.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#58F39HTK.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#C14WRTAV.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#E8HJLYE4.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#718YRVBH.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#1NE9BSCA.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#5Z7ZY55R.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#AOK7ATXC.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#OSAGGSE0.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#M52C5F9I.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#9L8HVV4A.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#77PMMPPG.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#HMNBDS6V.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#USTKWEX3.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#9GTXX2QB.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#J61CHS2Z.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#J3MHXRSB.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#FYP9NTB1.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#Z8KBC293.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#Y4YLE93U.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#UNEJWTRN.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#NK13NLGX.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#4TKRT8ED.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#UF91PDPG.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#2QSYB7HK.NotfTemplate_"/>
+  <relations name="Idm:NotfTemplages" type="Child" key="#KUL22TW3.NotfTemplate_"/>
+</com.novell.designer.model:CObject>

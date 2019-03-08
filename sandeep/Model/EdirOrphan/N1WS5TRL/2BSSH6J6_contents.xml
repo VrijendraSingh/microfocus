@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><form:text xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="request initiator name" item-name="initiatorFullName"/>
+		<form:token-description description="request instance id" item-name="requestId"/>
+		<form:token-description description="submission time" item-name="requestSubmissionTime"/>
+		<form:token-description description="request title" item-name="requestTitle"/>
+	</form:token-descriptions>
+Внимание!
+
+Процесс обработки вашего запроса подтверждения завершен.
+
+Имя запроса: $requestTitle$
+№ подтверждения: $requestId$
+Передал: $initiatorFullName$
+Передано: $requestSubmissionTime$
+
+Вы можете просмотреть результаты подтверждения, введя свой номер на странице \"Просмотр состояния запроса подтверждения\".
+
+</form:text>

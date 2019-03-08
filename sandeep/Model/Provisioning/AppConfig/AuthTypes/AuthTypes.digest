@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container cn="cn=AuthTypes" protected="false" readonly="false"
+    type="nrfAuthTypes"
+        visible="false">
+    <guid>G9QK3ZI6</guid>
+    <display xml:lang="en">Auth Types</display>
+    <modstamp>0</modstamp></container>

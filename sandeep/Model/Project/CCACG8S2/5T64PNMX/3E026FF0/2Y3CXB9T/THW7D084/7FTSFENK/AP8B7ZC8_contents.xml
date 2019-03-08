@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><filter>
+	<filter-class class-name="Organizational Unit" publisher="sync" subscriber="sync">
+		<filter-attr attr-name="Description" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="L" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="OU" publisher="sync" subscriber="sync"/>
+	</filter-class>
+	<filter-class class-name="User" publisher="sync" subscriber="sync">
+		<filter-attr attr-name="CN" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Description" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Facsimile Telephone Number" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Given Name" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Initials" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Internet EMail Address" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="L" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="OU" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Surname" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Telephone Number" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Title" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="Postal Address" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="S" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="SA" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="uniqueID" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="userCertificate" publisher="sync" subscriber="sync"/>
+		<filter-attr attr-name="nsRoleDN" merge-authority="default" publisher="notify" publisher-optimize-modify="true" subscriber="ignore"/>
+	</filter-class>
+	<filter-class class-name="Group" publisher="sync" subscriber="sync">
+		<filter-attr attr-name="CN" merge-authority="default" publisher="sync" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="Description" merge-authority="default" publisher="sync" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="Member" merge-authority="default" publisher="sync" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+</filter>

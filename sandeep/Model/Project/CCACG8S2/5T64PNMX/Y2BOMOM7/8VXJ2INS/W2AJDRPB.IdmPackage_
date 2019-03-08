@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Common Settings Advanced Edition">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="de" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="fr" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="ja" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_CN" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_TW" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="9VMR2GM8_201309101410450593"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="2.1.1.20180110194646"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="3"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="3805191303"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="3714133731"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="Common settings advanced editon package.&#xA;&#xA;This packages contains a number of advanced settings required by the onboarding job that are common to most drivers.&#xA;The configurable settings part of package are User Aplication Services URL and  User Aplication Services Administrator.&#xA;"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NOVLACOMSET"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20180110194646"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="IND-RKUMAR1"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="rkumar1"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201801101935580668"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="NetIQ, corporation."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="11"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;dependencies/>&#xA;&#x9;&lt;supported-drivers/>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:InstalledPackageDSetRefs" type="BackReference" key="#DBI47LAU.DriverSet_"/>
+  <relations name="Idm:InstalledPackageDSetRefs" type="BackReference" key="#QN81VOMA.DriverSet_"/>
+  <relations name="Idm:InstalledPackageDSetRefs" type="BackReference" key="#TCYG7GTQ.DriverSet_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#TX68DPME.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#FV07JHE5.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#7DIIU7YY.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#TC52QH4W.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#8UHV6JK1.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#A0JYUBKP.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#GVTFQDLC.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#QIA61ZZU.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#UO8M6HG1.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

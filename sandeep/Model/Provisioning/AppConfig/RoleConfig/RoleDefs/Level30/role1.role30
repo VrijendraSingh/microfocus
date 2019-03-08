@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role:Role id="cn=role1" revokeRequired="true" roleLevel="Level30"
+    xmi:version="2.0" xmlns:role="http://www.novell.com/prov/role"
+        xmlns:xmi="http://www.omg.org/XMI"><approver
+        dn="cn=uaadmin,ou=sa,o=data"/><childRole
+        AssignmentXML="&lt;assignment>&lt;start_tm>20181220131430Z&lt;/start_tm>&lt;req_tm>20181220131430Z&lt;/req_tm>&lt;req>cn=uaadmin,ou=sa,o=data&lt;/req>&lt;req_desc>initial request description&lt;/req_desc>&lt;/assignment>"
+        dn="cn=provManager,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><childRole
+        AssignmentXML="&lt;assignment>&lt;start_tm>20181220131431Z&lt;/start_tm>&lt;req_tm>20181220131430Z&lt;/req_tm>&lt;req>cn=uaadmin,ou=sa,o=data&lt;/req>&lt;req_desc>initial request description&lt;/req_desc>&lt;/assignment>"
+        dn="cn=reportAdmin,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><childRole
+        AssignmentXML="&lt;assignment>&lt;start_tm>20181220131431Z&lt;/start_tm>&lt;req_tm>20181220131430Z&lt;/req_tm>&lt;req>cn=uaadmin,ou=sa,o=data&lt;/req>&lt;req_desc>initial request description&lt;/req_desc>&lt;/assignment>"
+        dn="cn=rbpmAdmin,cn=System,cn=Level20,cn=RoleDefs,cn=RoleConfig,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><prd
+        dn="cn=Role Approval,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"/><localizedDescription
+        label="role1Description" locale="en"/><localizedName
+        label="role1" locale="en"/><owner
+        dn="cn=uaadmin,ou=sa,o=data"/><owner dn="o=data"/><categoryKey>system</categoryKey><categoryKey>default</categoryKey></role:Role>

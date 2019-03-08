@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><mapping-table>
+	<col-def name="class-name" type="nocase"/>
+	<col-def name="command" type="nocase"/>
+	<row>
+		<col>nrfRequest</col>
+		<col>nrf:request</col>
+	</row>
+	<row>
+		<col>nrfResourceRequest</col>
+		<col>nrf:resrequest</col>
+	</row>
+	<row>
+		<col>nrfRole</col>
+		<col>nrf:role</col>
+	</row>
+	<row>
+		<col>User</col>
+		<col>nrf:identity</col>
+	</row>
+	<row>
+		<col>nrfResourceAssociation</col>
+		<col>nrf:resourceassociation</col>
+	</row>
+</mapping-table>

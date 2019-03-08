@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov-req-defn flow-strategy="SingleFlow" grant="true"
+    prov-category="accounts" prov-id="Request Mobile Approval App"
+    revoke="false" status="Active"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ApprovalProcess4_0_2.xsd">
+    <display-name
+        xml:lang="da">Anmod om mobil godkendelsesapplikation</display-name>
+    <display-name
+        xml:lang="de">Mobile Genehmigungsanwendung anfordern</display-name>
+    <display-name
+        xml:lang="en">Request Mobile Approval App</display-name>
+    <display-name
+        xml:lang="es">Pedir aplicación de aprobación móvil</display-name>
+    <display-name
+        xml:lang="fr">Application d'approbation mobile de requêtes</display-name>
+    <display-name
+        xml:lang="it">Richiedi applicazione di approvazione mobile</display-name>
+    <display-name
+        xml:lang="ja">モバイル承認アプリケーションの要求</display-name>
+    <display-name
+        xml:lang="nl">App Mobiele goedkeuring aanvragen</display-name>
+    <display-name
+        xml:lang="pt">Solicitar Aplicativo de Aprovação Móvel</display-name>
+    <display-name
+        xml:lang="ru">Приложение запроса мобильного утверждения</display-name>
+    <display-name
+        xml:lang="sv">Begär mobilt godkännandeprogram</display-name>
+    <display-name
+        xml:lang="zh-CN">请求移动批准应用程序</display-name>
+    <display-name
+        xml:lang="zh-TW">申請行動核准應用程式</display-name>
+    <description
+        xml:lang="da">Brugeren kan anvende denne provisioning-anmodning til at anmode om adgang til idm-mobilgodkendelsesapplikationen</description>
+    <description
+        xml:lang="de">Der Benutzer kann diese Bereitstellungsanforderung verwenden, um Zugriff auf die mobile IDM-Genehmigungsanwendung anzufordern</description>
+    <description
+        xml:lang="en">User may use this Provisioning Request to request access to the idm mobile approval app</description>
+    <description
+        xml:lang="es">El usuario puede usar esta petición de aprovisionamiento para pedir acceso a la aplicación de aprobación móvil de IDM</description>
+    <description
+        xml:lang="fr">L'utilisateur peut utiliser cette requête de provisioning pour demander l'accès à l'application d'approbation mobile IDM.</description>
+    <description
+        xml:lang="it">È possibile utilizzare questa richiesta di provisioning per richiedere l'accesso all applicazione di approvazione mobile di IDM</description>
+    <description
+        xml:lang="ja">ユーザはこのプロビジョニングリクエストを使用してIDMモバイル承認アプリケーションへのアクセスを要求できます</description>
+    <description
+        xml:lang="nl">Gebruiker kan deze aanvraag voor provisioning gebruiken om toegang aan te vragen voor de app voor mobiele goedkeuring van idm</description>
+    <description
+        xml:lang="pt">O usuário deve utilizar esta Solicitação de Aprovisionamento para solicitar acesso ao aplicativo de aprovação móvel</description>
+    <description
+        xml:lang="ru">Пользователь может использовать этот запрос обеспечения правами доступа для запроса приложения мобильного утверждения IDM</description>
+    <description
+        xml:lang="sv">Användaren kan använda denna logistikbegäran för att begära åtkomst till det mobila IDM-godkännandeprogrammet</description>
+    <description
+        xml:lang="zh-CN">用户可以使用此供应请求来请求获取访问 idm 移动批准应用程序的权限</description>
+    <description
+            xml:lang="zh-TW">使用者可以使用此佈建申請來申請存取該 idm 行動核准應用程式的權限</description>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <prov-resource-ref>None</prov-resource-ref>
+   <workflow-ref/>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <trustees>
+        <trustee>o=data</trustee>
+    </trustees>
+   <xml-data>
+      <design-params
+            digital-signature-type="not-required" grant="true"
+            notify-addressee="true"
+                    prov-id="Request Mobile Approval App">
+         <form-title>
+            <display-label
+                    xml:lang="ja">モバイル承認アプリケーションの要求</display-label>
+            <display-label
+                    xml:lang="zh-TW">申請行動核准應用程式</display-label>
+            <display-label
+                    xml:lang="da">Anmod om mobil godkendelsesapplikation</display-label>
+            <display-label
+                    xml:lang="sv">Begär mobilt godkännandeprogram</display-label>
+            <display-label
+                    xml:lang="ru">Приложение запроса мобильного утверждения</display-label>
+            <display-label
+                    xml:lang="fr">Application d'approbation mobile de requêtes</display-label>
+            <display-label
+                    xml:lang="zh-CN">请求移动批准应用程序</display-label>
+            <display-label
+                    xml:lang="pt">Solicitar Aplicativo de Aprovação Móvel</display-label>
+            <display-label
+                    xml:lang="es">Pedir aplicación de aprobación móvil</display-label>
+            <display-label
+                    xml:lang="nl">App Mobiele goedkeuring aanvragen</display-label>
+            <display-label
+                    xml:lang="it">Richiedi applicazione di approvazione mobile</display-label>
+            <display-label
+                    xml:lang="en">Request Mobile Approval App</display-label>
+            <display-label
+                    xml:lang="de">Mobile Genehmigungsanwendung anfordern</display-label>
+            <description
+                    xml:lang="ja">モバイル承認アプリケーションの要求</description>
+            <description
+                    xml:lang="zh-TW">申請行動核准應用程式</description>
+            <description
+                    xml:lang="da">Anmod om mobil godkendelsesapplikation</description>
+            <description
+                    xml:lang="sv">Begär mobilt godkännandeprogram</description>
+            <description
+                    xml:lang="ru">Приложение запроса мобильного утверждения</description>
+            <description
+                    xml:lang="fr">Application d'approbation mobile de requêtes</description>
+            <description
+                    xml:lang="zh-CN">请求移动批准应用程序</description>
+            <description
+                    xml:lang="pt">Solicitar Aplicativo de Aprovação Móvel</description>
+            <description
+                    xml:lang="es">Pedir aplicación de aprobación móvil</description>
+            <description
+                    xml:lang="nl">App Mobiele goedkeuring aanvragen</description>
+            <description
+                    xml:lang="it">Richiedi applicazione di approvazione mobile</description>
+            <description
+                    xml:lang="en">Request Mobile Approval App</description>
+            <description
+                xml:lang="de">Mobile Genehmigungsanwendung anfordern</description>
+         </form-title>
+         <prov-resource
+                    name="None"/>
+         <workflow/>
+         <legal-disclaimers/>
+         <links>
+            <link
+                    source="Activity5" target="Activity6"
+                    type="forward"/>
+            <link
+                    source="Activity4" target="Finish"
+                    type="denied"/>
+            <link source="Activity2"
+                    target="Activity5"
+                    type="forward"/>
+            <link
+                    source="Activity4" target="Activity2"
+                    type="refused"/>
+            <link
+                    source="Activity7" target="Finish"
+                    type="forward"/>
+            <link
+                    source="Activity6" target="Activity4"
+                    type="false"/>
+            <link source="Activity3"
+                    target="Activity1"
+                    type="forward"/>
+            <link
+                    source="Activity1" target="Activity2"
+                    type="forward"/>
+            <link
+                    source="Activity6" target="Activity8"
+                    type="true"/>
+            <link source="Activity8"
+                    target="Activity"
+                    type="approved"/>
+            <link
+                    source="Activity8" target="Finish"
+                    type="denied"/>
+            <link source="Activity"
+                    target="Activity9"
+                    type="forward"/>
+            <link
+                    source="Activity9" target="Activity7"
+                    type="forward"/>
+            <link source="Start"
+                    target="Activity3"
+                type="forward"/>
+         </links>
+         <user-activity
+                activity-id="Activity4"
+                digital-signature-type="not-required" ontimeout="denied"
+                timeout=""
+                    timeout-units="milliseconds">
+            <display-label
+                    xml:lang="ja">プロビジョニング管理者がシステムを正しくセットアップする必要があります</display-label>
+            <display-label
+                    xml:lang="zh-TW">佈建管理員必須正確設定系統</display-label>
+            <display-label
+                    xml:lang="da">Prov-admin skal konfigurere systemet korrekt</display-label>
+            <display-label
+                    xml:lang="sv">Logistikadmin måste konfigurera systemet korrekt</display-label>
+            <display-label
+                    xml:lang="ru">Администратор обеспечения правами доступа должен правильно настроить систему</display-label>
+            <display-label
+                    xml:lang="fr">L'administrateur du provisioning doit configurer le système correctement.</display-label>
+            <display-label
+                    xml:lang="zh-CN">供应管理员必须正确设置系统</display-label>
+            <display-label
+                    xml:lang="pt">Admin Prov deve Configurar o Sistema Corretamente</display-label>
+            <display-label
+                    xml:lang="es">El administrador de aprovisionamiento debe configurar correctamente el sistema</display-label>
+            <display-label
+                    xml:lang="nl">Beheerder voor provisioning moet systeem correct instellen</display-label>
+            <display-label
+                    xml:lang="it">Il sistema deve essere configurato dall'amministratore provisioning</display-label>
+            <display-label
+                    xml:lang="en">Prov Admin Must Setup System Correctly</display-label>
+            <display-label
+                    xml:lang="de">Der Administrator des Providers muss das System korrekt einrichten</display-label>
+            <addressee
+                    value="'CN=provAdmin,CN=System,CN=Level20,' + RoleVault.ROLE_ROOT"/>
+            <notify
+                        template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+               <map
+                        source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                        target="initiatorFullName"/>
+               <map
+                        source="IDVault.get(recipient, 'user', 'FirstName')"
+                        target="userFirstName"/>
+               <map
+                        source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                        target="recipientFullName"/>
+               <map
+                        source="process.getName(java.util.Locale.getDefault())"
+                        target="requestTitle"/>
+               <map
+                        source="_default_"
+                    target="TO"/>
+            </notify>
+            <retry
+                    attempts="" interval="">
+               <addressee
+                value=""/>
+            </retry>
+         </user-activity>
+         <user-activity
+                activity-id="Activity8"
+                digital-signature-type="not-required"
+                ontimeout="approved" timeout=""
+                    timeout-units="milliseconds">
+            <display-label
+                    xml:lang="ja">承認</display-label>
+            <display-label
+                    xml:lang="zh-TW">核准</display-label>
+            <display-label
+                    xml:lang="da">Godkendelse</display-label>
+            <display-label
+                    xml:lang="sv">Godkännande</display-label>
+            <display-label
+                    xml:lang="ru">Подтверждение</display-label>
+            <display-label
+                    xml:lang="fr">Approbation</display-label>
+            <display-label
+                    xml:lang="zh-CN">批准</display-label>
+            <display-label
+                    xml:lang="pt">Aprovação</display-label>
+            <display-label
+                    xml:lang="es">Aprobación</display-label>
+            <display-label
+                    xml:lang="nl">Goedkeuring</display-label>
+            <display-label
+                    xml:lang="it">Approvazione</display-label>
+            <display-label
+                    xml:lang="en">Approval</display-label>
+            <display-label
+                    xml:lang="de">Genehmigung</display-label>
+            <addressee
+                    value="IDVault.get(recipient,'user','manager')"/>
+            <notify
+                        template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+               <map
+                        source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                        target="initiatorFullName"/>
+               <map
+                        source="IDVault.get(recipient, 'user', 'FirstName')"
+                        target="userFirstName"/>
+               <map
+                        source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                        target="recipientFullName"/>
+               <map
+                        source="process.getName(java.util.Locale.getDefault())"
+                        target="requestTitle"/>
+               <map
+                        source="_default_"
+                    target="TO"/>
+            </notify>
+            <retry
+                    attempts="" interval="">
+               <addressee
+        value=""/>
+            </retry>
+         </user-activity>
+      </design-params>
+      <resource-data-binding/>
+   </xml-data>
+    <provision-request
+        version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalRequest3_5_1.xsd">
+        <form
+                    form-id="request_form">
+            <content>
+                <field
+                    name="title"
+                        visible="true">
+                    <control
+                        control-type="Title"
+                        editable="false"/>
+                    <display-label
+                        xml:lang="ru">Запрос доступа для мобильного утверждения</display-label>
+                    <display-label
+                        xml:lang="zh-TW">申請存取行動核准應用程式的權限</display-label>
+                    <display-label
+                        xml:lang="it">Richiedi accesso ad applicazione di approvazione mobile</display-label>
+                    <display-label
+                        xml:lang="de">Zugriff auf mobile Genehmigungen anfordern</display-label>
+                    <display-label
+                        xml:lang="nl">Toegang aanvragen voor Mobiele goedkeuringen</display-label>
+                    <display-label
+                        xml:lang="fr">Demander l'accès pour les approbations mobiles</display-label>
+                    <display-label
+                        xml:lang="en">Request Access to Mobile Approvals</display-label>
+                    <display-label
+                        xml:lang="es">Pedir acceso a aprobaciones móviles</display-label>
+                    <display-label
+                        xml:lang="ja">モバイル承認へのアクセスの要求</display-label>
+                    <display-label
+                        xml:lang="pt">Solicitar Acesso ao Aplicativo de Aprovação Móvel</display-label>
+                    <display-label
+                        xml:lang="da">Anmod om adgang til mobile godkendelser</display-label>
+                    <display-label
+                        xml:lang="sv">Begär åtkomst till mobila godkännanden</display-label>
+                    <display-label
+                        xml:lang="zh-CN">请求获取访问移动批准应用程序的权限</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="reason"
+                        visible="true">
+                    <control
+                        control-type="Text" editable="true"
+                        required="true"/>
+                    <display-label
+                        xml:lang="ru">Основание для запроса:</display-label>
+                    <display-label
+                        xml:lang="zh-TW">申請原因:</display-label>
+                    <display-label
+                        xml:lang="it">Motivo della richiesta:</display-label>
+                    <display-label
+                        xml:lang="de">Grund für Anforderung:</display-label>
+                    <display-label
+                        xml:lang="nl">Reden voor aanvraag:</display-label>
+                    <display-label
+                        xml:lang="fr">Raison de la requête :</display-label>
+                    <display-label
+                        xml:lang="en">Reason for request:</display-label>
+                    <display-label
+                        xml:lang="es">Motivo de la petición:</display-label>
+                    <display-label
+                        xml:lang="ja">要求の理由:</display-label>
+                    <display-label
+                        xml:lang="pt">Motivo da solicitação:</display-label>
+                    <display-label
+                        xml:lang="da">Årsag til anmodning:</display-label>
+                    <display-label
+                        xml:lang="sv">Skäl till beställning:</display-label>
+                    <display-label
+                        xml:lang="zh-CN">请求原因:</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string"
+                        name="email">
+                    <control
+                        control-type="Text" editable="true"
+                        required="true"/>
+                    <display-label
+                        xml:lang="ru">Адрес электронной почты</display-label>
+                    <display-label
+                        xml:lang="zh-TW">電子郵件地址</display-label>
+                    <display-label
+                        xml:lang="it">Indirizzo e-mail</display-label>
+                    <display-label
+                        xml:lang="de">Email-Adresse</display-label>
+                    <display-label
+                        xml:lang="nl">E-mailadres</display-label>
+                    <display-label
+                        xml:lang="fr">Adresse électronique</display-label>
+                    <display-label
+                        xml:lang="en">EMail address</display-label>
+                    <display-label
+                        xml:lang="es">Dirección de correo electrónico</display-label>
+                    <display-label
+                        xml:lang="ja">電子メールアドレス</display-label>
+                    <display-label
+                        xml:lang="pt">Endereço de e-mail</display-label>
+                    <display-label
+                        xml:lang="da">E-mail-adresse</display-label>
+                    <display-label
+                        xml:lang="sv">E-postadress</display-label>
+                    <display-label
+                        xml:lang="zh-CN">电子邮件地址</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="protocol"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="false"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="onload"
+                        type="event">
+                                <value>function getProtocol() {
+   var protocol = window.document.location.protocol.trim();
+
+   if (field.getValue()) {
+      protocol = field.getValue();
+   }
+   var httpsVal = "https:";
+
+   field.setValues(protocol);
+
+   if (protocol != httpsVal) {
+      if (form.getValue("enforceHttps") == "true") {
+         form.showFatal(form.getValue("httpsRequiredMessage"));
+         form.disable("reason");
+         var approveButton = document.getElementById('SubmitAction1'); 
+         if (approveButton) {
+            approveButton.parentNode.removeChild(approveButton);
+         }
+      }
+   }
+   return protocol;
+}; getProtocol();</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ru">протокол</display-label>
+                    <display-label
+                        xml:lang="zh-TW">通訊協定</display-label>
+                    <display-label
+                        xml:lang="it">protocollo</display-label>
+                    <display-label
+                        xml:lang="de">Protokoll</display-label>
+                    <display-label
+                        xml:lang="nl">protocol</display-label>
+                    <display-label
+                        xml:lang="fr">protocole</display-label>
+                    <display-label
+                        xml:lang="en">protocol</display-label>
+                    <display-label
+                        xml:lang="es">protocolo</display-label>
+                    <display-label
+                        xml:lang="ja">プロトコル</display-label>
+                    <display-label
+                        xml:lang="pt">protocolo</display-label>
+                    <display-label
+                        xml:lang="da">protokol</display-label>
+                    <display-label
+                        xml:lang="sv">protokoll</display-label>
+                    <display-label
+                        xml:lang="zh-CN">协议</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="host"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="false"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="onload"
+                        type="event">
+                                <value>if (!field.getValue()) { 
+   field.setValues(window.document.location.hostname);
+}</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ru">хост</display-label>
+                    <display-label
+                        xml:lang="zh-TW">主機</display-label>
+                    <display-label
+                        xml:lang="it">host</display-label>
+                    <display-label
+                        xml:lang="de">Host</display-label>
+                    <display-label
+                        xml:lang="nl">host</display-label>
+                    <display-label
+                        xml:lang="fr">hôte</display-label>
+                    <display-label
+                        xml:lang="en">host</display-label>
+                    <display-label
+                        xml:lang="es">host</display-label>
+                    <display-label
+                        xml:lang="ja">ホスト</display-label>
+                    <display-label
+                        xml:lang="pt">host</display-label>
+                    <display-label
+                        xml:lang="da">vært</display-label>
+                    <display-label
+                        xml:lang="sv">värd</display-label>
+                    <display-label
+                        xml:lang="zh-CN">主机</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="port"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="false"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="onload"
+                        type="event">
+                                <value>if (!field.getValue()) {
+   field.setValues(window.document.location.port);
+}</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ru">порт</display-label>
+                    <display-label
+                        xml:lang="zh-TW">連接埠</display-label>
+                    <display-label
+                        xml:lang="it">porta</display-label>
+                    <display-label
+                        xml:lang="de">Port</display-label>
+                    <display-label
+                        xml:lang="nl">poort</display-label>
+                    <display-label
+                        xml:lang="fr">port</display-label>
+                    <display-label
+                        xml:lang="en">port</display-label>
+                    <display-label
+                        xml:lang="es">puerto</display-label>
+                    <display-label
+                        xml:lang="ja">ポート</display-label>
+                    <display-label
+                        xml:lang="pt">porta</display-label>
+                    <display-label
+                        xml:lang="da">port</display-label>
+                    <display-label
+                        xml:lang="sv">port</display-label>
+                    <display-label
+                        xml:lang="zh-CN">端口</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="path"
+                        visible="false">
+                    <control
+                        control-type="Text" editable="false"
+                                visible="false">
+                        <props>
+                            <prop
+                                name="onload"
+                        type="event">
+                                <value>if (!field.getValue()) {
+   field.setValues(window.document.location.pathname);
+}</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ru">путь</display-label>
+                    <display-label
+                        xml:lang="zh-TW">路徑</display-label>
+                    <display-label
+                        xml:lang="it">percorso</display-label>
+                    <display-label
+                        xml:lang="de">Pfad</display-label>
+                    <display-label
+                        xml:lang="nl">pad</display-label>
+                    <display-label
+                        xml:lang="fr">chemin</display-label>
+                    <display-label
+                        xml:lang="en">path</display-label>
+                    <display-label
+                        xml:lang="es">vía</display-label>
+                    <display-label
+                        xml:lang="ja">パス</display-label>
+                    <display-label
+                        xml:lang="pt">caminho</display-label>
+                    <display-label
+                        xml:lang="da">sti</display-label>
+                    <display-label
+                        xml:lang="sv">sökväg</display-label>
+                    <display-label
+                        xml:lang="zh-CN">路径</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="boolean" name="checkPatchB"
+                        visible="false">
+                    <control
+                        control-type="TrueFalseCheckBox" editable="true"
+                        visible="false">
+                        <props/>
+                    </control>
+                    <display-label
+                        xml:lang="ru">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="zh-TW">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="it">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="de">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="nl">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="fr">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="en">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="es">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="ja">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="pt">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="da">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="sv">checkPatchB</display-label>
+                    <display-label
+                        xml:lang="zh-CN">checkPatchB</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="boolean" name="enterpriseApp"
+                        visible="false">
+                    <control
+                        control-type="TrueFalseCheckBox" editable="true"
+                                visible="false">
+                        <props>
+                            <prop
+                                    name="ToolTip">
+                                <value
+                                    xml:lang="en">This should be checked for the internal enterprise version downloaded from http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="fr">Cette information doit être vérifiée pour la version d'entreprise interne téléchargée à partir du site http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="es">Se debe comprobar para la versión empresarial interna descargada de http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="de">Dies sollte für die interne Enterprise-Version überprüft werden, die von http://cambuild.qalab.cam.novell.com heruntergeladen wurde</value>
+                                <value
+                                    xml:lang="zh-CN">对于从以下网站下载的内部企业版本，应选中此项：http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="sv">Detta bör markeras för den interna företagsversionen hämtad från http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="it">This should be checked for the internal enterprise version downloaded from http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="nl">Dit moet worden gecontroleerd voor de interne zakelijke versie die is gedownload van http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                                    xml:lang="ru">Для внутренней корпоративной версии, загруженной с веб-сайта http://cambuild.qalab.cam.novell.com, необходимо проверить следующее:</value>
+                                <value
+                                    xml:lang="da">"Dette skal kontrolleres for den interne enterprise-version, der hentes fra http://cambuild.qalab.cam.novell.com"</value>
+                                <value
+                                    xml:lang="ja">http://cambuild.qalab.cam.novell.comからダウンロードされた内部エンタープライズバージョンの場合、これをチェックする必要があります</value>
+                                <value
+                                    xml:lang="zh-TW">對於從以下位址下載的內部企業版本，需勾選此項︰http://cambuild.qalab.cam.novell.com</value>
+                                <value
+                        xml:lang="pt">Deve ser verificado na versão corporativa interna obtida por download de http://cambuild.qalab.cam.novell.com</value>
+                            </prop>
+                        </props>
+                    </control>
+                    <display-label
+                        xml:lang="ru">Бета-версия</display-label>
+                    <display-label
+                        xml:lang="zh-TW">Beta 版</display-label>
+                    <display-label
+                        xml:lang="it">Versione Beta</display-label>
+                    <display-label
+                        xml:lang="de">Beta-Version</display-label>
+                    <display-label
+                        xml:lang="nl">Bètaversie</display-label>
+                    <display-label
+                        xml:lang="fr">Version bêta</display-label>
+                    <display-label
+                        xml:lang="en">Beta version</display-label>
+                    <display-label
+                        xml:lang="es">Versión Beta</display-label>
+                    <display-label
+                        xml:lang="ja">ベータバージョン</display-label>
+                    <display-label
+                        xml:lang="pt">Versão Beta</display-label>
+                    <display-label
+                        xml:lang="da">Betaversion</display-label>
+                    <display-label
+                        xml:lang="sv">Betaversion</display-label>
+                    <display-label
+                        xml:lang="zh-CN">Beta 版</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="boolean" name="enforceHttps"
+                        visible="false">
+                    <control
+                        control-type="TrueFalseCheckBox" editable="true"
+                        visible="false">
+                        <props/>
+                    </control>
+                    <display-label
+                        xml:lang="ru">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="zh-TW">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="it">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="de">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="nl">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="fr">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="en">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="es">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="ja">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="pt">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="da">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="sv">enforceHttps</display-label>
+                    <display-label
+                        xml:lang="zh-CN">enforceHttps</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <field
+                    data-type="string" name="httpsRequiredMessage"
+                        visible="false">
+                    <control
+                        control-type="Title" editable="false"
+                        visible="false">
+                        <props/>
+                    </control>
+                    <display-label
+                        xml:lang="ru">Для запроса мобильного доступа вы должны войти в систему по протоколу https</display-label>
+                    <display-label
+                        xml:lang="zh-TW">若要申請行動存取權限，您必須使用 https 登入</display-label>
+                    <display-label
+                        xml:lang="it">Per richiedere accesso mobile è necessario eseguire il login utilizzando il protocollo https</display-label>
+                    <display-label
+                        xml:lang="de">Sie müssen sich über HTTPS anmelden, um mobilen Zugriff anzufordern.</display-label>
+                    <display-label
+                        xml:lang="nl">U moet zijn aangemeld via https om mobiele toegang aan te vragen</display-label>
+                    <display-label
+                        xml:lang="fr">Pour demander un accès mobile, vous devez être logué à l'aide de https.</display-label>
+                    <display-label
+                        xml:lang="en">You must be logged on using https to request mobile access</display-label>
+                    <display-label
+                        xml:lang="es">Debe haber entrado usando HTTPS para poder pedir el acceso móvil</display-label>
+                    <display-label
+                        xml:lang="ja">モバイルアクセスを要求するにはHTTPSを使用してログオンする必要があります</display-label>
+                    <display-label
+                        xml:lang="pt">Você deve efetuar login usando https para solicitar acesso móvel</display-label>
+                    <display-label
+                        xml:lang="da">Du skal være logget på ved hjælp af https for at anmode om mobil adgang</display-label>
+                    <display-label
+                        xml:lang="sv">Du måste vara inloggad med https för att kunna begära mobil åtkomst</display-label>
+                    <display-label
+                        xml:lang="zh-CN">您必须使用 https 登录才能请求移动访问</display-label>
+                </field>
+                <field>
+                    <control
+                    control-type="LineBreak"/>
+                </field>
+                <actions
+                        location="bottom">
+                    <action
+                            name="SubmitAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="ru">Передать</display-label>
+                        <display-label
+                            xml:lang="zh-TW">提交</display-label>
+                        <display-label
+                            xml:lang="it">Invia</display-label>
+                        <display-label
+                            xml:lang="de">Senden</display-label>
+                        <display-label
+                            xml:lang="nl">Indienen</display-label>
+                        <display-label
+                            xml:lang="fr">Soumettre</display-label>
+                        <display-label
+                            xml:lang="en">Submit</display-label>
+                        <display-label
+                            xml:lang="es">Enviar</display-label>
+                        <display-label
+                            xml:lang="ja">送信</display-label>
+                        <display-label
+                            xml:lang="pt">Submeter</display-label>
+                        <display-label
+                            xml:lang="da">Send</display-label>
+                        <display-label
+                            xml:lang="sv">Spara</display-label>
+                        <display-label
+                        xml:lang="zh-CN">提交</display-label>
+                    </action>
+                    <action
+                        block-on-error="false"
+                            name="CancelAction">
+                        <control
+                            control-type="Button"
+                            visible="true"/>
+                        <display-label
+                            xml:lang="ru">Отмена</display-label>
+                        <display-label
+                            xml:lang="zh-TW">取消</display-label>
+                        <display-label
+                            xml:lang="it">Annulla</display-label>
+                        <display-label
+                            xml:lang="de">Abbrechen</display-label>
+                        <display-label
+                            xml:lang="nl">Annuleren</display-label>
+                        <display-label
+                            xml:lang="fr">Annuler</display-label>
+                        <display-label
+                            xml:lang="en">Cancel</display-label>
+                        <display-label
+                            xml:lang="es">Cancelar</display-label>
+                        <display-label
+                            xml:lang="ja">キャンセル</display-label>
+                        <display-label
+                            xml:lang="pt">Cancelar</display-label>
+                        <display-label
+                            xml:lang="da">Annuller</display-label>
+                        <display-label
+                            xml:lang="sv">Avbryt</display-label>
+                        <display-label
+                xml:lang="zh-CN">取消</display-label>
+                    </action>
+                </actions>
+            </content>
+        </form>
+        <request-data-items>
+            <data-item
+                data-type="string" name="reason"
+                target="flowdata.Start/request_form/reason"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="email"
+                source="IDVault.get(recipient , 'user', 'Email')"
+                target="flowdata.Start/request_form/email"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="protocol"
+                target="flowdata.Start/request_form/protocol"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="host"
+                target="flowdata.Start/request_form/host"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="port"
+                target="flowdata.Start/request_form/port"
+                target-type="single-value"/>
+            <data-item
+                data-type="string" name="path"
+                target="flowdata.Start/request_form/path"
+                target-type="single-value"/>
+            <data-item
+                data-type="boolean" name="checkPatchB" source="true"
+                target="flowdata.Start/request_form/checkPatchB"
+                target-type="single-value"/>
+            <data-item
+                data-type="boolean" name="enterpriseApp" source="false"
+                target="flowdata.Start/request_form/enterpriseApp"
+                target-type="single-value"/>
+            <data-item
+                data-type="boolean" name="enforceHttps" source="true"
+                target="flowdata.Start/request_form/enforceHttps"
+        target-type="single-value"/>
+        </request-data-items>
+    </provision-request>
+    <process
+        default-completed-approval-status="denied"
+        id="cn=Request Mobile Approval App,cn=RequestDefs,cn=AppConfig,cn=User Application Driver,cn=driverset1,o=system"
+        setnotify="true" version="4.5.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ApprovalProcess3_6_1.xsd">
+   <display-name
+            xml:lang="zh-TW">申請行動核准應用程式</display-name>
+   <display-name
+            xml:lang="ja">モバイル承認アプリケーションの要求</display-name>
+   <display-name
+            xml:lang="pt">Solicitar Aplicativo de Aprovação Móvel</display-name>
+   <display-name
+            xml:lang="en">Request Mobile Approval App</display-name>
+   <display-name
+            xml:lang="da">Anmod om mobil godkendelsesapplikation</display-name>
+   <display-name
+            xml:lang="de">Mobile Genehmigungsanwendung anfordern</display-name>
+   <display-name
+            xml:lang="zh-CN">请求移动批准应用程序</display-name>
+   <display-name
+            xml:lang="it">Richiedi applicazione di approvazione mobile</display-name>
+   <display-name
+            xml:lang="nl">App Mobiele goedkeuring aanvragen</display-name>
+   <display-name
+            xml:lang="sv">Begär mobilt godkännandeprogram</display-name>
+   <display-name
+            xml:lang="es">Pedir aplicación de aprobación móvil</display-name>
+   <display-name
+            xml:lang="ru">Приложение запроса мобильного утверждения</display-name>
+   <display-name
+            xml:lang="fr">Application d'approbation mobile de requêtes</display-name>
+   <form
+                    form-id="approval_form_prov_admin">
+      <content>
+         <field
+                    data-type="boolean" name="apiVersionOk"
+                        visible="false">
+            <control
+                        control-type="TrueFalseCheckBox" editable="true"
+                        visible="false">
+               <props/>
+            </control>
+            <display-label
+                        xml:lang="en"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="boolean" name="rpbmConfigOk"
+                        visible="false">
+            <control
+                        control-type="TrueFalseCheckBox" editable="true"
+                        visible="false">
+               <props/>
+            </control>
+            <display-label
+                        xml:lang="en"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string" name="vdxConfigOk"
+                        visible="false">
+            <control
+                        control-type="Text" editable="true"
+                        visible="false"/>
+            <display-label
+                        xml:lang="en"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string"
+                        name="beginList">
+            <control
+                        control-type="Html"
+                                editable="true">
+               <props>
+                  <prop
+                        name="html">
+                     <value>(function () {return "&lt;ol&gt;";} ) ();</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="en"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string"
+                        name="apiVersionNg">
+            <control
+                        control-type="Title"
+                                editable="false">
+               <props>
+                  <prop
+                                name="class">
+                     <value>nv-color1</value>
+                  </prop>
+                  <prop
+                                name="onload"
+                        type="event">
+                     <value>if (form.getValue("apiVersionOk") == "true") {
+   field.hide();
+}</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW"><![CDATA[<li>此版 RBPM 與行動核准應用程式不相容，並且不受支援。  請至少升級至 4.02 修補程式 B 或更高版本。</li><br />]]></display-label>
+            <display-label
+                        xml:lang="ja"><![CDATA[<li>このバージョンのRBPMはモバイル承認と互換性がないためサポートされていません。  4.02パッチB以上にアップグレードしてください。</li><br />]]></display-label>
+            <display-label
+                        xml:lang="pt"><![CDATA[<li>Esta versão do RBPM NÃO é compatível com o aplicativo de aprovação móvel e não é suportada.  Faça upgrade no mínimo para o patch B 4.02 ou superior.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="en"><![CDATA[<li>This version of RBPM is NOT compatible with mobile approvals and is not supported.  Please upgrade to at least 4.02 patch B or greater.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="da"><![CDATA[<li>Denne version af RBPM er IKKE kompatibel med mobile godkendelser og understøttes ikke.  Opgrader til mindst programrettelse 4.02 B eller nyere.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="de"><![CDATA[<li>Diese Version von RBPM ist NICHT mit mobilen Genehmigungen kompatibel und wird nicht unterstützt.  Rüsten Sie mindestens auf 4.02 Patch B auf.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="zh-CN"><![CDATA[<li>此版 RBPM 与移动批准应用程序不兼容，不受其支持。  请至少升级到 4.02 增补程序 B 或更高版本。</li><br />]]></display-label>
+            <display-label
+                        xml:lang="it"><![CDATA[<li>Questa versione di RBPM NON È compatibile con la approvazioni mobili e non è supportata.  Eseguire l'upgrade almeno alla versione 4.02 patch B o successiva.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="nl"><![CDATA[<li>Deze versie van RBPM is NIET compatibel met mobiele goedkeuringen en wordt niet ondersteund.  Voer een upgrade uit naar 4.02 patch B of hoger.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="sv"><![CDATA[<li>Denna version av RBPM är INTE kompatibel med det mobila godkännandet och stöds inte.  Uppgradera till minst 4.02 programfix B eller högre.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="es"><![CDATA[<li>Esta versión de RBPM no es compatible con las aprobaciones móviles y no se admite.  Actualice al menos a la versión 4.02 revisión B o posterior.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="ru"><![CDATA[<li>Эта версия RBPM НЕСОВМЕСТИМА с мобильными утверждениями.  Обновите до версии 4.02 с исправлением B или более новой.</li><br />]]></display-label>
+            <display-label
+                        xml:lang="fr"><![CDATA[<li>Cette version de RBPM n'est PAS compatible avec les approbations mobiles et n'est pas prise en charge.  Effectuez la mise à niveau vers la version 4.02 correctif B ou une version ultérieure.</li><br />]]></display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string"
+                        name="rbpmConfigNg">
+            <control
+                        control-type="Title"
+                                editable="false">
+               <props>
+                  <prop
+                                name="class">
+                     <value>nv-color1</value>
+                  </prop>
+                  <prop
+                                name="onload"
+                        type="event">
+                     <value>if (form.getValue("rpbmConfigOk") == "true") {
+   field.hide();
+}
+</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW"><![CDATA[<li>偵測到一個 RBPM 系統組態錯誤。  要讓行動核准應用程式正常執行，您需要調整 RBPM 的組態，以允許非佈建管理員使用者對其進行存取。<ul><li>將伺服器關機。</li><li>建立一份 IDMProv.war 檔案的備份。</li><li>在 IDMProv.war 中，找到 WEB-INF/lib/IDMfw.jar 並完成以下調整︰</li><ul><li>在「WorkflowService-conf/config.xml」檔案中，將「WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly」設為 false</li><li>在「WorkflowService-conf/config.xml」檔案中，將「WorkflowService/soap/getComments」設為 false</li><li>在「WorkflowService-conf/config.xml」檔案中，將「WorkflowService/soap/addComment」設為 false</li><li>在「VirtualDataService-conf/config.xml」檔案中，將「VirtualDataService/soap」設為 false</li></ul><li>重新啟動伺服器</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="ja"><![CDATA[<li>RBPMシステム設定エラーが検出されました。  モバイル承認を機能させるには、RBPMの設定を調整してプロビジョニング管理者以外のユーザにアクセスを許可する必要があります。<ul><li>サーバをシャットダウンします。</li><li>IDMProv.warファイルのバックアップを作成します。</li><li>IDMProv.war内でWEB-INF/lib/IDMfw.jarを見つけ、次のように調整します。</li><ul><li>'WorkflowService-conf/config.xml'ファイルで、'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly'をfalseに設定する</li><li>'WorkflowService-conf/config.xml'ファイルで、'WorkflowService/soap/getComments'をfalseに設定する</li><li>'WorkflowService-conf/config.xml'ファイルで、'WorkflowService/soap/addComment'をfalseに設定する</li><li>'VirtualDataService-conf/config.xml'ファイルで、'VirtualDataService/soap'をfalseに設定する</li></ul><li>サーバを再起動します。</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="pt"><![CDATA[<li>Erro de configuração do sistema RBPM detectado.  Para o aplicativo de aprovação móvel funcionar, a configuração do RBPM tem que ser ajustada para permitir acesso do usuário admin não provedor.<ul><li>Encerre o servidor.</li><li>Faça backup do arquivo IDMProv.war.</li><li>No IDMProv.war, localize o WEB-INF/lib/IDMfw.jar e faça os seguintes ajustes:</li><ul><li>No arquivo 'WorkflowService-conf/config.xml', defina 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' como falso</li><li>No arquivo 'WorkflowService-conf/config.xml', defina 'WorkflowService/soap/getComments' como falso</li><li>No arquivo 'WorkflowService-conf/config.xml', defina 'WorkflowService/soap/addComment' como falso</li><li>No arquivo 'VirtualDataService-conf/config.xml', defina 'VirtualDataService/soap' como falso</li></ul><li>Reinicie o servidor</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="en"><![CDATA[<li>An RBPM system configuration error was detected.  In order for mobile approvals to work, the configuration for RBPM needs to be adjusted to allow non-prov admin user access.<ul><li>Shut down the server.</li><li>Make a backup of your IDMProv.war file.</li><li>Within IDMProv.war, locate the WEB-INF/lib/IDMfw.jar and make the following adjustments:</li><ul><li>In the 'WorkflowService-conf/config.xml' file, set the 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' to false</li><li>In the 'WorkflowService-conf/config.xml' file, set the 'WorkflowService/soap/getComments' to false</li><li>In the 'WorkflowService-conf/config.xml' file, set the 'WorkflowService/soap/addComment' to false</li><li>In the 'VirtualDataService-conf/config.xml' file, set the 'VirtualDataService/soap' to false</li></ul><li>Restart the server</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="da"><![CDATA[<li>En RBPM-systemkonfigurationsfejl blev registreret.  For at mobile godkendelser kan fungere skal konfigurationen af RBPM tilpasses, så ikke-prov-admin-brugeradgang tillades.<ul><li>Luk serveren ned.</li><li>Tag en sikkerhedskopi af din IDMProv.war-fil.</li><li>Inde i IDMProv.war skal du finde WEB-INF/lib/IDMfw.jar og foretage følgende tilpasninger:</li><ul><li>I 'WorkflowService-conf/config.xml'-filen skal du sætte 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' til falsk</li><li>I 'WorkflowService-conf/config.xml'-filen skal du sætte 'WorkflowService/soap/getComments' til falsk</li><li>I 'WorkflowService-conf/config.xml'-filen skal du sætte 'WorkflowService/soap/addComment' til falsk</li><li>I 'VirtualDataService-conf/config.xml'-filen skal du sætte 'VirtualDataService/soap' til falsk</li></ul><li>Genstart serveren</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="de"><![CDATA[<li>Ein RBPM-Systemkonfigurationsfehler wurde erkannt.  Damit mobile Genehmigungen funktionieren, muss die Konfiguration für RBPM angepasst werden, um den Zugriff durch Benutzer zuzulassen, die nicht Administrator des Providers sind.<ul><li>Fahren Sie den Server herunter.</li><li>Erstellen Sie eine Sicherung der Datei IDMProv.war.</li><li>Suchen Sie in IDMProv.war die Datei WEB-INF/lib/IDMfw.jar und nehmen Sie die folgenden Anpassungen vor:</li><ul><li>Legen Sie in der Datei 'WorkflowService-conf/config.xml' das Attribut 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' auf Falsch fest.</li><li>Legen Sie in der Datei 'WorkflowService-conf/config.xml' das Attribut 'WorkflowService/soap/getComments' auf Falsch fest.</li><li>Legen Sie in der Datei 'WorkflowService-conf/config.xml' das Attribut 'WorkflowService/soap/addComment' auf Falsch fest.</li><li>Legen Sie in der Datei 'VirtualDataService-conf/config.xml' das Attribut 'VirtualDataService/soap' auf Falsch fest.</li></ul><li>Starten Sie den Server neu.</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="zh-CN"><![CDATA[<li>检测到一个 RBPM 系统配置错误。  要让移动批准应用程序正常工作，需要调整 RBPM 的配置以允许非供应管理员用户对其进行访问。<ul><li>关闭服务器。</li><li>备份 IDMProv.war 文件。</li><li>在 IDMProv.war 中找到 WEB-INF/lib/IDMfw.jar 并作出以下调整：</li><ul><li>在“WorkflowService-conf/config.xml”文件中，将“WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly”设为 false</li><li>在“WorkflowService-conf/config.xml”文件中，将“WorkflowService/soap/getComments”设为 false</li><li>在“WorkflowService-conf/config.xml”文件中，将“WorkflowService/soap/addComment”设为 false</li><li>在“VirtualDataService-conf/config.xml”文件中，将“VirtualDataService/soap”设为 false</li></ul><li>将服务器重启</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="it"><![CDATA[<li>È stato rilevato un errore nella configurazione del sistema RBPM.  Per garantire il funzionamento delle approvazioni mobili, è necessario che RBPM sia configurato per consentire l'accesso agli utenti privi del ruolo di amministratore provisioning.<ul><li>Spegnere il server.</li><li>Eseguire il backup del file IDMProv.war.</li><li>All'interno del file IDMProv.war, individuare WEB-INF/lib/IDMfw.jar e apportare le seguenti modifiche:</li><ul><li>Nel file 'WorkflowService-conf/config.xml', impostare 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' su Falso</li><li>Nel file 'WorkflowService-conf/config.xml', impostare 'WorkflowService/soap/getComments' su Falso</li><li>Nel file 'WorkflowService-conf/config.xml', impostare 'WorkflowService/soap/addComment' su Falso</li><li>Nel file 'VirtualDataService-conf/config.xml', impostare 'VirtualDataService/soap' su Falso</li></ul><li>Riavviare il server</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="nl"><![CDATA[<li>Er is een RBPM-systeemconfiguratiefout vastgesteld.  Mobiele goedkeuringen werken alleen als de configuratie voor RBPM is aangepast om beheerders die geen provisioningtaken uitvoeren toegang te geven.<ul><li>Sluit de server af.</li><li>Maak een back-up van het bestand IDMProv.war.</li><li>Ga in IDMProv.war naar WEB-INF/lib/IDMfw.jar en voer de volgende wijizgingen uit:</li><ul><li>Stel in het bestand 'WorkflowService-conf/config.xml' de eigenschap 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' in op onwaar</li><li>Stel in het bestand 'WorkflowService-conf/config.xml' de eigenschap 'WorkflowService/soap/getComments' in op onwaar</li><li>Stel in het bestand 'WorkflowService-conf/config.xml' de eigenschap 'WorkflowService/soap/addComment' in op onwaar</li><li>Stel in het bestand 'VirtualDataService-conf/config.xml' de eigenschap 'VirtualDataService/soap' in op onwaar</li></ul><li>Start de server opnieuw</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="sv"><![CDATA[<li>Ett konfigurationsfel i RBPM-systemet har upptäckts.  För att mobila godkännanden ska fungera måste konfigurationen för RBPM anpassas för att tillåta åtkomst från icke-logistikadmin.<ul><li>Stäng av servern.</li><li>Säkerhetskopiera IDMProv.war-filen.</li><li>Inifrån IDMProv.war söker du upp WEB-INF/lib/IDMfw.jar och gör följande ändringar:</li><ul><li>I 'WorkflowService-conf/config.xml'-filen anger du 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' till falskt</li><li>I 'WorkflowService-conf/config.xml'-filen anger du 'WorkflowService/soap/getComments' till falskt</li><li>I 'WorkflowService-conf/config.xml'-filen anger du 'WorkflowService/soap/addComment' till falskt</li><li>I 'VirtualDataService-conf/config.xml'-filen anger du 'VirtualDataService/soap' till falskt</li></ul><li>Starta om servern</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="es"><![CDATA[<li>Se ha detectado un error de configuración del sistema RBPM.  Para que las aprobaciones móviles funciones, la configuración de RBPM debe ajustarse para permitir el acceso de usuarios distintos al administrador de aprovisionamiento.<ul><li>Apague el servidor.</li><li>Haga una copia de seguridad del archivo IDMProv.war.</li><li>En el archivo IDMProv.war, busque WEB-INF/lib/IDMfw.jar y haga los ajustes siguientes:</li><ul><li>En el archivo WorkflowService-conf/config.xml, defina el parámetro WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly como falso.</li><li>En el archivo WorkflowService-conf/config.xml, defina el parámetro WorkflowService/soap/getComments como falso.</li><li>En el archivo WorkflowService-conf/config.xml, defina el parámetro WorkflowService/soap/addComment como falso.</li><li>En el archivo VirtualDataService-conf/config.xml, defina el parámetro VirtualDataService/soap como falso.</li></ul><li>Reinicie el servidor.</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="ru"><![CDATA[<li>Обнаружена ошибка в конфигурации системы RBPM.  Для работы с мобильными утверждениями конфигурация RBPM должна быть настроена так, чтобы разрешить доступ пользователю, не являющемуся администратором обеспечения правами доступа.<ul><li>Завершите работу сервера.</li><li>Сделайте резервную копию файла IDMProv.war.</li><li>В файле IDMProv.war найдите архив WEB-INF/lib/IDMfw.jar и выполните следующие настройки:</li><ul><li>В файле WorkflowService-conf/config.xml установите значение false для параметра WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly</li><li>В файле WorkflowService-conf/config.xml установите значение false для параметра WorkflowService/soap/getComments</li><li>В файле WorkflowService-conf/config.xml установите значение false для параметра WorkflowService/soap/addComment</li><li>В файле VirtualDataService-conf/config.xml установите значение false для параметра VirtualDataService/soap</li></ul><li>Снова загрузите сервер</li></li></ul>]]></display-label>
+            <display-label
+                        xml:lang="fr"><![CDATA[<li>Une erreur de configuration du système RBPM a été détectée.  Pour que les approbations mobiles fonctionnent, la configuration de RBPM doit être ajustée de manière à autoriser l'accès d'un utilisateur autre que l'administrateur du provisioning.<ul><li>Arrêtez le serveur.</li><li>Sauvegardez votre fichier IDMProv.war.</li><li>Dans le fichier IDMProv.war, repérez le fichier WEB-INF/lib/IDMfw.jar et apportez les modifications suivantes :</li><ul><li>Dans le fichier 'WorkflowService-conf/config.xml', définissez le paramètre 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' sur false.</li><li>Dans le fichier 'WorkflowService-conf/config.xml', définissez le paramètre 'WorkflowService/soap/getComments' sur false.</li><li>Dans le fichier 'WorkflowService-conf/config.xml', définissez le paramètre 'WorkflowService/soap/addComment' sur false.</li><li>Dans le fichier 'VirtualDataService-conf/config.xml', définissez le paramètre 'VirtualDataService/soap' sur false</li></ul><li>Ensuite, redémarrez le serveur.</li></li></ul>]]></display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string"
+                        name="vdxConfigNg">
+            <control
+                        control-type="Title"
+                                editable="false">
+               <props>
+                  <prop
+                                name="class">
+                     <value>nv-color1</value>
+                  </prop>
+                  <prop
+                                name="onload"
+                        type="event">
+                     <value>if (form.getValue("vdxConfigOk").length == 0) {
+   field.hide();
+}</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW"><![CDATA[<li>在您的行動組態 vdx 對應中偵測到以下錯誤。  請更正此工作流程之「行動組態」步驟中的資料項目對應，以解決錯誤。<br /><br />注意︰ 若您的某個項目沒有 vdx 屬性，例如 「vdxMobileAttribute」屬性，可以將其保留為空白字串 ("")。<br /><br />另外請注意，由於此問題在該工作流程中必須得到修復，我們去除了「重試」按鈕。<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="ja"><![CDATA[<li>モバイル設定のVDXマッピングで次のエラーが検出されました。  このワークフローの「モバイル設定」ステップでデータ項目マップを修正し、解決してください。<br /><br />注: 特定の項目にVDX属性('vdxMobileAttribute'など)がない場合は、空の文字列("")のままにしておくことができます。<br /><br />また、これはワークフローで修正する必要があるため、［再試行］ボタンは削除されている点に注意してください。<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="pt"><![CDATA[<li>Foram detectados os seguintes erros no mapeamento vdx de sua Configuração Móvel.  Corrija os mapas de item de dados na etapa 'Configuração Móvel' neste workflow para solucionar o problema.<br /><br />Nota: Se você não tem um atributo vdx para determinado item, como um para 'vdxMobileAttribute', deixe a string vazia ("").<br /><br />Como isso deve ser corrigido no workflow, observe também que o botão "Repetir" foi removido.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="en"><![CDATA[<li>The following errors were detected in your Mobile Configuration vdx mapping.  Please correct the data item maps in the 'Mobile Configuration' step in this workflow to resolve.<br /><br />Note: If you do not have a vdx attribute for a particular item, such as the one for 'vdxMobileAttribute', you may leave it as an empty string ("").<br /><br />Also note that since this must be fixed in the workflow, the "Retry" button has been removed.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="da"><![CDATA[<li>Følgende fejl blev fundet i din mobile konfiguration-vdx-mapping.  Ret dataelement-mappings i 'Mobile Configuration'-trinnet i dette workflow for at løse problemet.<br /><br />Bemærk: "Hvis du ikke har en vdx-attribut for et bestemt element, såsom attributten for 'vdxMobileAttribute', er du måske nødt til at lade den stå som en tom streng ("""").<br /><br />Bemærk også, at da dette skal rettes i workflowet, er knappen ""Prøv igen"" blevet fjernet.<br /></li>"]]></display-label>
+            <display-label
+                        xml:lang="de"><![CDATA[<li>In der VDX-Zuordnung der mobilen Konfiguration wurden die folgenden Fehler erkannt.  Korrigieren Sie die Zuordnungen der Datenelemente im Schritt 'Mobile Konfiguration' in diesem Workflow, um das Problem zu beheben.<br /><br />Note: Wenn Sie für ein bestimmtes Element kein VDX-Attribut haben, wie zum Beispiel das für 'vdxMobileAttribute', können Sie es als leere Zeichenkette belassen ("").<br /><br />Beachten Sie auch, dass die Schaltfläche "Erneut versuchen" entfernt wurde, weil dieses Problem im Workflow behoben werden muss.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="zh-CN"><![CDATA[<li>在您的移动配置 vdx 映射中检测到以下错误。  请更正此工作流程的“移动配置”步骤中的数据项目映射，以解决问题。<br /><br />注意： 如果您的某个项目没有 vdx 属性，例如“vdxMobileAttribute”的属性,您可以将其保留为空字符串 ("")。<br /><br />另外请注意，由于此问题在该工作流程中必须得到修复，“重试”按钮已被去除。<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="it"><![CDATA[<li>Sono stati rilevati i seguenti errori nella mappatura VDX della configurazione mobile.  Correggere le mappature elemento dati nel passaggio 'Configurazione modulo' del presente workflow per risolvere i problemi.<br /><br />Nota: Se non è presente un attributo VDX per un elemento particolare, ad esempio l'attributo per 'vdxMobileAttribute', è possibile lasciare una stringa vuota ("").<br /><br />Il pulsante Riprova è stato rimosso, poiché questo problema va risolto nel workflow.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="nl"><![CDATA[<li>De volgende fouten zijn vastgesteld in uw vdx-toewijzing voor Mobiele configuratie.  Pas de gegevensitemtoewijzingen aan in de stap 'Mobiele configuratie' in deze workflow om het probleem op te lossen.<br /><br />Opmerking: Als u geen vdx-kenmerk hebt voor een bepaald item, zoals voor 'vdxMobileAttribute', kunt u de tekenreeks leeg laten ("").<br /><br />Omdat dit moet worden aangepast in de workflow, is de knop Opnieuw proberen verwijderd.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="sv"><![CDATA[<li>Följande fel upptäcktes i vdx-mappningen för mobil konfiguration.  Korrigera dataobjektkartorna i 'Mobil konfiguration'-steget i detta arbetsflöde för att lösa det.<br /><br />Obs! Om du inte har något vdx-attribut för ett visst objekt, som det för 'vdxMobileAttribute', kan du lämna det som en tom sträng ("").<br /><br />Observera också att eftersom detta måste åtgärdas i arbetsflödet har knappen "Försök igen" tagits bort.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="es"><![CDATA[<li>Se han detectado los siguientes errores en la asignación de vdx de la configuración móvil.  Corrija las asignaciones de elementos de datos del paso de configuración móvil de este flujo de trabajo para resolver el problema.<br /><br />Nota: Si no tiene un atributo vdx para un elemento concreto, por ejemplo para vdxMobileAttribute, puede dejar la cadena vacía ("").<br /><br />Tenga en cuenta también que puesto que esto se debe arreglar en el flujo de trabajo, el botón para reintentar se ha eliminado.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="ru"><![CDATA[<li>В назначении атрибута vdx на шаге 'Мобильная конфигурация' обнаружены следующие ошибки.  Для их устранения исправьте назначения элементов данных на шаге 'Мобильная конфигурация' этого рабочего процесса.<br /><br />Примечание. Если для отдельного элемента атрибут vdx, подобный vdxMobileAttribute, отсутствует, вы можете указать для него пустую строку ("").<br /><br />Обратите также внимание, что кнопка "Повторить" отсутствует, поскольку эта ошибка должна быть исправлена в этом рабочем процессе.<br /></li>]]></display-label>
+            <display-label
+                        xml:lang="fr"><![CDATA[<li>Les erreurs suivantes ont été détectées au niveau de l'assignation vdx de votre configuration mobile.  Corrigez les assignations d'élément de données à l'étape 'Configuration mobile' de ce workflow à résoudre.<br /><br />Remarque : Si vous ne possédez pas d'attribut vdx pour un élément particulier, par exemple pour 'vdxMobileAttribute', vous devez laisser la chaîne vide ("").<br /><br />Notez par ailleurs qu'étant donné que ce point doit être corrigé dans le workflow, le bouton "Réessayer" a été supprimé.<br /></li>]]></display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string"
+                        name="vdxConfigErrorList">
+            <control
+                        control-type="Html"
+                                editable="true">
+               <props>
+                  <prop
+                                name="html">
+                     <value>(function () {return form.getValue("vdxConfigOk");} ) ();</value>
+                  </prop>
+                  <prop
+                                name="onload"
+                        type="event">
+                     <value>if (form.getValue("vdxConfigOk").length == 0) {
+   field.hide();
+}</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="en"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string"
+                        name="endList">
+            <control
+                        control-type="Html"
+                                editable="true">
+               <props>
+                  <prop
+                        name="html">
+                     <value>(function () {return "&lt;/ol&gt;";} ) ();</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="en"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string" name="apiVersionInfo"
+                        visible="false">
+            <control
+                        control-type="TextArea" editable="true"
+                        visible="false">
+               <props/>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">伺服器版本資訊</display-label>
+            <display-label
+                        xml:lang="ja">サーバのバージョン情報</display-label>
+            <display-label
+                        xml:lang="pt">Informações de Versão do Servidor</display-label>
+            <display-label
+                        xml:lang="en">Server Version Info</display-label>
+            <display-label
+                        xml:lang="da">Oplysninger om serverversion</display-label>
+            <display-label
+                        xml:lang="de">Information über Serverversion</display-label>
+            <display-label
+                        xml:lang="zh-CN">服务器版本信息</display-label>
+            <display-label
+                        xml:lang="it">Informazioni versione server</display-label>
+            <display-label
+                        xml:lang="nl">Informatie over serverversie</display-label>
+            <display-label
+                        xml:lang="sv">Info om serverversion</display-label>
+            <display-label
+                        xml:lang="es">Información sobre la versión del servidor</display-label>
+            <display-label
+                        xml:lang="ru">Сведения о версии сервера</display-label>
+            <display-label
+                        xml:lang="fr">Information sur la version du serveur</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string" name="systemSetupInfo"
+                        visible="false">
+            <control
+                        control-type="TextArea" editable="true"
+                                visible="false">
+               <props>
+                  <prop
+                        name="nblines">
+                     <value>5</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">DAL 組態</display-label>
+            <display-label
+                        xml:lang="ja">DAL設定</display-label>
+            <display-label
+                        xml:lang="pt">Configuração do DAL</display-label>
+            <display-label
+                        xml:lang="en">DAL Configuration</display-label>
+            <display-label
+                        xml:lang="da">DAL-konfiguration</display-label>
+            <display-label
+                        xml:lang="de">DAL-Konfiguration</display-label>
+            <display-label
+                        xml:lang="zh-CN">DAL 配置</display-label>
+            <display-label
+                        xml:lang="it">Configurazione DAL</display-label>
+            <display-label
+                        xml:lang="nl">DAL-configuratie</display-label>
+            <display-label
+                        xml:lang="sv">DAL-konfiguration</display-label>
+            <display-label
+                        xml:lang="es">Configuración de DAL</display-label>
+            <display-label
+                        xml:lang="ru">Конфигурация DAL</display-label>
+            <display-label
+                        xml:lang="fr">Configuration DAL</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string" name="mobileVdxConfiguration"
+                        visible="false">
+            <control
+                        control-type="TextArea" editable="true"
+                        visible="false">
+               <props/>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">VDX 組態</display-label>
+            <display-label
+                        xml:lang="ja">VDX設定</display-label>
+            <display-label
+                        xml:lang="pt">Configuração do VDX</display-label>
+            <display-label
+                        xml:lang="en">VDX Configuration</display-label>
+            <display-label
+                        xml:lang="da">VDX-konfiguration</display-label>
+            <display-label
+                        xml:lang="de">VDX-Konfiguration</display-label>
+            <display-label
+                        xml:lang="zh-CN">VDX 配置</display-label>
+            <display-label
+                        xml:lang="it">Configurazione VDX</display-label>
+            <display-label
+                        xml:lang="nl">VDX-configuratie</display-label>
+            <display-label
+                        xml:lang="sv">VDX-konfiguration</display-label>
+            <display-label
+                        xml:lang="es">Configuración de VDX</display-label>
+            <display-label
+                        xml:lang="ru">Конфигурация VDX</display-label>
+            <display-label
+                        xml:lang="fr">Configuration VDX</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <actions
+                        location="bottom">
+            <action
+                        hide-if-readonly="true"
+                            name="RefusalAction">
+               <control
+                                    control-type="Button">
+                  <props>
+                     <prop
+                            name="RefusalAction">
+                        <value>to be filled in at runtime</value>
+                     </prop>
+                  </props>
+               </control>
+               <display-label
+                            xml:lang="zh-TW">已修復，重試</display-label>
+               <display-label
+                            xml:lang="ja">修正したため再試行</display-label>
+               <display-label
+                            xml:lang="pt">Corrigido, Repetir</display-label>
+               <display-label
+                            xml:lang="en">Fixed, Retry</display-label>
+               <display-label
+                            xml:lang="da">Løst, prøv igen</display-label>
+               <display-label
+                            xml:lang="de">Repariert, Wiederholen</display-label>
+               <display-label
+                            xml:lang="zh-CN">已修复，重试</display-label>
+               <display-label
+                            xml:lang="it">Riparazione completata, riprovare</display-label>
+               <display-label
+                            xml:lang="nl">Vast, Opnieuw proberen</display-label>
+               <display-label
+                            xml:lang="sv">Åtgärdad, försök igen</display-label>
+               <display-label
+                            xml:lang="es">Arreglado, reintentar</display-label>
+               <display-label
+                            xml:lang="ru">Исправлено, повторите попытку</display-label>
+               <display-label
+                        xml:lang="fr">Corrigé, Réessayer</display-label>
+            </action>
+            <action
+                        hide-if-readonly="true"
+                            name="DenyAction">
+               <control
+                            control-type="Button"/>
+               <display-label
+                            xml:lang="zh-TW">現在無法修復，拒絕</display-label>
+               <display-label
+                            xml:lang="ja">今すぐ修正できないため拒否</display-label>
+               <display-label
+                            xml:lang="pt">Impossível corrigir agora, Negar</display-label>
+               <display-label
+                            xml:lang="en">Can't fix now, Deny</display-label>
+               <display-label
+                            xml:lang="da">Kan ikke rette nu, afvis</display-label>
+               <display-label
+                            xml:lang="de">Fehler kann jetzt nicht behoben werden. Ablehnen</display-label>
+               <display-label
+                            xml:lang="zh-CN">现在无法修复，拒绝</display-label>
+               <display-label
+                            xml:lang="it">Impossibile riparare, nega</display-label>
+               <display-label
+                            xml:lang="nl">Oplossen nu niet mogelijk. Weigeren</display-label>
+               <display-label
+                            xml:lang="sv">Går inte att åtgärda nu, Avvisa</display-label>
+               <display-label
+                            xml:lang="es">No se puede arreglar ahora. Denegar</display-label>
+               <display-label
+                            xml:lang="ru">Не может быть исправлено сейчас. Отклонить</display-label>
+               <display-label
+                        xml:lang="fr">Impossible à corriger maintenant, Refusez.</display-label>
+            </action>
+            <action
+                        hide-if-readonly="true"
+                            name="CancelAction">
+               <control
+                                    control-type="Button">
+                  <props>
+                     <prop
+                            name="CancelAction">
+                        <value>to be filled in at runtime</value>
+                     </prop>
+                  </props>
+               </control>
+               <display-label
+                            xml:lang="zh-TW">取消</display-label>
+               <display-label
+                            xml:lang="ja">キャンセル</display-label>
+               <display-label
+                            xml:lang="pt">Cancelar</display-label>
+               <display-label
+                            xml:lang="en">Cancel</display-label>
+               <display-label
+                            xml:lang="da">Annuller</display-label>
+               <display-label
+                            xml:lang="de">Abbrechen</display-label>
+               <display-label
+                            xml:lang="zh-CN">取消</display-label>
+               <display-label
+                            xml:lang="it">Annulla</display-label>
+               <display-label
+                            xml:lang="nl">Annuleren</display-label>
+               <display-label
+                            xml:lang="sv">Avbryt</display-label>
+               <display-label
+                            xml:lang="es">Cancelar</display-label>
+               <display-label
+                            xml:lang="ru">Отмена</display-label>
+               <display-label
+                    xml:lang="fr">Annuler</display-label>
+            </action>
+         </actions>
+         <event
+            event-type="onload">if (form.getValue("vdxConfigOk").length &gt; 0) {
+   var refuseButton = document.getElementById('RefusalAction1'); 
+   if (refuseButton) {
+      refuseButton.parentNode.removeChild(refuseButton);
+   }
+}</event>
+      </content>
+   </form>
+   <form
+                    form-id="approval_form">
+      <content>
+         <field
+                    name="title" visible="true">
+            <control
+                        control-type="Title"
+                        editable="false"/>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    name="subheading"
+                        visible="true">
+            <control
+                        control-type="Title"
+                                editable="false">
+               <props>
+                  <prop
+                        name="font-size">
+                     <value>medium</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">請選取適當的按鈕核准或拒絕申請。</display-label>
+            <display-label
+                        xml:lang="ja">該当するボタンを選択して要求を承認または却下してください。</display-label>
+            <display-label
+                        xml:lang="pt">Selecione o botão apropriado para aprovar ou rejeitar a solicitação.</display-label>
+            <display-label
+                        xml:lang="en">Please select the appropriate button to approve or reject the request.</display-label>
+            <display-label
+                        xml:lang="da">Vælg den relevante knap for at godkende eller afvise anmodningen.</display-label>
+            <display-label
+                        xml:lang="de">Bitte wählen Sie die entsprechende Schaltfläche zum Genehmigen oder Ablehnen der Anforderung.</display-label>
+            <display-label
+                        xml:lang="zh-CN">请选择相应的按钮以批准或拒绝请求。</display-label>
+            <display-label
+                        xml:lang="it">Selezionare il pulsante appropriato per approvare o rifiutare la richiesta.</display-label>
+            <display-label
+                        xml:lang="nl">Selecteer de betreffende knop om de aanvraag goed te keuren of af te wijzen.</display-label>
+            <display-label
+                        xml:lang="sv">Godkänn eller avslå beställningen med hjälp av motsvarande knapp.</display-label>
+            <display-label
+                        xml:lang="es">Seleccione el botón adecuado para aprobar o rechazar la petición.</display-label>
+            <display-label
+                        xml:lang="ru">Нажмите соответствующую кнопку для подтверждения или отклонения запроса.</display-label>
+            <display-label
+                        xml:lang="fr">Sélectionnez le bouton approprié pour approuver ou refuser la requête.</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="dn" name="initiator"
+                        visible="true">
+            <control
+                        control-type="DNDisplay"
+                                editable="false">
+               <props>
+                  <prop
+                                name="display-exp">
+                     <value>FirstName LastName</value>
+                  </prop>
+                  <prop
+                        name="display-entitydef">
+                     <value>user</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">申請者︰</display-label>
+            <display-label
+                        xml:lang="ja">要求者:</display-label>
+            <display-label
+                        xml:lang="pt">Solicitado por:</display-label>
+            <display-label
+                        xml:lang="en">Requested by:</display-label>
+            <display-label
+                        xml:lang="da">Anmodet af:</display-label>
+            <display-label
+                        xml:lang="de">Angefordert von:</display-label>
+            <display-label
+                        xml:lang="zh-CN">请求者:</display-label>
+            <display-label
+                        xml:lang="it">Richiesta da:</display-label>
+            <display-label
+                        xml:lang="nl">Aangevraagd door:</display-label>
+            <display-label
+                        xml:lang="sv">Beställningen skickad av:</display-label>
+            <display-label
+                        xml:lang="es">Petición de:</display-label>
+            <display-label
+                        xml:lang="ru">Запрашивающий:</display-label>
+            <display-label
+                    xml:lang="fr">Demandée par :</display-label>
+         </field>
+         <field
+                    data-type="dn" name="recipient"
+                        visible="true">
+            <control
+                        control-type="DNDisplay"
+                                editable="false">
+               <props>
+                  <prop
+                                name="display-exp">
+                     <value>FirstName LastName</value>
+                  </prop>
+                  <prop
+                        name="display-entitydef">
+                     <value>user</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">接收者︰</display-label>
+            <display-label
+                        xml:lang="ja">受信者:</display-label>
+            <display-label
+                        xml:lang="pt">Destinatário:</display-label>
+            <display-label
+                        xml:lang="en">Recipient:</display-label>
+            <display-label
+                        xml:lang="da">Modtager:</display-label>
+            <display-label
+                        xml:lang="de">Empfänger:</display-label>
+            <display-label
+                        xml:lang="zh-CN">接收人:</display-label>
+            <display-label
+                        xml:lang="it">Destinatario:</display-label>
+            <display-label
+                        xml:lang="nl">Ontvanger:</display-label>
+            <display-label
+                        xml:lang="sv">Mottagare:</display-label>
+            <display-label
+                        xml:lang="es">Destinatario:</display-label>
+            <display-label
+                        xml:lang="ru">Получатель:</display-label>
+            <display-label
+                        xml:lang="fr">Destinataire :</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="date" name="initiatedTime"
+                        visible="true">
+            <control
+                        control-type="DatePicker"
+                                editable="false">
+               <props>
+                  <prop
+                                    name="dayHeaders">
+                     <value
+                                    xml:lang="zh-TW">'日','一','二','三','四','五','六'</value>
+                     <value
+                                    xml:lang="de">'S','M','D','M','D','F','S'</value>
+                     <value
+                                    xml:lang="en">'S','M','T','W','T','F','S'</value>
+                     <value
+                                    xml:lang="es">'D','L','M','X','J','V','S'</value>
+                     <value
+                                    xml:lang="fr">'D','L','M','M','J','V','S'</value>
+                     <value
+                                    xml:lang="ja">'日','月','火','水','木','金','土'</value>
+                     <value
+                                    xml:lang="it">'D','L','M','M','G','V','S'</value>
+                     <value
+                                    xml:lang="nl">'Z','M','D','W','D','V','Z'</value>
+                     <value
+                                    xml:lang="pt">'D','S','T','Q','Q','S','S'</value>
+                     <value
+                                    xml:lang="ru">'В','П','В','С','Ч','П','С'</value>
+                     <value
+                                    xml:lang="sv">'S','M','T','O','T','F','L'</value>
+                     <value
+                                    xml:lang="zh-CN">'日','一','二','三','四','五','六'</value>
+                     <value
+                                xml:lang="da">'S','M','T','O','T','F','L'</value>
+                  </prop>
+                  <prop
+                                    name="monthNames">
+                     <value
+                                    xml:lang="zh-TW">'一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'</value>
+                     <value
+                                    xml:lang="de">'Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'</value>
+                     <value
+                                    xml:lang="en">'January','February','March','April','May','June','July','August','September','October','November','December'</value>
+                     <value
+                                    xml:lang="es">'Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'</value>
+                     <value
+                                    xml:lang="fr">'Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'</value>
+                     <value
+                                    xml:lang="ja">'1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'</value>
+                     <value
+                                    xml:lang="it">'Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'</value>
+                     <value
+                                    xml:lang="nl">'Januari','Februari','Maart','April','Mei','Juni','Juli','Augustus','September','Oktober','November','December'</value>
+                     <value
+                                    xml:lang="pt">'Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'</value>
+                     <value
+                                    xml:lang="ru">'Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрьr','Октябрь','Ноябрь','Декабрь'</value>
+                     <value
+                                    xml:lang="sv">'Januari','Februari','Mars','April','Maj','Juni','Juli','Augusti','September','Oktober','November','December'</value>
+                     <value
+                                    xml:lang="zh-CN">'一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'</value>
+                     <value
+                        xml:lang="da">'Januar','Februar','Marts','April','Maj','Juni','Juli','August','September','Oktober','November','December'</value>
+                  </prop>
+               </props>
+            </control>
+            <display-label
+                        xml:lang="zh-TW">申請日期 :</display-label>
+            <display-label
+                        xml:lang="ja">要求日:</display-label>
+            <display-label
+                        xml:lang="pt">Data da Solicitação:</display-label>
+            <display-label
+                        xml:lang="en">Request Date:</display-label>
+            <display-label
+                        xml:lang="da">Anmodningsdato:</display-label>
+            <display-label
+                        xml:lang="de">Anforderungsdatum:</display-label>
+            <display-label
+                        xml:lang="zh-CN">请求日期:</display-label>
+            <display-label
+                        xml:lang="it">Data della richiesta:</display-label>
+            <display-label
+                        xml:lang="nl">Datum van aanvraag:</display-label>
+            <display-label
+                        xml:lang="sv">Datum för beställning:</display-label>
+            <display-label
+                        xml:lang="es">Fecha de la petición:</display-label>
+            <display-label
+                        xml:lang="ru">Дата запроса:</display-label>
+            <display-label
+                        xml:lang="fr">Date de la requête :</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string" name="reason"
+                        visible="true">
+            <control
+                        control-type="Text"
+                        editable="false"/>
+            <display-label
+                        xml:lang="zh-TW">原因：</display-label>
+            <display-label
+                        xml:lang="ja">理由:</display-label>
+            <display-label
+                        xml:lang="pt">Razão:</display-label>
+            <display-label
+                        xml:lang="en">Reason:</display-label>
+            <display-label
+                        xml:lang="da">Årsag:</display-label>
+            <display-label
+                        xml:lang="de">Ursache:</display-label>
+            <display-label
+                        xml:lang="zh-CN">原因：</display-label>
+            <display-label
+                        xml:lang="it">Motivo:</display-label>
+            <display-label
+                        xml:lang="nl">Reden:</display-label>
+            <display-label
+                        xml:lang="sv">Orsak:</display-label>
+            <display-label
+                        xml:lang="es">Razón:</display-label>
+            <display-label
+                        xml:lang="ru">Причина:</display-label>
+            <display-label
+                        xml:lang="fr">Raison :</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <field
+                    data-type="string" name="apwaComment"
+                        visible="true">
+            <control
+                        control-type="TextArea" editable="true"
+                        required="false"/>
+            <display-label
+                        xml:lang="zh-TW">備註 :</display-label>
+            <display-label
+                        xml:lang="ja">コメント:</display-label>
+            <display-label
+                        xml:lang="pt">Comentário:</display-label>
+            <display-label
+                        xml:lang="en">Comment:</display-label>
+            <display-label
+                        xml:lang="da">Kommentar:</display-label>
+            <display-label
+                        xml:lang="de">Kommentar:</display-label>
+            <display-label
+                        xml:lang="zh-CN">注释:</display-label>
+            <display-label
+                        xml:lang="it">Commento:</display-label>
+            <display-label
+                        xml:lang="nl">Opmerking:</display-label>
+            <display-label
+                        xml:lang="sv">Kommentar:</display-label>
+            <display-label
+                        xml:lang="es">Comentario:</display-label>
+            <display-label
+                        xml:lang="ru">Комментарий:</display-label>
+            <display-label
+                        xml:lang="fr">Commentaire :</display-label>
+         </field>
+         <field>
+            <control
+                    control-type="LineBreak"/>
+         </field>
+         <actions
+                        location="bottom">
+            <action
+                        block-on-error="false"
+                            name="CommentAction">
+               <control
+                            control-type="Button"/>
+               <display-label
+                            xml:lang="zh-TW">檢視備註歷程</display-label>
+               <display-label
+                            xml:lang="ja">コメント履歴の表示</display-label>
+               <display-label
+                            xml:lang="pt">Ver Histórico de Comentários</display-label>
+               <display-label
+                            xml:lang="en">View Comment History</display-label>
+               <display-label
+                            xml:lang="da">Vis kommentarhistorik</display-label>
+               <display-label
+                            xml:lang="de">Kommentarverlauf anzeigen</display-label>
+               <display-label
+                            xml:lang="zh-CN">查看注释历史</display-label>
+               <display-label
+                            xml:lang="it">Visualizza cronologia commenti</display-label>
+               <display-label
+                            xml:lang="nl">Opmerkingshistorie weergeven</display-label>
+               <display-label
+                            xml:lang="sv">Visa kommentarshistorik</display-label>
+               <display-label
+                            xml:lang="es">Ver historial de comentarios</display-label>
+               <display-label
+                            xml:lang="ru">Просмотр протокола комментариев</display-label>
+               <display-label
+                            xml:lang="fr">Afficher l'historique des commentaires</display-label>
+            </action>
+            <field>
+               <control
+                        control-type="LineBreak"/>
+            </field>
+            <action
+                        hide-if-readonly="true"
+                            name="DenyAction">
+               <control
+                            control-type="Button"/>
+               <display-label
+                            xml:lang="zh-TW">拒絕</display-label>
+               <display-label
+                            xml:lang="ja">却下</display-label>
+               <display-label
+                            xml:lang="pt">Negar</display-label>
+               <display-label
+                            xml:lang="en">Deny</display-label>
+               <display-label
+                            xml:lang="da">Afvis</display-label>
+               <display-label
+                            xml:lang="de">Verweigern</display-label>
+               <display-label
+                            xml:lang="zh-CN">拒绝</display-label>
+               <display-label
+                            xml:lang="it">Rifiuta</display-label>
+               <display-label
+                            xml:lang="nl">Afwijzen</display-label>
+               <display-label
+                            xml:lang="sv">Avslå</display-label>
+               <display-label
+                            xml:lang="es">Denegar</display-label>
+               <display-label
+                            xml:lang="ru">Запретить</display-label>
+               <display-label
+                        xml:lang="fr">Refuser</display-label>
+            </action>
+            <action
+                        hide-if-readonly="true"
+                            name="ApprovalAction">
+               <control
+                            control-type="Button"/>
+               <display-label
+                            xml:lang="zh-TW">核准</display-label>
+               <display-label
+                            xml:lang="ja">承認</display-label>
+               <display-label
+                            xml:lang="pt">Aprovar</display-label>
+               <display-label
+                            xml:lang="en">Approve</display-label>
+               <display-label
+                            xml:lang="da">Godkend</display-label>
+               <display-label
+                            xml:lang="de">Genehmigen</display-label>
+               <display-label
+                            xml:lang="zh-CN">批准</display-label>
+               <display-label
+                            xml:lang="it">Approva</display-label>
+               <display-label
+                            xml:lang="nl">Attest indienen</display-label>
+               <display-label
+                            xml:lang="sv">Godkänn</display-label>
+               <display-label
+                            xml:lang="es">Aprobar</display-label>
+               <display-label
+                            xml:lang="ru">Подтвердить</display-label>
+               <display-label
+            xml:lang="fr">Approuver</display-label>
+            </action>
+         </actions>
+      </content>
+   </form>
+   <form-binding
+            activity-id="Activity4"
+            form-id="approval_form_prov_admin"/>
+   <form-binding
+            activity-id="Activity8"
+            form-id="approval_form"/>
+   <data-items
+                activity-id="Activity4">
+      <data-item
+                data-type="boolean" name="apiVersionOk"
+                source="(flowdata.get('serverAnalysis.serverInfo') == flowdata.get('message.serverVersionOk'))"
+                target-type="single-value"/>
+      <data-item
+                data-type="boolean" name="rpbmConfigOk"
+                source="flowdata.get('serverAnalysis.configInfo') == flowdata.get('message.serverConfigOk')"
+                target-type="single-value"/>
+      <data-item
+                data-type="string" name="vdxConfigOk"
+                source="flowdata.get('serverInfo.mobileVdxErrors')"
+                target-type="single-value"/>
+      <data-item
+                data-type="string" name="apiVersionInfo"
+                source="flowdata.get('serverAnalysis.serverInfo')"
+                target-type="single-value"/>
+      <data-item
+                data-type="string" name="systemSetupInfo"
+                source="flowdata.get('serverAnalysis.configInfo')"
+                target-type="single-value"/>
+      <data-item
+                data-type="string" name="mobileVdxConfiguration"
+                source="flowdata.get('serverAnalysis.mobileConfigInfo')"
+            target-type="single-value"/>
+   </data-items>
+   <data-items
+                activity-id="Activity8">
+      <data-item data-type="dn"
+                name="initiator" source="initiator"
+                target-type="single-value"/>
+      <data-item
+                data-type="dn" name="recipient" source="recipient"
+                target-type="single-value"/>
+      <data-item
+                data-type="date" name="initiatedTime"
+                source="process.getTimestamp()"
+                target-type="single-value"/>
+      <data-item
+                data-type="string" name="reason"
+                source="flowdata.get('Start/request_form/reason')"
+            target-type="single-value"/>
+   </data-items>
+   <data-items
+                activity-id="Activity2">
+      <data-item
+                data-type="string" name="MAP0"
+                source="new Packages.com.novell.soa.af.impl.soap.T_Version().getMajor()"
+                target="flowdata.version.major"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP1"
+                source="new Packages.com.novell.soa.af.impl.soap.T_Version().getMinor()"
+                target="flowdata.version.minor"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP2"
+                source="function parse(xmlArtifact) {&#xa;   var dbf = new Packages.javax.xml.parsers.DocumentBuilderFactory.newInstance();&#xa;   &#xa;   /* todo - set an entity resolver that can return the expected dtd */&#xa;   dbf.setFeature(&quot;http://apache.org/xml/features/nonvalidating/load-external-dtd&quot;, false);&#xa;&#xa;   var db = dbf.newDocumentBuilder();&#xa;   var is = java.lang.Thread.currentThread().getContextClassLoader().getResourceAsStream(xmlArtifact);&#xa;   var doc = db.parse(is);&#xa;   return doc;&#xa;};&#xa;&#xa;function getNodeValue(node) {&#xa;        var buf = &quot;&quot;;&#xa;        var children = node.getChildNodes();&#xa;        for (var i = 0; i &lt; children.getLength(); i++) {&#xa;            var textChild = children.item(i);&#xa;            if (textChild.getNodeType() != Packages.org.w3c.dom.Node.TEXT_NODE) {&#xa;                continue;&#xa;            }&#xa;            buf = buf + textChild.getNodeValue();&#xa;        }&#xa;        return buf;&#xa;    }&#xa;&#xa;function isVdxApiOpenToNonProvAdmin() {&#xa;   var returnVal = &quot;&quot;;&#xa;   try {&#xa;      var doc = parse(&quot;WorkflowService-conf/config.xml&quot;);&#xa;      var propertyNodes = doc.getDocumentElement().getElementsByTagName(&quot;property&quot;);&#xa;      for (var i = 0; i &lt; propertyNodes.getLength(); i++) {&#xa;         var keyNode = propertyNodes.item(i).getElementsByTagName(&quot;key&quot;).item(0);&#xa;         if (getNodeValue(keyNode) == &quot;WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly&quot;) {&#xa;            var val = getNodeValue(propertyNodes.item(i).getElementsByTagName(&quot;value&quot;).item(0));&#xa;            if (val != &quot;false&quot;) {&#xa;               if (returnVal.length > 0) {&#xa;                  returnVal += &quot;,&quot;;&#xa;               }&#xa;               returnVal += &quot;In the 'WorkflowService-conf/config.xml' file,set the 'WorkflowService/SOAP-End-Points-Accessible-By-ProvisioningAdminOnly' to false&quot;;&#xa;            }&#xa;         }&#xa;&#xa;         if (getNodeValue(keyNode) == &quot;WorkflowService/soap/getComments&quot;) {&#xa;            var val = getNodeValue(propertyNodes.item(i).getElementsByTagName(&quot;value&quot;).item(0));&#xa;            if (val != &quot;false&quot;) {&#xa;               if (returnVal.length > 0) {&#xa;                  returnVal += &quot;,&quot;;&#xa;               }&#xa;               returnVal += &quot;In the 'WorkflowService-conf/config.xml' file,set the 'WorkflowService/soap/getComments' to false&quot;;&#xa;            }&#xa;         }&#xa;&#xa;         if (getNodeValue(keyNode) == &quot;WorkflowService/soap/addComment&quot;) {&#xa;            var val = getNodeValue(propertyNodes.item(i).getElementsByTagName(&quot;value&quot;).item(0));&#xa;            if (val != &quot;false&quot;) {&#xa;               if (returnVal.length > 0) {&#xa;                  returnVal += &quot;,&quot;;&#xa;               }&#xa;               returnVal += &quot;In the 'WorkflowService-conf/config.xml' file,set the 'WorkflowService/soap/addComment' to false&quot;;&#xa;            }&#xa;         }&#xa;      }&#xa;&#xa;&#xa;      var doc = parse(&quot;VirtualDataService-conf/config.xml&quot;);&#xa;      var propertyNodes = doc.getDocumentElement().getElementsByTagName(&quot;property&quot;);&#xa;      for (var i = 0; i &lt; propertyNodes.getLength(); i++) {&#xa;         var keyNode = propertyNodes.item(i).getElementsByTagName(&quot;key&quot;).item(0);&#xa;&#xa;         if (getNodeValue(keyNode) == &quot;VirtualDataService/soap&quot;) {&#xa;            var val = getNodeValue(propertyNodes.item(i).getElementsByTagName(&quot;value&quot;).item(0));&#xa;            if (val != &quot;false&quot;) {&#xa;               if (returnVal.length > 0) {&#xa;                  returnVal += &quot;,&quot;;&#xa;               }&#xa;               returnVal += &quot;In the 'VirtualDataService-conf/config.xml' file,set the 'VirtualDataService/soap' to false&quot;;&#xa;            }&#xa;            break;&#xa;         }&#xa;      }&#xa;&#xa;   } catch (ex) {&#xa;      returnVal = ex.toString();&#xa;   }&#xa;   return returnVal;&#xa;}; isVdxApiOpenToNonProvAdmin();"
+                target="flowdata.version.isWfSoapApiOpen"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP3"
+                source="&quot;This version of RBPM is supported&quot;"
+                target="flowdata.message.serverVersionOk"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP4"
+                source="&quot;Your RBPM system is configured correctly&quot;"
+                target="flowdata.message.serverConfigOk"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP5"
+                source="&quot;Your Mobile Configuration is configured correctly&quot;"
+                target="flowdata.message.mobileConfigurationOk"
+            target-type="multi-value-list"/>
+   </data-items>
+   <data-items
+                activity-id="Activity3">
+      <data-item
+                data-type="string" name="MAP0" source="&quot;5&quot;"
+                target="flowdata.mobileConfig.timeout"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP1" source="&quot;user&quot;"
+                target="flowdata.mobileConfig.vdxUserEntity"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP2"
+                source="&quot;FirstName&quot;"
+                target="flowdata.mobileConfig.vdxFirstNameAttribute"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP3"
+                source="&quot;LastName&quot;"
+                target="flowdata.mobileConfig.vdxLastNameAttribute"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP4"
+                source="&quot;FirstName LastName&quot;"
+                target="flowdata.mobileConfig.vdxNameFormatAttribute"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP5"
+                source="&quot;TelephoneNumber&quot;"
+                target="flowdata.mobileConfig.vdxPhoneAttribute"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP6" source="&quot;&quot;"
+                target="flowdata.mobileConfig.vdxMobileAttribute"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP7"
+                source="&quot;Email&quot;"
+                target="flowdata.mobileConfig.vdxEmailAttribute"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP8"
+                source="&quot;UserPhoto&quot;"
+                target="flowdata.mobileConfig.vdxPhotoAttribute"
+            target-type="multi-value-list"/>
+   </data-items>
+   <data-items
+                activity-id="Activity5">
+      <data-item
+                data-type="string" name="MAP0"
+                source="function status() {&#xa;   var apiReturn = &quot;&quot;;&#xa;&#xa;   /* if cannot support historical forms... */&#xa;   if (parseInt(flowdata.get('version.major')) &lt; 4) {&#xa;      apiReturn += &quot;This version of RBPM is NOT compatible with mobile approvals and is not supported.  &quot;;&#xa;      apiReturn += &quot;Specifically all forms shown on the mobile app will be in html format, diminishing the user experience.\n\n&quot;;&#xa;      apiReturn += &quot;Please upgrade to at least 4.02 patch B or greater&quot;;&#xa;   /* if cannot support proper prov admin tasks */&#xa;   } else if ((flowdata.get('Start/request_form/checkPatchB') == &quot;true&quot;) &amp;&amp; ((parseInt(flowdata.get('version.major')) == 4) &amp;&amp; (parseInt(flowdata.get('version.minor')) &lt; 2 ))) { &#xa;      apiReturn += &quot;This version of RBPM is NOT compatible with mobile approvals and is not supported.  &quot;;&#xa;      apiReturn += &quot;Specifically a prov admin may have problems getting all of their tasks.\n\n&quot;;&#xa;      apiReturn += &quot;Please upgrade to at least 4.02 patch B or greater.\n&quot;;&#xa;   } else {&#xa;      apiReturn = flowdata.get('message.serverVersionOk');&#xa;   }&#xa;      &#xa;   return apiReturn;&#xa;}; status();"
+                target="flowdata.serverAnalysis.serverInfo"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP1"
+                source="function status() {&#xa;   var statusReturn = &quot;&quot;;&#xa;&#xa;   var reasons = flowdata.get('version.isWfSoapApiOpen');&#xa;   if (reasons.length > 0) {&#xa;      var reasonArray = reasons.split(&quot;,&quot;);&#xa;      var label = true;&#xa;      var count = 1;&#xa;      for (var i = 0; i &lt; reasonArray.length; i++) {&#xa;         statusReturn += &quot;\n&quot;;&#xa;         if (label) {&#xa;            statusReturn += &quot;   &quot; + count + &quot;) &quot; + reasonArray[i] + &quot;,&quot;;&#xa;            count++;&#xa;          } else {&#xa;            statusReturn += &quot;      &quot; + reasonArray[i];&#xa;          }&#xa;          label = !label;&#xa;      }&#xa;      statusReturn += &quot;\n   &quot; + count + &quot;) Restart the server&quot;;&#xa;&#xa;   }&#xa;   if (statusReturn.length > 0) {&#xa;      var newStatusReturn = &quot;An RBPM system configuration error was detected.  In order for mobile approvals to work, the configuration for RBPM needs to be adjusted to allow non-prov admin user access.\n\n&quot;;&#xa;      newStatusReturn += &quot;a) Shut down the server.\n&quot;&#xa;      newStatusReturn += &quot;b) Make a backup of your IDMProv.war file.\n&quot;&#xa;      newStatusReturn += &quot;c) Within IDMProv.war, locate the WEB-INF/lib/IDMfw.jar and make the following adjustments:&quot;&#xa;      newStatusReturn += statusReturn;&#xa;      statusReturn = newStatusReturn;&#xa;    } else {&#xa;       statusReturn += flowdata.get('message.serverConfigOk');&#xa;    }&#xa;      &#xa;   return statusReturn;&#xa;}; status();&#xa;"
+                target="flowdata.serverAnalysis.configInfo"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP2"
+                source="function getNodeValue(node) {&#xa;        var buf = &quot;&quot;;&#xa;        var children = node.getChildNodes();&#xa;        for (var i = 0; i &lt; children.getLength(); i++) {&#xa;            var textChild = children.item(i);&#xa;            if (textChild.getNodeType() != Packages.org.w3c.dom.Node.TEXT_NODE) {&#xa;                continue;&#xa;            }&#xa;            buf = buf + textChild.getNodeValue();&#xa;        }&#xa;        return buf;&#xa;    }&#xa;&#xa;function getUserPhotoLdap() {&#xa;   var vdxAttrNameToSearch = flowdata.get('mobileConfig.vdxPhotoAttribute');&#xa;&#xa;   var correctVdxPhotoNds = &quot;&quot;;&#xa;&#xa;   if (vdxAttrNameToSearch.length > 0) {&#xa;      var returnVal = &quot;&quot;; &#xa;      var found = false;&#xa;      var ndsNameCorrect = false;&#xa;       try {&#xa;          var xpathProcessor = Packages.javax.xml.xpath.XPathFactory.newInstance().newXPath();&#xa;&#xa;          var ctx = Packages.com.novell.idm.nrf.service.RoleServiceFactory.getInstance().getLdapAdminContext();&#xa;          var entityDn = 'CN=' + flowdata.get('mobileConfig.vdxUserEntity') + &quot;,CN=EntityDefs,CN=DirectoryModel,CN=AppConfig,&quot; + PROVISIONING_DRIVER&#xa;          var attrs = ctx.getAttributes(entityDn);&#xa;          if (attrs) {&#xa;             var xmlData = attrs.get(&quot;Xmldata&quot;);&#xa;             if (xmlData) {&#xa;               var xmldata = new java.lang.String(xmlData.get());&#xa;               var is  = new java.io.ByteArrayInputStream(xmldata.getBytes(&quot;UTF-8&quot;));&#xa;&#xa;               var db = new Packages.javax.xml.parsers.DocumentBuilderFactory.newInstance().newDocumentBuilder();&#xa;               var doc = db.parse(is);&#xa;               var keys = doc.getDocumentElement().getElementsByTagName(&quot;key&quot;);&#xa;               for (var i = 0; i &lt; keys.getLength(); i++) {&#xa;                  if (getNodeValue(keys.item(i)) == vdxAttrNameToSearch) {&#xa;                     found = true;&#xa;                        var parent = keys.item(i).getParentNode();&#xa;                        if (parent) {&#xa;                           var ndsNameNl = parent.getElementsByTagName(&quot;nds-name&quot;);&#xa;                           if (ndsNameNl.getLength() > 0) {&#xa;                              correctVdxPhotoNds= getNodeValue(ndsNameNl.item(0));&#xa;                          } else {&#xa;                             ndsNameNl = parent.getElementsByTagName(&quot;ldap-name&quot;);&#xa;                              if (ndsNameNl.getLength() > 0) {&#xa;                                 correctVdxPhotoNds= getNodeValue(ndsNameNl.item(0));&#xa;                              }&#xa;                          }&#xa;                      }                  &#xa;                 }&#xa;               }&#xa;             }&#xa;          }&#xa;          Packages.com.novell.idm.nrf.service.RoleServiceFactory.getInstance().closeLdapContext(ctx);&#xa;       }&#xa;       catch (ex) {&#xa;          correctVdxPhotoNds = ex.toString();&#xa;       }&#xa;    }&#xa;    return correctVdxPhotoNds;&#xa;}; getUserPhotoLdap();&#xa;    "
+                target="flowdata.mobileConfig.vdxPhotoAttributeLdap"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP3"
+                source="function getStatusOfUserPhoto(status) {&#xa;   var vdxAttrNameToSearch = flowdata.get('mobileConfig.vdxPhotoAttribute');&#xa;   var vdxPhotoNds = flowdata.get('mobileConfig.vdxPhotoAttributeLdap');&#xa;&#xa;   if (vdxAttrNameToSearch.length > 0) {&#xa;   var returnVal = &quot;&quot;; &#xa;   var found = false;&#xa;   var ndsNameCorrect = false;&#xa;    try {&#xa;       var xpathProcessor = Packages.javax.xml.xpath.XPathFactory.newInstance().newXPath();&#xa;&#xa;       var ctx = Packages.com.novell.idm.nrf.service.RoleServiceFactory.getInstance().getLdapAdminContext();&#xa;       var entityDn = 'CN=' + flowdata.get('mobileConfig.vdxUserEntity') + &quot;,CN=EntityDefs,CN=DirectoryModel,CN=AppConfig,&quot; + PROVISIONING_DRIVER&#xa;       var attrs = ctx.getAttributes(entityDn);&#xa;       if (attrs) {&#xa;          var xmlData = attrs.get(&quot;Xmldata&quot;);&#xa;          if (xmlData) {&#xa;            var xmldata = new java.lang.String(xmlData.get());&#xa;            var is  = new java.io.ByteArrayInputStream(xmldata.getBytes(&quot;UTF-8&quot;));&#xa;&#xa;            var db = new Packages.javax.xml.parsers.DocumentBuilderFactory.newInstance().newDocumentBuilder();&#xa;            var doc = db.parse(is);&#xa;            var keys = doc.getDocumentElement().getElementsByTagName(&quot;key&quot;);&#xa;            for (var i = 0; i &lt; keys.getLength(); i++) {&#xa;               if (getNodeValue(keys.item(i)) == vdxAttrNameToSearch) {&#xa;                  found = true;&#xa;                  &#xa;               }&#xa;            }&#xa;          }&#xa;       }&#xa;       Packages.com.novell.idm.nrf.service.RoleServiceFactory.getInstance().closeLdapContext(ctx);&#xa;    }&#xa;    catch (ex) {&#xa;       returnVal += ex.toString();&#xa;    }&#xa;    if (returnVal.length == 0) {&#xa;      if (!found) {&#xa;         status += &quot;   &quot; + __errorCount__++ + &quot;) &quot; + vdxAttrNameToSearch + &quot;: not defined to vdx entity '&quot; + flowdata.get('mobileConfig.vdxUserEntity') + &quot;'\n&quot;;&#xa;      }&#xa;    } else {&#xa;         status += &quot;   &quot; + __errorCount__++ + &quot;) vdxPhotoAttribute: &quot; + returnVal + &quot;\n&quot;;&#xa;    }&#xa;    }&#xa;    return status;&#xa;}&#xa;    &#xa;&#xa;function getStatusOfVdxAttrInternal(attrValue) {&#xa;   var status = &quot;&quot;;&#xa;   try {&#xa;      IDVault.get(recipient , flowdata.get('mobileConfig.vdxUserEntity'), attrValue);&#xa;   } catch (ex) {&#xa;      status = ex.toString();&#xa;   }&#xa;   return status;&#xa;}&#xa;&#xa;function getStatusOfVdxAttr(attribute, status) {&#xa;   var localStatus = &quot;&quot;;&#xa;   var attrValue = flowdata.get('mobileConfig.' + attribute);&#xa;   if (attrValue.length > 0) {&#xa;      var attrs = attrValue.split(' ');&#xa;      for (var i = 0; i &lt; attrs.length; i++) {&#xa;         var thisStatus = getStatusOfVdxAttrInternal(attrs[i]);&#xa;         if (thisStatus.length > 0) {&#xa;            if (localStatus.length > 0) {&#xa;               localStatus += &quot;,\n&quot;;&#xa;            }&#xa;            localStatus += thisStatus;&#xa;         }&#xa;      }&#xa;  }&#xa;&#xa;  if (localStatus.length > 0) {&#xa;      status += &quot;   &quot; + __errorCount__++ + &quot;) &quot;  + attribute  + &quot;: &quot; + localStatus + &quot;\n&quot;;&#xa;   }&#xa;   return status;&#xa;}&#xa;&#xa;function getNodeValue(node) {&#xa;        var buf = &quot;&quot;;&#xa;        var children = node.getChildNodes();&#xa;        for (var i = 0; i &lt; children.getLength(); i++) {&#xa;            var textChild = children.item(i);&#xa;            if (textChild.getNodeType() != Packages.org.w3c.dom.Node.TEXT_NODE) {&#xa;                continue;&#xa;            }&#xa;            buf = buf + textChild.getNodeValue();&#xa;        }&#xa;        return buf;&#xa;    }&#xa;&#xa;function status() {&#xa;   var statusReturn = &quot;&quot;;&#xa;&#xa;   /* need this global */&#xa;   __errorCount__ = 1;&#xa;&#xa;&#xa;   /* vdx info */&#xa;   statusReturn = getStatusOfVdxAttr('vdxFirstNameAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxLastNameAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxNameFormatAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxPhoneAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxMobileAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxEmailAttribute', statusReturn);&#xa;   statusReturn = getStatusOfUserPhoto(statusReturn);&#xa;&#xa;    if (statusReturn.length == 0) {&#xa;       statusReturn += flowdata.get('message.mobileConfigurationOk');&#xa;    } else {&#xa;&#xa;       var newStatusReturn = &quot;The following errors were detected in your Mobile Configuration vdx mapping.  Please correct the data item maps in the 'Mobile Configuration' step in this workflow to resolve.  \n\n&quot;;&#xa;       newStatusReturn += &quot;Note: If you do not have a vdx attribute for a particular item, such as the one for 'vdxMobileAttribute', you may leave it as an empty string (\&quot;\&quot;).\n\n&quot;;&#xa;&#xa;       statusReturn = newStatusReturn + statusReturn;&#xa;    }&#xa;      &#xa;   return statusReturn;&#xa;}; status();&#xa;"
+                target="flowdata.serverAnalysis.mobileConfigInfo"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP4"
+                source="function getStatusOfUserPhoto(status) {&#xa;   var vdxAttrNameToSearch = flowdata.get('mobileConfig.vdxPhotoAttribute');&#xa;   var vdxPhotoNds = flowdata.get('mobileConfig.vdxPhotoAttributeLdap');&#xa;&#xa;   if (vdxAttrNameToSearch.length > 0) {&#xa;   var returnVal = &quot;&quot;; &#xa;   var found = false;&#xa;   var ndsNameCorrect = false;&#xa;    try {&#xa;       var xpathProcessor = Packages.javax.xml.xpath.XPathFactory.newInstance().newXPath();&#xa;&#xa;       var ctx = Packages.com.novell.idm.nrf.service.RoleServiceFactory.getInstance().getLdapAdminContext();&#xa;       var entityDn = 'CN=' + flowdata.get('mobileConfig.vdxUserEntity') + &quot;,CN=EntityDefs,CN=DirectoryModel,CN=AppConfig,&quot; + PROVISIONING_DRIVER&#xa;       var attrs = ctx.getAttributes(entityDn);&#xa;       if (attrs) {&#xa;          var xmlData = attrs.get(&quot;Xmldata&quot;);&#xa;          if (xmlData) {&#xa;            var xmldata = new java.lang.String(xmlData.get());&#xa;            var is  = new java.io.ByteArrayInputStream(xmldata.getBytes(&quot;UTF-8&quot;));&#xa;&#xa;            var db = new Packages.javax.xml.parsers.DocumentBuilderFactory.newInstance().newDocumentBuilder();&#xa;            var doc = db.parse(is);&#xa;            var keys = doc.getDocumentElement().getElementsByTagName(&quot;key&quot;);&#xa;            for (var i = 0; i &lt; keys.getLength(); i++) {&#xa;               if (getNodeValue(keys.item(i)) == vdxAttrNameToSearch) {&#xa;                  found = true;&#xa;                  &#xa;               }&#xa;            }&#xa;          }&#xa;       }&#xa;       Packages.com.novell.idm.nrf.service.RoleServiceFactory.getInstance().closeLdapContext(ctx);&#xa;    }&#xa;    catch (ex) {&#xa;       returnVal += ex.toString();&#xa;    }&#xa;    if (returnVal.length == 0) {&#xa;      if (!found) {&#xa;         status += &quot;&lt;li>&quot; + vdxAttrNameToSearch + &quot;: not defined to vdx entity '&quot; + flowdata.get('mobileConfig.vdxUserEntity') + &quot;&lt;/li>&quot;;&#xa;      }&#xa;    } else {&#xa;         status += &quot;&lt;li>vdxPhotoAttribute: &quot; + returnVal + &quot;&lt;/li>&quot;;&#xa;    }&#xa;    }&#xa;    return status;&#xa;}&#xa;    &#xa;&#xa;function getStatusOfVdxAttrInternal(attrValue) {&#xa;   var status = &quot;&quot;;&#xa;   try {&#xa;      IDVault.get(recipient , flowdata.get('mobileConfig.vdxUserEntity'), attrValue);&#xa;   } catch (ex) {&#xa;      status = ex.toString();&#xa;   }&#xa;   return status;&#xa;}&#xa;&#xa;function getStatusOfVdxAttr(attribute, status) {&#xa;   var localStatus = &quot;&quot;;&#xa;   var attrValue = flowdata.get('mobileConfig.' + attribute);&#xa;   if (attrValue.length > 0) {&#xa;      var attrs = attrValue.split(' ');&#xa;      for (var i = 0; i &lt; attrs.length; i++) {&#xa;         var thisStatus = getStatusOfVdxAttrInternal(attrs[i]);&#xa;         if (thisStatus.length > 0) {&#xa;            if (localStatus.length > 0) {&#xa;               localStatus += &quot;&lt;br />&quot;;&#xa;            }&#xa;            localStatus += thisStatus;&#xa;         }&#xa;      }&#xa;  }&#xa;&#xa;  if (localStatus.length > 0) {&#xa;      status += &quot;&lt;li>&quot;  + attribute  + &quot;: &quot; + localStatus + &quot;&lt;/li>&quot;;&#xa;   }&#xa;   return status;&#xa;}&#xa;&#xa;function getNodeValue(node) {&#xa;        var buf = &quot;&quot;;&#xa;        var children = node.getChildNodes();&#xa;        for (var i = 0; i &lt; children.getLength(); i++) {&#xa;            var textChild = children.item(i);&#xa;            if (textChild.getNodeType() != Packages.org.w3c.dom.Node.TEXT_NODE) {&#xa;                continue;&#xa;            }&#xa;            buf = buf + textChild.getNodeValue();&#xa;        }&#xa;        return buf;&#xa;    }&#xa;&#xa;function status() {&#xa;   var statusReturn = &quot;&quot;;&#xa;&#xa;   /* vdx info */&#xa;   statusReturn = getStatusOfVdxAttr('vdxFirstNameAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxLastNameAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxNameFormatAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxPhoneAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxMobileAttribute', statusReturn);&#xa;   statusReturn = getStatusOfVdxAttr('vdxEmailAttribute', statusReturn);&#xa;   statusReturn = getStatusOfUserPhoto(statusReturn);&#xa;&#xa;    if (statusReturn.length > 0) {&#xa;        var newStatusReturn = '&lt;div class=&quot;nv-color1 nv-fontLarge&quot;>&lt;ol>';&#xa;        statusReturn = newStatusReturn + statusReturn + '&lt;/ol>&lt;/div>';&#xa;    }&#xa;      &#xa;   return statusReturn;&#xa;}; status();&#xa;"
+                target="flowdata.serverInfo.mobileVdxErrors"
+            target-type="multi-value-list"/>
+   </data-items>
+   <data-items
+                activity-id="Activity1">
+      <data-item
+                data-type="string" name="MAP0"
+                source="flowdata.get('Start/request_form/host')"
+                target="flowdata.mobileConfig.host"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP1"
+                source="flowdata.get('Start/request_form/port')"
+                target="flowdata.mobileConfig.port"
+                target-type="multi-value-list"/>
+      <data-item
+                data-type="string" name="MAP2"
+                source="flowdata.get('Start/request_form/path').split('/')[1];"
+                target="flowdata.mobileConfig.rbpmContext"
+            target-type="multi-value-list"/>
+   </data-items>
+   <data-items
+                activity-id="Activity9">
+      <data-item
+                data-type="string" name="approvalstatus"
+                source="'approved'"
+            target="flowdata.IDM_COMPLETED_APPROVAL_STATUS"/>
+   </data-items>
+   <start-activity
+                activity-id="Start">
+      <display-name
+                xml:lang="zh-TW">開始</display-name>
+      <display-name
+                xml:lang="ja">開始</display-name>
+      <display-name
+                xml:lang="pt">Iniciar</display-name>
+      <display-name
+                xml:lang="en">Start</display-name>
+      <display-name
+                xml:lang="da">Start</display-name>
+      <display-name
+                xml:lang="de">Start</display-name>
+      <display-name
+                xml:lang="zh-CN">启动</display-name>
+      <display-name
+                xml:lang="it">Avvia</display-name>
+      <display-name
+                xml:lang="nl">Starten</display-name>
+      <display-name
+                xml:lang="sv">Starta</display-name>
+      <display-name
+                xml:lang="es">Iniciar</display-name>
+      <display-name
+                xml:lang="ru">Запустить</display-name>
+      <display-name
+            xml:lang="fr">Démarrer</display-name>
+   </start-activity>
+   <notification-activity
+            activity-id="Activity" setnotify="true">
+      <display-name
+                xml:lang="zh-TW">授予存取權限</display-name>
+      <display-name
+                xml:lang="ja">アクセスの付与</display-name>
+      <display-name
+                xml:lang="pt">Conceder Acesso</display-name>
+      <display-name
+                xml:lang="en">Grant Access</display-name>
+      <display-name
+                xml:lang="da">Giv adgang</display-name>
+      <display-name
+                xml:lang="de">Zugriff gewähren</display-name>
+      <display-name
+                xml:lang="zh-CN">授予访问权限</display-name>
+      <display-name
+                xml:lang="it">Concedi accesso</display-name>
+      <display-name
+                xml:lang="nl">Toegang verlenen</display-name>
+      <display-name
+                xml:lang="sv">Bevilja åtkomst</display-name>
+      <display-name
+                xml:lang="es">Otorgar acceso</display-name>
+      <display-name
+                xml:lang="ru">Предоставить доступ</display-name>
+      <display-name
+                xml:lang="fr">Accorder l'accès</display-name>
+      <notify
+                    template="cn=IDM Approval Mobile Access Granted,cn=Default Notification Collection,cn=Security">
+         <map
+                    source="function appendValue(url, urlParameter) {&#xa;   var val = flowdata.get(&quot;mobileConfig.&quot; + urlParameter);&#xa;   if (val &amp;&amp; (val.length > 0)) {&#xa;      if (url.length == 0) {&#xa;         if (flowdata.get('Start/request_form/enterpriseApp') == &quot;true&quot;) {&#xa;            url += &quot;idm-ent-approval://settings/?&quot;;&#xa;          } else {&#xa;            url += &quot;idmapproval://settings/?&quot;;&#xa;          }&#xa;      } else {&#xa;         url += &quot;&amp;&quot;;&#xa;      }&#xa;      // special case for host info&#xa;      if ((urlParameter == &quot;host&quot;) &amp;&amp; (flowdata.get('Start/request_form/protocol') == &quot;http:&quot;)) {&#xa;         url += urlParameter + &quot;=&quot; + &quot;http://&quot; + val;&#xa;      } else {&#xa;         url += urlParameter + &quot;=&quot; + val;&#xa;      }&#xa;   }&#xa;   &#xa;  return url;&#xa;}&#xa;&#xa;function getUserContainer(recipientDn) {&#xa;   var parts = recipient.split(&quot;,&quot;);&#xa;   var built = &quot;&quot;;&#xa;   for (var i = 1; i &lt; parts.length; i++) {&#xa;      built += parts[i] + &quot;,&quot;;&#xa;   }&#xa;&#xa;  return encodeURIComponent(built.substring(0, built.length -1));&#xa;}&#xa;&#xa;function buildUrl() {&#xa;try {&#xa;   var url = &quot;&quot;;&#xa;&#xa;   // host info&#xa;   url = appendValue(url, 'host');&#xa;   url = appendValue(url, 'port');&#xa;   url = appendValue(url, 'rbpmContext');&#xa;   url = appendValue(url, 'timeout');&#xa;&#xa;   // user info&#xa;   url += &quot;&amp;userid=&quot;;&#xa;   url += recipient.split(&quot;,&quot;)[0].split(&quot;=&quot;)[1];&#xa;   url += &quot;&amp;userContainer=&quot;;&#xa;   url += getUserContainer(recipient);&#xa;   url += &quot;&amp;namingAttribute=&quot; + recipient.split(&quot;,&quot;)[0].split(&quot;=&quot;)[0];&#xa;&#xa;   // this is only necessary if our api level is less than 4.1&#xa;   if ((parseInt(flowdata.get('version.major')) &lt; 4) || ((parseInt(flowdata.get('version.major')) == 4) &amp;&amp; (parseInt(flowdata.get('version.minor')) &lt;= 0 ))) { &#xa;      url += &quot;&amp;provAdminGetTasksWorkaroundInPlace=&quot;;&#xa;      url += RoleVault.isUserProvAdmin(recipient);&#xa;   }&#xa;&#xa;   // vdx info&#xa;   url = appendValue(url, 'vdxUserEntity');&#xa;   url = appendValue(url, 'vdxFirstNameAttribute');&#xa;   url = appendValue(url, 'vdxLastNameAttribute');&#xa;   url = appendValue(url, 'vdxNameFormatAttribute');&#xa;   url = appendValue(url, 'vdxPhoneAttribute');&#xa;   url = appendValue(url, 'vdxMobileAttribute');&#xa;   url = appendValue(url, 'vdxPhotoAttribute');&#xa;   url = appendValue(url, 'vdxPhotoAttributeLdap');&#xa;   url = appendValue(url, 'vdxEmailAttribute');&#xa;&#xa;&#xa;   return url;&#xa;} catch (ex) {&#xa;   return ex.toString();&#xa;}&#xa;}; buildUrl();"
+                    target="idmapprovalUrl"/>
+         <map
+                    source="function computeTo() {&#xa;   var toDn = &quot;&quot;;&#xa;   var to = &quot;&quot;;&#xa;   var actual = IDVault.get(recipient , 'user', 'Email');&#xa;   var chosen = flowdata.get('Start/request_form/email');&#xa;&#xa;   // determine to&#xa;   to = chosen;&#xa;   if ((actual) &amp;&amp; (actual.length > 0) &amp;&amp; (actual == chosen) ) {&#xa;      to = &quot;&quot;;&#xa;      toDn = recipient;&#xa;   } else {&#xa;      to = chosen;&#xa;      toDn = &quot;&quot;;&#xa;   }&#xa;&#xa;   return to;&#xa;&#xa;}; computeTo();"
+                    target="TO"/>
+         <map
+                    source="function computeToDn() {&#xa;   var toDn = &quot;&quot;;&#xa;   var to = &quot;&quot;;&#xa;   var actual = IDVault.get(recipient , 'user', 'Email');&#xa;   var chosen = flowdata.get('Start/request_form/email');&#xa;&#xa;   // determine to&#xa;   to = chosen;&#xa;   if ((actual) &amp;&amp; (actual.length > 0) &amp;&amp; (actual == chosen) ) {&#xa;      to = &quot;&quot;;&#xa;      toDn = recipient;&#xa;   } else {&#xa;      to = chosen;&#xa;      toDn = &quot;&quot;;&#xa;   }&#xa;&#xa;   return toDn;&#xa;&#xa;}; computeToDn();"
+            target="TO_DN"/>
+      </notify>
+   </notification-activity>
+   <mapping-activity
+                activity-id="Activity2">
+      <display-name
+                xml:lang="zh-TW">伺服器組態探查</display-name>
+      <display-name
+                xml:lang="ja">サーバ設定のディスカバリ</display-name>
+      <display-name
+                xml:lang="pt">Descoberta de Configuração do Servidor</display-name>
+      <display-name
+                xml:lang="en">Server Configuration Discovery</display-name>
+      <display-name
+                xml:lang="da">Serverkonfigurationsopdagelse</display-name>
+      <display-name
+                xml:lang="de">Ermittlung der Serverkonfiguration</display-name>
+      <display-name
+                xml:lang="zh-CN">服务器配置发现</display-name>
+      <display-name
+                xml:lang="it">Ricerca configurazione server</display-name>
+      <display-name
+                xml:lang="nl">Serverconfiguratie detecteren</display-name>
+      <display-name
+                xml:lang="sv">Serverkonfiguration upptäcktes</display-name>
+      <display-name
+                xml:lang="es">Descubrimiento de configuración del servidor</display-name>
+      <display-name
+                xml:lang="ru">Поиск конфигурации сервера</display-name>
+      <display-name
+            xml:lang="fr">Découverte de la configuration du serveur</display-name>
+   </mapping-activity>
+   <user-activity
+            activity-id="Activity4"
+                ontimeout="denied">
+      <display-name
+                xml:lang="zh-TW">佈建管理員必須正確設定系統</display-name>
+      <display-name
+                xml:lang="ja">プロビジョニング管理者がシステムを正しくセットアップする必要があります</display-name>
+      <display-name
+                xml:lang="pt">Admin Prov deve Configurar o Sistema Corretamente</display-name>
+      <display-name
+                xml:lang="en">Prov Admin Must Setup System Correctly</display-name>
+      <display-name
+                xml:lang="da">Prov-admin skal konfigurere systemet korrekt</display-name>
+      <display-name
+                xml:lang="de">Der Administrator des Providers muss das System korrekt einrichten</display-name>
+      <display-name
+                xml:lang="zh-CN">供应管理员必须正确设置系统</display-name>
+      <display-name
+                xml:lang="it">Il sistema deve essere configurato dall'amministratore provisioning</display-name>
+      <display-name
+                xml:lang="nl">Beheerder voor provisioning moet systeem correct instellen</display-name>
+      <display-name
+                xml:lang="sv">Logistikadmin måste konfigurera systemet korrekt</display-name>
+      <display-name
+                xml:lang="es">El administrador de aprovisionamiento debe configurar correctamente el sistema</display-name>
+      <display-name
+                xml:lang="ru">Администратор обеспечения правами доступа должен правильно настроить систему</display-name>
+      <display-name
+                xml:lang="fr">L'administrateur du provisioning doit configurer le système correctement.</display-name>
+      <addressee>'CN=provAdmin,CN=System,CN=Level20,' + RoleVault.ROLE_ROOT</addressee>
+      <notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+         <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+         <map
+                    source="IDVault.get(recipient, 'user', 'FirstName')"
+                    target="userFirstName"/>
+         <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                    target="recipientFullName"/>
+         <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+         <map
+                    source="_default_"
+                target="TO"/>
+      </notify>
+      <retry attempts=""
+            interval="">
+         <addressee/>
+      </retry>
+   </user-activity>
+   <mapping-activity
+                activity-id="Activity3">
+      <display-name
+                xml:lang="zh-TW">行動組態 (佈建管理員必須編輯這些設定)</display-name>
+      <display-name
+                xml:lang="ja">モバイル設定(これらはプロビジョニング管理者が編集する必要があります)</display-name>
+      <display-name
+                xml:lang="pt">Configuração Móvel (admin prov deve editar)</display-name>
+      <display-name
+                xml:lang="en">Mobile Configuration (prov admin must edit these)</display-name>
+      <display-name
+                xml:lang="da">Mobil konfiguration (prov-admin skal redigere disse)</display-name>
+      <display-name
+                xml:lang="de">Mobile Konfiguration (muss vom Administrator des Providers bearbeitet werden)</display-name>
+      <display-name
+                xml:lang="zh-CN">移动配置（供应管理员必须编辑这些设置）</display-name>
+      <display-name
+                xml:lang="it">Configurazione mobile (da modificare da parte dell'amministratore provisioning)</display-name>
+      <display-name
+                xml:lang="nl">Mobiele configuratie (beheerder voor provisioning moet deze aanpassen)</display-name>
+      <display-name
+                xml:lang="sv">Mobil konfiguration (logistikadmin måste redigera dessa)</display-name>
+      <display-name
+                xml:lang="es">Configuración móvil (el administrador de aprovisionamiento debe editarla)</display-name>
+      <display-name
+                xml:lang="ru">Мобильная конфигурация (изменять должен администратор обеспечения правами доступа)</display-name>
+      <display-name
+            xml:lang="fr">Configuration mobile (à modifier par l'administrateur du provisioning)</display-name>
+   </mapping-activity>
+   <mapping-activity
+                activity-id="Activity5">
+      <display-name
+                xml:lang="zh-TW">分析系統組態</display-name>
+      <display-name
+                xml:lang="ja">システム設定の分析</display-name>
+      <display-name
+                xml:lang="pt">Analisar Configuração do Sistema</display-name>
+      <display-name
+                xml:lang="en">Analyze System Configuration</display-name>
+      <display-name
+                xml:lang="da">Analyser systemkonfiguration</display-name>
+      <display-name
+                xml:lang="de">Systemkonfiguration analysieren</display-name>
+      <display-name
+                xml:lang="zh-CN">分析系统配置</display-name>
+      <display-name
+                xml:lang="it">Analizza configurazione sistema</display-name>
+      <display-name
+                xml:lang="nl">Systeemconfiguratie analyseren</display-name>
+      <display-name
+                xml:lang="sv">Analysera systemkonfiguration</display-name>
+      <display-name
+                xml:lang="es">Analizar configuración del sistema</display-name>
+      <display-name
+                xml:lang="ru">Анализ конфигурации системы</display-name>
+      <display-name
+            xml:lang="fr">Analyser la configuration système</display-name>
+   </mapping-activity>
+   <condition-activity
+                activity-id="Activity6">
+      <display-name
+                xml:lang="zh-TW">系統是否已正確設定？</display-name>
+      <display-name
+                xml:lang="ja">システムは正しくセットアップされていますか?</display-name>
+      <display-name
+                xml:lang="pt">Sistema Configurado Corretamente?</display-name>
+      <display-name
+                xml:lang="en">System Setup Correctly?</display-name>
+      <display-name
+                xml:lang="da">Er systemet konfigureret korrekt?</display-name>
+      <display-name
+                xml:lang="de">System korrekt eingerichtet?</display-name>
+      <display-name
+                xml:lang="zh-CN">系统是否已正确设置？</display-name>
+      <display-name
+                xml:lang="it">Il sistema è stato configurato correttamente?</display-name>
+      <display-name
+                xml:lang="nl">Systeem correct ingesteld?</display-name>
+      <display-name
+                xml:lang="sv">Är systemet korrekt konfigurerat?</display-name>
+      <display-name
+                xml:lang="es">¿Desea configurar correctamente el sistema?</display-name>
+      <display-name
+                xml:lang="ru">Система настроена правильно?</display-name>
+      <display-name
+            xml:lang="fr">Le système a-t-il été configuré correctement ?</display-name>
+      <expression>(flowdata.get('serverAnalysis.serverInfo') == flowdata.get('message.serverVersionOk')) &amp;&amp; 
+(flowdata.get('serverAnalysis.configInfo') == flowdata.get('message.serverConfigOk')) &amp;&amp;
+(flowdata.get('serverAnalysis.mobileConfigInfo') == flowdata.get('message.mobileConfigurationOk'))</expression>
+   </condition-activity>
+   <log-activity
+                activity-id="Activity7">
+      <display-name
+                xml:lang="zh-TW">記錄</display-name>
+      <display-name
+                xml:lang="ja">ログ</display-name>
+      <display-name
+                xml:lang="pt">Registro</display-name>
+      <display-name
+                xml:lang="en">Log</display-name>
+      <display-name
+                xml:lang="da">Log</display-name>
+      <display-name
+                xml:lang="de">Protokoll</display-name>
+      <display-name
+                xml:lang="zh-CN">日志</display-name>
+      <display-name
+                xml:lang="it">Log</display-name>
+      <display-name
+                xml:lang="nl">Log</display-name>
+      <display-name
+                xml:lang="sv">Logga</display-name>
+      <display-name
+                xml:lang="es">Registro</display-name>
+      <display-name
+                xml:lang="ru">Журнал</display-name>
+      <display-name
+            xml:lang="fr">Journal</display-name>
+      <author>recipient</author>
+      <message>'Mobile Approval App configuration email sent'</message>
+      <comment>function appendValue(url, urlParameter) {
+   var val = flowdata.get("mobileConfig." + urlParameter);
+   if (val &amp;&amp; (val.length &gt; 0)) {
+      if (url.length == 0) {
+         if (flowdata.get('Start/request_form/enterpriseApp') == "true") {
+            url += "idm-ent-approval://settings/?";
+          } else {
+            url += "idmapproval://settings/?";
+          }
+      } else {
+         url += "&amp;";
+      }
+      // special case for host info
+      if ((urlParameter == "host") &amp;&amp; (flowdata.get('Start/request_form/protocol') == "http:")) {
+         url += urlParameter + "=" + "http://" + val;
+      } else {
+         url += urlParameter + "=" + val;
+      }
+   }
+   
+  return url;
+}
+
+function getUserContainer(recipientDn) {
+   var parts = recipient.split(",");
+   var built = "";
+   for (var i = 1; i &lt; parts.length; i++) {
+      built += parts[i] + ",";
+   }
+
+  return encodeURIComponent(built.substring(0, built.length -1));
+}
+
+function buildUrl() {
+try {
+   var url = "";
+
+   // host info
+   url = appendValue(url, 'host');
+   url = appendValue(url, 'port');
+   url = appendValue(url, 'rbpmContext');
+   url = appendValue(url, 'timeout');
+
+   // user info
+   url += "&amp;userid=";
+   url += recipient.split(",")[0].split("=")[1];
+   url += "&amp;userContainer=";
+   url += getUserContainer(recipient);
+   url += "&amp;namingAttribute=" + recipient.split(",")[0].split("=")[0];
+
+   // this is only necessary if our api level is less than 4.1
+   if ((parseInt(flowdata.get('version.major')) &lt; 4) || ((parseInt(flowdata.get('version.major')) == 4) &amp;&amp; (parseInt(flowdata.get('version.minor')) &lt;= 0 ))) { 
+      url += "&amp;provAdminGetTasksWorkaroundInPlace=";
+      url += RoleVault.isUserProvAdmin(recipient);
+   }
+
+   // vdx info
+   url = appendValue(url, 'vdxUserEntity');
+   url = appendValue(url, 'vdxFirstNameAttribute');
+   url = appendValue(url, 'vdxLastNameAttribute');
+   url = appendValue(url, 'vdxNameFormatAttribute');
+   url = appendValue(url, 'vdxPhoneAttribute');
+   url = appendValue(url, 'vdxMobileAttribute');
+   url = appendValue(url, 'vdxPhotoAttribute');
+   url = appendValue(url, 'vdxPhotoAttributeLdap');
+   url = appendValue(url, 'vdxEmailAttribute');
+
+
+   return "mail sent to " + flowdata.get('Start/request_form/email') + ": " + url;
+} catch (ex) {
+   return ex.toString();
+}
+}; buildUrl();</comment>
+   </log-activity>
+   <mapping-activity
+                activity-id="Activity1">
+      <display-name
+                xml:lang="zh-TW">伺服器組態</display-name>
+      <display-name
+                xml:lang="ja">サーバ設定</display-name>
+      <display-name
+                xml:lang="pt">Configuração do servidor</display-name>
+      <display-name
+                xml:lang="en">Server config</display-name>
+      <display-name
+                xml:lang="da">Serverkonfig</display-name>
+      <display-name
+                xml:lang="de">Serverkonfiguration</display-name>
+      <display-name
+                xml:lang="zh-CN">服务器配置</display-name>
+      <display-name
+                xml:lang="it">Configurazione server</display-name>
+      <display-name
+                xml:lang="nl">Serverconfiguratie</display-name>
+      <display-name
+                xml:lang="sv">Serverkonfiguration</display-name>
+      <display-name
+                xml:lang="es">Configuración del servidor</display-name>
+      <display-name
+                xml:lang="ru">Конфигурация сервера</display-name>
+      <display-name
+            xml:lang="fr">Configuration du serveur</display-name>
+   </mapping-activity>
+   <user-activity
+            activity-id="Activity8"
+                ontimeout="approved">
+      <display-name
+                xml:lang="zh-TW">核准</display-name>
+      <display-name
+                xml:lang="ja">承認</display-name>
+      <display-name
+                xml:lang="pt">Aprovação</display-name>
+      <display-name
+                xml:lang="en">Approval</display-name>
+      <display-name
+                xml:lang="da">Godkendelse</display-name>
+      <display-name
+                xml:lang="de">Genehmigung</display-name>
+      <display-name
+                xml:lang="zh-CN">批准</display-name>
+      <display-name
+                xml:lang="it">Approvazione</display-name>
+      <display-name
+                xml:lang="nl">Goedkeuring</display-name>
+      <display-name
+                xml:lang="sv">Godkännande</display-name>
+      <display-name
+                xml:lang="es">Aprobación</display-name>
+      <display-name
+                xml:lang="ru">Подтверждение</display-name>
+      <display-name
+                xml:lang="fr">Approbation</display-name>
+      <addressee>IDVault.get(recipient,'user','manager')</addressee>
+      <notify
+                    template="cn=Provisioning Notification,cn=Default Notification Collection,cn=Security">
+         <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+         <map
+                    source="IDVault.get(recipient, 'user', 'FirstName')"
+                    target="userFirstName"/>
+         <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                    target="recipientFullName"/>
+         <map
+                    source="process.getName(java.util.Locale.getDefault())"
+                    target="requestTitle"/>
+         <map
+                    source="_default_"
+                target="TO"/>
+      </notify>
+      <retry attempts=""
+            interval="">
+         <addressee/>
+      </retry>
+   </user-activity>
+   <mapping-activity
+                activity-id="Activity9">
+      <display-name
+                xml:lang="zh-TW">工作流程狀態</display-name>
+      <display-name
+                xml:lang="ja">ワークフローステータス</display-name>
+      <display-name
+                xml:lang="pt">Status do Workflow</display-name>
+      <display-name
+                xml:lang="en">Workflow Status</display-name>
+      <display-name
+                xml:lang="da">Workflow-status</display-name>
+      <display-name
+                xml:lang="de">Workflow-Status</display-name>
+      <display-name
+                xml:lang="zh-CN">工作流程状态</display-name>
+      <display-name
+                xml:lang="it">Stato workflow</display-name>
+      <display-name
+                xml:lang="nl">Workflowstatus</display-name>
+      <display-name
+                xml:lang="sv">Ärbetsflödesstatus</display-name>
+      <display-name
+                xml:lang="es">Estado del flujo de trabajo</display-name>
+      <display-name
+                xml:lang="ru">Состояние рабочего процесса</display-name>
+      <display-name
+            xml:lang="fr">État du workflow</display-name>
+   </mapping-activity>
+   <finish-activity
+                activity-id="Finish">
+      <display-name
+                xml:lang="zh-TW">完成</display-name>
+      <display-name
+                xml:lang="ja">完了</display-name>
+      <display-name
+                xml:lang="pt">Concluir</display-name>
+      <display-name
+                xml:lang="en">Finish</display-name>
+      <display-name
+                xml:lang="da">Afslut</display-name>
+      <display-name
+                xml:lang="de">Fertig stellen</display-name>
+      <display-name
+                xml:lang="zh-CN">完成</display-name>
+      <display-name
+                xml:lang="it">Fine</display-name>
+      <display-name
+                xml:lang="nl">Voltooien</display-name>
+      <display-name
+                xml:lang="sv">Slutför</display-name>
+      <display-name
+                xml:lang="es">Finalizar</display-name>
+      <display-name
+                xml:lang="ru">Готово</display-name>
+      <display-name
+                xml:lang="fr">Terminer</display-name>
+      <notify
+                    template="cn=Provisioning Approval Completed Notification,cn=Default Notification Collection,cn=Security">
+         <map
+                    source="_default_" target="TO"/>
+         <map
+                    source="process.getApprovalStatus()"
+                    target="requestStatus"/>
+         <map
+                    source="IDVault.get(initiator, 'user', 'FirstName') + ' ' + IDVault.get(initiator, 'user', 'LastName')"
+                    target="initiatorFullName"/>
+         <map
+                    source="process.getTimestamp().toString()"
+                    target="requestSubmissionTime"/>
+         <map
+                    source="process.getRequestId()"
+                    target="requestId"/>
+         <map
+                    source="IDVault.get(recipient, 'user', 'FirstName') + ' ' + IDVault.get(recipient, 'user', 'LastName')"
+                    target="recipientFullName"/>
+         <map
+                    source="process.getName(java.util.Locale.getDefault())"
+            target="requestTitle"/>
+      </notify>
+   </finish-activity>
+   <link
+            source="Activity5" target="Activity6"
+            type="forward"/>
+   <link source="Activity4" target="Finish"
+            type="denied"/>
+   <link source="Activity2"
+            target="Activity5" type="forward"/>
+   <link
+            source="Activity4" target="Activity2"
+            type="refused"/>
+   <link source="Activity7" target="Finish"
+            type="forward"/>
+   <link source="Activity6"
+            target="Activity4" type="false"/>
+   <link
+            source="Activity3" target="Activity1"
+            type="forward"/>
+   <link source="Activity1"
+            target="Activity2" type="forward"/>
+   <link
+            source="Activity6" target="Activity8" type="true"/>
+   <link
+            source="Activity8" target="Activity"
+            type="approved"/>
+   <link source="Activity8"
+            target="Finish" type="denied"/>
+   <link source="Activity"
+            target="Activity9" type="forward"/>
+   <link
+            source="Activity9" target="Activity7"
+            type="forward"/>
+   <link source="Start" target="Activity3" type="forward"/>
+</process>
+</prov-req-defn>

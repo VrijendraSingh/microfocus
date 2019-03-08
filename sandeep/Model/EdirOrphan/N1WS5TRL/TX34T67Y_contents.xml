@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+	<form:token-descriptions>
+		<form:token-description description="Request name" item-name="requestTitle"/>
+		<form:token-description description="Submitted by" item-name="initiatorFullName"/>
+		<form:token-description description="Recipient's full name" item-name="recipientFullName"/>
+	</form:token-descriptions>
+	<body>
+		<p>Hej!<br/>
+			<br/>
+En förfrågan har skickats av $initiatorFullName$ för $recipientFullName$ och måste godkännas av dig.<br/>
+			<br/>
+Uppgifterna om förfrågan är:<br/>
+			<br/>
+Förfrågans namn: $requestTitle$<br/>
+Begärande-ID: $requestId$<br/>
+Skickad av: $initiatorFullName$<br/>
+Mottagare: $recipientFullName$<br/>
+Proxy som: $PROXY_AS$<br/>
+			<br/>
+För att fortsätta direkt från e-postmeddelandet klickar du endera på <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$APPROVE_PHRASE$&amp;body={Enter a comment}">GODKÄNN</a> eller <a href="mailTo:$REPLY_EMAIL$?subject=$EMAIL_APPROVAL_TOKEN_ID$-$DENY_PHRASE$&amp;body={Enter a comment}">NEKA</a>
+			<br/>
+ELLER <br/>
+svarar till $REPLY_EMAIL$ genom att lägga till $APPROVE_PHRASE$ eller $DENY_PHRASE$ i ämnesraden och lämplig kommentar i brödtexten.<br/>
+			<br/>
+Du kan även granska en lista med alla förfrågningar som väntar på ditt godkännande på $PROTOCOL$://$HOST$:$PORT$/$TASKLIST_CONTEXT$.<br/>
+		</p>
+	</body>
+</html>

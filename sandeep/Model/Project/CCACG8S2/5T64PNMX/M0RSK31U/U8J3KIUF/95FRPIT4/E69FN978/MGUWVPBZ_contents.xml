@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLDTXTBASE.idmresource.NOVLDTXTBASEGCVsPrompt.gcv.header.Driverparameter)Driver parameter"/>
+		<definition display-name="xlfid(NOVLDTXTBASE.idmresource.NOVLDTXTBASEGCVsPrompt.gcv.driver.field.delimiter)Field Delimiter:" name="driver.field.delimiter" type="string">
+			<description/>
+			<value>,</value>
+		</definition>
+		<definition display-name="xlfid(NOVLDTXTBASE.idmresource.NOVLDTXTBASEGCVsPrompt.gcv.driver.field-names)Field Names:" name="driver.field-names" type="string">
+			<description/>
+			<value>WorkforceID,LastName,FirstName,Title,Email,WorkPhone,Fax,WirelessPhone,Description</value>
+		</definition>
+	</definitions>
+</configuration-values>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item cn="cn=complianceAdmin" filename="complianceAdmin.role20"
+    hasContainment="false" modstamp="0" protected="false"
+    readonly="false" type="nrfRoleLevel20"
+        visible="true">
+    <guid>J5L4LMMN</guid>
+    <display
+        xml:lang="de">Konformitätsadministrator</display>
+    <display
+        xml:lang="sv">Administratör för regelkontroll</display>
+    <display
+        xml:lang="ru">Администратор соответствия</display>
+    <display
+        xml:lang="pt">Administrador de Conformidade</display>
+    <display
+        xml:lang="zh-TW">法規遵循管理員</display>
+    <display
+        xml:lang="en">Compliance Administrator</display>
+    <display
+        xml:lang="it">Amministratore conformità</display>
+    <display
+        xml:lang="fr">Administrateur de conformité</display>
+    <display
+        xml:lang="zh-CN">合规性管理员</display>
+    <display
+        xml:lang="es">Administrador de conformidad</display>
+    <display
+        xml:lang="ja">コンプライアンス管理者</display>
+    <display
+        xml:lang="da">Overholdelsesadministrator</display>
+    <display
+        xml:lang="nl">Compliantiebeheerder</display>
+    <descr
+        xml:lang="de">Ein Domänenadministrator, der innerhalb der Konformitätsdomäne über die ganze Palette an Funktionen verfügt. Der Konformitätsadministrator kann alle möglichen Aktionen für alle Objekte innerhalb der Konformitätsdomäne durchführen.</descr>
+    <descr
+        xml:lang="sv">En domänadministratör som har tillgång till alla funktioner i regelkontrolldomänen. Regelkontrolladministratören kan utföra alla åtgärder för alla objekt i domänen Regelkontroll.</descr>
+    <descr
+        xml:lang="ru">Администратор домена, имеющий полный спектр возможностей в рамках домена соответствия. Администратор функций соблюдения может выполнять все возможные действия для всех объектов в рамках домена соответствия.</descr>
+    <descr
+        xml:lang="pt">Um administrador de domínio com quase todos os recursos no domínio de Conformidade. O Administrador de Conformidade é capaz de executar todas as ações possíveis para todos os objetos no domínio de Conformidade.</descr>
+    <descr
+        xml:lang="zh-TW">擁有法規遵循網域內所有功能的網域管理員。法規遵循管理員可為法規遵循網域內的所有物件執行所有可能的動作。</descr>
+    <descr
+        xml:lang="en">A domain administrator who has the full range of capabilities within the Compliance domain. The Compliance Administrator can perform all possible actions for all objects within the Compliance domain.</descr>
+    <descr
+        xml:lang="it">Un amministratore di dominio che dispone di tutte le funzionalità all'interno del dominio di conformità. L'amministratore di conformità può eseguire tutte le azioni disponibili per tutti gli oggetti all'interno del dominio di conformità.</descr>
+    <descr
+        xml:lang="fr">Administrateur de domaine qui a accès à la totalité des fonctions au sein du domaine de conformité. L'administrateur de conformité peut effectuer toutes les opérations possibles sur l'ensemble des objets au sein du domaine de conformité.</descr>
+    <descr
+        xml:lang="zh-CN">具有合规性域内所有功能的域管理员。合规性管理员可以对合规性域内的所有对象执行所有可能的操作。</descr>
+    <descr
+        xml:lang="es">Administrador de dominio que cuenta con todas las funciones en el dominio de conformidad. El administrador de conformidad puede realizar todas las acciones posibles para todos los objetos dentro del dominio de conformidad.</descr>
+    <descr
+        xml:lang="ja">整合性ドメイン内でほぼ全種類の機能を持つドメイン管理者。整合性管理者は、整合性ドメイン内のすべてのオブジェクトの可能なアクションをすべて実行できます。</descr>
+    <descr
+        xml:lang="da">En domæneadministrator, som har alle rettigheder og tilladelser i overholdelsesdomænet. Overholdelsesadministratoren kan udføre alle mulige handlinger for alle objekter i overholdelsesdomænet.</descr>
+    <descr xml:lang="nl">Een domeinbeheerder met vrijwel alle mogelijkheden in het compliantiedomein. De compliantiebeheerder kan alle mogelijke acties uitvoeren voor alle objecten in het compliantiedomein.</descr>
+    <dirguid>D9B1561B6E89C54F9A2FD9B1561B6E89</dirguid>
+    <dirrev>4</dirrev>
+    <package-id>B5PAGQ5E_201005261601510810</package-id>
+    <pkg-assoc-id>MOEOWBI2_201112271032220875</pkg-assoc-id>
+    <pkg-checksum>1885714698</pkg-checksum></item>
